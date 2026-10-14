@@ -1,0 +1,372 @@
+{
+  "source_zip": "C:\\Users\\User\\Downloads\\b3ec67e8123822fba5cf250a6c4e75b6.zip",
+  "zip_bytes": 57964555,
+  "zip_sha256": "0101e589212566a1a94224a0e2d51709a68537b38ae3cdddbc42286cec0270bc",
+  "obj": {
+    "obj_entry": "a2870bf429ad27dbfa3c50e471ee2aec.obj",
+    "obj_bytes": 105969044,
+    "obj_sha256": "9312aef0143878aa3cd4e69a0d97ef6c5dc6d70545ad5a03d5d47041bd9de96c",
+    "polygons": 1499800,
+    "uv_count": 891535,
+    "normal_count": 0,
+    "groups_and_material_labels": [
+      "mtllib material.mtl",
+      "usemtl Material",
+      "o node_0"
+    ],
+    "zip_entries": [
+      {
+        "name": "texture_pbr_20250901.png",
+        "bytes": 19436693,
+        "compressed_bytes": 19037987
+      },
+      {
+        "name": "texture_pbr_20250901_metallic.png",
+        "bytes": 2731971,
+        "compressed_bytes": 2561890
+      },
+      {
+        "name": "texture_pbr_20250901_roughness.png",
+        "bytes": 2514592,
+        "compressed_bytes": 2377813
+      },
+      {
+        "name": "texture_pbr_20250901_normal.png",
+        "bytes": 7756177,
+        "compressed_bytes": 7619996
+      },
+      {
+        "name": "a2870bf429ad27dbfa3c50e471ee2aec.obj",
+        "bytes": 105969044,
+        "compressed_bytes": 26365815
+      },
+      {
+        "name": "material.mtl",
+        "bytes": 245,
+        "compressed_bytes": 140
+      }
+    ],
+    "vertices": 749820,
+    "triangles": 1499800,
+    "referenced_vertices": 749820,
+    "unreferenced_vertices": 0,
+    "whole_asset_source_bounds": {
+      "min": [
+        -0.29716,
+        -0.0,
+        -0.297678
+      ],
+      "max": [
+        0.34235,
+        1.13697,
+        0.270847
+      ],
+      "span": [
+        0.63951,
+        1.13697,
+        0.568525
+      ]
+    },
+    "referenced_surface_source_bounds": {
+      "min": [
+        -0.29716,
+        -0.0,
+        -0.297678
+      ],
+      "max": [
+        0.34235,
+        1.13697,
+        0.270847
+      ],
+      "span": [
+        0.63951,
+        1.13697,
+        0.568525
+      ]
+    },
+    "surface_area_source_units_squared": 2.1428224260193645,
+    "zero_area_triangles": 0,
+    "indexed_component_count_including_unreferenced": 1,
+    "surface_indexed_component_count": 1,
+    "unreferenced_singleton_components": 0,
+    "largest_indexed_components": [
+      {
+        "indexed_component_id": 0,
+        "vertices": 749820,
+        "triangles": 1499800,
+        "source_bounds": {
+          "min": [
+            -0.29716,
+            -0.0,
+            -0.297678
+          ],
+          "max": [
+            0.34235,
+            1.13697,
+            0.270847
+          ],
+          "span": [
+            0.63951,
+            1.13697,
+            0.568525
+          ]
+        }
+      }
+    ],
+    "unique_indexed_edges": 2249700,
+    "boundary_indexed_edges": 0,
+    "nonmanifold_indexed_edges": 0,
+    "topology_scope": "Index connectivity only. UV/normal seams may split the same physical surface; these counts do not certify anatomical holes or watertightness.",
+    "source_y_sections": [
+      {
+        "height": 0.0,
+        "valid": true,
+        "intersection_samples": 10,
+        "width": 0.0,
+        "depth": 0.0,
+        "left": -0.131885,
+        "right": -0.131885,
+        "rear": 0.101355,
+        "front": 0.101355,
+        "center_x": -0.131885,
+        "center_depth": 0.101355
+      },
+      {
+        "height": 0.063165,
+        "valid": true,
+        "intersection_samples": 2454,
+        "width": 0.28425329280295003,
+        "depth": 0.36181387352664773,
+        "left": -0.17674174906367043,
+        "right": 0.10751154373927958,
+        "rear": -0.16995567076167076,
+        "front": 0.19185820276497695,
+        "center_x": -0.034615102662195425,
+        "center_depth": 0.010951266001653095
+      },
+      {
+        "height": 0.12633,
+        "valid": true,
+        "intersection_samples": 3038,
+        "width": 0.38768258987864834,
+        "depth": 0.45600420391140806,
+        "left": -0.2199832336726039,
+        "right": 0.16769935620604445,
+        "rear": -0.2269000601336303,
+        "front": 0.2291041437777778,
+        "center_x": -0.026141938733279718,
+        "center_depth": 0.0011020418220737543
+      },
+      {
+        "height": 0.189495,
+        "valid": true,
+        "intersection_samples": 3162,
+        "width": 0.4391891845604158,
+        "depth": 0.5138960736490575,
+        "left": -0.23544983456041577,
+        "right": 0.20373935,
+        "rear": -0.2594412914240339,
+        "front": 0.25445478222502366,
+        "center_x": -0.015855242280207876,
+        "center_depth": -0.0024932545995051125
+      },
+      {
+        "height": 0.25266,
+        "valid": true,
+        "intersection_samples": 3474,
+        "width": 0.4878273566397985,
+        "depth": 0.5522657706641482,
+        "left": -0.27014856863979847,
+        "right": 0.21767878799999998,
+        "rear": -0.2836319329039184,
+        "front": 0.26863383776022975,
+        "center_x": -0.026234890319899243,
+        "center_depth": -0.007499047571844331
+      },
+      {
+        "height": 0.315825,
+        "valid": true,
+        "intersection_samples": 3742,
+        "width": 0.5095222404290588,
+        "depth": 0.5656772424538938,
+        "left": -0.29352890088495576,
+        "right": 0.21599333954410307,
+        "rear": -0.29672652792654935,
+        "front": 0.2689507145273445,
+        "center_x": -0.03876778067042634,
+        "center_depth": -0.013887906699602437
+      },
+      {
+        "height": 0.37899,
+        "valid": true,
+        "intersection_samples": 3288,
+        "width": 0.48694308311890167,
+        "depth": 0.5430892122356209,
+        "left": -0.2904862880978865,
+        "right": 0.19645679502101518,
+        "rear": -0.2915382715609408,
+        "front": 0.2515509406746801,
+        "center_x": -0.04701474653843567,
+        "center_depth": -0.01999366544313036
+      },
+      {
+        "height": 0.44215499999999996,
+        "valid": true,
+        "intersection_samples": 3716,
+        "width": 0.431817820927221,
+        "depth": 0.4872438447605969,
+        "left": -0.2596565468531469,
+        "right": 0.1721612740740741,
+        "rear": -0.25749837314487634,
+        "front": 0.22974547161572054,
+        "center_x": -0.04374763638953638,
+        "center_depth": -0.0138764507645779
+      },
+      {
+        "height": 0.50532,
+        "valid": true,
+        "intersection_samples": 4236,
+        "width": 0.4240689259642649,
+        "depth": 0.4340975295901611,
+        "left": -0.19408188235294122,
+        "right": 0.22998704361132366,
+        "rear": -0.23289525947521864,
+        "front": 0.2012022701149425,
+        "center_x": 0.017952580629191223,
+        "center_depth": -0.015846494680138073
+      },
+      {
+        "height": 0.568485,
+        "valid": true,
+        "intersection_samples": 7228,
+        "width": 0.43194587864633527,
+        "depth": 0.3751585046311574,
+        "left": -0.210952436505867,
+        "right": 0.22099344214046823,
+        "rear": -0.2264644777993721,
+        "front": 0.14869402683178534,
+        "center_x": 0.005020502817300612,
+        "center_depth": -0.038885225483793376
+      },
+      {
+        "height": 0.63165,
+        "valid": true,
+        "intersection_samples": 6026,
+        "width": 0.4115310068369001,
+        "depth": 0.39660200352519637,
+        "left": -0.22206655280312904,
+        "right": 0.18946445403377105,
+        "rear": -0.19320281256231306,
+        "front": 0.20339919096288328,
+        "center_x": -0.016301049384678995,
+        "center_depth": 0.005098189200285111
+      },
+      {
+        "height": 0.694815,
+        "valid": true,
+        "intersection_samples": 7106,
+        "width": 0.38528281836086264,
+        "depth": 0.40496904345509865,
+        "left": -0.2184011817678027,
+        "right": 0.1668816365930599,
+        "rear": -0.21599650791007496,
+        "front": 0.18897253554502372,
+        "center_x": -0.025759772587371402,
+        "center_depth": -0.013511986182525623
+      },
+      {
+        "height": 0.75798,
+        "valid": true,
+        "intersection_samples": 7006,
+        "width": 0.47434989284554585,
+        "depth": 0.36953360116393275,
+        "left": -0.20996285222929936,
+        "right": 0.26438704061624646,
+        "rear": -0.18417323895253684,
+        "front": 0.1853603622113959,
+        "center_x": 0.02721209419347355,
+        "center_depth": 0.0005935616294295287
+      },
+      {
+        "height": 0.821145,
+        "valid": true,
+        "intersection_samples": 5226,
+        "width": 0.47051920408859293,
+        "depth": 0.3311104947471456,
+        "left": -0.18175973127753303,
+        "right": 0.2887594728110599,
+        "rear": -0.14951924603836528,
+        "front": 0.1815912487087803,
+        "center_x": 0.053499870766763435,
+        "center_depth": 0.01603600133520751
+      },
+      {
+        "height": 0.8843099999999999,
+        "valid": true,
+        "intersection_samples": 5152,
+        "width": 0.4815364150187659,
+        "depth": 0.2610062907415536,
+        "left": -0.15201432709030102,
+        "right": 0.3295220879284649,
+        "rear": -0.1150131209302326,
+        "front": 0.14599316981132102,
+        "center_x": 0.08875388041908193,
+        "center_depth": 0.01549002444054421
+      },
+      {
+        "height": 0.947475,
+        "valid": true,
+        "intersection_samples": 3406,
+        "width": 0.20530944620327835,
+        "depth": 0.19409821861260879,
+        "left": -0.1247391032693306,
+        "right": 0.08057034293394776,
+        "rear": -0.07152143548387098,
+        "front": 0.1225767831287378,
+        "center_x": -0.022084380167691424,
+        "center_depth": 0.025527673822433414
+      },
+      {
+        "height": 1.01064,
+        "valid": true,
+        "intersection_samples": 3644,
+        "width": 0.22047224082410719,
+        "depth": 0.22312234153941282,
+        "left": -0.14497597988077499,
+        "right": 0.0754962609433322,
+        "rear": -0.10515492036011079,
+        "front": 0.11796742117930203,
+        "center_x": -0.03473985946872139,
+        "center_depth": 0.0064062504095956235
+      },
+      {
+        "height": 1.073805,
+        "valid": true,
+        "intersection_samples": 2638,
+        "width": 0.2108084793476012,
+        "depth": 0.20287178508168047,
+        "left": -0.12135680158590315,
+        "right": 0.08945167776169805,
+        "rear": -0.08601955101058716,
+        "front": 0.1168522340710933,
+        "center_x": -0.01595256191210255,
+        "center_depth": 0.01541634153025307
+      },
+      {
+        "height": 1.13697,
+        "valid": false
+      }
+    ]
+  },
+  "fbx": {
+    "path": "C:\\Users\\User\\Downloads\\7b403638cd3f0716ded287e68663b385.fbx",
+    "bytes": 121170476,
+    "sha256": "5b361e47edab53df8a9512d91e893cc1e6dbf061f37d5a276a73ddb2f537f7b0",
+    "geometry_status": "Not interpreted by this script; use existing read-only FBX inventory parser"
+  },
+  "anatomical_calibration": false,
+  "stature_transfer_allowed": false,
+  "physical_units": "Unspecified source units",
+  "scope": "Whole generated asset. Artist must identify body-only surface, crop limits, axes, pose, props and intended reference authority.",
+  "comparison_limits": "R01-R04 are different generated assets, with props and unknown camera/scale. Counts/bounds are inventories, not anatomical differences."
+}

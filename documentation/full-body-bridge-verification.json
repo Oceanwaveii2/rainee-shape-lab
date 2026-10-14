@@ -1,0 +1,672 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "model": "R05-new-obj",
+      "vertices": 749820,
+      "triangles": 1499800,
+      "referenced_vertices": 749820,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.29716,
+          -0.0,
+          -0.297678
+        ],
+        "max": [
+          0.34235,
+          1.13697,
+          0.270847
+        ],
+        "span": [
+          0.63951,
+          1.13697,
+          0.568525
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 2.1428224260193645,
+      "coordinate_unit_kind": "unregistered_asset_units",
+      "zero_area_triangles": 0,
+      "coordinates": "raw OBJ coordinates",
+      "role": "whole generated asset; shape donor with unreviewed anatomy",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "70115f35cd22c02eeadeba7eb8d2571e185f1a3032e2b722ca46b1a35d7f8514",
+      "source_triangle_sha256": "f652638b5d8fbdaa23a10dbc85b24ba9f2a7e924fc95414288d36dced258ebfe",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred."
+    },
+    {
+      "model": "R06-new-fbx",
+      "vertices": 749122,
+      "triangles": 1498428,
+      "referenced_vertices": 749122,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.3297770023345947,
+          -0.0,
+          -0.11481299996376038
+        ],
+        "max": [
+          0.321137011051178,
+          1.1872719526290894,
+          0.15185999870300293
+        ],
+        "span": [
+          0.6509140133857727,
+          1.1872719526290894,
+          0.2666729986667633
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 1.4060415375857929,
+      "coordinate_unit_kind": "unregistered_asset_units",
+      "zero_area_triangles": 0,
+      "coordinates": "FBX node-local coordinates; listed model transforms not applied",
+      "role": "whole generated asset; shape donor with unreviewed anatomy",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "51e2ae58a0a5d2f8f7c4c6da10485e32b84c36fa1a8dc7a0fac19b5b0b35155d",
+      "source_triangle_sha256": "1e6e13a90a07bd3b9bbd89e8c12491417111abc4cfbc42bc87f0aad833c0fdea",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred."
+    },
+    {
+      "model": "R01",
+      "vertices": 405713,
+      "triangles": 751140,
+      "referenced_vertices": 405713,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.5466639995574951,
+          -0.9521809816360474,
+          -0.6062930226325989
+        ],
+        "max": [
+          0.5453959703445435,
+          0.9514170289039612,
+          0.6123890280723572
+        ],
+        "span": [
+          1.0920599699020386,
+          1.9035980105400085,
+          1.218682050704956
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 6.485384976606704,
+      "coordinate_unit_kind": "unregistered_asset_units",
+      "zero_area_triangles": 0,
+      "coordinates": "GLB world transforms baked to float32",
+      "role": "complete generated scene-world geometry; body/accessories unsegmented",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "473b7c2948c88923231b0dffb7d9b870f1db5a091a5b736405a3fb6e357106ed",
+      "source_triangle_sha256": "33090af7d788c5b39425e8b99d10e7e902743937345264f757c485113d506305",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred."
+    },
+    {
+      "model": "R02",
+      "vertices": 343386,
+      "triangles": 640530,
+      "referenced_vertices": 343386,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.6603140234947205,
+          -0.9534850120544434,
+          -0.24365000426769257
+        ],
+        "max": [
+          0.6582940220832825,
+          0.9504870176315308,
+          0.23645000159740448
+        ],
+        "span": [
+          1.318608045578003,
+          1.9039720296859741,
+          0.48010000586509705
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 2.972298203193826,
+      "coordinate_unit_kind": "unregistered_asset_units",
+      "zero_area_triangles": 0,
+      "coordinates": "GLB world transforms baked to float32",
+      "role": "complete generated scene-world geometry; body/accessories unsegmented",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "6438af0bfa236d79ee1f0427e460feba30dcc1b63110f661a47d0959da5bdc46",
+      "source_triangle_sha256": "9ded643228ffac2f86d701ef11b83250f9375f140cb0429c324f31d9057acf89",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred."
+    },
+    {
+      "model": "R03",
+      "vertices": 452290,
+      "triangles": 840980,
+      "referenced_vertices": 452290,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.5173010230064392,
+          -0.9510679841041565,
+          -0.2698040008544922
+        ],
+        "max": [
+          0.49182501435279846,
+          0.9469519853591919,
+          0.26863399147987366
+        ],
+        "span": [
+          1.0091260373592377,
+          1.8980199694633484,
+          0.5384379923343658
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 3.713372867641777,
+      "coordinate_unit_kind": "unregistered_asset_units",
+      "zero_area_triangles": 0,
+      "coordinates": "GLB world transforms baked to float32",
+      "role": "complete generated scene-world geometry; body/accessories unsegmented",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "bcba2cc025da88e89223a4c6ecba0efe67a5633a23825f34eeed14dd9ac4be42",
+      "source_triangle_sha256": "7273ed5701a0a6569a3af29075b8608dba6d628cc86a7461c2e1b12a42bec562",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred."
+    },
+    {
+      "model": "R04",
+      "vertices": 634793,
+      "triangles": 1174958,
+      "referenced_vertices": 634793,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.6382759809494019,
+          -0.95210200548172,
+          -0.6737350225448608
+        ],
+        "max": [
+          0.6380379796028137,
+          0.9507780075073242,
+          0.6686639785766602
+        ],
+        "span": [
+          1.2763139605522156,
+          1.9028800129890442,
+          1.342399001121521
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 9.282786741134057,
+      "coordinate_unit_kind": "unregistered_asset_units",
+      "zero_area_triangles": 0,
+      "coordinates": "GLB world transforms baked to float32",
+      "role": "complete generated scene-world geometry; body/accessories unsegmented",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "49ded0ee33961c2d6be2249a095b1e1ff0a698b13882f3f73ebdc6ab12d62434",
+      "source_triangle_sha256": "d203cb6a222d417c2c424f9762e4c82150352a6654d4e34853770e70ec6daffc",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred."
+    },
+    {
+      "model": "C00-working-body",
+      "vertices": 121901,
+      "triangles": 252337,
+      "referenced_vertices": 113383,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.33629143238067627,
+          0.0002035291399806738,
+          -0.13875505328178406
+        ],
+        "max": [
+          0.33667147159576416,
+          0.9990336894989014,
+          0.13872748613357544
+        ],
+        "span": [
+          0.6729629039764404,
+          0.9988301603589207,
+          0.2774825394153595
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 1.2166651836073399,
+      "coordinate_unit_kind": "normalized_reference_H",
+      "zero_area_triangles": 0,
+      "coordinates": "normalized inspection/source-proxy coordinates, approximately H=1; runtime adapter renormalizes referenced stature to exact canonical H=1",
+      "role": "full working body derived from original dense template; pelvic repair remains a proposal",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "ad055ae745bc884146420dfe872e279100de7a538da85be9f12fc2a590590aad",
+      "source_triangle_sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred.",
+      "canonical_rest_referenced_bounds": {
+        "min": [
+          -0.33668530019140885,
+          0.0,
+          -0.13891756455564344
+        ],
+        "max": [
+          0.3370657845121379,
+          0.9999999999999999,
+          0.13888996512052154
+        ],
+        "span": [
+          0.6737510847035468,
+          0.9999999999999999,
+          0.27780752967616495
+        ]
+      },
+      "canonical_stature_adapter_applied_to_report_only": true
+    },
+    {
+      "model": "T00-inspection-proxy",
+      "vertices": 98078,
+      "triangles": 220971,
+      "referenced_vertices": 98017,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.33629143238067627,
+          0.0002035291399806738,
+          -0.13875505328178406
+        ],
+        "max": [
+          0.33667147159576416,
+          0.9990336894989014,
+          0.13872748613357544
+        ],
+        "span": [
+          0.6729629039764404,
+          0.9988301603589207,
+          0.2774825394153595
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 1.239225343596315,
+      "coordinate_unit_kind": "normalized_reference_H",
+      "zero_area_triangles": 0,
+      "coordinates": "normalized H=1, X/Z centred, Y from original source foot; see prepare_mesh.py",
+      "role": "lossy vertex-cluster proxy of original dense template, not a full-resolution measurement source",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "bed29180dc5f62f68a22a67d68ddb9947ce3ba5d7059ecfb81b9530d27725ad6",
+      "source_triangle_sha256": "0558b7ac7246e17349c1c56eb51613990d37d9dd75e3da4b9e8f44a5f4db4e91",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred."
+    },
+    {
+      "model": "N0000",
+      "vertices": 121901,
+      "triangles": 252337,
+      "referenced_vertices": 113383,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.33629143238067627,
+          0.0002035291399806738,
+          -0.13875505328178406
+        ],
+        "max": [
+          0.33667147159576416,
+          0.9990336894989014,
+          0.13872748613357544
+        ],
+        "span": [
+          0.6729629039764404,
+          0.9988301603589207,
+          0.2774825394153595
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 1.2166651836073399,
+      "coordinate_unit_kind": "normalized_reference_H",
+      "zero_area_triangles": 0,
+      "coordinates": "normalized inspection/source-proxy coordinates, approximately H=1; runtime adapter renormalizes referenced stature to exact canonical H=1",
+      "role": "full working-body native cache; cage schedule is artist initialization",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "ad055ae745bc884146420dfe872e279100de7a538da85be9f12fc2a590590aad",
+      "source_triangle_sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred.",
+      "canonical_rest_referenced_bounds": {
+        "min": [
+          -0.33668530019140885,
+          0.0,
+          -0.13891756455564344
+        ],
+        "max": [
+          0.3370657845121379,
+          0.9999999999999999,
+          0.13888996512052154
+        ],
+        "span": [
+          0.6737510847035468,
+          0.9999999999999999,
+          0.27780752967616495
+        ]
+      },
+      "canonical_stature_adapter_applied_to_report_only": true
+    },
+    {
+      "model": "N0010",
+      "vertices": 121901,
+      "triangles": 252337,
+      "referenced_vertices": 113383,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.33629143238067627,
+          0.0002035291399806738,
+          -0.16415178775787354
+        ],
+        "max": [
+          0.33667147159576416,
+          0.9990336894989014,
+          0.13872748613357544
+        ],
+        "span": [
+          0.6729629039764404,
+          0.9988301603589207,
+          0.302879273891449
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 1.3619415069787788,
+      "coordinate_unit_kind": "normalized_reference_H",
+      "zero_area_triangles": 0,
+      "coordinates": "normalized inspection/source-proxy coordinates, approximately H=1; runtime adapter renormalizes referenced stature to exact canonical H=1",
+      "role": "full working-body native cache; cage schedule is artist initialization",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "7bd30acb9acbc8a973e3fba74ce380657d5970f85e50d8b63fb89429f707c282",
+      "source_triangle_sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred.",
+      "canonical_rest_referenced_bounds": {
+        "min": [
+          -0.33668530019140885,
+          0.0,
+          -0.16434404393524424
+        ],
+        "max": [
+          0.3370657845121379,
+          0.9999999999999999,
+          0.13888996512052154
+        ],
+        "span": [
+          0.6737510847035468,
+          0.9999999999999999,
+          0.3032340090557658
+        ]
+      },
+      "canonical_stature_adapter_applied_to_report_only": true
+    },
+    {
+      "model": "N0018",
+      "vertices": 121901,
+      "triangles": 252337,
+      "referenced_vertices": 113383,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.33629143238067627,
+          0.0002035291399806738,
+          -0.18742264807224274
+        ],
+        "max": [
+          0.33667147159576416,
+          0.9990336894989014,
+          0.13872748613357544
+        ],
+        "span": [
+          0.6729629039764404,
+          0.9988301603589207,
+          0.3261501342058182
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 1.4740697504029232,
+      "coordinate_unit_kind": "normalized_reference_H",
+      "zero_area_triangles": 0,
+      "coordinates": "normalized inspection/source-proxy coordinates, approximately H=1; runtime adapter renormalizes referenced stature to exact canonical H=1",
+      "role": "full working-body native cache; cage schedule is artist initialization",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "c266c44ad58a8124d40149c8d9e5ead57e9a434f2c063002fac016037d521e25",
+      "source_triangle_sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred.",
+      "canonical_rest_referenced_bounds": {
+        "min": [
+          -0.33668530019140885,
+          0.0,
+          -0.18764215930853956
+        ],
+        "max": [
+          0.3370657845121379,
+          0.9999999999999999,
+          0.13888996512052154
+        ],
+        "span": [
+          0.6737510847035468,
+          0.9999999999999999,
+          0.3265321244290611
+        ]
+      },
+      "canonical_stature_adapter_applied_to_report_only": true
+    },
+    {
+      "model": "N0026",
+      "vertices": 121901,
+      "triangles": 252337,
+      "referenced_vertices": 113383,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.33629143238067627,
+          0.0002035291399806738,
+          -0.20697219669818878
+        ],
+        "max": [
+          0.33667147159576416,
+          0.9990336894989014,
+          0.13872748613357544
+        ],
+        "span": [
+          0.6729629039764404,
+          0.9988301603589207,
+          0.3456996828317642
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 1.5736341776392546,
+      "coordinate_unit_kind": "normalized_reference_H",
+      "zero_area_triangles": 0,
+      "coordinates": "normalized inspection/source-proxy coordinates, approximately H=1; runtime adapter renormalizes referenced stature to exact canonical H=1",
+      "role": "full working-body native cache; cage schedule is artist initialization",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "0a02f1d0c78570afd2e0d5dc808b05e0adcf5267a5abd5139bafc0a62b991554",
+      "source_triangle_sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred.",
+      "canonical_rest_referenced_bounds": {
+        "min": [
+          -0.33668530019140885,
+          0.0,
+          -0.2072146045568099
+        ],
+        "max": [
+          0.3370657845121379,
+          0.9999999999999999,
+          0.13888996512052154
+        ],
+        "span": [
+          0.6737510847035468,
+          0.9999999999999999,
+          0.34610456967733144
+        ]
+      },
+      "canonical_stature_adapter_applied_to_report_only": true
+    },
+    {
+      "model": "D0000",
+      "vertices": 79902,
+      "triangles": 178074,
+      "referenced_vertices": 79827,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.5498155355453491,
+          -0.9531909823417664,
+          -0.5773060321807861
+        ],
+        "max": [
+          0.5515202283859253,
+          0.9479108452796936,
+          0.5768240690231323
+        ],
+        "span": [
+          1.1013357639312744,
+          1.90110182762146,
+          1.1541301012039185
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 10.032423922606249,
+      "coordinate_unit_kind": "unregistered_asset_units",
+      "zero_area_triangles": 0,
+      "coordinates": "donor source coordinates; registration incomplete",
+      "role": "whole-asset vertex-cluster inspection proxy from earlier frame donor; not complete original source resolution",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "1f4e86901d1648f56a250e78478b5dd09a85bcc232f1a937ef756a9511e196fa",
+      "source_triangle_sha256": "25e4e67a5d4a0fa9066c3a9d4b9e76c10325254940350884c8254754cc6a6c34",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred."
+    },
+    {
+      "model": "D0010",
+      "vertices": 86914,
+      "triangles": 193298,
+      "referenced_vertices": 86820,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.7055690288543701,
+          -0.9498680233955383,
+          -0.7415397763252258
+        ],
+        "max": [
+          0.703825831413269,
+          0.9449207186698914,
+          0.7400540113449097
+        ],
+        "span": [
+          1.4093948602676392,
+          1.8947887420654297,
+          1.4815937876701355
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 10.355695550622308,
+      "coordinate_unit_kind": "unregistered_asset_units",
+      "zero_area_triangles": 0,
+      "coordinates": "donor source coordinates; registration incomplete",
+      "role": "whole-asset vertex-cluster inspection proxy from earlier frame donor; not complete original source resolution",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "76a1ecce6c313148d200932f9197655eead4cb71fada8a72b4a05a97867bfde2",
+      "source_triangle_sha256": "124b9a3059a56d2ad2d81840f882c4ab2c5b7cba4d3e5a13592bc70f47963389",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred."
+    },
+    {
+      "model": "D0018",
+      "vertices": 62497,
+      "triangles": 128784,
+      "referenced_vertices": 62468,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.7362949848175049,
+          -0.9511500000953674,
+          -0.7005220055580139
+        ],
+        "max": [
+          0.7467349767684937,
+          0.9512839913368225,
+          0.7065049409866333
+        ],
+        "span": [
+          1.4830299615859985,
+          1.90243399143219,
+          1.4070269465446472
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 7.467435798102066,
+      "coordinate_unit_kind": "unregistered_asset_units",
+      "zero_area_triangles": 0,
+      "coordinates": "donor source coordinates; registration incomplete",
+      "role": "whole-asset vertex-cluster inspection proxy from earlier frame donor; not complete original source resolution",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "093ea0bdb40bd77e17545269a5615bf96b9fe69268acc90375553488f05057e7",
+      "source_triangle_sha256": "a6cc6cdd10a906e3d090fc803d7604fc9e31f1cb82b1a7e31e8a26d0d63468c8",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred."
+    },
+    {
+      "model": "D0026",
+      "vertices": 52632,
+      "triangles": 108207,
+      "referenced_vertices": 52607,
+      "finite": true,
+      "referenced_bounds": {
+        "min": [
+          -0.6028158664703369,
+          -0.9526519775390625,
+          -0.5164570212364197
+        ],
+        "max": [
+          0.6081737279891968,
+          0.9518330097198486,
+          0.49982985854148865
+        ],
+        "span": [
+          1.2109895944595337,
+          1.9044849872589111,
+          1.0162868797779083
+        ]
+      },
+      "whole_asset_surface_area_coordinate_units_squared": 5.999693460493868,
+      "coordinate_unit_kind": "unregistered_asset_units",
+      "zero_area_triangles": 0,
+      "coordinates": "donor source coordinates; registration incomplete",
+      "role": "whole-asset vertex-cluster inspection proxy from earlier frame donor; not complete original source resolution",
+      "registration": null,
+      "anatomical_metrics": null,
+      "anatomical_volume": null,
+      "physical_unit_calibration": null,
+      "source_position_sha256": "cf9b785a69f3773e0d7ad65bb92871b09151ff2d646467546f9e7aa0c327e039",
+      "source_triangle_sha256": "32948ef4759ac66cf85f575cb8976eab7e757eb2b76d73ffcc03c8c7a4a8b2d3",
+      "scope": "Full retained representation in declared coordinates; includes unsegmented accessories. No anatomical height/width/circumference or tissue volume is inferred."
+    }
+  ],
+  "scope": "Decoded hashes, finite positions, valid indices, full representation bounds and geometric area; no registration/anatomical accuracy claim"
+}

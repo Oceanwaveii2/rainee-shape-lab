@@ -117,6 +117,33 @@ def calibrated(points, config):
         "units":"fractions of explicit landmark stature", "landmark_confidence":landmarks.get("confidence","artist-supplied"),
         "source_has_real_world_scale":False,"basis":b.tolist(),"origin_in_basis":origin.tolist()}
 
+
+def calibrated_intrinsic_pelvic(points, config=None):
+    """Historical API: provisional radial chart using manual source-coordinate assumptions.
+
+    Bbox fractions change with crops, props and pose. This does not infer pelvic
+    landmarks, body selection, anatomical axes or spinal torsion automatically.
+    """
+    cfg = config or {}
+    from butt_data_supercomputer_v6 import extract_intrinsic_butt_dem, fit_bicubic_nurbs_gluteal_complex
+    y_fold = float(cfg.get("y_fold_norm", 0.050))
+    y_waist = float(cfg.get("y_waist_norm", 0.418))
+    cleft_yaw = float(cfg.get("cleft_yaw_offset_deg", 180.0))
+    torsion = float(cfg.get("spinal_torsion_deg", 34.34))
+    dem_info = extract_intrinsic_butt_dem(points, y_fold, y_waist, cleft_yaw, torsion)
+    nurbs_info = fit_bicubic_nurbs_gluteal_complex(dem_info["elevation"], dem_info["theta_deg"])
+    return dem_info, {
+        "status": "provisional_manual_pelvic_chart",
+        "units": "fractions of manually assumed bbox pelvic height; not verified anatomical Hp",
+        "comparison_ready": False,
+        "anatomical_calibration": False,
+        "manual_assumptions": dem_info["manual_assumptions"],
+        "observed_bin_fraction": dem_info["observed_bin_fraction"],
+        "completion_scope": dem_info["completion_scope"],
+        "pelvic_unit_scale_bbox": dem_info["pelvic_unit_scale"],
+        "nurbs_posterior_rms_error": nurbs_info["rms_error"],
+    }
+
 def select_faces(points,faces,tags,ids,config):
     spec=config.get("selection",{})
     keep=np.ones(len(faces),dtype=bool)

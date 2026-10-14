@@ -1,0 +1,182 @@
+{
+  "source_file": "C:\\Users\\User\\Downloads\\7b403638cd3f0716ded287e68663b385.fbx",
+  "bytes": 121170476,
+  "sha256": "5b361e47edab53df8a9512d91e893cc1e6dbf061f37d5a276a73ddb2f537f7b0",
+  "fbx_version": 7400,
+  "geometries": [
+    {
+      "object": [
+        697606058,
+        "node_0\u0000\u0001Geometry",
+        "Mesh"
+      ],
+      "vertices": 749122,
+      "polygons": 1498428,
+      "triangles_fan_count": 1498428,
+      "raw_local_bounds": {
+        "min": [
+          -0.3297770023345947,
+          -0.0,
+          -0.11481299996376038
+        ],
+        "max": [
+          0.321137011051178,
+          1.1872719526290894,
+          0.15185999870300293
+        ],
+        "span": [
+          0.6509140133857727,
+          1.1872719526290894,
+          0.2666729986667633
+        ]
+      },
+      "geometry_positions_sha256": "51e2ae58a0a5d2f8f7c4c6da10485e32b84c36fa1a8dc7a0fac19b5b0b35155d"
+    }
+  ],
+  "models": [
+    {
+      "object": [
+        242810812,
+        "node_0\u0000\u0001Model",
+        "Mesh"
+      ],
+      "transform_properties": [
+        [
+          "Lcl Rotation",
+          "Lcl Rotation",
+          "",
+          "A",
+          -4.3257111045250854e-06,
+          0.0,
+          0.0
+        ],
+        [
+          "Lcl Scaling",
+          "Lcl Scaling",
+          "",
+          "A",
+          100.0,
+          100.0,
+          100.0
+        ]
+      ]
+    }
+  ],
+  "axis_and_units": [
+    [
+      "UpAxis",
+      "int",
+      "Integer",
+      "",
+      1
+    ],
+    [
+      "UpAxisSign",
+      "int",
+      "Integer",
+      "",
+      1
+    ],
+    [
+      "FrontAxis",
+      "int",
+      "Integer",
+      "",
+      2
+    ],
+    [
+      "FrontAxisSign",
+      "int",
+      "Integer",
+      "",
+      1
+    ],
+    [
+      "CoordAxis",
+      "int",
+      "Integer",
+      "",
+      0
+    ],
+    [
+      "CoordAxisSign",
+      "int",
+      "Integer",
+      "",
+      1
+    ],
+    [
+      "OriginalUpAxis",
+      "int",
+      "Integer",
+      "",
+      -1
+    ],
+    [
+      "OriginalUpAxisSign",
+      "int",
+      "Integer",
+      "",
+      1
+    ],
+    [
+      "UnitScaleFactor",
+      "double",
+      "Number",
+      "",
+      1.0
+    ],
+    [
+      "OriginalUnitScaleFactor",
+      "double",
+      "Number",
+      "",
+      1.0
+    ],
+    [
+      "AmbientColor",
+      "ColorRGB",
+      "Color",
+      "",
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      "DefaultCamera",
+      "KString",
+      "",
+      "",
+      "Producer Perspective"
+    ],
+    [
+      "TimeMode",
+      "enum",
+      "",
+      "",
+      11
+    ],
+    [
+      "TimeSpanStart",
+      "KTime",
+      "Time",
+      "",
+      0
+    ],
+    [
+      "TimeSpanStop",
+      "KTime",
+      "Time",
+      "",
+      46186158000
+    ],
+    [
+      "CustomFrameRate",
+      "double",
+      "Number",
+      "",
+      24.0
+    ]
+  ],
+  "scope": "Raw local FBX geometry, indices and scene metadata only. Model transforms are listed, not applied. No anatomical, physical-unit or OBJ association acceptance."
+}

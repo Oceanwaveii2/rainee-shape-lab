@@ -69,6 +69,63 @@ def fit_ellipsoid(points,weights):
         'directional_coverage_bounds':m.bounds(directions),
         'limitation':'Open selected surface patch; inferred back of ellipsoid is unconstrained by ROI. This is a shape cue, not enclosed anatomical volume.'}
 
+
+def fit_ferrari_nurbs_patch(points,weights,n_ctrl_u=8,n_ctrl_v=8,w_ridge=1.45,lambda_fair=0.015):
+    """Historical API: experimental scalar distance-chart spline fit, not Class-A geometry."""
+    points,weights=np.asarray(points,dtype=float),np.asarray(weights,dtype=float)
+    if points.ndim!=2 or points.shape[1]!=3 or weights.shape!=(len(points),):
+        raise ValueError('Expected XYZ samples and one weight per sample')
+    if not isinstance(n_ctrl_u,(int,np.integer)) or not isinstance(n_ctrl_v,(int,np.integer)) or min(n_ctrl_u,n_ctrl_v)<4:
+        raise ValueError('Cubic fitting needs at least four controls per axis')
+    if not np.isfinite([w_ridge,lambda_fair]).all() or w_ridge<=0 or lambda_fair<0:
+        raise ValueError('Positive rational weights and nonnegative fairing required')
+    valid=np.isfinite(points).all(1)&np.isfinite(weights)&(weights>0)
+    points,weights=points[valid],weights[valid]
+    if len(points)<20:return {'status':'insufficient_nondegenerate_samples'}
+    origin=points.mean(0);scale=float(np.sqrt(np.mean(np.sum((points-origin)**2,axis=1))))
+    if scale<1e-9:return {'status':'degenerate'}
+    p=(points-origin)/scale
+    # Fit 3D distance to sample centroid by azimuth and local Y. This chart may
+    # be multivalued on an arbitrary surface; a low residual is not surface validation.
+    r=np.linalg.norm(p,axis=1)
+    u_raw=np.arctan2(p[:,2],p[:,0]);v_raw=p[:,1]
+    u=(u_raw-u_raw.min())/max(float(u_raw.max()-u_raw.min()),1e-6)*0.999999
+    v=(v_raw-v_raw.min())/max(float(v_raw.max()-v_raw.min()),1e-6)*0.999999
+    from scipy.interpolate import BSpline
+    def b_basis(t,nc):
+        n_int=nc-4
+        ik=np.linspace(0.,1.,n_int+2)[1:-1] if n_int>0 else np.array([])
+        knots=np.concatenate([[0.]*4,ik,[1.]*4])
+        B=np.zeros((len(t),nc))
+        for i in range(nc):
+            c=np.zeros(nc);c[i]=1.;B[:,i]=BSpline(knots,c,3)(t)
+        return B
+    Bu=b_basis(u,n_ctrl_u);Bv=b_basis(v,n_ctrl_v)
+    W=np.ones((n_ctrl_u,n_ctrl_v));W[1:-1,1:-1]=w_ridge
+    Phi=np.einsum('ni,nj,ij->nij',Bu,Bv,W)
+    denom=np.maximum(Phi.sum(axis=(1,2),keepdims=True),1e-8)
+    R=(Phi/denom).reshape(len(r),n_ctrl_u*n_ctrl_v)
+    sw=np.sqrt(weights/weights.mean())[:,None]
+    n_tot=n_ctrl_u*n_ctrl_v;reg=[]
+    for i in range(n_ctrl_u):
+        for j in range(n_ctrl_v):
+            idx=i*n_ctrl_v+j
+            if 0<i<n_ctrl_u-1:
+                row=np.zeros(n_tot);row[(i-1)*n_ctrl_v+j]=1.;row[idx]=-2.;row[(i+1)*n_ctrl_v+j]=1.;reg.append(row)
+            if 0<j<n_ctrl_v-1:
+                row=np.zeros(n_tot);row[i*n_ctrl_v+(j-1)]=1.;row[idx]=-2.;row[i*n_ctrl_v+(j+1)]=1.;reg.append(row)
+    L_reg=np.array(reg)*np.sqrt(lambda_fair)
+    A_aug=np.vstack([R*sw,L_reg]);b_aug=np.concatenate([r*sw[:,0],np.zeros(len(reg))])
+    ctrl,_,_,_=np.linalg.lstsq(A_aug,b_aug,rcond=None)
+    pred=R@ctrl
+    rms=float(np.sqrt(np.average((pred-r)**2,weights=weights)))
+    return {'status':'experimental_radial_nurbs_fit','origin_source':origin.tolist(),'scale_source':scale,
+        'n_ctrl':[n_ctrl_u,n_ctrl_v],'ridge_rational_weight':w_ridge,'bending_fairing_lambda':lambda_fair,
+        'radial_residual_rms':rms,'control_net_min_max':[float(ctrl.min()*scale),float(ctrl.max()*scale)],
+        'class_a_certified':False,'seam_continuity_constrained':False,'anatomical_acceptance':False,
+        'fit_scope':'Scalar normalized 3D distance chart; training-sample residual only; no certified XYZ surface or hidden anatomy',
+        'fairing_scope':'Discrete control-net second differences, not continuous thin-plate bending energy'}
+
 def describe(p,f,selection,config,lateral_midline):
     tri=p[f];centroid=tri.mean(1)
     area=np.linalg.norm(np.cross(tri[:,1]-tri[:,0],tri[:,2]-tri[:,0]),axis=1)/2
@@ -95,6 +152,7 @@ def describe(p,f,selection,config,lateral_midline):
         if len(samples)>30000:
             indices=np.linspace(0,len(samples)-1,30000).astype(int);samples=samples[indices];weights=weights[indices]
         result[name]=fit_ellipsoid(samples,weights) if len(samples)>20 else {'status':'insufficient_patch'}
+        result[name+'_ferrari_nurbs']=fit_ferrari_nurbs_patch(samples,weights) if len(samples)>20 else {'status':'insufficient_patch'}
     return result,keep
 
 def main():

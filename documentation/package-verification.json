@@ -1,72 +1,82 @@
 {
-  "schema": "rainee-review-package-verification-v1",
+  "schema": "rainee-review-package-verification-v2",
   "passed": true,
-  "strict_budget_decimal_bytes": 100000000,
-  "virtual_routes_restored_exactly": 105,
+  "transfer_archive_limit_decimal_bytes": 100000000,
+  "virtual_routes_verified": 120,
+  "binary_routes_restored_bit_exactly": 99,
+  "lossless_pixel_image_routes_verified": 21,
   "decoded_assets": [
     {
       "route": "measurements/face-identity-20261013/references/frame-0000.png",
-      "sha256": "f4de8ffb4809c91cc6f481960d23aa625893a55f324942abffa551534bc2ed96",
-      "bytes": 1764693,
+      "sha256": "988e61e96e3991f0c2ae3e840302601e27e3af2d9b18fb50f656732766ee5214",
+      "bytes": 1177072,
       "codec": "file",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
     },
     {
       "route": "measurements/face-identity-20261013/references/frame-0010.png",
-      "sha256": "6e65bf5a91145f319dbda6b16e42da9fd002d276d267804588149d6349cd937b",
-      "bytes": 1771504,
+      "sha256": "916d4abaf0e6649ea09458071b74314eded937635db97710e68c9a597128aa7f",
+      "bytes": 1189776,
       "codec": "file",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
     },
     {
       "route": "measurements/face-identity-20261013/references/frame-0018.png",
-      "sha256": "37253a70ed6d1076083c7e448591708ea12ca4b70d49edd55f04e2b273789e83",
-      "bytes": 1811193,
+      "sha256": "6b5c829808b48f0fc4034b100bef96134b7b24a93d4a555d13e1d3e4afbf8389",
+      "bytes": 1216194,
       "codec": "file",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
     },
     {
       "route": "measurements/face-identity-20261013/references/frame-0026.png",
-      "sha256": "6d235656ee4490a3043006304a6b6df9e066d9898991de319bd9ee77907c7342",
-      "bytes": 1711965,
+      "sha256": "319658a217fc97c951333bec64bedf0b3cf5f3c4e7158e40d1cc21dcf4df20b1",
+      "bytes": 1137364,
       "codec": "file",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
     },
     {
       "route": "measurements/canonical-20261014/full/references/R01/codex-clipboard-97762600-7e14-4167-8c99-63302ada6e59.png",
-      "sha256": "f6b2421bc361c2eb78dcc35811ff17e07d543814bcc726efa88db881f952c0f6",
-      "bytes": 3674806,
+      "sha256": "f11f82f65d6a2625f358db5941c4e77a4d3f8c320702b32d9efe79bd35fe6066",
+      "bytes": 2127212,
       "codec": "file",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
     },
     {
       "route": "measurements/canonical-20261014/full/references/R02/codex-clipboard-bc2e7d59-6725-4d46-975d-b0e70062d189.png",
-      "sha256": "c101bd4c9ff485a379eeafc26effde90c68081528a3d9be030292a366e88887d",
-      "bytes": 2965474,
+      "sha256": "d215ae12f32933bdbb8fedb80b0ef134f9ccf0110c9c2b7e295fc788f0c6640c",
+      "bytes": 1602782,
       "codec": "file",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
     },
     {
       "route": "measurements/canonical-20261014/full/references/R03/codex-clipboard-d899cf24-6e2b-4ab1-86a1-b0aa78591cb9.png",
-      "sha256": "fdffd9a1cc63a6a2fa3f7b7a70fe0a56125ca4ef4643ef01a9fc198dc2f49bf6",
-      "bytes": 2448843,
+      "sha256": "103a3d6b217de215ddf01bc597120e06a2894fd523f54662b169b626af74d917",
+      "bytes": 1269810,
       "codec": "file",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
     },
     {
       "route": "measurements/canonical-20261014/full/references/R04/codex-clipboard-ec3cdc96-e5e2-461b-9846-f6bf843b4eb9.png",
-      "sha256": "2ae315373baf7b7c932d235cd142e77bbbb369d811b027ee375e0b9ba948ab5c",
-      "bytes": 3992875,
+      "sha256": "3c51cd478e4441f46266c73d69e2b3bd989d7645450cfa54c97d5afc10ab6cd1",
+      "bytes": 2161110,
       "codec": "file",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
     },
     {
       "route": "houdini/body-v4-rest.bin",
@@ -74,7 +84,8 @@
       "bytes": 1462812,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "houdini/pelvic-repair/implicit-repaired-triangles.bin",
@@ -82,7 +93,8 @@
       "bytes": 3028044,
       "codec": "gzip",
       "encoding": "delta-zigzag-shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "houdini/cage-rest.bin",
@@ -90,7 +102,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "houdini/cage-triangles.bin",
@@ -98,7 +111,8 @@
       "bytes": 36096,
       "codec": "gzip",
       "encoding": "delta-zigzag-shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "houdini/body-figurine-native.bin",
@@ -106,7 +120,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/body-triangles.bin",
@@ -114,7 +129,8 @@
       "bytes": 3028044,
       "codec": "gzip",
       "encoding": "delta-zigzag-shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/cage-triangles.bin",
@@ -122,7 +138,8 @@
       "bytes": 36096,
       "codec": "gzip",
       "encoding": "delta-zigzag-shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/body-native-flow-1.5x.bin",
@@ -130,7 +147,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/body-native-flow-1x.bin",
@@ -138,7 +156,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/body-native-flow-2.5x.bin",
@@ -146,7 +165,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/body-native-flow-2x.bin",
@@ -154,7 +174,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/cage-native-flow-1.5x.bin",
@@ -162,7 +183,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/cage-native-flow-1x.bin",
@@ -170,7 +192,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/cage-native-flow-2.5x.bin",
@@ -178,7 +201,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/cage-native-flow-2x.bin",
@@ -186,7 +210,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0000.bin",
@@ -194,7 +219,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0001.bin",
@@ -202,7 +228,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0002.bin",
@@ -210,7 +237,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0003.bin",
@@ -218,7 +246,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0004.bin",
@@ -226,7 +255,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0005.bin",
@@ -234,7 +264,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0006.bin",
@@ -242,7 +273,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0007.bin",
@@ -250,7 +282,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0008.bin",
@@ -258,7 +291,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0009.bin",
@@ -266,7 +300,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0010.bin",
@@ -274,7 +309,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0011.bin",
@@ -282,7 +318,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0012.bin",
@@ -290,7 +327,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0013.bin",
@@ -298,7 +336,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0014.bin",
@@ -306,7 +345,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0015.bin",
@@ -314,7 +354,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0016.bin",
@@ -322,7 +363,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0017.bin",
@@ -330,7 +372,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0018.bin",
@@ -338,7 +381,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0019.bin",
@@ -346,7 +390,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0020.bin",
@@ -354,7 +399,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0021.bin",
@@ -362,7 +408,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0022.bin",
@@ -370,7 +417,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0023.bin",
@@ -378,7 +426,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0024.bin",
@@ -386,7 +435,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0025.bin",
@@ -394,7 +444,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0026.bin",
@@ -402,7 +453,8 @@
       "bytes": 1462812,
       "codec": "sparse-point-f32",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0000.bin",
@@ -410,7 +462,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0001.bin",
@@ -418,7 +471,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0002.bin",
@@ -426,7 +480,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0003.bin",
@@ -434,7 +489,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0004.bin",
@@ -442,7 +498,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0005.bin",
@@ -450,7 +507,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0006.bin",
@@ -458,7 +516,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0007.bin",
@@ -466,7 +525,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0008.bin",
@@ -474,7 +534,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0009.bin",
@@ -482,7 +543,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0010.bin",
@@ -490,7 +552,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0011.bin",
@@ -498,7 +561,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0012.bin",
@@ -506,7 +570,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0013.bin",
@@ -514,7 +579,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0014.bin",
@@ -522,7 +588,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0015.bin",
@@ -530,7 +597,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0016.bin",
@@ -538,7 +606,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0017.bin",
@@ -546,7 +615,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0018.bin",
@@ -554,7 +624,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0019.bin",
@@ -562,7 +633,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0020.bin",
@@ -570,7 +642,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0021.bin",
@@ -578,7 +651,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0022.bin",
@@ -586,7 +660,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0023.bin",
@@ -594,7 +669,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0024.bin",
@@ -602,7 +678,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0025.bin",
@@ -610,7 +687,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0026.bin",
@@ -618,7 +696,8 @@
       "bytes": 18072,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/five-frame-20261013/frame_0000/preview-positions.bin",
@@ -626,7 +705,8 @@
       "bytes": 958824,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/five-frame-20261013/frame_0000/preview-triangles.bin",
@@ -634,7 +714,8 @@
       "bytes": 2136888,
       "codec": "gzip",
       "encoding": "delta-zigzag-shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/five-frame-20261013/frame_0010/preview-positions.bin",
@@ -642,7 +723,8 @@
       "bytes": 1042968,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/five-frame-20261013/frame_0010/preview-triangles.bin",
@@ -650,7 +732,8 @@
       "bytes": 2319576,
       "codec": "gzip",
       "encoding": "delta-zigzag-shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/five-frame-20261013/frame_0018/preview-positions.bin",
@@ -658,7 +741,8 @@
       "bytes": 749964,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/five-frame-20261013/frame_0018/preview-triangles.bin",
@@ -666,7 +750,8 @@
       "bytes": 1545408,
       "codec": "gzip",
       "encoding": "delta-zigzag-shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/five-frame-20261013/frame_0026/preview-positions.bin",
@@ -674,7 +759,8 @@
       "bytes": 631584,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/five-frame-20261013/frame_0026/preview-triangles.bin",
@@ -682,7 +768,8 @@
       "bytes": 1298484,
       "codec": "gzip",
       "encoding": "delta-zigzag-shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/reference-01a13749/preview-colors.bin",
@@ -690,7 +777,8 @@
       "bytes": 526776,
       "codec": "gzip",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/reference-01a13749/preview-positions.bin",
@@ -698,7 +786,8 @@
       "bytes": 526776,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/reference-01a13749/preview-roi-colors.bin",
@@ -706,7 +795,8 @@
       "bytes": 526776,
       "codec": "gzip",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/reference-01a13749/preview-triangles.bin",
@@ -714,7 +804,8 @@
       "bytes": 1068612,
       "codec": "gzip",
       "encoding": "delta-zigzag-shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R01/positions.bin",
@@ -722,7 +813,8 @@
       "bytes": 4868556,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R01/triangle-material-ids.bin",
@@ -730,7 +822,8 @@
       "bytes": 3004560,
       "codec": "gzip",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R01/triangles.bin",
@@ -738,7 +831,8 @@
       "bytes": 9013680,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R01/vertex-component-ids.bin",
@@ -746,7 +840,8 @@
       "bytes": 1622852,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R02/positions.bin",
@@ -754,7 +849,8 @@
       "bytes": 4120632,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R02/triangle-material-ids.bin",
@@ -762,7 +858,8 @@
       "bytes": 2562120,
       "codec": "gzip",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R02/triangles.bin",
@@ -770,7 +867,8 @@
       "bytes": 7686360,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R02/vertex-component-ids.bin",
@@ -778,7 +876,8 @@
       "bytes": 1373544,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R03/positions.bin",
@@ -786,7 +885,8 @@
       "bytes": 5427480,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R03/triangle-material-ids.bin",
@@ -794,7 +894,8 @@
       "bytes": 3363920,
       "codec": "gzip",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R03/triangles.bin",
@@ -802,7 +903,8 @@
       "bytes": 10091760,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R03/vertex-component-ids.bin",
@@ -810,7 +912,8 @@
       "bytes": 1809160,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R04/positions.bin",
@@ -818,7 +921,8 @@
       "bytes": 7617516,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R04/triangle-material-ids.bin",
@@ -826,7 +930,8 @@
       "bytes": 4699832,
       "codec": "gzip",
       "encoding": "bytes",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R04/triangles.bin",
@@ -834,7 +939,8 @@
       "bytes": 14099496,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
     },
     {
       "route": "measurements/canonical-20261014/derived/R04/vertex-component-ids.bin",
@@ -842,15 +948,159 @@
       "bytes": 2539172,
       "codec": "gzip",
       "encoding": "shuffle32",
-      "matches_full_local_bytes": true
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
+    },
+    {
+      "route": "models/full-body-bridge/template-proxy/positions.bin",
+      "sha256": "bed29180dc5f62f68a22a67d68ddb9947ce3ba5d7059ecfb81b9530d27725ad6",
+      "bytes": 1176936,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
+    },
+    {
+      "route": "models/full-body-bridge/template-proxy/triangles.bin",
+      "sha256": "0558b7ac7246e17349c1c56eb51613990d37d9dd75e3da4b9e8f44a5f4db4e91",
+      "bytes": 2651652,
+      "codec": "gzip",
+      "encoding": "delta-zigzag-shuffle32",
+      "matches_full_local_bytes": true,
+      "matches_original_pixels": false
+    },
+    {
+      "route": "measurements/face-identity-20261013/references/blonde-portrait.png",
+      "sha256": "a5986d25e108f289e7c9c504ef9d6b648ce99cfa7652036137dd8732aae21175",
+      "bytes": 2455336,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
+    },
+    {
+      "route": "measurements/face-identity-20261013/references/blue-bust.png",
+      "sha256": "04ef581d106e13753ad309d3f699135bc5a213e681e84b58a67f57227f90c5a7",
+      "bytes": 646394,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
+    },
+    {
+      "route": "references/accepted-growth/frame_0000.png",
+      "sha256": "988e61e96e3991f0c2ae3e840302601e27e3af2d9b18fb50f656732766ee5214",
+      "bytes": 1177072,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
+    },
+    {
+      "route": "references/accepted-growth/frame_0010.png",
+      "sha256": "916d4abaf0e6649ea09458071b74314eded937635db97710e68c9a597128aa7f",
+      "bytes": 1189776,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
+    },
+    {
+      "route": "references/accepted-growth/frame_0018.png",
+      "sha256": "6b5c829808b48f0fc4034b100bef96134b7b24a93d4a555d13e1d3e4afbf8389",
+      "bytes": 1216194,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
+    },
+    {
+      "route": "references/accepted-growth/frame_0026.png",
+      "sha256": "319658a217fc97c951333bec64bedf0b3cf5f3c4e7158e40d1cc21dcf4df20b1",
+      "bytes": 1137364,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
+    },
+    {
+      "route": "references/accepted-growth/frame_0049.png",
+      "sha256": "53416e418a4ddcddc1fb0250afdb2dd509538c443a98a861a58a6150a81fa393",
+      "bytes": 1166460,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
+    },
+    {
+      "route": "references/canonical/R01.png",
+      "sha256": "f11f82f65d6a2625f358db5941c4e77a4d3f8c320702b32d9efe79bd35fe6066",
+      "bytes": 2127212,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
+    },
+    {
+      "route": "references/canonical/R02.png",
+      "sha256": "d215ae12f32933bdbb8fedb80b0ef134f9ccf0110c9c2b7e295fc788f0c6640c",
+      "bytes": 1602782,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
+    },
+    {
+      "route": "references/canonical/R03.png",
+      "sha256": "103a3d6b217de215ddf01bc597120e06a2894fd523f54662b169b626af74d917",
+      "bytes": 1269810,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
+    },
+    {
+      "route": "references/canonical/R04.png",
+      "sha256": "3c51cd478e4441f46266c73d69e2b3bd989d7645450cfa54c97d5afc10ab6cd1",
+      "bytes": 2161110,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
+    },
+    {
+      "route": "references/native-rear.png",
+      "sha256": "0c145724b3aab992eaf1662983d213284363f6e9a74ee8d9c9d23cff219af1ee",
+      "bytes": 521122,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
+    },
+    {
+      "route": "research/rear-growth-review/grok-01-0.500s.png",
+      "sha256": "09296f66a206f9ffb3a82cb6eb186c43bc28e57c05893b06f9835d7caa85eee0",
+      "bytes": 236784,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": false,
+      "matches_original_pixels": true
     }
   ],
   "archive_files_retained_verified": 75,
   "archive_hash_unchanged": true,
   "original_videos_retained_verified": 8,
   "review_duration_within_one_12fps_frame": true,
-  "new_meshes_decimated": false,
-  "source_coordinate_or_index_bits_modified_by_compression": false,
+  "primary_four_glb_meshes_decimated": false,
+  "retained_coordinate_or_index_bits_modified_by_compression": false,
+  "extra_donor": {
+    "inspection_lod_is_lossy": true,
+    "decoded_lod_hash_verified": true,
+    "lod_vertices": 5070,
+    "lod_triangles": 11040,
+    "full_original_zip_fbx_png_hashes_unchanged": true,
+    "measurement_source": "full local originals, not inspection LOD"
+  },
   "http_checks": [
     {
       "route": "houdini/body-v4-rest.bin",
@@ -869,32 +1119,6 @@
       "response_hash_verified": true
     }
   ],
-  "elapsed_seconds": 7.681983232498169,
-  "scope": "Lossless package/source integrity, review duration and actual HTTP restoration. Browser rendering is recorded separately; anatomical likeness/registration/physics are not certified.",
-  "materialized_geometry_glb_roundtrips": [
-    {
-      "id": "R01",
-      "vertices": 405713,
-      "triangles": 751140,
-      "exported_glb_geometry_matches_retained_world_coordinates": true
-    },
-    {
-      "id": "R02",
-      "vertices": 343386,
-      "triangles": 640530,
-      "exported_glb_geometry_matches_retained_world_coordinates": true
-    },
-    {
-      "id": "R03",
-      "vertices": 452290,
-      "triangles": 840980,
-      "exported_glb_geometry_matches_retained_world_coordinates": true
-    },
-    {
-      "id": "R04",
-      "vertices": 634793,
-      "triangles": 1174958,
-      "exported_glb_geometry_matches_retained_world_coordinates": true
-    }
-  ]
+  "elapsed_seconds": 16.327284574508667,
+  "scope": "Bit-exact retained geometry, pixel-identical image container derivatives, separate extra donor LOD and full-model registry, review duration and HTTP restoration. No anatomy/registration/physics certification; ZIP transfer budget is verified separately."
 }

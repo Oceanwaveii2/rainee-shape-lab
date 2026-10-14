@@ -44,7 +44,11 @@ def decode(root,entry,entries,cache=None):
    for j in range(count):
     i=struct.unpack_from('<I',raw,12+j*4)[0]
     if i>=n:raise ValueError('Sparse vertex index outside base')
-    out[i*12:i*12+12]=raw[offset+j*12:offset+j*12+12]
+    if entry.get('point_values_encoding')=='xor-baseline-uint32':
+     for axis in range(3):
+      at=i*12+axis*4;value=struct.unpack_from('<I',base,at)[0]^struct.unpack_from('<I',raw,offset+j*12+axis*4)[0];struct.pack_into('<I',out,at,value)
+    elif entry.get('point_values_encoding') is None:out[i*12:i*12+12]=raw[offset+j*12:offset+j*12+12]
+    else:raise ValueError('Unknown sparse point encoding')
    out=bytes(out)
   else:raise ValueError('Unknown asset codec')
  if len(out)!=entry['decoded_bytes'] or hashlib.sha256(out).hexdigest()!=entry['decoded_sha256']:raise ValueError('Restored asset integrity failure')
@@ -61,7 +65,7 @@ def make_handler(root,quiet=False):
    if route not in entries:return False
    try:raw=load(route)
    except (OSError,ValueError) as e:self.send_error(500,str(e));return True
-   self.send_response(200);self.send_header('Content-Type',self.guess_type(route));self.send_header('Content-Length',str(len(raw)));self.send_header('Cache-Control','no-cache');self.send_header('X-Rainee-Asset-SHA256',entries[route]['decoded_sha256']);self.end_headers()
+   self.send_response(200);self.send_header('Content-Type',entries[route].get('content_type',self.guess_type(route)));self.send_header('Content-Length',str(len(raw)));self.send_header('Cache-Control','no-cache');self.send_header('X-Rainee-Asset-SHA256',entries[route]['decoded_sha256']);self.end_headers()
    if not head:self.wfile.write(raw)
    return True
   def do_GET(self):

@@ -38,8 +38,12 @@ The native cage ratio, regional template volume, projected image area, full-asse
 
 ## Images and video
 
-The new four source PNGs, accepted frames and identity closeups remain unchanged and uncropped. Full-size JPEG derivatives of three older supplementary PNGs are identified under `references/secondary/`; original pixels and files remain in the local project.
+The new four source PNGs, accepted frames and identity closeups retain original dimensions and decoded pixels in lossless WebP viewing containers; original PNG containers remain local. Full-size JPEG derivatives of three older supplementary PNGs are identified under `references/secondary/`; original pixels and files remain in the local project.
 
-V01–V08 are the new videos in the order supplied by the user. Their original names, SHA-256, sizes, ffprobe stream metadata, duration and source sampling times are in `videos.json`. The review clips retain full duration at 12fps and proportional width ≤720px, omit audio, and use H.264. This is a viewing derivative, not a calibrated turntable or motion reconstruction. Individual sample stills remain local; their five-sample inspection sheets are included here.
+V01–V08 are the new videos in the order supplied by the user. Their original names, SHA-256, sizes, ffprobe stream metadata, duration and source sampling times are in `videos.json`. The review clips retain full duration at 12fps and proportional width ≤480px, omit audio, and use H.264. This is a viewing derivative, not a calibrated turntable or motion reconstruction. Individual sample stills remain local; their five-sample inspection sheets are included here.
 
 The exact two larger-build targets and video-to-model mapping remain unassigned. Filenames, similar appearance, predicted geometry and archive roles do not prove camera or anatomical correspondence.
+
+## Complete new donor bridge
+
+See `models/full-body-bridge/registry.json` and `tools/argon_model_bridge.py`. R05/R06 preserve decoded float64 positions and uint32 triangle indices exactly, including signed zeros and vertex/face ordering. The original 719 MB dense FBX remains local; its source proxy is explicitly lossy. Transfer budget applies to the ZIP, not expanded geometry. Source PNG hashes and lossless-pixel derivative hashes are distinct.

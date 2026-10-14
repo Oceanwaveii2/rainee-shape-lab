@@ -1,0 +1,846 @@
+{
+  "schema": "rainee-full-body-model-bridge-v1",
+  "date": "2026-10-14",
+  "authority": {
+    "shape": "Argon curvilinear v5 selected by user",
+    "stature_source_units": 2.3951061964035034,
+    "face": "accepted images/clear torso closeups; donor identity not automatic",
+    "growth_source_frames": [
+      0,
+      10,
+      18,
+      26
+    ],
+    "hold_after": 26,
+    "independent_thighs": true
+  },
+  "models": [
+    {
+      "id": "R05-new-obj",
+      "label": "New fox donor \u00b7 complete OBJ geometry",
+      "geometry": {
+        "positions": {
+          "path": "models/full-body-bridge/R05-new-obj/positions.xz",
+          "compression": "xz",
+          "stored_sha256": "810f1b880a41a3590cdc4e3dfcafffd2bfc1a9354bc50f06aafea17d206ae224",
+          "stored_bytes": 4428724,
+          "dtype": "float64-le",
+          "encoding": "decimal-i32-f64-exact",
+          "shuffle_word": 4,
+          "negative_zero_indices": [
+            1116828,
+            1508398
+          ],
+          "decoded_sha256": "70115f35cd22c02eeadeba7eb8d2571e185f1a3032e2b722ca46b1a35d7f8514",
+          "decoded_bytes": 17995680,
+          "vertices": 749820,
+          "scale": 1000000
+        },
+        "triangles": {
+          "path": "models/full-body-bridge/R05-new-obj/triangles.xz",
+          "compression": "xz",
+          "stored_sha256": "49e5b9bf173f20b054276cb25bf06ac25a869d8bc5c0916e7c46d58e4f4d8392",
+          "stored_bytes": 5222712,
+          "dtype": "uint32-le",
+          "encoding": "delta-zigzag-shuffle32",
+          "triangles": 1499800,
+          "decoded_sha256": "f652638b5d8fbdaa23a10dbc85b24ba9f2a7e924fc95414288d36dced258ebfe",
+          "decoded_bytes": 17997600
+        }
+      },
+      "role": "whole generated asset; shape donor with unreviewed anatomy",
+      "coordinates": "raw OBJ coordinates",
+      "source": {
+        "inventory": "measurements/new-donor-20261014/obj-inventory.json",
+        "raw_bounds": {
+          "min": [
+            -0.29716,
+            -0.0,
+            -0.297678
+          ],
+          "max": [
+            0.34235,
+            1.13697,
+            0.270847
+          ]
+        }
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "unregistered generated evidence",
+      "decoded_coordinate_unit_kind": "unregistered_asset_units"
+    },
+    {
+      "id": "R06-new-fbx",
+      "label": "New donor \u00b7 complete raw FBX geometry",
+      "geometry": {
+        "positions": {
+          "path": "models/full-body-bridge/R06-new-fbx/positions.xz",
+          "compression": "xz",
+          "stored_sha256": "8d7723c0d0d8398cdbfe35bce4f9f62b615a56e1eb13fb368e6874c143b94683",
+          "stored_bytes": 6192136,
+          "dtype": "float64-le",
+          "encoding": "f32-to-f64-exact",
+          "shuffle_word": 4,
+          "negative_zero_indices": [],
+          "decoded_sha256": "51e2ae58a0a5d2f8f7c4c6da10485e32b84c36fa1a8dc7a0fac19b5b0b35155d",
+          "decoded_bytes": 17978928,
+          "vertices": 749122,
+          "scale": null
+        },
+        "triangles": {
+          "path": "models/full-body-bridge/R06-new-fbx/triangles.xz",
+          "compression": "xz",
+          "stored_sha256": "4a7a670c47633e3d7d17977892020f1970b01a8daffcae9de06f8c9d1bfe711b",
+          "stored_bytes": 5164184,
+          "dtype": "uint32-le",
+          "encoding": "delta-zigzag-shuffle32",
+          "triangles": 1498428,
+          "decoded_sha256": "1e6e13a90a07bd3b9bbd89e8c12491417111abc4cfbc42bc87f0aad833c0fdea",
+          "decoded_bytes": 17981136
+        }
+      },
+      "role": "whole generated asset; shape donor with unreviewed anatomy",
+      "coordinates": "FBX node-local coordinates; listed model transforms not applied",
+      "source": {
+        "inventory": "measurements/new-donor-20261014/fbx-inventory.json",
+        "raw_bounds": {
+          "min": [
+            -0.3297770023345947,
+            -0.0,
+            -0.11481299996376038
+          ],
+          "max": [
+            0.321137011051178,
+            1.1872719526290894,
+            0.15185999870300293
+          ]
+        }
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "unregistered generated evidence",
+      "decoded_coordinate_unit_kind": "unregistered_asset_units"
+    },
+    {
+      "id": "R01",
+      "label": "Canonical reference R01 \u00b7 complete extracted geometry",
+      "geometry": {
+        "positions": {
+          "route": "measurements/canonical-20261014/derived/R01/positions.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "473b7c2948c88923231b0dffb7d9b870f1db5a091a5b736405a3fb6e357106ed",
+          "decoded_bytes": 4868556,
+          "reader": "legacy retained asset map"
+        },
+        "triangles": {
+          "route": "measurements/canonical-20261014/derived/R01/triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "33090af7d788c5b39425e8b99d10e7e902743937345264f757c485113d506305",
+          "decoded_bytes": 9013680,
+          "reader": "legacy retained asset map"
+        }
+      },
+      "role": "complete generated scene-world geometry; body/accessories unsegmented",
+      "coordinates": "GLB world transforms baked to float32",
+      "source": {
+        "inventory": "measurements/canonical-20261014/derived/R01/measurements.json",
+        "primary_glb_sha256": "7e4d0bd16b35f81a154989f65ab0bc663642fee4fcb7c6f77bce7c41b531476d"
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "unregistered generated evidence",
+      "decoded_coordinate_unit_kind": "unregistered_asset_units"
+    },
+    {
+      "id": "R02",
+      "label": "Canonical reference R02 \u00b7 complete extracted geometry",
+      "geometry": {
+        "positions": {
+          "route": "measurements/canonical-20261014/derived/R02/positions.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "6438af0bfa236d79ee1f0427e460feba30dcc1b63110f661a47d0959da5bdc46",
+          "decoded_bytes": 4120632,
+          "reader": "legacy retained asset map"
+        },
+        "triangles": {
+          "route": "measurements/canonical-20261014/derived/R02/triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "9ded643228ffac2f86d701ef11b83250f9375f140cb0429c324f31d9057acf89",
+          "decoded_bytes": 7686360,
+          "reader": "legacy retained asset map"
+        }
+      },
+      "role": "complete generated scene-world geometry; body/accessories unsegmented",
+      "coordinates": "GLB world transforms baked to float32",
+      "source": {
+        "inventory": "measurements/canonical-20261014/derived/R02/measurements.json",
+        "primary_glb_sha256": "891f7b4b65daa76d0d3d622ec8b15ca9a25b56cd1f6c5043ff566560ac1a3b66"
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "unregistered generated evidence",
+      "decoded_coordinate_unit_kind": "unregistered_asset_units"
+    },
+    {
+      "id": "R03",
+      "label": "Canonical reference R03 \u00b7 complete extracted geometry",
+      "geometry": {
+        "positions": {
+          "route": "measurements/canonical-20261014/derived/R03/positions.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "bcba2cc025da88e89223a4c6ecba0efe67a5633a23825f34eeed14dd9ac4be42",
+          "decoded_bytes": 5427480,
+          "reader": "legacy retained asset map"
+        },
+        "triangles": {
+          "route": "measurements/canonical-20261014/derived/R03/triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "7273ed5701a0a6569a3af29075b8608dba6d628cc86a7461c2e1b12a42bec562",
+          "decoded_bytes": 10091760,
+          "reader": "legacy retained asset map"
+        }
+      },
+      "role": "complete generated scene-world geometry; body/accessories unsegmented",
+      "coordinates": "GLB world transforms baked to float32",
+      "source": {
+        "inventory": "measurements/canonical-20261014/derived/R03/measurements.json",
+        "primary_glb_sha256": "bb7f176ef7d637800041951f23eaf8f38bdf2c22378dce378a386f3c6a4b9c80"
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "unregistered generated evidence",
+      "decoded_coordinate_unit_kind": "unregistered_asset_units"
+    },
+    {
+      "id": "R04",
+      "label": "Canonical reference R04 \u00b7 complete extracted geometry",
+      "geometry": {
+        "positions": {
+          "route": "measurements/canonical-20261014/derived/R04/positions.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "49ded0ee33961c2d6be2249a095b1e1ff0a698b13882f3f73ebdc6ab12d62434",
+          "decoded_bytes": 7617516,
+          "reader": "legacy retained asset map"
+        },
+        "triangles": {
+          "route": "measurements/canonical-20261014/derived/R04/triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "d203cb6a222d417c2c424f9762e4c82150352a6654d4e34853770e70ec6daffc",
+          "decoded_bytes": 14099496,
+          "reader": "legacy retained asset map"
+        }
+      },
+      "role": "complete generated scene-world geometry; body/accessories unsegmented",
+      "coordinates": "GLB world transforms baked to float32",
+      "source": {
+        "inventory": "measurements/canonical-20261014/derived/R04/measurements.json",
+        "primary_glb_sha256": "e6ceb3b04d3a40eaf876c9a66a82f85d79e062159d410503e9cfc0b7cbf5ae62"
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "unregistered generated evidence",
+      "decoded_coordinate_unit_kind": "unregistered_asset_units"
+    },
+    {
+      "id": "C00-working-body",
+      "label": "Complete current working body",
+      "geometry": {
+        "positions": {
+          "route": "houdini/body-v4-rest.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "ad055ae745bc884146420dfe872e279100de7a538da85be9f12fc2a590590aad",
+          "decoded_bytes": 1462812,
+          "reader": "legacy retained asset map"
+        },
+        "triangles": {
+          "route": "houdini/pelvic-repair/implicit-repaired-triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+          "decoded_bytes": 3028044,
+          "reader": "legacy retained asset map"
+        }
+      },
+      "role": "full working body derived from original dense template; pelvic repair remains a proposal",
+      "coordinates": "normalized inspection/source-proxy coordinates, approximately H=1; runtime adapter renormalizes referenced stature to exact canonical H=1",
+      "source": {
+        "configuration": "houdini/viewer-config.json",
+        "origin": [
+          0.0,
+          -1.220656394958496,
+          0.028106868267059326
+        ],
+        "height_source_units": 2.3951061964035034
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "working authoring model; likeness and attachment fit unfinished",
+      "source_to_canonical_rest": {
+        "matrix_row_major": [
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          -0.0002037675152976332,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "source_referenced_foot_y": 0.0002035291399806738,
+        "source_referenced_stature": 0.9988301603589207,
+        "canonical_stature": 1,
+        "scope": "Same height adapter as the current app; not donor registration or physical-unit calibration"
+      },
+      "canonical_to_original_stature_units": {
+        "matrix_row_major": [
+          2.3951061964035034,
+          0,
+          0,
+          0,
+          0,
+          2.3951061964035034,
+          0,
+          -1.220656394958496,
+          0,
+          0,
+          2.3951061964035034,
+          0.028106868267059326,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "Export stature/origin convention; original dense geometry is not recovered from the proxy"
+      },
+      "decoded_coordinate_unit_kind": "normalized_reference_H"
+    },
+    {
+      "id": "T00-inspection-proxy",
+      "label": "Original stature template \u00b7 inspection proxy",
+      "geometry": {
+        "positions": {
+          "route": "models/full-body-bridge/template-proxy/positions.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "bed29180dc5f62f68a22a67d68ddb9947ce3ba5d7059ecfb81b9530d27725ad6",
+          "decoded_bytes": 1176936
+        },
+        "triangles": {
+          "route": "models/full-body-bridge/template-proxy/triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "0558b7ac7246e17349c1c56eb51613990d37d9dd75e3da4b9e8f44a5f4db4e91",
+          "decoded_bytes": 2651652
+        }
+      },
+      "role": "lossy vertex-cluster proxy of original dense template, not a full-resolution measurement source",
+      "coordinates": "normalized H=1, X/Z centred, Y from original source foot; see prepare_mesh.py",
+      "source": {
+        "original_path": "C:\\Users\\User\\Downloads\\Core Body (Template Only).fbx",
+        "source_vertices": 15853005,
+        "source_polygons": 17673962,
+        "source_fan_triangles": 31691060,
+        "source_bytes": 719296320,
+        "height_source_units": 2.3951061964035034,
+        "source_bounds": {
+          "min": [
+            -0.8095131516456604,
+            -1.220656394958496,
+            -0.30427083373069763
+          ],
+          "max": [
+            0.8095131516456604,
+            1.1744498014450073,
+            0.3604845702648163
+          ]
+        },
+        "proxy_method": "Vertex clustering, 260 cells along longest dimension; inspection proxy, not production retopology",
+        "source_dimensions_cm_label_is_historical_error": true
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "stature/source comparison only; original pelvic/face defects rejected",
+      "decoded_coordinate_unit_kind": "normalized_reference_H"
+    },
+    {
+      "id": "N0000",
+      "label": "Complete native working body \u00b7 frame 0000",
+      "geometry": {
+        "positions": {
+          "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0000.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "ad055ae745bc884146420dfe872e279100de7a538da85be9f12fc2a590590aad",
+          "decoded_bytes": 1462812,
+          "reader": "legacy retained asset map"
+        },
+        "triangles": {
+          "route": "houdini/pelvic-repair/implicit-repaired-triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+          "decoded_bytes": 3028044,
+          "reader": "legacy retained asset map"
+        }
+      },
+      "role": "full working-body native cache; cage schedule is artist initialization",
+      "coordinates": "normalized inspection/source-proxy coordinates, approximately H=1; runtime adapter renormalizes referenced stature to exact canonical H=1",
+      "source": {
+        "source_frame": 0,
+        "all_27_frames_retained": true
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "native cache retained exactly; not fitted tissue-volume ground truth",
+      "source_to_canonical_rest": {
+        "matrix_row_major": [
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          -0.0002037675152976332,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "source_referenced_foot_y": 0.0002035291399806738,
+        "source_referenced_stature": 0.9988301603589207,
+        "canonical_stature": 1,
+        "scope": "Same height adapter as the current app; not donor registration or physical-unit calibration"
+      },
+      "canonical_to_original_stature_units": {
+        "matrix_row_major": [
+          2.3951061964035034,
+          0,
+          0,
+          0,
+          0,
+          2.3951061964035034,
+          0,
+          -1.220656394958496,
+          0,
+          0,
+          2.3951061964035034,
+          0.028106868267059326,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "Export stature/origin convention; original dense geometry is not recovered from the proxy"
+      },
+      "decoded_coordinate_unit_kind": "normalized_reference_H"
+    },
+    {
+      "id": "N0010",
+      "label": "Complete native working body \u00b7 frame 0010",
+      "geometry": {
+        "positions": {
+          "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0010.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "7bd30acb9acbc8a973e3fba74ce380657d5970f85e50d8b63fb89429f707c282",
+          "decoded_bytes": 1462812,
+          "reader": "legacy retained asset map"
+        },
+        "triangles": {
+          "route": "houdini/pelvic-repair/implicit-repaired-triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+          "decoded_bytes": 3028044,
+          "reader": "legacy retained asset map"
+        }
+      },
+      "role": "full working-body native cache; cage schedule is artist initialization",
+      "coordinates": "normalized inspection/source-proxy coordinates, approximately H=1; runtime adapter renormalizes referenced stature to exact canonical H=1",
+      "source": {
+        "source_frame": 10,
+        "all_27_frames_retained": true
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "native cache retained exactly; not fitted tissue-volume ground truth",
+      "source_to_canonical_rest": {
+        "matrix_row_major": [
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          -0.0002037675152976332,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "source_referenced_foot_y": 0.0002035291399806738,
+        "source_referenced_stature": 0.9988301603589207,
+        "canonical_stature": 1,
+        "scope": "Same height adapter as the current app; not donor registration or physical-unit calibration"
+      },
+      "canonical_to_original_stature_units": {
+        "matrix_row_major": [
+          2.3951061964035034,
+          0,
+          0,
+          0,
+          0,
+          2.3951061964035034,
+          0,
+          -1.220656394958496,
+          0,
+          0,
+          2.3951061964035034,
+          0.028106868267059326,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "Export stature/origin convention; original dense geometry is not recovered from the proxy"
+      },
+      "decoded_coordinate_unit_kind": "normalized_reference_H"
+    },
+    {
+      "id": "N0018",
+      "label": "Complete native working body \u00b7 frame 0018",
+      "geometry": {
+        "positions": {
+          "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0018.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "c266c44ad58a8124d40149c8d9e5ead57e9a434f2c063002fac016037d521e25",
+          "decoded_bytes": 1462812,
+          "reader": "legacy retained asset map"
+        },
+        "triangles": {
+          "route": "houdini/pelvic-repair/implicit-repaired-triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+          "decoded_bytes": 3028044,
+          "reader": "legacy retained asset map"
+        }
+      },
+      "role": "full working-body native cache; cage schedule is artist initialization",
+      "coordinates": "normalized inspection/source-proxy coordinates, approximately H=1; runtime adapter renormalizes referenced stature to exact canonical H=1",
+      "source": {
+        "source_frame": 18,
+        "all_27_frames_retained": true
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "native cache retained exactly; not fitted tissue-volume ground truth",
+      "source_to_canonical_rest": {
+        "matrix_row_major": [
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          -0.0002037675152976332,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "source_referenced_foot_y": 0.0002035291399806738,
+        "source_referenced_stature": 0.9988301603589207,
+        "canonical_stature": 1,
+        "scope": "Same height adapter as the current app; not donor registration or physical-unit calibration"
+      },
+      "canonical_to_original_stature_units": {
+        "matrix_row_major": [
+          2.3951061964035034,
+          0,
+          0,
+          0,
+          0,
+          2.3951061964035034,
+          0,
+          -1.220656394958496,
+          0,
+          0,
+          2.3951061964035034,
+          0.028106868267059326,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "Export stature/origin convention; original dense geometry is not recovered from the proxy"
+      },
+      "decoded_coordinate_unit_kind": "normalized_reference_H"
+    },
+    {
+      "id": "N0026",
+      "label": "Complete native working body \u00b7 frame 0026",
+      "geometry": {
+        "positions": {
+          "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0026.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "0a02f1d0c78570afd2e0d5dc808b05e0adcf5267a5abd5139bafc0a62b991554",
+          "decoded_bytes": 1462812,
+          "reader": "legacy retained asset map"
+        },
+        "triangles": {
+          "route": "houdini/pelvic-repair/implicit-repaired-triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+          "decoded_bytes": 3028044,
+          "reader": "legacy retained asset map"
+        }
+      },
+      "role": "full working-body native cache; cage schedule is artist initialization",
+      "coordinates": "normalized inspection/source-proxy coordinates, approximately H=1; runtime adapter renormalizes referenced stature to exact canonical H=1",
+      "source": {
+        "source_frame": 26,
+        "all_27_frames_retained": true
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "native cache retained exactly; not fitted tissue-volume ground truth",
+      "source_to_canonical_rest": {
+        "matrix_row_major": [
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          -0.0002037675152976332,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "source_referenced_foot_y": 0.0002035291399806738,
+        "source_referenced_stature": 0.9988301603589207,
+        "canonical_stature": 1,
+        "scope": "Same height adapter as the current app; not donor registration or physical-unit calibration"
+      },
+      "canonical_to_original_stature_units": {
+        "matrix_row_major": [
+          2.3951061964035034,
+          0,
+          0,
+          0,
+          0,
+          2.3951061964035034,
+          0,
+          -1.220656394958496,
+          0,
+          0,
+          2.3951061964035034,
+          0.028106868267059326,
+          0,
+          0,
+          0,
+          1
+        ],
+        "scope": "Export stature/origin convention; original dense geometry is not recovered from the proxy"
+      },
+      "decoded_coordinate_unit_kind": "normalized_reference_H"
+    },
+    {
+      "id": "D0000",
+      "label": "Earlier frame donor frame_0000",
+      "geometry": {
+        "positions": {
+          "route": "measurements/five-frame-20261013/frame_0000/preview-positions.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "1f4e86901d1648f56a250e78478b5dd09a85bcc232f1a937ef756a9511e196fa",
+          "decoded_bytes": 958824,
+          "reader": "legacy retained asset map"
+        },
+        "triangles": {
+          "route": "measurements/five-frame-20261013/frame_0000/preview-triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "25e4e67a5d4a0fa9066c3a9d4b9e76c10325254940350884c8254754cc6a6c34",
+          "decoded_bytes": 2136888,
+          "reader": "legacy retained asset map"
+        }
+      },
+      "role": "whole-asset vertex-cluster inspection proxy from earlier frame donor; not complete original source resolution",
+      "coordinates": "donor source coordinates; registration incomplete",
+      "source": {
+        "assessment": "measurements/five-frame-20261013/sequence-assessment.json",
+        "source_frame": 0
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "unregistered regional donor",
+      "decoded_coordinate_unit_kind": "unregistered_asset_units"
+    },
+    {
+      "id": "D0010",
+      "label": "Earlier frame donor frame_0010",
+      "geometry": {
+        "positions": {
+          "route": "measurements/five-frame-20261013/frame_0010/preview-positions.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "76a1ecce6c313148d200932f9197655eead4cb71fada8a72b4a05a97867bfde2",
+          "decoded_bytes": 1042968,
+          "reader": "legacy retained asset map"
+        },
+        "triangles": {
+          "route": "measurements/five-frame-20261013/frame_0010/preview-triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "124b9a3059a56d2ad2d81840f882c4ab2c5b7cba4d3e5a13592bc70f47963389",
+          "decoded_bytes": 2319576,
+          "reader": "legacy retained asset map"
+        }
+      },
+      "role": "whole-asset vertex-cluster inspection proxy from earlier frame donor; not complete original source resolution",
+      "coordinates": "donor source coordinates; registration incomplete",
+      "source": {
+        "assessment": "measurements/five-frame-20261013/sequence-assessment.json",
+        "source_frame": 10
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "unregistered regional donor",
+      "decoded_coordinate_unit_kind": "unregistered_asset_units"
+    },
+    {
+      "id": "D0018",
+      "label": "Earlier frame donor frame_0018",
+      "geometry": {
+        "positions": {
+          "route": "measurements/five-frame-20261013/frame_0018/preview-positions.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "093ea0bdb40bd77e17545269a5615bf96b9fe69268acc90375553488f05057e7",
+          "decoded_bytes": 749964,
+          "reader": "legacy retained asset map"
+        },
+        "triangles": {
+          "route": "measurements/five-frame-20261013/frame_0018/preview-triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "a6cc6cdd10a906e3d090fc803d7604fc9e31f1cb82b1a7e31e8a26d0d63468c8",
+          "decoded_bytes": 1545408,
+          "reader": "legacy retained asset map"
+        }
+      },
+      "role": "whole-asset vertex-cluster inspection proxy from earlier frame donor; not complete original source resolution",
+      "coordinates": "donor source coordinates; registration incomplete",
+      "source": {
+        "assessment": "measurements/five-frame-20261013/sequence-assessment.json",
+        "source_frame": 18
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "unregistered regional donor",
+      "decoded_coordinate_unit_kind": "unregistered_asset_units"
+    },
+    {
+      "id": "D0026",
+      "label": "Earlier frame donor frame_0026",
+      "geometry": {
+        "positions": {
+          "route": "measurements/five-frame-20261013/frame_0026/preview-positions.bin",
+          "dtype": "float32-le",
+          "decoded_sha256": "cf9b785a69f3773e0d7ad65bb92871b09151ff2d646467546f9e7aa0c327e039",
+          "decoded_bytes": 631584,
+          "reader": "legacy retained asset map"
+        },
+        "triangles": {
+          "route": "measurements/five-frame-20261013/frame_0026/preview-triangles.bin",
+          "dtype": "uint32-le",
+          "decoded_sha256": "32948ef4759ac66cf85f575cb8976eab7e757eb2b76d73ffcc03c8c7a4a8b2d3",
+          "decoded_bytes": 1298484,
+          "reader": "legacy retained asset map"
+        }
+      },
+      "role": "whole-asset vertex-cluster inspection proxy from earlier frame donor; not complete original source resolution",
+      "coordinates": "donor source coordinates; registration incomplete",
+      "source": {
+        "assessment": "measurements/five-frame-20261013/sequence-assessment.json",
+        "source_frame": 26
+      },
+      "registration": null,
+      "semantic_body_regions": null,
+      "physical_unit_calibration": null,
+      "anatomical_volume": null,
+      "acceptance": "unregistered regional donor",
+      "decoded_coordinate_unit_kind": "unregistered_asset_units"
+    }
+  ],
+  "reader": "tools/argon_model_bridge.py",
+  "original_dense_template_local_only": true,
+  "exact_mesh_correspondence_established": false,
+  "coordinate_warning": "Whole-asset bounds are not anatomical dimensions. New FBX transforms are not applied. The original T00 proxy is lossy; R05/R06 are complete geometry.",
+  "delivered_capabilities": [
+    "model registry and source-role bridge",
+    "complete R01\u2013R06 geometry buffers",
+    "bit-exact decode and checksum checks",
+    "complete current working body and exact native growth caches",
+    "original dense template inspection proxy and provenance",
+    "OBJ export",
+    "whole-retained-representation bounds/area and optional triangle-plane sections"
+  ],
+  "pending_capabilities": [
+    "reviewed semantic regions",
+    "landmark and pose registration",
+    "camera calibration",
+    "cross-model anatomical correspondence",
+    "whole-body surface attachment/retopology",
+    "validated physical inflation/contact/rig",
+    "artist-approved full-body likeness"
+  ]
+}

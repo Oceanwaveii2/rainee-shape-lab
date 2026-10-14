@@ -1,0 +1,219 @@
+{
+  "schema": "rainee-exact-native-xor-repack-v1",
+  "saved_storage_bytes": 650444,
+  "repacked_routes": 30,
+  "routes": [
+    {
+      "route": "houdini/body-figurine-native.bin",
+      "previous_storage": "data/blobs/a9515998bf65d9e6dea3160666d7004126c3bf9017af9fcadf29cc5881c075b0.gz",
+      "previous_bytes": 347150,
+      "stored_bytes": 300733,
+      "decoded_sha256": "f82fbb2c1c4cbfb6fb96eaa5dde27155015f3100d23878857b2d20114b6e1537"
+    },
+    {
+      "route": "research/rear-rounding/native-study/body-native-flow-1.5x.bin",
+      "previous_storage": "data/blobs/9fa418b8bc35989d7cadbf6ed6a3b84db87599c127ed7972713a8e6fca187ec2.gz",
+      "previous_bytes": 351840,
+      "stored_bytes": 329616,
+      "decoded_sha256": "7bd30acb9acbc8a973e3fba74ce380657d5970f85e50d8b63fb89429f707c282"
+    },
+    {
+      "route": "research/rear-rounding/native-study/body-native-flow-2.5x.bin",
+      "previous_storage": "data/blobs/5ac12f9a78c4669db3fa00259d3735c149e1c517c433aa054571fe9c2e28e487.gz",
+      "previous_bytes": 358514,
+      "stored_bytes": 345447,
+      "decoded_sha256": "0a02f1d0c78570afd2e0d5dc808b05e0adcf5267a5abd5139bafc0a62b991554"
+    },
+    {
+      "route": "research/rear-rounding/native-study/body-native-flow-2x.bin",
+      "previous_storage": "data/blobs/c7ba3badcc3c7ada0b63e2b63892e070bc647551114e080453de660331c1ed7f.gz",
+      "previous_bytes": 357350,
+      "stored_bytes": 341100,
+      "decoded_sha256": "c266c44ad58a8124d40149c8d9e5ead57e9a434f2c063002fac016037d521e25"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0001.bin",
+      "previous_storage": "data/blobs/6ef946a145b121e849b5d937cf2be7a3781d01be2056dab0eb3ad7854ab1f5b8.gz",
+      "previous_bytes": 348056,
+      "stored_bytes": 291523,
+      "decoded_sha256": "58a4020b257d4642b1d16cb8f866495f14842cfb1f0e8bbbc72324dc214ca1b5"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0002.bin",
+      "previous_storage": "data/blobs/05fc312bcbd544fc8086918ed6fcd80f0b1608ea2fe17b06bfacbdb0fb87e2b9.gz",
+      "previous_bytes": 348660,
+      "stored_bytes": 303260,
+      "decoded_sha256": "a48f7d3f41817e2e23e4a22979d56de5d7150f3554efdb16ec93602529aea43c"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0003.bin",
+      "previous_storage": "data/blobs/54e1250aea6c24e98c64f0f16b1bdf0e408acc47a8e856ff22958343fb8c54d9.gz",
+      "previous_bytes": 349151,
+      "stored_bytes": 309174,
+      "decoded_sha256": "2df876503712aa55ab45c359bd989b16a8a0183df51c2a030a24ec98aea57367"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0004.bin",
+      "previous_storage": "data/blobs/e7198d6109feb682070b942af1f9cbad39f4741ba2c5041359b44b3431466600.gz",
+      "previous_bytes": 349631,
+      "stored_bytes": 313908,
+      "decoded_sha256": "f16b3b849b76ad11dc04ee62e05e790297746f051f81a8b0cb17e6825b7e2293"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0005.bin",
+      "previous_storage": "data/blobs/c8cd668613f505afcb73d0fa3c8dec574abb78e23557aebd8b6b68ea3caefcd2.gz",
+      "previous_bytes": 350147,
+      "stored_bytes": 316756,
+      "decoded_sha256": "d07ac25a270e13d0e50b26bcbf46a24673bbdf19b2ed7cc0ed05efb294aeb9e1"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0006.bin",
+      "previous_storage": "data/blobs/4789bd9401305359cefcf3f95881132fbef67607d2d1888d46a20abdf80a0497.gz",
+      "previous_bytes": 350465,
+      "stored_bytes": 320007,
+      "decoded_sha256": "5924aff22184302e4f420f5497fc1f9b4f0f5a16c2aed77b6a416e94e611e552"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0007.bin",
+      "previous_storage": "data/blobs/2cc8542e9d9e72780f2258be0b0be3526b8e391f35c19845a3769b101b25545c.gz",
+      "previous_bytes": 350805,
+      "stored_bytes": 322872,
+      "decoded_sha256": "2ccee3908998a66cd03477bfd4350fd458fd9e91a778c9c10cb5c33e747826f2"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0008.bin",
+      "previous_storage": "data/blobs/baac4c011bde9fd6888795433e03f72694658c284e87fe89b4b076de938154d2.gz",
+      "previous_bytes": 351142,
+      "stored_bytes": 325631,
+      "decoded_sha256": "c9712b86eaa4ef3988c4d01e85f74c76ea346edaf398273bfb58b08e6a9c2d1c"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0009.bin",
+      "previous_storage": "data/blobs/9aa99970ee33b10a86e7bdf60442c85b3001aa7a4399ce2d321ef2856364a072.gz",
+      "previous_bytes": 351433,
+      "stored_bytes": 327832,
+      "decoded_sha256": "efe0ecbb8ee32368a0607c7017edd882cfc27754c24bdb8f3edc0eabf2f4f370"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0010.bin",
+      "previous_storage": "data/blobs/9fa418b8bc35989d7cadbf6ed6a3b84db87599c127ed7972713a8e6fca187ec2.gz",
+      "previous_bytes": 351840,
+      "stored_bytes": 329616,
+      "decoded_sha256": "7bd30acb9acbc8a973e3fba74ce380657d5970f85e50d8b63fb89429f707c282"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0011.bin",
+      "previous_storage": "data/blobs/a0df230c2e98c1d87acc9c9d986f848315c71609d722e03bfda67276803d03fc.gz",
+      "previous_bytes": 352576,
+      "stored_bytes": 331455,
+      "decoded_sha256": "b726c25053607ac091ff10c27e289ec270e775fda483fa04f940fa4b655c9725"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0012.bin",
+      "previous_storage": "data/blobs/e358866a7d82efe33069cea404f116a86b959bd7682d43dac3f5324c1f0693b7.gz",
+      "previous_bytes": 353353,
+      "stored_bytes": 332608,
+      "decoded_sha256": "03c73a3ec12bb6090e435844e903bbbacae25a59c34ef69441cab1a71b50190c"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0013.bin",
+      "previous_storage": "data/blobs/a9dc65a3a9e1f703ca2713c5884158acab587fd5a1c4ee586fe036f95cadca6c.gz",
+      "previous_bytes": 354162,
+      "stored_bytes": 334447,
+      "decoded_sha256": "00c44001e4fcf8d8805ed98edc65586aa1f1ff2bb1727aa6b200f5080aa2edac"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0014.bin",
+      "previous_storage": "data/blobs/b1aa3a3fd344928c1953ddaf48388fc068f2ec3f2bdd9611a3efa28c65d3e17c.gz",
+      "previous_bytes": 355010,
+      "stored_bytes": 336015,
+      "decoded_sha256": "d521c2d8e7b7401cf2f40e9db9d5d84ad147cc3a2d417a9c9005bb67d4c7e0c8"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0015.bin",
+      "previous_storage": "data/blobs/2e38eeda2286b50cf60bbdd7496500137197306dac1ca621532bb058500a2b2d.gz",
+      "previous_bytes": 355915,
+      "stored_bytes": 337840,
+      "decoded_sha256": "89116dff40b16c9120c44787a2e626b55481077e22edad6d3768dda246557116"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0016.bin",
+      "previous_storage": "data/blobs/dad8e9429c7f30e3280da906977254b1e7b9df07ac9d4c3c644f925ab20785b4.gz",
+      "previous_bytes": 356549,
+      "stored_bytes": 338996,
+      "decoded_sha256": "e2b4290392e9018231d89fd0d168ea723c19254ee74bcb99f33be18ba99db8e7"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0017.bin",
+      "previous_storage": "data/blobs/b13083c344fcab2143ceed79400c98b13996021fba1cc39674018da4c7cd336f.gz",
+      "previous_bytes": 357061,
+      "stored_bytes": 340207,
+      "decoded_sha256": "637521b798c061aadd45858bd41d0f65b8c262d766aef4626e0dc804f7833f2c"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0018.bin",
+      "previous_storage": "data/blobs/c7ba3badcc3c7ada0b63e2b63892e070bc647551114e080453de660331c1ed7f.gz",
+      "previous_bytes": 357350,
+      "stored_bytes": 341100,
+      "decoded_sha256": "c266c44ad58a8124d40149c8d9e5ead57e9a434f2c063002fac016037d521e25"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0019.bin",
+      "previous_storage": "data/blobs/54fe9ff62368824c62ea5ad0bc7e545bb792eef8048e216f4cb5372f910754e3.gz",
+      "previous_bytes": 357708,
+      "stored_bytes": 341871,
+      "decoded_sha256": "5cf982513cdbb600bbf98bc4ee6bc7dcfc6497a1c5cfa34b14948176eb21e091"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0020.bin",
+      "previous_storage": "data/blobs/be460c4b8a8e0a7d1d797fb6d77111282ee74a8d7ac88d7ad628e2471021e752.gz",
+      "previous_bytes": 357787,
+      "stored_bytes": 342611,
+      "decoded_sha256": "80209008bca379e2b86509c8b9ee78b5c83e344a075ca91871d859880bb0323b"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0021.bin",
+      "previous_storage": "data/blobs/97ca188872b3f2ab97e1e56ae23a94b78ef3d8e186c99be734887bb3e9381b85.gz",
+      "previous_bytes": 357895,
+      "stored_bytes": 343079,
+      "decoded_sha256": "0ce63a24c543619a44345363ad5298639349702372461bf4536d591802091110"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0022.bin",
+      "previous_storage": "data/blobs/305559e7c9a993521a0efebff62854d42ab875763e652a59c785f4d3536d3737.gz",
+      "previous_bytes": 358021,
+      "stored_bytes": 343709,
+      "decoded_sha256": "fc93f1a917501c032eafd593130fb52a5d9e6220dc0617f855b490a3754f5118"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0023.bin",
+      "previous_storage": "data/blobs/0457b7fdbb9c2aeb2c96194725dde0ac78600232c9f281707397be1ad6234bdc.gz",
+      "previous_bytes": 357987,
+      "stored_bytes": 344114,
+      "decoded_sha256": "13db3532a4ed1f4d4277cbc28a3b08e9249613fbbfc06f9fe7ea2f7d2ce4b68d"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0024.bin",
+      "previous_storage": "data/blobs/dda25a87284db2555f9c57e5a25fb4ed5aa4608b0187e97ad3d7177f861ccfe4.gz",
+      "previous_bytes": 358152,
+      "stored_bytes": 344619,
+      "decoded_sha256": "bbe503620cdc28866a0da00b535fcbd8e324b81331509b123b38e913cded194c"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0025.bin",
+      "previous_storage": "data/blobs/d116c079cd8a082863bbe8209533222b56f4bbe5bb8f77becb7bb291b0d1d122.gz",
+      "previous_bytes": 358404,
+      "stored_bytes": 345050,
+      "decoded_sha256": "5cbc4b161537a3a27bc2d1f440957fb4721b170ea5e60dd013b48c5a424842d6"
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0026.bin",
+      "previous_storage": "data/blobs/5ac12f9a78c4669db3fa00259d3735c149e1c517c433aa054571fe9c2e28e487.gz",
+      "previous_bytes": 358514,
+      "stored_bytes": 345447,
+      "decoded_sha256": "0a02f1d0c78570afd2e0d5dc808b05e0adcf5267a5abd5139bafc0a62b991554"
+    }
+  ],
+  "point_bits_unchanged": true,
+  "method": "RSP1 point payload stores uint32 XOR against declared baseline; sign/exponent/mantissa bits preserved"
+}

@@ -1,0 +1,154 @@
+{
+  "schema": "rainee-body-coordinate-adapters-v1",
+  "height_anchor_original_source_units": 2.3951061964035034,
+  "physical_units": null,
+  "critical_rule": "C00/N buffers are already source-proxy normalized. Do not divide them by 2.395 a second time. Use their explicit runtime adapter; R05/R06 remain separate unregistered asset coordinates.",
+  "working_frames": [
+    {
+      "model": "C00-working-body",
+      "raw_referenced_stature": 0.9988301603589207,
+      "raw_foot_y": 0.0002035291399806738,
+      "source_to_canonical_rest": {
+        "matrix_row_major": [
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          -0.0002037675152976332,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "source_referenced_foot_y": 0.0002035291399806738,
+        "source_referenced_stature": 0.9988301603589207,
+        "canonical_stature": 1,
+        "scope": "Same height adapter as the current app; not donor registration or physical-unit calibration"
+      }
+    },
+    {
+      "model": "N0000",
+      "raw_referenced_stature": 0.9988301603589207,
+      "raw_foot_y": 0.0002035291399806738,
+      "source_to_canonical_rest": {
+        "matrix_row_major": [
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          -0.0002037675152976332,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "source_referenced_foot_y": 0.0002035291399806738,
+        "source_referenced_stature": 0.9988301603589207,
+        "canonical_stature": 1,
+        "scope": "Same height adapter as the current app; not donor registration or physical-unit calibration"
+      }
+    },
+    {
+      "model": "N0010",
+      "raw_referenced_stature": 0.9988301603589207,
+      "raw_foot_y": 0.0002035291399806738,
+      "source_to_canonical_rest": {
+        "matrix_row_major": [
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          -0.0002037675152976332,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "source_referenced_foot_y": 0.0002035291399806738,
+        "source_referenced_stature": 0.9988301603589207,
+        "canonical_stature": 1,
+        "scope": "Same height adapter as the current app; not donor registration or physical-unit calibration"
+      }
+    },
+    {
+      "model": "N0018",
+      "raw_referenced_stature": 0.9988301603589207,
+      "raw_foot_y": 0.0002035291399806738,
+      "source_to_canonical_rest": {
+        "matrix_row_major": [
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          -0.0002037675152976332,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "source_referenced_foot_y": 0.0002035291399806738,
+        "source_referenced_stature": 0.9988301603589207,
+        "canonical_stature": 1,
+        "scope": "Same height adapter as the current app; not donor registration or physical-unit calibration"
+      }
+    },
+    {
+      "model": "N0026",
+      "raw_referenced_stature": 0.9988301603589207,
+      "raw_foot_y": 0.0002035291399806738,
+      "source_to_canonical_rest": {
+        "matrix_row_major": [
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          -0.0002037675152976332,
+          0,
+          0,
+          1.0011712097686947,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "source_referenced_foot_y": 0.0002035291399806738,
+        "source_referenced_stature": 0.9988301603589207,
+        "canonical_stature": 1,
+        "scope": "Same height adapter as the current app; not donor registration or physical-unit calibration"
+      }
+    }
+  ],
+  "original_dense_stays_local": true
+}

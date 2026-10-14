@@ -172,3 +172,88 @@ export function rankNextViews(candidates,cameras,{predictor=orthographicEllipsoi
     scope:'Candidate-family geometric disagreement heuristic; not guaranteed information gain',
     prerequisites:'Comparable useful framing, visibility and a consistent shape state; review poses/occlusions before requesting a view'};
 }
+
+/** Unwarp apparent 2D perspective rear-to-waist width ratio to true 3D orthographic ratio (CharacterGen / 2D-to-3D FOV correction) */
+export function unwarpPerspectiveRearToWaistRatio(apparent2DRatio,{fovYDegrees=40,framedHeightFraction=.55,rearProjectionZ=.21,waistDepthZ=-.03}={}) {
+  if(!(fovYDegrees>1&&fovYDegrees<170)||!Number.isFinite(apparent2DRatio)||apparent2DRatio<=0)throw new RangeError('Valid positive 2D ratio and perspective FOV required');
+  const dCam=framedHeightFraction/Math.tan(fovYDegrees*Math.PI/360);
+  const dRear=dCam-rearProjectionZ,dWaist=dCam-waistDepthZ;
+  if(!(dRear>.05&&dWaist>.05))throw new RangeError('Camera distance too close to surface');
+  const magnificationFactor=dWaist/dRear;
+  return {
+    true3DRatio:apparent2DRatio/magnificationFactor,
+    apparent2DRatio,
+    perspectiveMagnificationFactor:magnificationFactor,
+    cameraDistanceH:dCam,
+    horizonTangentShiftH:-(.105*.105)/dRear,
+    scope:'Closed-form perspective depth-foreshortening correction; maps 2D perspective rear/waist ratio to canonical orthographic H=1 ratio'
+  };
+}
+
+/** 'Jessica Rabbit / Anime' View-Dependent 3/4 Silhouette Modifier (render/projection only; never mutates canonical mesh) */
+export function applyViewDependentSilhouetteOffset(point,cameraYawRadians,{cleftX=.0122,farLobeBoost=.022,cleftDepthLock=.018}={}) {
+  vector3(point,'point');
+  if(!Number.isFinite(cameraYawRadians))throw new RangeError('Finite camera yaw radians required');
+  const [x,y,z]=point;
+  const absYaw=Math.min(Math.abs(cameraYawRadians),Math.PI/2);
+  const weight34=Math.sin(2*absYaw);
+  if(weight34<1e-5||y<.49||y>.72||z>.015)return [x,y,z];
+  const s=(a,b,v)=>{const t=Math.max(0,Math.min(1,(v-a)/(b-a)));return t*t*(3-2*t)};
+  const maskY=s(.49,.55,y)*(1-s(.66,.72,y))*(1-s(-.04,.015,z));
+  const yawSign=cameraYawRadians>=0?1:-1;
+  const dx=x-cleftX;
+  const isFarLobe=dx*yawSign>0;
+  const farBoost=isFarLobe?farLobeBoost*s(.02,.12,Math.abs(dx)):0;
+  const cleftPull=cleftDepthLock*(1-s(0,.035,Math.abs(dx)));
+  return [x+yawSign*weight34*maskY*farBoost*Math.cos(absYaw),y,z-weight34*maskY*cleftPull];
+}
+
+/** Compute Automotive Class-A Curvature Comb spikes along a 2D cross-section segment list */
+export function computeCurvatureComb2D(segments,{cleftX=.0122,combScale=.0022,samplesPerLobe=48}={}) {
+  if(!Array.isArray(segments)||!segments.length)return {left:[],right:[],cleftX};
+  const pts=[];
+  for(const [a,b]of segments){
+    if(a[2]<0.01)pts.push([a[0],a[2]]);
+    if(b[2]<0.01)pts.push([b[0],b[2]]);
+  }
+  if(pts.length<12)return {left:[],right:[],cleftX};
+  function fitLobeComb(lobePts){
+    if(lobePts.length<8)return [];
+    lobePts.sort((p,q)=>p[0]-q[0]);
+    // Bin into 24 x-buckets taking outer posterior envelope (minimum z)
+    const xmin=lobePts[0][0],xmax=lobePts.at(-1)[0];
+    if(xmax-xmin<.025)return [];
+    const bins=20,bx=[],bz=[];
+    for(let i=0;i<bins;i++){
+      const x0=xmin+(xmax-xmin)*(i/(bins-1)),tol=(xmax-xmin)/(bins*1.1);
+      const sub=lobePts.filter(p=>Math.abs(p[0]-x0)<=tol);
+      if(sub.length){bx.push(x0);bz.push(Math.min(...sub.map(p=>p[1])));}
+    }
+    if(bx.length<6)return [];
+    // Smooth 3-point moving average twice for C2 finite-difference curvature
+    let sz=[...bz];
+    for(let pass=0;pass<3;pass++){
+      const next=[...sz];
+      for(let i=1;i<sz.length-1;i++)next[i]=.25*sz[i-1]+.5*sz[i]+.25*sz[i+1];
+      sz=next;
+    }
+    const comb=[];
+    for(let i=1;i<bx.length-1;i++){
+      const dx=(bx[i+1]-bx[i-1])/2,dz=(sz[i+1]-sz[i-1])/2;
+      const ddx=bx[i+1]-2*bx[i]+bx[i-1],ddz=sz[i+1]-2*sz[i]+sz[i-1];
+      const ds=Math.hypot(dx,dz);if(ds<1e-7)continue;
+      const kappa=Math.abs(dx*ddz-dz*ddx)/Math.pow(ds,3);
+      // Outward normal pointing toward posterior (-Z)
+      let nx=-dz/ds,nz=dx/ds;
+      if(nz>0){nx=-nx;nz=-nz;}
+      const len=Math.min(.045,combScale*kappa);
+      comb.push({base:[bx[i],sz[i]],tip:[bx[i]+nx*len,sz[i]+nz*len],curvature:kappa});
+    }
+    return comb;
+  }
+  return {
+    left:fitLobeComb(pts.filter(p=>p[0]<=cleftX-.002&&p[0]>=-.21)),
+    right:fitLobeComb(pts.filter(p=>p[0]>=cleftX+.002&&p[0]<=.21)),
+    cleftX
+  };
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "rainee-preview-compaction-v1",
+  "records": [
+    {
+      "file": "measurements/canonical-20261014/videos/V01/review.mp4",
+      "previous_bytes": 270071,
+      "bytes": 144076,
+      "sha256": "a7475046276e7d31cc0cb7568dba5734eec82fb69b1c5b63c10d651df1295b0e",
+      "source_sha256": "cc92b5f9f963e0d9dbd683a283aeb9090730676a9c3ec00353f9386b3448d970"
+    },
+    {
+      "file": "measurements/canonical-20261014/videos/V02/review.mp4",
+      "previous_bytes": 248871,
+      "bytes": 140857,
+      "sha256": "bf58a4288f2fd5586a16555b7ae4e770a7d0c973aa6e43829e26e040e02a71ee",
+      "source_sha256": "570d0c93bf1b3abd5385d405ce7ae21a6f37cd4e04973e569f732fd89c0afa4b"
+    },
+    {
+      "file": "measurements/canonical-20261014/videos/V03/review.mp4",
+      "previous_bytes": 238971,
+      "bytes": 136595,
+      "sha256": "abb6e077da807b303fae48120b74199a899e4b138d1afa01b6db449369b73318",
+      "source_sha256": "a62be9d18ac970d9d1261333d705467e49938d22c7ddd68687916510c357faa8"
+    },
+    {
+      "file": "measurements/canonical-20261014/videos/V04/review.mp4",
+      "previous_bytes": 267711,
+      "bytes": 147336,
+      "sha256": "f1b619d2a76cf1ca37251ef69142823a413aaea77b5cbc85cde8d4a542b7b9e4",
+      "source_sha256": "95dcd0c7aa9c5862136b74e81350a19b6e89880348c6f935304f5ac578821dcb"
+    },
+    {
+      "file": "measurements/canonical-20261014/videos/V05/review.mp4",
+      "previous_bytes": 232161,
+      "bytes": 132036,
+      "sha256": "63eb7593618fab3ae97829f547860dc9c104fbb8c6498a810de13e74827e79ef",
+      "source_sha256": "2dffc703359370700985634d0fc049624a585488f7953b33bb113a4f37207fba"
+    },
+    {
+      "file": "measurements/canonical-20261014/videos/V06/review.mp4",
+      "previous_bytes": 231678,
+      "bytes": 125321,
+      "sha256": "52e5a087e78c8a6474952cf6d3efbb22161352c25b965a95daea01d82912997e",
+      "source_sha256": "27e0932f5126c76223747e5bb237d5f7a02433ee88f0cbfcfae2a840334a6ed2"
+    },
+    {
+      "file": "measurements/canonical-20261014/videos/V07/review.mp4",
+      "previous_bytes": 253320,
+      "bytes": 140256,
+      "sha256": "1ab1d04a0f6489d5859c69b70e31f918cf710d84519d870ada66c9d37194bc3a",
+      "source_sha256": "65cb5518afc09b0485ed4e7606743be8ab96cf8fafb693cac431fbeabfd0feb7"
+    },
+    {
+      "file": "measurements/canonical-20261014/videos/V08/review.mp4",
+      "previous_bytes": 234865,
+      "bytes": 133761,
+      "sha256": "73bb8da1a9201382b2773a62a3ff63bd1c272461fb122d265e1841c9a4d2a0c1",
+      "source_sha256": "4c55421bcf9ae991b8960ab7fd5b29c47c07cd0df8be4424a6a50aee636fee7b"
+    },
+    {
+      "file": "references/secondary/front-detail.jpg",
+      "previous_bytes": 463442,
+      "bytes": 250123,
+      "sha256": "ced27a741462d6766d8072767695e9fcc0b400b25e4ea05b95fa317bb60cc8e9",
+      "previous_review_sha256": "91e372fe8124d4df307d7e71845958028e565105ad5466dd9853ea0954b2b5bb",
+      "scope": "Existing supplementary JPEG viewing derivative only; full size and uncropped; original PNG retained locally"
+    },
+    {
+      "file": "references/secondary/front-scene.jpg",
+      "previous_bytes": 503494,
+      "bytes": 330274,
+      "sha256": "0ed41a01c1835a0e0367d0a2aeaf3c07bc813aac243a3e2e11d61d3401051f0a",
+      "previous_review_sha256": "d2f0f18ae13bb60d7234535357fd8c553b10e58f20c6cdfebd58f1b627d0c57d",
+      "scope": "Existing supplementary JPEG viewing derivative only; full size and uncropped; original PNG retained locally"
+    },
+    {
+      "file": "references/secondary/rear-style.jpg",
+      "previous_bytes": 454566,
+      "bytes": 236866,
+      "sha256": "e79a70650ef9f7117d4ad90cd6dfdd05717eca0c19b4d561b7459c23accb0489",
+      "previous_review_sha256": "ceef1b0e880a133a5a11e12a86552c4375f16d2691fb4624a5c67fdc3768544e",
+      "scope": "Existing supplementary JPEG viewing derivative only; full size and uncropped; original PNG retained locally"
+    }
+  ],
+  "originals_overwritten": false,
+  "core_reference_pixels_not_modified": true
+}

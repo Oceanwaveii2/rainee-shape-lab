@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 import numpy as np
-from local_shape_constraints import fit_ellipsoid
+from local_shape_constraints import fit_ellipsoid, fit_ferrari_nurbs_patch
 
 def main():
     lat=np.linspace(.03,np.pi-.03,30);lon=np.linspace(0,2*np.pi,60,endpoint=False)
@@ -18,6 +18,9 @@ def main():
     translated=fit_ellipsoid(points*7+np.array([-3,6,2]),weights)
     assert abs(fit['axis_ratio_largest_to_smallest']-translated['axis_ratio_largest_to_smallest'])<1e-8
     assert fit['implicit_residual_rms']<1e-8
+    nurbs_fit=fit_ferrari_nurbs_patch(points,weights)
+    assert nurbs_fit['status']=='experimental_radial_nurbs_fit' and nurbs_fit['radial_residual_rms']<0.05
+    assert not nurbs_fit['class_a_certified'] and not nurbs_fit['anatomical_acceptance']
     degenerate=fit_ellipsoid(np.zeros((20,3)),np.zeros(20));assert degenerate['status']=='insufficient_nondegenerate_samples'
     result={'passed':True,'checks':['known rotated ellipsoid center and principal radii recovered',
         'dimensionless axis ratio preserved under translation and scale','degenerate surface samples rejected'],

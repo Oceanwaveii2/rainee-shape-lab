@@ -3,3 +3,4 @@ expanded/
 __pycache__/
 *.pyc
 *.log
+.rainee-upgrade-backups/

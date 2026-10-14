@@ -1,0 +1,75 @@
+{
+  "schema": "rainee-argon-consolidation-browser-verification-v1",
+  "utc": "2026-10-14T18:18:02.584580+00:00",
+  "passed": true,
+  "ports": {
+    "lean_review": 5199,
+    "full_local": 5197
+  },
+  "browser": "Codex in-app browser",
+  "studio_stage_observations": [
+    {
+      "frame": 0,
+      "volume_display_h3": 0.0084,
+      "projection": 1,
+      "lobe_width": 1
+    },
+    {
+      "frame": 10,
+      "volume_display_h3": 0.0116,
+      "projection": 1.22,
+      "lobe_width": 1.14
+    },
+    {
+      "frame": 18,
+      "volume_display_h3": 0.0147,
+      "projection": 1.38,
+      "lobe_width": 1.25
+    },
+    {
+      "frame": 26,
+      "volume_display_h3": 0.0185,
+      "projection": 1.55,
+      "lobe_width": 1.36
+    }
+  ],
+  "stage_observation_thigh_parameters": {
+    "thighFullness": 1,
+    "thighOuter": 1
+  },
+  "canonical_downloads": {
+    "paths": [
+      "C:\\Users\\User\\Downloads\\Rainee-Curvilinear-v5-Regional.obj",
+      "C:\\Users\\User\\Downloads\\Rainee-Curvilinear-v5-Regional (1).obj"
+    ],
+    "sha256": [
+      "173502e5916aaeb097d60bfbf92db67dc911cb2b7401b0bf60c79f7071673e04",
+      "173502e5916aaeb097d60bfbf92db67dc911cb2b7401b0bf60c79f7071673e04"
+    ],
+    "byte_identical": true,
+    "tested_display_boosts": [
+      0,
+      1.5
+    ],
+    "camera_changed_to_profile": true
+  },
+  "saved_lean_recipe": {
+    "path": "C:\\Users\\User\\Downloads\\Rainee-Shape-Lab-project (2).json",
+    "sha256": "325620ba942e16a882f5d9e7e7b51b734ea3d410dbdeba26c488799374373e5e",
+    "solver_engine": "argon-v5",
+    "audit_frames": 27
+  },
+  "full_local_recipe": {
+    "path": "C:\\Users\\User\\Downloads\\Rainee-Shape-Lab-project (3).json",
+    "solver_engine": "argon-v5",
+    "audit_frames": 27,
+    "thighFullness": 1.18,
+    "thighOuter": 1.22
+  },
+  "lab_reload_restored_shared_recipe": true,
+  "lab_hold_0049_uses_0026": true,
+  "new_donor_browser_hash_verified": true,
+  "studio_error_warning_logs": [],
+  "donor_error_warning_logs": [],
+  "scope": "Actual startup, stage controls, downloaded exports, saved recipes, endpoint hold and visual review. Not sustained performance, anatomy fitting, continuous contact, native Houdini generation or completed likeness."
+}
