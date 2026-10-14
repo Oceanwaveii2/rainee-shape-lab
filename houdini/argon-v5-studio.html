@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rainee · Argon curvilinear v5 consolidated studio</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --card: #1f2631;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --gold: #f2cc60;
+    --green: #3fb950;
+    --red: #ff7b72;
+    --purple: #d2a8ff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    height: 100vh; display: flex; flex-direction: column; overflow: hidden;
+  }
+  header {
+    height: 58px; padding: 0 20px; background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  }
+  header h1 { font-size: 17px; margin: 0; font-weight: 700; letter-spacing: 0.3px; }
+  header h1 span { color: var(--accent); font-weight: 500; font-size: 13px; margin-left: 8px; }
+  .badge-row { display: flex; gap: 8px; align-items: center; }
+  .badge {
+    background: #1f2937; border: 1px solid #3b4c66; color: #9ecbff;
+    padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 600;
+  }
+  main {
+    flex: 1; display: grid; grid-template-columns: 330px 1fr 370px;
+    min-height: 0;
+  }
+  aside {
+    background: var(--panel); padding: 14px 16px; overflow-y: auto;
+    border-right: 1px solid var(--border);
+  }
+  aside:last-child { border-right: none; border-left: 1px solid var(--border); }
+  h2 {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 1px;
+    color: var(--accent); margin: 16px 0 8px; padding-bottom: 4px;
+    border-bottom: 1px solid var(--border);
+  }
+  h2:first-child { margin-top: 2px; }
+  label {
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 12px; margin-top: 8px; color: var(--text);
+  }
+  output { font-variant-numeric: tabular-nums; color: var(--gold); font-weight: 600; }
+  input[type=range] { width: 100%; accent-color: var(--accent); margin: 4px 0 2px; cursor: pointer; }
+  select, button {
+    width: 100%; background: var(--card); color: var(--text);
+    border: 1px solid var(--border); padding: 7px 10px; border-radius: 6px;
+    font-size: 12px; cursor: pointer; margin-top: 5px;
+  }
+  button:hover { background: #2b3544; border-color: var(--accent); }
+  button.active { background: #1f3a5f; border-color: var(--accent); color: #fff; font-weight: 600; }
+  .btn-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; margin-top: 6px; }
+  .btn-grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 5px; margin-top: 6px; }
+  #center-col { display: flex; flex-direction: column; min-width: 0; min-height: 0; background: #090d12; }
+  #viewport-wrap { flex: 1; position: relative; min-height: 0; }
+  #gl-canvas { width: 100%; height: 100%; display: block; cursor: grab; }
+  #gl-canvas:active { cursor: grabbing; }
+  .hud-top {
+    position: absolute; top: 12px; left: 12px; right: 12px;
+    display: flex; justify-content: space-between; pointer-events: none;
+  }
+  .hud-pill {
+    pointer-events: auto; display: flex; gap: 6px; background: rgba(22, 27, 34, 0.88);
+    padding: 6px 8px; border-radius: 8px; border: 1px solid var(--border);
+  }
+  .hud-pill button { width: auto; margin: 0; padding: 5px 10px; font-size: 11.5px; }
+  .hud-bottom {
+    position: absolute; bottom: 10px; left: 14px; right: 14px;
+    background: rgba(13, 17, 23, 0.82); border: 1px solid var(--border);
+    padding: 6px 12px; border-radius: 6px; font-size: 11.5px; color: var(--muted);
+    display: flex; justify-content: space-between; pointer-events: none;
+  }
+  .metric-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+  .metric-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 6px; padding: 8px 10px;
+  }
+  .metric-card span { display: block; font-size: 10.5px; color: var(--muted); }
+  .metric-card b { font-size: 15px; color: var(--text); font-variant-numeric: tabular-nums; }
+  #section-box {
+    background: #0d1117; border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px; margin-top: 8px;
+  }
+  #section-canvas, #fov-canvas { width: 100%; height: 210px; display: block; background: #121720; border-radius: 4px; }
+  #fov-canvas { height: 155px; margin-top: 6px; }
+  .note { font-size: 11.5px; color: var(--muted); margin: 6px 0; line-height: 1.45; }
+  .check-row { display: flex; align-items: center; gap: 8px; margin-top: 7px; font-size: 12px; cursor: pointer; }
+  .check-row input { width: auto; margin: 0; }
+a{color:#a8cbff;text-decoration:none}a:hover{text-decoration:underline}
+header{flex-wrap:wrap;gap:10px;height:auto;min-height:94px}header nav{flex-basis:100%;font-size:12px}
+main{grid-template-columns:minmax(230px,280px) minmax(300px,1fr) minmax(260px,310px);height:calc(100vh - 94px)}
+aside{min-width:0;overflow-x:hidden}#center-col{min-width:0}#viewport-wrap{min-width:0}
+@media(max-width:900px){main{grid-template-columns:230px minmax(280px,1fr)}main>aside:last-child{grid-column:1/-1;height:auto}main{height:auto}#viewport-wrap{height:65vh;min-height:400px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>RAINEE SHAPE LAB v5 <span>Argon curvilinear v5 · Consolidated shape studio</span></h1>
+  <div class="badge-row">
+    <span class="badge" id="status-badge">Loading shared shape recipe…</span>
+    <span class="badge">FBX stature anchor retained</span>
+  </div>
+<nav style="margin-top:8px"><a href="lab/index.html">Measurements & full-body context</a> · <a href="authoring.html">Native growth study</a> · <a href="../measurements/canonical-20261014/review.html">3D reference workbench</a> · <a href="../measurements/new-donor-20261014/review.html">New donor</a> · <a href="../documentation/NEW_DATA_EVALUATION.md">New data evaluation</a></nav></header>
+<main>
+  <aside>
+    <h2>1. Geometry & Implicit Engine</h2>
+    <label for="engine-mode">Surface Architecture</label>
+    <select id="engine-mode">
+      <option value="v5-implicit">Argon curvilinear v5</option>
+
+    </select>
+    <div class="btn-grid-4">
+      <button data-preset="baseline" data-frame="0">1 · 0000</button>
+      <button data-preset="stage2" data-frame="10">2 · 0010</button>
+      <button data-preset="stage3" data-frame="18">3 · 0018</button>
+      <button data-preset="v5max" data-frame="26" class="active">4 · 0026</button>
+    </div>
+
+    <h2>2. Argon curvilinear controls</h2>
+    <label>Posterior Projection (-Z) <output id="out-rearProjection">1.55</output></label>
+    <input id="ctrl-rearProjection" type="range" min="0.60" max="2.10" step="0.01" value="1.55">
+
+    <label>Lateral Fender Flare (X) <output id="out-lobeWidth">1.36</output></label>
+    <input id="ctrl-lobeWidth" type="range" min="0.60" max="1.60" step="0.01" value="1.36">
+
+    <label>Upper Dorsal Launch Shelf <output id="out-upperPole">1.34</output></label>
+    <input id="ctrl-upperPole" type="range" min="0.65" max="1.40" step="0.01" value="1.34">
+
+    <label>Lower Overhang & Sub-Gluteal Tuck <output id="out-lowerPole">1.28</output></label>
+    <input id="ctrl-lowerPole" type="range" min="0.65" max="1.40" step="0.01" value="1.28">
+
+    <label>Cleft cusp hold <output id="out-cleft">0.96</output></label>
+    <input id="ctrl-cleft" type="range" min="0.00" max="1.00" step="0.01" value="0.96">
+
+    <label>Pressed-Peach Contact Bulge <output id="out-contactBulge">1.00</output></label>
+    <input id="ctrl-contactBulge" type="range" min="0.00" max="2.00" step="0.05" value="1.00">
+
+    <label>Lobe Center Separation <output id="out-separation">1.05</output></label>
+    <input id="ctrl-separation" type="range" min="0.55" max="1.45" step="0.01" value="1.05">
+
+    <h2>3. Independent Thigh & Pose Controls</h2>
+    <label>Independent Thigh Mass <output id="out-thighFullness">1.18</output></label>
+    <input id="ctrl-thighFullness" type="range" min="0.65" max="1.50" step="0.01" value="1.18">
+
+    <label>Thigh Outer Sweep <output id="out-thighOuter">1.22</output></label>
+    <input id="ctrl-thighOuter" type="range" min="0.50" max="1.50" step="0.01" value="1.22">
+
+    <label>Jessica Rabbit 3/4 Silhouette Boost <output id="out-viewCheat">0.65</output></label>
+    <input id="ctrl-viewCheat" type="range" min="0.00" max="1.50" step="0.05" value="0.65">
+
+    <label>Cross-Section Slice Height Y [H] <output id="out-sliceY">0.610</output></label>
+    <input id="ctrl-sliceY" type="range" min="0.46" max="0.69" step="0.005" value="0.610">
+
+    <div class="btn-grid">
+      <button id="btn-export-obj">Export Canonical OBJ</button>
+      <button id="btn-export-json">Export Ledger JSON</button><button id="save-recipe">Save shared project recipe</button><label>Import shared recipe<input id="recipe-file" type="file" accept=".json"></label>
+    </div>
+  </aside>
+
+  <section id="center-col">
+    <div id="viewport-wrap">
+      <canvas id="gl-canvas"></canvas>
+      <div class="hud-top">
+        <div class="hud-pill">
+          <button data-cam="back">Rear (0°)</button>
+          <button data-cam="three" class="active">Rear ¾ (38°)</button>
+          <button data-cam="side">Profile (90°)</button>
+          <button data-cam="front">Front (180°)</button>
+        </div>
+        <div class="hud-pill">
+          <button data-shader="clay">Studio Clay</button>
+          <button data-shader="zebra" class="active">Zebra diagnostics</button>
+          <button data-shader="toon">Toon preview</button>
+          <button data-shader="normals">Normal Map</button>
+        </div>
+      </div>
+      <div class="hud-bottom">
+        <span id="hud-left">Drag on canvas to orbit · Scroll to zoom · Stature Anchor H = 2.395106 FBX units</span>
+        <span id="hud-right">Regional shape · anatomy fitting pending</span>
+      </div>
+    </div>
+  </section>
+
+  <aside>
+    <p class="note">Argon v5 defines the shape direction. Stages are ordinal presets; 0026 is held during later motion. Thighs stay shared. Geometry uses the same extractor as the measurement lab. Normal stripes and this section comb are diagnostics.</p><h2>4. Live Telemetry & Volume Ledger</h2>
+    <div class="metric-grid">
+      <div class="metric-card"><span>Enclosed Union Volume</span><b id="m-vol">—</b></div>
+      <div class="metric-card"><span>Sampled section relief (ΔZ)</span><b id="m-cleft">—</b></div>
+      <div class="metric-card"><span>Sampled section width (X)</span><b id="m-width">—</b></div>
+      <div class="metric-card"><span>Sampled posterior reach (Z)</span><b id="m-depth">—</b></div>
+    </div>
+
+    <h2>5. Section & curvature estimate κ(s)</h2>
+    <div id="section-box">
+      <canvas id="section-canvas"></canvas>
+      <label class="check-row"><input type="checkbox" id="chk-comb" checked> Show curvature estimate |κ(s)|</label>
+      <label class="check-row"><input type="checkbox" id="chk-compare" checked> Overlay Melted Legacy smoothUnion (Red Dashed)</label>
+    </div>
+
+    <h2>6. Synthetic perspective example</h2>
+    <label>Illustrative camera FOV (°) <output id="out-fov">40°</output></label>
+    <input id="ctrl-fov" type="range" min="18" max="65" step="1" value="40">
+    <canvas id="fov-canvas"></canvas>
+    <p class="note" id="fov-note">At 40° FOV, perspective foreshortening magnifies the apparent 2D rear-to-waist ratio by +19.5% (2.05× 3D reads as 2.45× in 2D).</p>
+  </aside>
+</main>
+
+<script type="module">
+import {evaluateArgonV5Field,extractArgonV5Surface,ARGON_V5_STAGES} from './lab/argon-curvilinear-v5.mjs';
+import {measureAnatomyMesh,ANATOMY_DEFAULTS} from './lab/anatomy-model.mjs';
+import {createProject,templateAt,validateProject,storeTemplateStage,viewAt,previewPositions,ACCEPTED_FRAMES} from './lab/lab-state.mjs';
+const clamp=(v,a,b)=>Math.min(b,Math.max(a,v));
+const smooth=(a,b,v)=>{const t=clamp((v-a)/(b-a),0,1);return t*t*(3-2*t)};
+const shapeParams=params=>Object.fromEntries(Object.entries(params).filter(([key])=>key in ANATOMY_DEFAULTS));
+const cameraYaw=()=>((180-camYaw*180/Math.PI+180)%360+360)%360-180;
+const evaluateField=(p,params,mode)=>evaluateArgonV5Field(p,shapeParams(params),{legacyComparison:mode==='legacy-smooth'});
+let project,sourceInfo,sourceConfig,frame=26,meshKey='',meshAudit;
+function download(name,value,type='application/json'){const a=document.createElement('a'),url=URL.createObjectURL(new Blob([typeof value==='string'?value:JSON.stringify(value,null,2)],{type}));a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+function applyStage(f){frame=f;project.frame=f;const p=templateAt(project,f);for(const[k,v]of Object.entries(p)){const el=document.getElementById('ctrl-'+k);if(el)el.value=v}const view=viewAt(project,f);camYaw=(180-view.camera.yaw)*Math.PI/180;camPitch=view.camera.pitch*Math.PI/180;document.getElementById('ctrl-viewCheat').value=view.viewCheat;document.querySelectorAll('[data-preset]').forEach(b=>b.classList.toggle('active',Number(b.dataset.frame)===f));renderViewportAndCharts()}
+function saveControls(){if(!project)return;project=storeTemplateStage(project,frame,{...templateAt(project,frame),...shapeParams(readParams())},{audit:false});project.mode='implicit';project.solverEngine='argon-v5';project.referenceViews[frame]={...viewAt(project,frame),camera:{...viewAt(project,frame).camera,yaw:cameraYaw(),pitch:camPitch*180/Math.PI},viewCheat:Number(document.getElementById('ctrl-viewCheat').value)};localStorage.setItem('rainee-argon-v5-project-v1',JSON.stringify(project));const shared=JSON.parse(localStorage.getItem('rainee-shape-lab-project-v1')||'null');if(shared?.solverEngine==='argon-v5')localStorage.setItem('rainee-shape-lab-project-v1',JSON.stringify(project))}
+// State
+let camYaw = 38 * Math.PI / 180, camPitch = 10 * Math.PI / 180, camZoom = 1.0;
+let shaderMode = 'zebra';
+let currentMesh = null;
+
+function readParams() {
+  const keys = ['rearProjection','lobeWidth','upperPole','lowerPole','cleft','contactBulge','separation','thighFullness','thighOuter','viewCheat','sliceY'];
+  const p = {};
+  for (const k of keys) {
+    const v = Number(document.getElementById('ctrl-' + k).value);
+    p[k] = v;
+    document.getElementById('out-' + k).textContent = v.toFixed(k === 'sliceY' ? 3 : 2);
+  }
+  return p;
+}
+
+function renderViewportAndCharts() {
+  if(!project)return;
+  const params = readParams();
+  const mode = document.getElementById('engine-mode').value;
+  const key=JSON.stringify(shapeParams(params));if(key!==meshKey){currentMesh=extractArgonV5Surface(shapeParams(params),{resolution:24});meshAudit=measureAnatomyMesh(currentMesh);meshKey=key}
+  document.getElementById('status-badge').textContent='Argon v5 · frame '+String(frame).padStart(4,'0');
+
+  const canvas = document.getElementById('gl-canvas');
+  const rect = canvas.getBoundingClientRect();
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = Math.round(rect.width * dpr);
+  canvas.height = Math.round(rect.height * dpr);
+  const ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+  ctx.fillStyle = '#090d12';
+  ctx.fillRect(0, 0, rect.width, rect.height);
+
+  // Draw reference grid
+  ctx.strokeStyle = '#18202c'; ctx.lineWidth = 1;
+  let scale,centreX,centreY;
+
+  // Shared preview path; export and measurement continue using currentMesh.
+  const view={...viewAt(project,frame),camera:{...viewAt(project,frame).camera,yaw:cameraYaw(),pitch:camPitch*180/Math.PI},viewCheat:params.viewCheat};
+  const pos=previewPositions(currentMesh.positions,view);
+
+  const cyaw = Math.cos(camYaw), syaw = Math.sin(camYaw);
+  const cpitch = Math.cos(camPitch), spitch = Math.sin(camPitch);
+  function proj(x, y, z) {
+    const y0 = y - 0.53;
+    const rx = -x * cyaw - z * syaw;
+    const rz0 = x * syaw - z * cyaw;
+    const ry = y0 * cpitch - rz0 * spitch;
+    const rz = y0 * spitch + rz0 * cpitch;
+    return [rect.width*.5+(rx-centreX)*scale,rect.height*.54-(ry-centreY)*scale,rz];
+  }
+
+  let xlo=Infinity,xhi=-Infinity,ylo=Infinity,yhi=-Infinity;
+  for(let i=0;i<pos.length;i+=3){const rx=-pos[i]*cyaw-pos[i+2]*syaw,rz=pos[i]*syaw-pos[i+2]*cyaw,ry=(pos[i+1]-.53)*cpitch-rz*spitch;xlo=Math.min(xlo,rx);xhi=Math.max(xhi,rx);ylo=Math.min(ylo,ry);yhi=Math.max(yhi,ry)}
+  centreX=(xlo+xhi)/2;centreY=(ylo+yhi)/2;scale=Math.min(rect.width*.86/(xhi-xlo),rect.height*.76/(yhi-ylo))*camZoom;
+  const tris = currentMesh.triangles, norms = currentMesh.normals;
+  const drawList = [];
+  for (let i = 0; i < tris.length; i += 3) {
+    const i0 = tris[i]*3, i1 = tris[i+1]*3, i2 = tris[i+2]*3;
+    const p0 = proj(pos[i0], pos[i0+1], pos[i0+2]);
+    const p1 = proj(pos[i1], pos[i1+1], pos[i1+2]);
+    const p2 = proj(pos[i2], pos[i2+1], pos[i2+2]);
+    // Backface cull in screen space
+    const crossZ = (p1[0]-p0[0])*(p2[1]-p0[1]) - (p1[1]-p0[1])*(p2[0]-p0[0]);
+    if (crossZ > 0) continue;
+    const nx = (norms[i0]+norms[i1]+norms[i2])/3;
+    const ny = (norms[i0+1]+norms[i1+1]+norms[i2+1])/3;
+    const nz = (norms[i0+2]+norms[i1+2]+norms[i2+2])/3;
+    const vnx = -nx * cyaw - nz * syaw;
+    const vnz0 = nx * syaw - nz * cyaw;
+    const vny = ny * cpitch - vnz0 * spitch;
+    const vnz = ny * spitch + vnz0 * cpitch;
+    const ym = (pos[i0+1]+pos[i1+1]+pos[i2+1])/3;
+    const xm = (pos[i0]+pos[i1]+pos[i2])/3;
+    drawList.push({ p0, p1, p2, depth: (p0[2]+p1[2]+p2[2])/3, vnx, vny, vnz, xm, ym });
+  }
+  drawList.sort((a, b) => a.depth - b.depth);
+
+  for (const t of drawList) {
+    let r, g, b;
+    const cleftAO = 1 - 0.42 * (1 - smooth(0.004, 0.036, Math.abs(t.xm))) * smooth(0.50, 0.65, t.ym);
+    const diff = Math.max(0, -0.28*t.vnx + 0.48*t.vny + 0.83*t.vnz);
+    if (shaderMode === 'zebra') {
+      const refl = 0.74 * t.vny + 0.48 * t.vnx + 0.35 * Math.abs(t.vnz);
+      const zVal = 0.5 + 0.5 * Math.tanh(3.0 * Math.sin(14.0 * Math.PI * refl));
+      const br = 0.14 + 0.35 * diff, bg = 0.20 + 0.55 * diff, bb = 0.30 + 0.85 * diff;
+      r = (br * (1 - 0.68*zVal) + 0.68*zVal*0.94) * cleftAO * 255;
+      g = (bg * (1 - 0.68*zVal) + 0.68*zVal*0.97) * cleftAO * 255;
+      b = (bb * (1 - 0.68*zVal) + 0.68*zVal*1.00) * cleftAO * 255;
+    } else if (shaderMode === 'toon') {
+      const cel = diff > 0.52 ? 1.0 : (diff > 0.18 ? 0.74 : 0.42);
+      const rim = Math.pow(1 - Math.min(1, Math.abs(t.vnz)), 3.0) > 0.62 ? 0.20 : 0;
+      r = Math.min(255, (0.85 * cel + rim) * cleftAO * 255);
+      g = Math.min(255, (0.68 * cel + rim*0.8) * cleftAO * 255);
+      b = Math.min(255, (0.89 * cel + rim*1.1) * cleftAO * 255);
+    } else if (shaderMode === 'normals') {
+      r = (0.5 + 0.5 * t.vnx) * 255;
+      g = (0.5 + 0.5 * t.vny) * 255;
+      b = (0.5 + 0.5 * t.vnz) * 255;
+    } else {
+      const rim = 0.14 * Math.pow(1 - Math.min(1, Math.abs(t.vnz)), 2.5);
+      const l = (0.20 + 0.68 * diff + rim) * cleftAO;
+      r = Math.min(255, l * 214); g = Math.min(255, l * 178); b = Math.min(255, l * 224);
+    }
+    ctx.fillStyle = `rgb(${r|0},${g|0},${b|0})`;
+    ctx.beginPath();
+    ctx.moveTo(t.p0[0], t.p0[1]);
+    ctx.lineTo(t.p1[0], t.p1[1]);
+    ctx.lineTo(t.p2[0], t.p2[1]);
+    ctx.closePath();
+    ctx.fill();
+  }
+
+  // Draw slice plane line in 3D view
+  const sliceLeft = proj(-0.22, params.sliceY, -0.10), sliceRight = proj(0.22, params.sliceY, -0.10);
+  ctx.strokeStyle = 'rgba(88, 166, 255, 0.75)'; ctx.lineWidth = 1.5; ctx.setLineDash([5, 4]);
+  ctx.beginPath(); ctx.moveTo(sliceLeft[0], sliceLeft[1]); ctx.lineTo(sliceRight[0], sliceRight[1]); ctx.stroke(); ctx.setLineDash([]);
+
+  document.getElementById('hud-right').textContent = `${(currentMesh.positions.length/3).toLocaleString()} pts · ${(currentMesh.triangles.length/3).toLocaleString()} tris · Closed = ${meshAudit.closed} · ${meshAudit.connectedComponents} component(s)`;
+
+  drawCrossSectionAndComb(params, mode);
+  drawFovUnwarper();
+}
+
+function drawCrossSectionAndComb(params, mode) {
+  const c = document.getElementById('section-canvas');
+  const r = c.getBoundingClientRect();
+  const dpr = window.devicePixelRatio || 1;
+  c.width = Math.round(r.width * dpr); c.height = Math.round(r.height * dpr);
+  const ctx = c.getContext('2d');
+  ctx.scale(dpr, dpr);
+  ctx.fillStyle = '#121720'; ctx.fillRect(0, 0, r.width, r.height);
+
+  const y0 = params.sliceY;
+  const xs = Array.from({length: 141}, (_, i) => -0.22 + i * (0.44 / 140));
+
+  function traceOuterZ(evalMode) {
+    const pts = [];
+    for (const x of xs) {
+      let zMin = null;
+      for (let z = -0.32; z <= 0.06; z += 0.0025) {
+        if (evaluateField([x, y0, z], params, evalMode) <= 0) { zMin = z; break; }
+      }
+      if (zMin !== null) pts.push([x, -zMin]); // +Y on plot = posterior -Z
+    }
+    return pts;
+  }
+
+  const ptsV5 = traceOuterZ(mode);
+  const ptsLegacy = document.getElementById('chk-compare').checked ? traceOuterZ('legacy-smooth') : [];
+
+  const toX = x => r.width * 0.5 + x * (r.width * 2.05);
+  const toY = zp => r.height * 0.84 - zp * (r.height * 2.55);
+
+  ctx.strokeStyle = '#212836'; ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.moveTo(r.width*0.5, 0); ctx.lineTo(r.width*0.5, r.height); ctx.stroke();
+
+  if (ptsLegacy.length > 2) {
+    ctx.strokeStyle = '#ff7b72'; ctx.lineWidth = 1.8; ctx.setLineDash([5, 4]);
+    ctx.beginPath();
+    ptsLegacy.forEach((p, i) => i ? ctx.lineTo(toX(p[0]), toY(p[1])) : ctx.moveTo(toX(p[0]), toY(p[1])));
+    ctx.stroke(); ctx.setLineDash([]);
+  }
+
+  if (ptsV5.length > 4) {
+    if (document.getElementById('chk-comb').checked) {
+      for (const sideSign of [-1, 1]) {
+        const lobe = ptsV5.filter(p => sideSign < 0 ? p[0] < -0.004 : p[0] > 0.004);
+        if (lobe.length < 6) continue;
+        ctx.strokeStyle = 'rgba(242, 204, 96, 0.5)'; ctx.lineWidth = 1;
+        const tips = [];
+        for (let i = 2; i < lobe.length - 2; i += 2) {
+          const dx = (lobe[i+1][0] - lobe[i-1][0]) / 2, dz = (lobe[i+1][1] - lobe[i-1][1]) / 2;
+          const ddx = lobe[i+1][0] - 2*lobe[i][0] + lobe[i-1][0], ddz = lobe[i+1][1] - 2*lobe[i][1] + lobe[i-1][1];
+          const ds = Math.hypot(dx, dz) || 1;
+          const kappa = Math.abs(dx*ddz - dz*ddx) / Math.pow(ds, 3);
+          const nx = -dz / ds, nz = dx / ds;
+          const len = Math.min(0.042, 0.0018 * kappa);
+          const tx = lobe[i][0] + nx * len, tz = lobe[i][1] + nz * len;
+          tips.push([tx, tz]);
+          ctx.beginPath(); ctx.moveTo(toX(lobe[i][0]), toY(lobe[i][1])); ctx.lineTo(toX(tx), toY(tz)); ctx.stroke();
+        }
+        ctx.strokeStyle = '#f2cc60'; ctx.lineWidth = 1.2;
+        ctx.beginPath();
+        tips.forEach((p, i) => i ? ctx.lineTo(toX(p[0]), toY(p[1])) : ctx.moveTo(toX(p[0]), toY(p[1])));
+        ctx.stroke();
+      }
+    }
+
+    ctx.strokeStyle = '#58a6ff'; ctx.lineWidth = 2.4;
+    ctx.beginPath();
+    ptsV5.forEach((p, i) => i ? ctx.lineTo(toX(p[0]), toY(p[1])) : ctx.moveTo(toX(p[0]), toY(p[1])));
+    ctx.stroke();
+
+    const xsOnly = ptsV5.map(p => p[0]), zsOnly = ptsV5.map(p => p[1]);
+    const widthH = Math.max(...xsOnly) - Math.min(...xsOnly);
+    const maxZ = Math.max(...zsOnly);
+    const midPts = ptsV5.filter(p => Math.abs(p[0]) < 0.015).map(p => p[1]);
+    const cleftZ = midPts.length ? Math.min(...midPts) : maxZ;
+    const cleftRelief = Math.max(0, maxZ - cleftZ);
+
+    document.getElementById('m-vol').textContent = currentMesh.volume.toFixed(4) + ' H³';
+    document.getElementById('m-cleft').textContent = cleftRelief.toFixed(4) + ' H';
+    document.getElementById('m-width').textContent = widthH.toFixed(3) + ' H';
+    document.getElementById('m-depth').textContent = maxZ.toFixed(3) + ' H';
+  }
+}
+
+function drawFovUnwarper() {
+  const fov = Number(document.getElementById('ctrl-fov').value);
+  document.getElementById('out-fov').textContent = fov + '°';
+  const c = document.getElementById('fov-canvas');
+  const r = c.getBoundingClientRect();
+  const dpr = window.devicePixelRatio || 1;
+  c.width = Math.round(r.width * dpr); c.height = Math.round(r.height * dpr);
+  const ctx = c.getContext('2d');
+  ctx.scale(dpr, dpr);
+  ctx.fillStyle = '#121720'; ctx.fillRect(0, 0, r.width, r.height);
+
+  const padL = 36, padR = 14, padT = 14, padB = 24;
+  const pw = r.width - padL - padR, ph = r.height - padT - padB;
+  const trueRatio = 2.05, dZ = 0.24;
+  const mapX = f => padL + ((f - 18) / (65 - 18)) * pw;
+  const mapY = val => padT + ph - ((val - 1.95) / (2.90 - 1.95)) * ph;
+
+  ctx.strokeStyle = '#58a6ff'; ctx.setLineDash([4, 4]); ctx.lineWidth = 1.4;
+  ctx.beginPath(); ctx.moveTo(padL, mapY(trueRatio)); ctx.lineTo(padL + pw, mapY(trueRatio)); ctx.stroke(); ctx.setLineDash([]);
+
+  ctx.strokeStyle = '#d2a8ff'; ctx.lineWidth = 2.2;
+  ctx.beginPath();
+  for (let f = 18; f <= 65; f += 1) {
+    const dCam = 0.55 / Math.tan((f * Math.PI) / 360);
+    const app = trueRatio * (dCam / (dCam - dZ));
+    f === 18 ? ctx.moveTo(mapX(f), mapY(app)) : ctx.lineTo(mapX(f), mapY(app));
+  }
+  ctx.stroke();
+
+  const dCur = 0.55 / Math.tan((fov * Math.PI) / 360);
+  const appCur = trueRatio * (dCur / (dCur - dZ));
+  const magPct = ((dCur / (dCur - dZ) - 1) * 100).toFixed(1);
+  ctx.fillStyle = '#ff7b72';
+  ctx.beginPath(); ctx.arc(mapX(fov), mapY(appCur), 5, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = '#e6edf3'; ctx.font = '11px system-ui';
+  ctx.fillText(`Synthetic example ${fov}°: 2.05× → ${appCur.toFixed(2)}× in 2D (+${magPct}%)`, padL + 8, padT + 14);
+  document.getElementById('fov-note').textContent = `Illustrative assumed shape/camera only, not a recovered reference measurement. At ${fov}° FOV (D = ${dCur.toFixed(2)} H), perspective foreshortening magnifies the apparent 2D rear-to-waist ratio by +${magPct}% (${trueRatio.toFixed(2)}× 3D reads as ${appCur.toFixed(2)}× in 2D).`;
+}
+
+// Event Wiring
+document.querySelectorAll('input[type=range], select, input[type=checkbox]').forEach(el => {
+  el.addEventListener('input',()=>{saveControls();renderViewportAndCharts()});
+});
+
+document.querySelectorAll('[data-cam]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-cam]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const cams = { back: [0, 8], three: [38, 10], side: [90, 6], front: [180, 6] }[btn.dataset.cam];
+    camYaw = cams[0] * Math.PI / 180; camPitch = cams[1] * Math.PI / 180;
+    renderViewportAndCharts();
+  });
+});
+
+document.querySelectorAll('[data-shader]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-shader]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    shaderMode = btn.dataset.shader;
+    renderViewportAndCharts();
+  });
+});
+
+document.querySelectorAll('[data-preset]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-preset]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    saveControls();applyStage(Number(btn.dataset.frame));
+  });
+});
+
+// Mouse Drag Orbit
+const glCanvas = document.getElementById('gl-canvas');
+let dragging = false, lastX = 0, lastY = 0;
+glCanvas.addEventListener('mousedown', e => { dragging = true; lastX = e.clientX; lastY = e.clientY; });
+window.addEventListener('mouseup', () => dragging = false);
+window.addEventListener('mousemove', e => {
+  if (!dragging) return;
+  camYaw += (e.clientX - lastX) * 0.01;
+  camPitch = clamp(camPitch + (e.clientY - lastY) * 0.008, -1.1, 1.1);
+  lastX = e.clientX; lastY = e.clientY;
+  renderViewportAndCharts();
+});
+glCanvas.addEventListener('wheel', e => {
+  e.preventDefault();
+  camZoom = clamp(camZoom * (e.deltaY < 0 ? 1.08 : 0.92), 0.55, 2.2);
+  renderViewportAndCharts();
+}, { passive: false });
+
+document.getElementById('btn-export-obj').addEventListener('click', () => {
+  if (!currentMesh) return;
+  const p = currentMesh.positions, t = currentMesh.triangles, H = 2.3951061964035034;
+  const lines = ['# Argon v5 canonical UNPOSED regional surface; physical source units unknown','# Selected frame '+frame+'; source origin restored'];const o=sourceConfig.source_origin;
+  for (let i = 0; i < p.length; i += 3) lines.push(`v ${p[i]*H+o[0]} ${p[i+1]*H+o[1]} ${p[i+2]*H+o[2]}`);
+  for (let i = 0; i < t.length; i += 3) lines.push(`f ${t[i]+1} ${t[i+1]+1} ${t[i+2]+1}`);
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([lines.join('\n')], {type: 'text/plain'}));
+  a.download = 'Rainee-Curvilinear-v5-Regional.obj';
+  a.click();
+});
+
+document.getElementById('btn-export-json').addEventListener('click',()=>{saveControls();download('Rainee-v5-Ledger.json',{schema:'rainee-v5-consolidated-ledger',source:sourceInfo,solverEngine:'argon-v5',sourceFrame:frame,parameters:templateAt(project,frame),meshAudit,displayAdjustmentExcluded:true,physicalUnits:null})});
+const setRecipeBusy=value=>document.querySelectorAll('main input,main select,main button').forEach(el=>el.disabled=value);
+const worker=new Worker(new URL('./lab/lab-audit-worker.mjs',import.meta.url),{type:'module'});
+document.getElementById('save-recipe').onclick=()=>{saveControls();document.getElementById('status-badge').textContent='Checking 27 growth surfaces…';setRecipeBusy(true);worker.postMessage({id:1,project})};
+worker.onmessage=({data})=>{setRecipeBusy(false);if(data.error){document.getElementById('status-badge').textContent=data.error;return}project.sequenceAudit=data.audit;const previous=localStorage.getItem('rainee-shape-lab-project-v1');if(previous&&JSON.parse(previous).solverEngine!=='argon-v5')localStorage.setItem('rainee-shape-lab-project-v1-before-argon',previous);localStorage.setItem('rainee-shape-lab-project-v1',JSON.stringify(project));download('Rainee-Shape-Lab-project.json',project);document.getElementById('status-badge').textContent='Saved shared recipe · 27 sampled states checked'};
+document.getElementById('recipe-file').onchange=async e=>{try{const file=e.target.files[0];if(!file)return;if(file.size>2000000)throw Error('Recipe exceeds 2 MB.');const next=validateProject(JSON.parse(await file.text()),sourceInfo);if(next.solverEngine!=='argon-v5')throw Error('Open older engine recipes in the measurement lab; use its Argon stage button to convert.');project=next;applyStage(Math.min(26,project.frame));saveControls()}catch(error){document.getElementById('status-badge').textContent=error.message}finally{e.target.value=''}};
+async function boot(){try{sourceConfig=await fetch('./viewer-config.json').then(r=>r.json());const hash=async path=>{const bytes=await fetch('./'+path).then(r=>r.arrayBuffer());return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))).map(x=>x.toString(16).padStart(2,'0')).join('')};sourceInfo={bodySha256:await hash(sourceConfig.body),trianglesSha256:await hash(sourceConfig.triangles),heightSourceUnits:sourceConfig.height_source_units,physicalUnits:null};project=createProject(sourceInfo);try{const shared=JSON.parse(localStorage.getItem('rainee-shape-lab-project-v1'));const saved=shared?.solverEngine==='argon-v5'?shared:JSON.parse(localStorage.getItem('rainee-argon-v5-project-v1'));if(saved?.solverEngine==='argon-v5')project=validateProject(saved,sourceInfo)}catch{}applyStage(Math.min(26,project.frame))}catch(error){document.getElementById('status-badge').textContent=error.message}}
+worker.onerror=error=>{setRecipeBusy(false);document.getElementById('status-badge').textContent='Recipe audit failed: '+error.message};
+boot();
+window.addEventListener('resize', renderViewportAndCharts);
+window.addEventListener('DOMContentLoaded', renderViewportAndCharts);
+</script>
+</body></html>

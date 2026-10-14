@@ -1,2 +1,4 @@
 import {auditTemplateSequence} from './lab-state.mjs';
-self.onmessage=({data:{id,project}})=>{try{self.postMessage({id,audit:auditTemplateSequence(project)})}catch(error){self.postMessage({id,error:error.message})}};
+/** The project carries the selected engine; the worker uses the renderer's dispatcher. */
+export function auditProjectMessage({id,project}){try{return {id,audit:auditTemplateSequence(project)}}catch(error){return {id,error:error.message}}}
+if(typeof self!=='undefined')self.onmessage=({data})=>self.postMessage(auditProjectMessage(data));

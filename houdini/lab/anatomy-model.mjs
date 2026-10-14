@@ -5,13 +5,13 @@
  */
 export const ANATOMY_DEFAULTS=Object.freeze({
  lobeWidth:1,lobeHeight:1,rearProjection:1,upperPole:1.08,lowerPole:1,
- separation:1,attachment:.012,cleft:.75,asymmetry:0,pelvisWidth:1,pelvisDepth:1,
+ separation:1,attachment:.012,cleft:.75,contactBulge:.5,asymmetry:0,pelvisWidth:1,pelvisDepth:1,
  thighFullness:1,thighOuter:1,thighFront:1,kneeTaper:.65
 });
 export const ANATOMY_RANGES=Object.freeze({
  lobeWidth:[.55,1.6],lobeHeight:[.65,1.55],rearProjection:[.55,2.1],
  upperPole:[.65,1.4],lowerPole:[.65,1.4],separation:[.5,1.5],attachment:[.003,.03],
- cleft:[0,1],asymmetry:[-.2,.2],pelvisWidth:[.8,1.2],pelvisDepth:[.8,1.3],
+ cleft:[0,1],contactBulge:[0,2],asymmetry:[-.2,.2],pelvisWidth:[.8,1.2],pelvisDepth:[.8,1.3],
  thighFullness:[.65,1.5],thighOuter:[.5,1.5],thighFront:[.5,1.5],kneeTaper:[.3,.9]
 });
 const H_SOURCE=2.3951061964035034;
@@ -157,4 +157,91 @@ export function anatomyCrossSection(mesh,{axis='y',value=.61}={}){
  for(let i=0;i<t.length;i+=3){const ids=[t[i],t[i+1],t[i+2]],hits=[];for(let j=0;j<3;j++){const a=ids[j],b=ids[(j+1)%3],da=p[a*3+ax]-value,db=p[b*3+ax]-value;if(Math.abs(da)<1e-10)hits.push(hit(a,a));else if(da*db<0)hits.push(hit(a,b))}const unique=[...new Set(hits)];if(unique.length===2)segments.push(...unique)}
  const lo=[Infinity,Infinity,Infinity],hi=[-Infinity,-Infinity,-Infinity];for(let i=0;i<positions.length;i+=3)for(let k=0;k<3;k++){lo[k]=Math.min(lo[k],positions[i+k]);hi[k]=Math.max(hi[k],positions[i+k])}
  return {positions:new Float32Array(positions),segments:new Uint32Array(segments),axis,value,bounds:positions.length?{min:lo,max:hi,extent:hi.map((v,i)=>v-lo[i])}:null,status:'cross-section of regional proposal; no anatomical measurement acceptance'};
+}
+
+/** NeuSOGA3D C2 Shape-Preserving R-Function Smooth Minimum (Li et al., Sept 2026) */
+export function softMin2(a,b,radius){
+ const r=Math.max(radius,1e-6),d=a-b,ad=Math.abs(d);
+ const sAbs=ad<r?(d*d)/r-(ad*ad*ad)/(3*r*r)+r/3:ad;
+ return .5*(a+b-sAbs);
+}
+
+/** NeuSOGA3D Recursive Divided-Difference Transition Function H(s, n) on [-1, 1] */
+export function pspsTransition(s,n=3){
+ if(!Number.isInteger(n)||n<1||n>6)throw Error('PSPS smoothness order n must be 1..6');
+ function ff(u,k){
+  if(k===0)return u>0?1:u===0?.5:0;
+  return (u/k)*ff(u,k-1)+(1-u/k)*ff(u-1,k-1);
+ }
+ const u=n*(clamp(s,-1,1)+1)/2;
+ return ff(u,n);
+}
+
+/** Partial Shape-Preserving Spline (PSPS) non-negative partition-of-unity basis functions B_i(y) */
+export function pspsBasis(y,knots,n=3){
+ if(!Array.isArray(knots)||knots.length<2)throw Error('At least two ordered knots required');
+ const H=knots.map((k,i)=>{
+  const span=i<knots.length-1?Math.max(knots[i+1]-k,1e-6):Math.max(k-knots[i-1],1e-6);
+  return pspsTransition((y-k)/(span*.5),n);
+ });
+ const basis=new Float64Array(knots.length);
+ basis[0]=1-H[0];
+ for(let i=1;i<knots.length-1;i++)basis[i]=Math.max(0,H[i-1]-H[i]);
+ basis[knots.length-1]=H[knots.length-2];
+ const sum=basis.reduce((a,b)=>a+b,0)||1;
+ for(let i=0;i<basis.length;i++)basis[i]/=sum;
+ return basis;
+}
+
+/** Gradient-Angle-Modulated Implicit Skinning + Contact Bulge (Vaillant et al. 2013 + NeuSOGA3D softMin2) */
+export function evaluateAnatomyImplicitSkinning(point,template){
+ const d=evaluateAnatomyComponents(point,template),c=template.params;
+ let base=softMin2(d.core,d.perineal,c.attachment);
+ base=softMin2(base,softMin2(d.leftThigh,d.rightThigh,c.attachment),c.attachment);
+ base=softMin2(base,softMin2(d.leftAttachment,d.rightAttachment,c.attachment),c.attachment);
+ const posterior=smooth(.025,.085,-point[2]);
+ const central=1-smooth(.005,.045,Math.abs(point[0]));
+ const cleftRadius=Math.max(2e-4,c.attachment*(1-.97*c.cleft*posterior));
+ let lobes=softMin2(d.leftLobe,d.rightLobe,cleftRadius);
+ // Tangential "pressed-peach" contact compression bulge ring outside the sagittal septum
+ const contactBulge=Math.exp(-18*(d.leftLobe*d.leftLobe+d.rightLobe*d.rightLobe))*posterior*smooth(.005,.034,Math.abs(point[0]))*smooth(.50,.56,point[1])*(1-smooth(.66,.71,point[1]));
+ lobes-=.0042*c.cleft*contactBulge;
+ // Sub-gluteal overhang gets crisp G0 fold; lateral hip gets wide C2 fender blend
+ const subGlutealFold=posterior*(1-smooth(.50,.56,point[1]))*(1-smooth(.09,.14,Math.abs(point[0])));
+ const lateralHipFlare=smooth(.085,.145,Math.abs(point[0]));
+ const joinRadius=Math.max(2e-4,c.attachment*(1.35*lateralHipFlare+(1-lateralHipFlare)*(1-.92*Math.max(c.cleft*posterior*central,subGlutealFold))));
+ return softMin2(base,lobes,joinRadius);
+}
+
+export function extractAnatomyImplicitSkinning(template,{resolution=24}={}){
+ if(!Number.isInteger(resolution)||resolution<12||resolution>72)throw Error('Draft/refinement resolution must be an integer from 12 to 72.');
+ const {min,max}=template.bounds,extent=max.map((v,i)=>v-min[i]),h=Math.max(...extent)/resolution;
+ const cells=extent.map(e=>Math.max(4,Math.ceil(e/h))),dims=cells.map(n=>n+1),step=extent.map((e,i)=>e/cells[i]),total=dims.reduce((a,b)=>a*b,1);
+ const index=(x,y,z)=>x+dims[0]*(y+dims[1]*z),grid=new Float64Array(total),coordinate=id=>{const x=id%dims[0],yz=Math.floor(id/dims[0]),y=yz%dims[1],z=Math.floor(yz/dims[1]);return [min[0]+x*step[0],min[1]+y*step[1],min[2]+z*step[2]]};
+ const isoEpsilon=Math.min(...step)*1e-5;
+ for(let z=0;z<dims[2];z++)for(let y=0;y<dims[1];y++)for(let x=0;x<dims[0];x++){
+  const id=index(x,y,z);let value=evaluateAnatomyImplicitSkinning([min[0]+x*step[0],min[1]+y*step[1],min[2]+z*step[2]],template);
+  if(!Number.isFinite(value))throw Error('Non-finite implicit field.');
+  if((x===0||y===0||z===0||x===cells[0]||y===cells[1]||z===cells[2])&&value<=0)value=isoEpsilon;
+  if(Math.abs(value)<isoEpsilon)value=isoEpsilon;grid[id]=value;
+ }
+ const points=[],normals=[],faces=[],edges=new Map(),eps=Math.min(...step)*.035;
+ function normalAt(pt){
+  const g=[0,0,0];
+  for(let ax=0;ax<3;ax++){const a=[...pt],b=[...pt];a[ax]+=eps;b[ax]-=eps;g[ax]=(evaluateAnatomyImplicitSkinning(a,template)-evaluateAnatomyImplicitSkinning(b,template))/(2*eps)}
+  const n=Math.hypot(...g);return n>1e-12?g.map(v=>v/n):[0,1,0];
+ }
+ function edge(a,b){const key=a<b?a+','+b:b+','+a;if(edges.has(key))return edges.get(key);const pa=coordinate(a),pb=coordinate(b),t=grid[a]/(grid[a]-grid[b]),p=pa.map((v,i)=>v+(pb[i]-v)*t),id=points.length/3;points.push(...p);normals.push(...normalAt(p));edges.set(key,id);return id}
+ function triangle(a,b,c,direction){const pa=points.slice(a*3,a*3+3),pb=points.slice(b*3,b*3+3),pc=points.slice(c*3,c*3+3),u=pb.map((v,i)=>v-pa[i]),v=pc.map((x,i)=>x-pa[i]),cross=[u[1]*v[2]-u[2]*v[1],u[2]*v[0]-u[0]*v[2],u[0]*v[1]-u[1]*v[0]];if(cross.reduce((s,x,i)=>s+x*direction[i],0)<0)[b,c]=[c,b];faces.push(a,b,c)}
+ const tetrahedra=[[0,1,2,6],[0,2,3,6],[0,3,7,6],[0,7,4,6],[0,4,5,6],[0,5,1,6]];
+ for(let z=0;z<cells[2];z++)for(let y=0;y<cells[1];y++)for(let x=0;x<cells[0];x++){
+  const cube=[index(x,y,z),index(x+1,y,z),index(x+1,y+1,z),index(x,y+1,z),index(x,y,z+1),index(x+1,y,z+1),index(x+1,y+1,z+1),index(x,y+1,z+1)];
+  for(const tet of tetrahedra){const ins=[],outs=[];for(const i of tet)(grid[cube[i]]<0?ins:outs).push(cube[i]);if(!ins.length||!outs.length)continue;
+   const inside=coordinate(ins[0]),outside=coordinate(outs[0]),direction=outside.map((v,i)=>v-inside[i]);
+   if(ins.length===1)triangle(edge(ins[0],outs[0]),edge(ins[0],outs[1]),edge(ins[0],outs[2]),direction);
+   else if(ins.length===3)triangle(edge(outs[0],ins[0]),edge(outs[0],ins[1]),edge(outs[0],ins[2]),direction);
+   else{const ac=edge(ins[0],outs[0]),ad=edge(ins[0],outs[1]),bc=edge(ins[1],outs[0]),bd=edge(ins[1],outs[1]);triangle(ac,ad,bd,direction);triangle(ac,bd,bc,direction)}
+  }
+ }
+ return {positions:new Float32Array(points),normals:new Float32Array(normals),triangles:new Uint32Array(faces),bounds:structuredClone(template.bounds),metadata:{...template.metadata,field:'NeuSOGA3D C2 softMin2 + Vaillant Implicit Skinning Contact Bulge',extraction:'marching tetrahedra',resolution,grid_cells:cells,voxel_spacing:step}};
 }

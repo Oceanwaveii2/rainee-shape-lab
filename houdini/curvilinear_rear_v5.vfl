@@ -1,0 +1,87 @@
+// Experimental directional-crease lobe deformation (v5 VEX Wrangle).
+// Input 0: Repaired body mesh (body-v4-rest). Input 1: Calibrated v5 control cage.
+vector v5_relax_vel(vector p; float amp; float cleft_x_off; float sep; float lat; float vert; float proj; float shelf; float overhang; float flare) {
+    float x0_cleft = cleft_x_off * smooth(0.49, 0.56, p.y) * (1.0 - smooth(0.67, 0.72, p.y));
+    float dx = p.x - x0_cleft;
+    float side = dx < 0.0 ? -1.0 : 1.0;
+    float ax = abs(dx);
+    float z_cantilever = -0.010 * amp * smooth(0.59, 0.66, p.y);
+    vector center = set(x0_cleft + side * (0.076 * (1.0 + amp * sep)), 0.602, -0.046 - amp * 0.074 * proj + z_cantilever);
+    vector radii = set(0.091 * (1.0 + amp * lat * flare * 0.9), 0.080 * (1.0 + amp * vert * 0.5 * (shelf + overhang)), 0.095 * (1.0 + amp * proj));
+    vector q = (p - center) / radii;
+    float rho = length(q);
+    vector target = center + radii * q / max(rho, 1e-8);
+    float gate = smooth(0.492, 0.540, p.y) * (1.0 - smooth(0.665, 0.725, p.y))
+               * (1.0 - smooth(-0.045, 0.015, p.z))
+               * smooth(0.036, 0.072, ax) * (1.0 - smooth(0.185, 0.218, abs(p.x)))
+               * smooth(0.25, 0.60, rho) * (1.0 - smooth(1.25, 1.65, rho));
+    return (target - p) * gate;
+}
+
+vector rest = @P;
+float amp = detail(1, "inflation_amplitude", 0);
+float mask = smooth(0.49, 0.555, rest.y) * (1.0 - smooth(0.667, 0.73, rest.y))
+           * (1.0 - smooth(-0.045, 0.015, rest.z)) * (1.0 - smooth(0.18, 0.22, abs(rest.x)));
+
+if (amp > 0.0 && mask > 0.0) {
+    float lat = ch("../CONTROLS/lateral");
+    float vert = ch("../CONTROLS/vertical");
+    float proj = ch("../CONTROLS/projection");
+    float sep = ch("../CONTROLS/separation");
+    float shelf = ch("../CONTROLS/upper_pole");
+    float overhang = ch("../CONTROLS/lower_pole");
+    float cleft_cusp = 0.96;
+    float flare = 1.15;
+    float roundness = 0.65;
+    float cleft_x_off = 0.0122;
+
+    float x0_cleft = cleft_x_off * smooth(0.49, 0.56, rest.y) * (1.0 - smooth(0.67, 0.72, rest.y));
+    float dx = rest.x - x0_cleft;
+    float ax = abs(dx);
+    float side = dx < 0.0 ? -1.0 : 1.0;
+
+    float eps_x = 0.0008;
+    float u_cleft = clamp((sqrt(ax * ax + eps_x * eps_x) - eps_x) / 0.046, 0.0, 1.0);
+    float cusp_arc = u_cleft * (2.0 - u_cleft);
+    float cleft = (1.0 - cleft_cusp) + cleft_cusp * cusp_arc;
+
+    float shelf_bell = smooth(0.590, 0.650, rest.y) * (1.0 - smooth(0.667, 0.725, rest.y));
+    float overhang_bell = smooth(0.495, 0.540, rest.y) * (1.0 - smooth(0.570, 0.620, rest.y));
+    float z_profile = 1.0 + 0.35 * (shelf - 1.0) * shelf_bell + 0.40 * (overhang - 1.0) * overhang_bell;
+
+    float a = amp * mask * cleft;
+    float lat_flare = 1.0 + 0.28 * (flare - 1.0) * smooth(0.52, 0.63, rest.y) * smooth(0.05, 0.14, ax);
+    float sx = 1.0 + a * lat * lat_flare;
+    float cs = 1.0 + a * sep;
+    float cx = 0.073;
+
+    float tx = min(ax / cx, 1.0);
+    float h01 = tx * tx * (3.0 - 2.0 * tx);
+    float h10 = tx * (1.0 - tx) * (1.0 - tx);
+    float h11 = tx * tx * (tx - 1.0);
+    float terminal_slope = min(sx, 2.2 * cs);
+    float inner = cx * (cs * h01 + 1.0 * h10 + terminal_slope * h11);
+    float outer_slope = terminal_slope + (sx - terminal_slope) * smooth(cx, cx + 0.020, ax);
+    float outer = cx * cs + (ax - cx) * outer_slope;
+    float nx = ax <= cx ? inner : outer;
+
+    float pole = lerp(overhang, shelf, smooth(0.585, 0.625, rest.y));
+    float droop = -0.016 * amp * mask * cusp_arc * overhang_bell * (overhang - 0.8);
+
+    vector authored = set(
+        x0_cleft + side * nx,
+        rest.y + a * (rest.y - 0.605) * vert * pole + droop,
+        rest.z - a * (0.025 - rest.z) * proj * z_profile
+    );
+
+    float dt = roundness * 3.8 * (1.0 - exp(-5.5 * amp)) / 20.0;
+    for (int i = 0; i < 20; i++) {
+        vector k1 = v5_relax_vel(authored, amp, cleft_x_off, sep, lat, vert, proj, shelf, overhang, flare);
+        vector k2 = v5_relax_vel(authored + 0.5 * dt * k1, amp, cleft_x_off, sep, lat, vert, proj, shelf, overhang, flare);
+        vector k3 = v5_relax_vel(authored + 0.5 * dt * k2, amp, cleft_x_off, sep, lat, vert, proj, shelf, overhang, flare);
+        vector k4 = v5_relax_vel(authored + dt * k3, amp, cleft_x_off, sep, lat, vert, proj, shelf, overhang, flare);
+        authored += (dt / 6.0) * (k1 + 2.0 * k2 + 2.0 * k3 + k4);
+    }
+    @P = authored;
+}
+f@rainee_mask = mask;

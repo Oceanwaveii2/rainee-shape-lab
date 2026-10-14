@@ -2,7 +2,7 @@
 
 Rainee is a tall, hyper-stylized adult character with a very large paired rear, an exaggerated spinal arch, and independently designed thighs. This repository contains the working local app, anatomy references, geometry and measurement telemetry for review by Argon / Gemini 4. **The intended anatomy and inflation likeness are still unfinished.** Passing numerical checks does not establish artistic accuracy.
 
-Start with [the design goals](documentation/GOALS.md), [current implementation and open problems](documentation/REVIEW_HANDOFF.md), and [the data guide](documentation/DATA_GUIDE.md). The creator has asked to stop anatomy implementation and reconsider approaches. This handoff adds the new reference data and makes the work reviewable; it does not claim a completed character.
+Start with [the design goals](documentation/GOALS.md), [current implementation and open problems](documentation/REVIEW_HANDOFF.md), and [the data guide](documentation/DATA_GUIDE.md). This branch consolidates **Argon curvilinear v5 as the user-selected design authority and default for new shape projects**. The original studio UI and measurement lab share the exact Argon field, four stage presets, recipes and canonical export path; older saved recipes retain their selected engine. Read [the evaluation and corrected claims](documentation/ARGON_V6_EVALUATION.md) before interpreting their results. Anatomy fitting remains unfinished.
 
 ## Run the review app
 
@@ -14,6 +14,8 @@ python serve.py --port 5197 --open
 
 Use another port if 5197 is already serving the full local project. Open these pages:
 
+- [Argon v5 consolidated shape studio](houdini/argon-v5-studio.html)
+- [New donor, full-source telemetry and lean inspection geometry](measurements/new-donor-20261014/review.html)
 - [New anatomy references, full geometry and eight videos](measurements/canonical-20261014/review.html)
 - [Anatomy and measurement lab](houdini/lab/index.html)
 - [Working character and accepted growth sequence](houdini/authoring.html)
@@ -27,7 +29,7 @@ These are relative page paths to open through the Python server. Static file hos
 
 The four new primary GLBs contribute **1,836,182 vertices and 3,407,608 triangles**. Every world-space float32 position and triangle index extracted from those primary files is retained. There is no decimation of these four builds. Textures, UVs, original normals and duplicate OBJ/STL exports are omitted; the viewer computes neutral surface normals.
 
-The important new reference images, accepted frames and face closeups are copied unchanged and uncropped. Three older supplementary images use full-size JPEG derivatives. The eight new videos have full-duration, uncropped proportional review copies at 12 fps, with audio omitted, plus timed inspection sheets. Exact originals remain local.
+The important new reference images, accepted frames and face closeups are copied unchanged and uncropped. Three older supplementary images and the new fox donor image use full-size uncropped JPEG derivatives. The newly supplied fox donor has a clearly labeled lossy inspection mesh (5,070 vertices / 11,040 triangles); its full OBJ and FBX remain local with exact source telemetry. The four earlier primary GLBs remain losslessly retained. The eight new videos have full-duration, uncropped proportional review copies at 12 fps, with audio omitted, plus timed inspection sheets. Exact originals remain local.
 
 Binary coordinates and indices are stored with lossless gzip, reversible byte shuffling, index deltas and sparse native-frame updates. `serve.py` restores the original binary bytes at the existing app URLs and checks SHA-256. See [the codec and measurements](documentation/DATA_GUIDE.md) and [package verification](documentation/package-verification.json).
 

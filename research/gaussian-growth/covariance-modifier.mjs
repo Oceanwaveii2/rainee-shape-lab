@@ -47,3 +47,7 @@ export function makeCovarianceGrowth(){
  });
  return {modifier,center,radii,growth};
 }
+
+
+// Experimental boundary-moving radial map remains opt-in and unwired.
+export {GLSL_SURFACE_FROSTING_FIELD} from './frosting-field.mjs';

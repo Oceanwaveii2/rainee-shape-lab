@@ -36,3 +36,7 @@ New generated models are shape cues. Their inferred backs, hidden anatomy, plint
 8. Benchmark memory, responsiveness and restoration fidelity. The public review payload must remain below 100,000,000 bytes; heavier data belongs in the preserved local workspace.
 
 The preferred next step is a small comparative study of curve-controlled surfaces, contour-driven implicit geometry and registered donor deformation. Decide which representation can actually express her intended shape before committing to a larger solver or dynamics system.
+
+## User-selected design authority
+
+Argon curvilinear v5 defines the primary shape direction. Consolidate its stronger paired-lobe field, upper shelf, lower overhang and contact controls across the studio and measurement/export pipeline. Keep v6 analysis tools alongside this design, independently authored thighs, accepted growth order and original stature.

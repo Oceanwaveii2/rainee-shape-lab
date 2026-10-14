@@ -18,3 +18,13 @@ The new extraction retains all 75 archive files: primary meshes, duplicate OBJ/S
 Heavy original videos, texture maps, full Gaussian scenes, duplicate mesh exports and complete older native caches are omitted from the public review. Older Dexter-mom and WorldGen OBJ inspection binaries stay local; their source/measurement documentation remains available. The independently tested native regional sidecar and its small imported OBJ dependencies are included.
 
 Use local paths as lookup records, not commands. Verify hashes before substituting original geometry or source images. Do not transfer or execute unrelated user files merely because a supplied document mentions them.
+
+## Additional donor and Argon sources
+
+- Original donor ZIP: `C:/Users/User/Downloads/b3ec67e8123822fba5cf250a6c4e75b6.zip`
+- Original donor FBX: `C:/Users/User/Downloads/7b403638cd3f0716ded287e68663b385.fbx`
+- Original donor PNG: `C:/Users/User/Downloads/3Dmodel Figure.png`
+- Original Argon studio: `C:/Users/User/Downloads/rainee_curvilinear_v5_class_a_studio.html`
+- Full OBJ/FBX telemetry and original hashes: `measurements/new-donor-20261014/`
+
+The public donor inspection mesh is a lossy vertex-cluster derivative. Use the original ZIP's OBJ for numerical fitting; the donor FBX is a separate asset with unapplied scene transforms in the structural inventory. Neither replaces the original stature FBX. The full source ZIP, FBX, PNG and textures were not overwritten.

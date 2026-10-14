@@ -1,0 +1,24 @@
+{
+  "schema": "rainee-new-donor-inspection-v1",
+  "source_zip_sha256": "0101e589212566a1a94224a0e2d51709a68537b38ae3cdddbc42286cec0270bc",
+  "obj_source_sha256": "9312aef0143878aa3cd4e69a0d97ef6c5dc6d70545ad5a03d5d47041bd9de96c",
+  "source_image": {
+    "path": "C:\\Users\\User\\Downloads\\3Dmodel Figure.png",
+    "sha256": "cc573e1f2a439a8a81243f1f04bed5a5442150a5d36daed1014f20ae59243fce",
+    "derivative": "full-resolution uncropped JPEG, quality78"
+  },
+  "lod": {
+    "path": "inspection-lod.bin.gz",
+    "gzip_bytes": 101746,
+    "decoded_sha256": "5c0a4f16ebfd361421a150226fb6ee434559caaa36d9234f2a15022f5c126fb7",
+    "vertices": 5070,
+    "triangles": 11040,
+    "positions_float32_bytes": 60840,
+    "triangles_uint32_bytes": 132480,
+    "method": "32-cell-per-axis averaged vertex clustering; duplicate/collapsed faces removed",
+    "status": "lossy visual inspection derivative only; use original OBJ for all geometric fitting and measurements"
+  },
+  "originals_retained_local": true,
+  "stature_transfer": false,
+  "association": "FBX/OBJ/image supplied together; exact geometric equivalence not established"
+}

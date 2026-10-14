@@ -3,6 +3,7 @@
  */
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {readRetainedAsset} from '../../tools/retained-asset.mjs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
@@ -13,11 +14,11 @@ const DIR=path.dirname(fileURLToPath(import.meta.url)),HOUDINI=path.resolve(DIR,
 const sha=data=>crypto.createHash('sha256').update(data).digest('hex');
 const moduleSha256AtStart={labState:sha(fs.readFileSync(path.join(DIR,'lab-state.mjs'))),anatomyModel:sha(fs.readFileSync(path.join(DIR,'anatomy-model.mjs')))};
 function record(name,fn){const t=performance.now();try{const evidence=fn();checks.push({name,passed:true,milliseconds:performance.now()-t,evidence:evidence??null});return evidence}catch(error){checks.push({name,passed:false,milliseconds:performance.now()-t,error:error.message});return null}}
-function readFloat32(filename){const b=fs.readFileSync(filename);return {bytes:b,array:new Float32Array(b.buffer,b.byteOffset,b.byteLength/4).slice()}}
-function readUint32(filename){const b=fs.readFileSync(filename);return {bytes:b,array:new Uint32Array(b.buffer,b.byteOffset,b.byteLength/4).slice()}}
+function readFloat32(filename){const b=readRetainedAsset(filename);return {bytes:b,array:new Float32Array(b.buffer,b.byteOffset,b.byteLength/4).slice()}}
+function readUint32(filename){const b=readRetainedAsset(filename);return {bytes:b,array:new Uint32Array(b.buffer,b.byteOffset,b.byteLength/4).slice()}}
 const config=JSON.parse(fs.readFileSync(path.join(HOUDINI,'viewer-config.json'),'utf8')),body=readFloat32(path.join(HOUDINI,config.body)),tri=readUint32(path.join(HOUDINI,config.triangles));
 const sourceInfo={body:config.body,triangles:config.triangles,bodySha256:sha(body.bytes),trianglesSha256:sha(tri.bytes),heightSourceUnits:config.height_source_units,physicalUnits:null};
-const project=createProject(sourceInfo),projectSnapshot=JSON.stringify(project);let initialAudit,changed;
+const project=createProject(sourceInfo);project.solverEngine='legacy';project.mode='native';for(const [i,f]of ACCEPTED_FRAMES.entries())project.templateStages[f]={...ANATOMY_DEFAULTS,lobeWidth:1+i*.08,lobeHeight:1+i*.07,rearProjection:1+i*.12};project.thighParams=Object.fromEntries(THIGH_KEYS.map(k=>[k,ANATOMY_DEFAULTS[k]]));const projectSnapshot=JSON.stringify(project);let initialAudit,changed;
 
 record('Actual source fingerprints and fixed stature are attached to initial project',()=>{assert.equal(project.source.bodySha256,sourceInfo.bodySha256);assert.equal(project.source.trianglesSha256,sourceInfo.trianglesSha256);assert.equal(project.source.heightSourceUnits,sourceInfo.heightSourceUnits);assert.equal(project.physicalUnits,null);assert.deepEqual(Object.keys(project.templateStages).map(Number),ACCEPTED_FRAMES);return sourceInfo});
 record('Initial proposal is explicitly uncalibrated and stages are ordinal identities',()=>{assert.ok(project.evidence.shape.includes('proposal'));assert.ok(project.evidence.depth.includes('unresolved'));assert.deepEqual(ACCEPTED_FRAMES,[0,10,18,26]);assert.equal(project.frame,26);return project.evidence});

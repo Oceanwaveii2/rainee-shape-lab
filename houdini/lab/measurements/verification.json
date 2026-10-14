@@ -1,6 +1,6 @@
 {
   "schema": "rainee-measurement-synthetic-verification-v1",
-  "createdUTC": "2026-10-14T09:14:22.381Z",
+  "createdUTC": "2026-10-14T18:09:49.502Z",
   "environment": {
     "runtime": "v24.19.0",
     "execution": "CPU-only Node, no browser/native scene or source asset mutation"
@@ -13,7 +13,7 @@
       "canonicalStature": 1,
       "sourceWidth": 0.383216991424,
       "physicalCalibration": "absent",
-      "elapsedMs": 1.940400000000011
+      "elapsedMs": 1.2797999999999945
     },
     {
       "name": "Triangle-plane sections recover central ellipsoid width/depth",
@@ -23,7 +23,7 @@
       "offCenterExpectedWidth": 0.13856406460551018,
       "offCenterRecoveredWidth": 0.13856406460551018,
       "offCenterAbsoluteError": 0,
-      "elapsedMs": 43.381
+      "elapsedMs": 22.177099999999996
     },
     {
       "name": "ROI clips crossing segments even when original endpoints are outside",
@@ -32,7 +32,7 @@
       "sharedDiagonalRemoved": true,
       "clippedWidth": 0.3999999999999999,
       "clippedCurveLength": 0.7999999999999998,
-      "elapsedMs": 0.8832000000000164
+      "elapsedMs": 0.672300000000007
     },
     {
       "name": "Selected posterior descriptors and ROI cuts stay distinct from anatomy volume",
@@ -45,7 +45,7 @@
       "sourceWidth": 0.383216991424,
       "croppedSelectionWidth": 0.04000000000000004,
       "croppedVolumeWithheld": true,
-      "elapsedMs": 166.7464
+      "elapsedMs": 121.9166
     },
     {
       "name": "Closedness and provenance gates prevent bogus imported/ROI volume",
@@ -57,7 +57,7 @@
       "openBoundaryEdges": 3,
       "uncheckedImportVolumeWithheld": true,
       "inconsistentWindingWithheld": true,
-      "elapsedMs": 156.9026
+      "elapsedMs": 87.79809999999998
     },
     {
       "name": "Disjoint paired lobes sum volumes despite opposite global winding",
@@ -71,7 +71,7 @@
         -0.0008153572461226537
       ],
       "incorrectSingleComponentDeclarationWithheld": true,
-      "elapsedMs": 153.84629999999999
+      "elapsedMs": 99.2953
     },
     {
       "name": "Reviewed ellipse fitting recovers rotated contour support, not unseen depth",
@@ -81,7 +81,7 @@
       "widthPixels": 179.3034447529732,
       "implicitResidualRms": 1.2261505259361467e-15,
       "unreviewedAndPartialProfilesNotAccepted": true,
-      "elapsedMs": 4.694499999999948
+      "elapsedMs": 5.217900000000043
     },
     {
       "name": "Known camera/framing changes preserve recovered observable shape dimensions",
@@ -113,7 +113,7 @@
         }
       ],
       "framingDoesNotRescaleCanonicalGeometry": true,
-      "elapsedMs": 12.582799999999907
+      "elapsedMs": 11.89889999999997
     },
     {
       "name": "Perspective projection uses depth; pose is rigid and does not mutate geometry",
@@ -126,7 +126,7 @@
       "perspectiveDepthHalvesPixelOffset": true,
       "canonicalGeometryUnchanged": true,
       "poseScaleRejected": true,
-      "elapsedMs": 25.649900000000002
+      "elapsedMs": 23.67969999999997
     },
     {
       "name": "One front view leaves depth unresolved; the side view separates candidates",
@@ -161,13 +161,13 @@
       ],
       "uniqueness": "Only in declared candidate family; no unrestricted 3D uniqueness claim",
       "clippedViewsNotRecommended": true,
-      "elapsedMs": 17.952800000000025
+      "elapsedMs": 19.915700000000015
     },
     {
       "name": "Invalid arrays/calibration and nonrigid transforms are rejected",
       "passed": true,
       "invalidInputsRejected": true,
-      "elapsedMs": 2.129600000000096
+      "elapsedMs": 1.408299999999997
     }
   ],
   "limitations": [

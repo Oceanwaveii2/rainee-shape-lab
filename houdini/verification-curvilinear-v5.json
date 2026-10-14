@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "flipped_vdb_triangles": 43889,
+  "v5_25x_amplitude": 0.3371437741443515,
+  "v5_25x_cage_ratio": 2.4999999971404385,
+  "v5_25x_min_jacobian_det": 0.22020631657757045,
+  "v5_25x_nonpositive_jacobians": 0,
+  "implicit_skinning_closed": true,
+  "implicit_skinning_volume_H3": 0.012112174217557009,
+  "psps_partition_of_unity_error": 0,
+  "perspective_40deg_unwarped_ratio": 2.0684574654935957
+}

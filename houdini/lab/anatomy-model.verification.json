@@ -31,6 +31,7 @@
         "separation": 1,
         "attachment": 0.012,
         "cleft": 0.75,
+        "contactBulge": 0.5,
         "asymmetry": 0,
         "pelvisWidth": 1,
         "pelvisDepth": 1,
@@ -57,7 +58,7 @@
       "status": "volume of this regional proposal, not a measured anatomical volume",
       "heightReferenceNormalized": 1,
       "normal_unit_length_error": 3.8602200325144054e-8,
-      "milliseconds": 122.09509999999999,
+      "milliseconds": 172.9511,
       "stature_metadata_fixed": true,
       "slice_y_061_bounds": {
         "min": [
@@ -88,6 +89,7 @@
         "separation": 1,
         "attachment": 0.012,
         "cleft": 0.75,
+        "contactBulge": 0.5,
         "asymmetry": 0,
         "pelvisWidth": 1,
         "pelvisDepth": 1,
@@ -114,7 +116,7 @@
       "status": "volume of this regional proposal, not a measured anatomical volume",
       "heightReferenceNormalized": 1,
       "normal_unit_length_error": 3.913429735824536e-8,
-      "milliseconds": 107.12189999999998,
+      "milliseconds": 118.67099999999996,
       "stature_metadata_fixed": true,
       "slice_y_061_bounds": {
         "min": [
@@ -145,6 +147,7 @@
         "separation": 1,
         "attachment": 0.012,
         "cleft": 0.75,
+        "contactBulge": 0.5,
         "asymmetry": 0,
         "pelvisWidth": 1,
         "pelvisDepth": 1,
@@ -171,7 +174,7 @@
       "status": "volume of this regional proposal, not a measured anatomical volume",
       "heightReferenceNormalized": 1,
       "normal_unit_length_error": 4.108583429029977e-8,
-      "milliseconds": 116.68799999999999,
+      "milliseconds": 137.37810000000002,
       "stature_metadata_fixed": true,
       "slice_y_061_bounds": {
         "min": [
@@ -202,6 +205,7 @@
         "separation": 1,
         "attachment": 0.012,
         "cleft": 0.75,
+        "contactBulge": 0.5,
         "asymmetry": 0,
         "pelvisWidth": 1,
         "pelvisDepth": 1,
@@ -228,7 +232,7 @@
       "status": "volume of this regional proposal, not a measured anatomical volume",
       "heightReferenceNormalized": 1,
       "normal_unit_length_error": 4.1915877879716845e-8,
-      "milliseconds": 95.22839999999997,
+      "milliseconds": 111.36530000000005,
       "stature_metadata_fixed": true,
       "slice_y_061_bounds": {
         "min": [
@@ -259,6 +263,7 @@
         "separation": 1,
         "attachment": 0.012,
         "cleft": 0.75,
+        "contactBulge": 0.5,
         "asymmetry": 0,
         "pelvisWidth": 1,
         "pelvisDepth": 1,
@@ -285,7 +290,7 @@
       "status": "volume of this regional proposal, not a measured anatomical volume",
       "heightReferenceNormalized": 1,
       "normal_unit_length_error": 4.595352109948436e-8,
-      "milliseconds": 73.50419999999997,
+      "milliseconds": 108.62530000000004,
       "stature_metadata_fixed": true,
       "slice_y_061_bounds": {
         "min": [
@@ -316,6 +321,7 @@
         "separation": 1,
         "attachment": 0.012,
         "cleft": 0.75,
+        "contactBulge": 0.5,
         "asymmetry": 0,
         "pelvisWidth": 1,
         "pelvisDepth": 1,
@@ -342,7 +348,7 @@
       "status": "volume of this regional proposal, not a measured anatomical volume",
       "heightReferenceNormalized": 1,
       "normal_unit_length_error": 4.075015858084896e-8,
-      "milliseconds": 85.87879999999996,
+      "milliseconds": 72.5879000000001,
       "stature_metadata_fixed": true,
       "slice_y_061_bounds": {
         "min": [
@@ -373,6 +379,7 @@
         "separation": 1.4,
         "attachment": 0.012,
         "cleft": 1,
+        "contactBulge": 0.5,
         "asymmetry": 0,
         "pelvisWidth": 1,
         "pelvisDepth": 1,
@@ -399,7 +406,7 @@
       "status": "volume of this regional proposal, not a measured anatomical volume",
       "heightReferenceNormalized": 1,
       "normal_unit_length_error": 4.1865864774948136e-8,
-      "milliseconds": 68.87450000000001,
+      "milliseconds": 71.44939999999997,
       "stature_metadata_fixed": true,
       "slice_y_061_bounds": {
         "min": [
@@ -430,6 +437,7 @@
         "separation": 1,
         "attachment": 0.012,
         "cleft": 0.75,
+        "contactBulge": 0.5,
         "asymmetry": 0,
         "pelvisWidth": 1,
         "pelvisDepth": 1,
@@ -456,7 +464,7 @@
       "status": "volume of this regional proposal, not a measured anatomical volume",
       "heightReferenceNormalized": 1,
       "normal_unit_length_error": 4.336644199298689e-8,
-      "milliseconds": 66.149,
+      "milliseconds": 58.00430000000006,
       "stature_metadata_fixed": true,
       "slice_y_061_bounds": {
         "min": [
@@ -487,6 +495,7 @@
         "separation": 1,
         "attachment": 0.012,
         "cleft": 0.75,
+        "contactBulge": 0.5,
         "asymmetry": 0.18,
         "pelvisWidth": 1,
         "pelvisDepth": 1,
@@ -513,7 +522,7 @@
       "status": "volume of this regional proposal, not a measured anatomical volume",
       "heightReferenceNormalized": 1,
       "normal_unit_length_error": 4.241380491265545e-8,
-      "milliseconds": 94.6468000000001,
+      "milliseconds": 65.9099,
       "stature_metadata_fixed": true,
       "slice_y_061_bounds": {
         "min": [
@@ -544,6 +553,7 @@
         "separation": 1.5,
         "attachment": 0.003,
         "cleft": 0.75,
+        "contactBulge": 0.5,
         "asymmetry": 0,
         "pelvisWidth": 1,
         "pelvisDepth": 1,
@@ -570,7 +580,7 @@
       "status": "volume of this regional proposal, not a measured anatomical volume",
       "heightReferenceNormalized": 1,
       "normal_unit_length_error": 4.320112889644179e-8,
-      "milliseconds": 73.10469999999998,
+      "milliseconds": 77.04020000000003,
       "stature_metadata_fixed": true,
       "slice_y_061_bounds": {
         "min": [
@@ -601,6 +611,7 @@
         "separation": 1,
         "attachment": 0.003,
         "cleft": 0.75,
+        "contactBulge": 0.5,
         "asymmetry": 0,
         "pelvisWidth": 0.8,
         "pelvisDepth": 0.8,
@@ -627,7 +638,7 @@
       "status": "volume of this regional proposal, not a measured anatomical volume",
       "heightReferenceNormalized": 1,
       "normal_unit_length_error": 4.1139689765934406e-8,
-      "milliseconds": 66.6893,
+      "milliseconds": 62.22700000000009,
       "stature_metadata_fixed": true,
       "slice_y_061_bounds": {
         "min": [
@@ -658,6 +669,7 @@
         "separation": 1,
         "attachment": 0.03,
         "cleft": 0.75,
+        "contactBulge": 0.5,
         "asymmetry": 0,
         "pelvisWidth": 1,
         "pelvisDepth": 1,
@@ -684,7 +696,7 @@
       "status": "volume of this regional proposal, not a measured anatomical volume",
       "heightReferenceNormalized": 1,
       "normal_unit_length_error": 4.10036549158832e-8,
-      "milliseconds": 56.73450000000014,
+      "milliseconds": 62.75569999999993,
       "stature_metadata_fixed": true,
       "slice_y_061_bounds": {
         "min": [
@@ -749,6 +761,6 @@
   "coarse_refined_volume_relative_difference": 0.015970384712122976,
   "voxel_mesh_volume_relative_difference": 0.006127735609769314,
   "volume_overlap_policy": "final union mesh integral or one negative-field voxel classification; component volumes are never summed",
-  "elapsed_seconds": 1.3385471,
+  "elapsed_seconds": 1.4633776,
   "limits": "Closed regional template only. Not attached seamlessly to original full body; no anatomy acceptance, surface detail, clothing, skeleton, contact simulation, actual tissue-volume calibration, or full implementation of an academic paper."
 }

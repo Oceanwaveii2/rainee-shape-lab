@@ -849,8 +849,16 @@
   "archive_hash_unchanged": true,
   "original_videos_retained_verified": 8,
   "review_duration_within_one_12fps_frame": true,
-  "new_meshes_decimated": false,
-  "source_coordinate_or_index_bits_modified_by_compression": false,
+  "primary_four_glb_meshes_decimated": false,
+  "retained_coordinate_or_index_bits_modified_by_compression": false,
+  "extra_donor": {
+    "inspection_lod_is_lossy": true,
+    "decoded_lod_hash_verified": true,
+    "lod_vertices": 5070,
+    "lod_triangles": 11040,
+    "full_original_zip_fbx_png_hashes_unchanged": true,
+    "measurement_source": "full local originals, not inspection LOD"
+  },
   "http_checks": [
     {
       "route": "houdini/body-v4-rest.bin",
@@ -869,32 +877,6 @@
       "response_hash_verified": true
     }
   ],
-  "elapsed_seconds": 7.681983232498169,
-  "scope": "Lossless package/source integrity, review duration and actual HTTP restoration. Browser rendering is recorded separately; anatomical likeness/registration/physics are not certified.",
-  "materialized_geometry_glb_roundtrips": [
-    {
-      "id": "R01",
-      "vertices": 405713,
-      "triangles": 751140,
-      "exported_glb_geometry_matches_retained_world_coordinates": true
-    },
-    {
-      "id": "R02",
-      "vertices": 343386,
-      "triangles": 640530,
-      "exported_glb_geometry_matches_retained_world_coordinates": true
-    },
-    {
-      "id": "R03",
-      "vertices": 452290,
-      "triangles": 840980,
-      "exported_glb_geometry_matches_retained_world_coordinates": true
-    },
-    {
-      "id": "R04",
-      "vertices": 634793,
-      "triangles": 1174958,
-      "exported_glb_geometry_matches_retained_world_coordinates": true
-    }
-  ]
+  "elapsed_seconds": 7.6526548862457275,
+  "scope": "Lossless primary package/source integrity, separate extra donor LOD provenance, review duration and actual HTTP restoration. Browser rendering is recorded separately; anatomical likeness/registration/physics are not certified."
 }

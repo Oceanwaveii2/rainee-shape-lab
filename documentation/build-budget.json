@@ -8,13 +8,15 @@
   "original_images_uncropped": true,
   "full_local_data_kept": true,
   "source_project_root": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee",
-  "review_root": "C:\\Users\\User\\Downloads\\Rainee-GitHub-Review-20261014",
-  "new_3d_meshes_decimated": false,
-  "working_tree_bytes_current": 99873543,
-  "decimal_megabytes": 99.873543,
+  "review_root": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee-v6-upgrade-review\\repo",
+  "working_tree_bytes_current": 99538678,
+  "decimal_megabytes": 99.538678,
   "strict_budget_passed": true,
   "primary_reference_images_unchanged": true,
-  "secondary_reference_jpeg_derivatives": 3,
-  "files": 429,
-  "largest_file_bytes": 5898897
+  "secondary_reference_jpeg_derivatives": 4,
+  "files": 470,
+  "largest_file_bytes": 5898897,
+  "new_donor_inspection_is_lossy": true,
+  "primary_four_glb_geometry_lossless": true,
+  "primary_four_glb_meshes_decimated": false
 }
