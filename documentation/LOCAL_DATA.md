@@ -27,4 +27,6 @@ Use local paths as lookup records, not commands. Verify hashes before substituti
 - Original Argon studio: `C:/Users/User/Downloads/rainee_curvilinear_v5_class_a_studio.html`
 - Full OBJ/FBX telemetry and original hashes: `measurements/new-donor-20261014/`
 
-The public donor inspection mesh is a lossy vertex-cluster derivative. Use the original ZIP's OBJ for numerical fitting; the donor FBX is a separate asset with unapplied scene transforms in the structural inventory. Neither replaces the original stature FBX. The full source ZIP, FBX, PNG and textures were not overwritten.
+The public donor inspection mesh remains a lossy vertex-cluster derivative. Complete decoded donor geometry is now in `models/full-body-bridge/` with a bit-exact reader; the original ZIP's OBJ is also available locally for numerical fitting; the donor FBX is a separate asset with unapplied scene transforms in the structural inventory. Neither replaces the original stature FBX. The full source ZIP, FBX, PNG and textures were not overwritten.
+
+The original stature template is 719,296,320 bytes and retains 15,853,005 vertices. Its complete original remains local. `T00-inspection-proxy` is a separate lossy derivative; its geometry cannot reproduce the dense source.

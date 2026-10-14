@@ -8,7 +8,7 @@
         "measurements/test_model_compare.py"
       ],
       "passed": true,
-      "seconds": 0.443,
+      "seconds": 0.438,
       "stdout": "{\"passed\": true, \"checks\": [\"different topology preserves cross-section descriptors\", \"source-axis calibration swaps lateral/depth correctly\", \"missing landmarks withhold normalization\", \"narrow ROI clips crossing section segments exactly\", \"disconnected props remain separate topology components\"]}\n",
       "stderr": ""
     },
@@ -18,7 +18,7 @@
         "measurements/test_local_shape_constraints.py"
       ],
       "passed": true,
-      "seconds": 1.482,
+      "seconds": 1.348,
       "stdout": "{\"passed\": true, \"checks\": [\"known rotated ellipsoid center and principal radii recovered\", \"dimensionless axis ratio preserved under translation and scale\", \"degenerate surface samples rejected\"], \"scope\": \"geometric fitter correctness; does not validate target anatomical ROI acceptance or correspondence\"}\n",
       "stderr": ""
     },
@@ -28,7 +28,7 @@
         "measurements/test_v6_numerics.py"
       ],
       "passed": true,
-      "seconds": 2.357,
+      "seconds": 3.249,
       "stdout": "{\n  \"passed\": true,\n  \"checks\": [\n    \"radius-two cylinder has outward mean curvature -1/4, Gaussian 0, shape index -1/2\",\n    \"DEM curvature survives extraction and completed bins remain explicitly unobserved\",\n    \"empty, degenerate, reversed-landmark, low-resolution and entirely unobserved charts reject\",\n    \"manual bbox assumptions do not grant anatomical calibration\",\n    \"GLB active-scene instances, parent transform and reflected winding preserved; unevaluated animation rejected\",\n    \"clamped spline reproduces a plane including endpoints; malformed knots/control grids reject\",\n    \"Python SciPy and JavaScript rational cubic evaluation agree on nonuniform explicit knots and endpoints\",\n    \"batch PCA records absent single-donor variance and rejects partial/nonfinite or mismatched charts\"\n  ],\n  \"scope\": \"Synthetic numerical correctness; no calibrated donor alignment, likeness, Class-A or hidden anatomy validation\"\n}\n",
       "stderr": ""
     },
@@ -38,7 +38,7 @@
         "houdini/test_curvilinear_v5_join.py"
       ],
       "passed": true,
-      "seconds": 0.339,
+      "seconds": 0.332,
       "stdout": "{\"passed\": true, \"join_cases\": 36, \"max_one_sided_derivative_difference\": 5.551115123125783e-10, \"checks\": [\"C1 inner/outer join under high lateral expansion and zero separation\", \"local branch monotonicity across bounded sampled controls\", \"nonfinite controls and invalid RK4 steps rejected\", \"zero amplitude preserves source points\", \"winding proposals do not mutate source indices\"], \"scope\": \"Regional base-map join and synthetic input validation, not global foldover, topology or likeness certification\"}\n",
       "stderr": ""
     },
@@ -48,7 +48,7 @@
         "tools/verify_upgrade_applier.py"
       ],
       "passed": true,
-      "seconds": 1.143,
+      "seconds": 0.988,
       "stdout": "PASS 3 isolated applier cases: preflight, rollback and verified install\n",
       "stderr": ""
     },
@@ -58,7 +58,7 @@
         "houdini/verify_curvilinear_v5.mjs"
       ],
       "passed": true,
-      "seconds": 1.189,
+      "seconds": 1.325,
       "stdout": "VERIFIED CURVILINEAR V5 & 2D-TO-3D SUITE: {\"passed\":true,\"flipped_vdb_triangles\":43889,\"v5_25x_amplitude\":0.3371437741443515,\"v5_25x_cage_ratio\":2.4999999971404385,\"v5_25x_min_jacobian_det\":0.22020631657757045,\"v5_25x_nonpositive_jacobians\":0,\"implicit_skinning_closed\":true,\"implicit_skinning_volume_H3\":0.012112174217557009,\"psps_partition_of_unity_error\":0,\"perspective_40deg_unwarped_ratio\":2.0684574654935957}\n",
       "stderr": ""
     },
@@ -68,8 +68,8 @@
         "houdini/lab/anatomy-model.verify.mjs"
       ],
       "passed": true,
-      "seconds": 1.547,
-      "stdout": "{\"name\":\"default\",\"closed\":true,\"components\":1,\"volume\":0.007729970873574393,\"ms\":172.9511}\n{\"name\":\"wider\",\"closed\":true,\"components\":1,\"volume\":0.008602111931307865,\"ms\":118.67099999999996}\n{\"name\":\"taller\",\"closed\":true,\"components\":1,\"volume\":0.009141584529135431,\"ms\":137.37810000000002}\n{\"name\":\"posterior\",\"closed\":true,\"components\":1,\"volume\":0.009879972236106666,\"ms\":111.36530000000005}\n{\"name\":\"upper-pole\",\"closed\":true,\"components\":1,\"volume\":0.008772340420333626,\"ms\":108.62530000000004}\n{\"name\":\"lower-pole\",\"closed\":true,\"components\":1,\"volume\":0.008876271254328974,\"ms\":72.5879000000001}\n{\"name\":\"separated\",\"closed\":true,\"components\":1,\"volume\":0.007927899221263156,\"ms\":71.44939999999997}\n{\"name\":\"thighs\",\"closed\":true,\"components\":1,\"volume\":0.009564695888858126,\"ms\":58.00430000000006}\n{\"name\":\"asymmetric\",\"closed\":true,\"components\":1,\"volume\":0.008145283526403549,\"ms\":65.9099}\n{\"name\":\"compact\",\"closed\":true,\"components\":1,\"volume\":0.004669161998745605,\"ms\":77.04020000000003}\n{\"name\":\"thin-thigh-attachment\",\"closed\":true,\"components\":1,\"volume\":0.005882094887567014,\"ms\":62.22700000000009}\n{\"name\":\"expanded\",\"closed\":true,\"components\":1,\"volume\":0.035253603952291136,\"ms\":62.75569999999993}\n{\"passed\":true,\"elapsed_seconds\":1.4633776,\"coarseRefinedRelativeDifference\":0.015970384712122976,\"voxelMeshRelativeDifference\":0.006127735609769314,\"refined_points\":9632,\"refined_triangles\":19260}\n",
+      "seconds": 1.259,
+      "stdout": "{\"name\":\"default\",\"closed\":true,\"components\":1,\"volume\":0.007729970873574393,\"ms\":104.86189999999999}\n{\"name\":\"wider\",\"closed\":true,\"components\":1,\"volume\":0.008602111931307865,\"ms\":99.78989999999999}\n{\"name\":\"taller\",\"closed\":true,\"components\":1,\"volume\":0.009141584529135431,\"ms\":70.83679999999998}\n{\"name\":\"posterior\",\"closed\":true,\"components\":1,\"volume\":0.009879972236106666,\"ms\":76.28809999999999}\n{\"name\":\"upper-pole\",\"closed\":true,\"components\":1,\"volume\":0.008772340420333626,\"ms\":88.67660000000001}\n{\"name\":\"lower-pole\",\"closed\":true,\"components\":1,\"volume\":0.008876271254328974,\"ms\":70.34390000000002}\n{\"name\":\"separated\",\"closed\":true,\"components\":1,\"volume\":0.007927899221263156,\"ms\":63.46810000000005}\n{\"name\":\"thighs\",\"closed\":true,\"components\":1,\"volume\":0.009564695888858126,\"ms\":52.50210000000004}\n{\"name\":\"asymmetric\",\"closed\":true,\"components\":1,\"volume\":0.008145283526403549,\"ms\":67.71990000000005}\n{\"name\":\"compact\",\"closed\":true,\"components\":1,\"volume\":0.004669161998745605,\"ms\":62.122999999999934}\n{\"name\":\"thin-thigh-attachment\",\"closed\":true,\"components\":1,\"volume\":0.005882094887567014,\"ms\":74.72720000000004}\n{\"name\":\"expanded\",\"closed\":true,\"components\":1,\"volume\":0.035253603952291136,\"ms\":62.064899999999966}\n{\"passed\":true,\"elapsed_seconds\":1.1607167999999999,\"coarseRefinedRelativeDifference\":0.015970384712122976,\"voxelMeshRelativeDifference\":0.006127735609769314,\"refined_points\":9632,\"refined_triangles\":19260}\n",
       "stderr": ""
     },
     {
@@ -78,8 +78,8 @@
         "houdini/lab/state-verification.mjs"
       ],
       "passed": true,
-      "seconds": 8.889,
-      "stdout": "{\"passed\":true,\"testCount\":28,\"milliseconds\":8758.6952,\"issues\":[]}\n",
+      "seconds": 7.417,
+      "stdout": "{\"passed\":true,\"testCount\":28,\"milliseconds\":7256.318,\"issues\":[]}\n",
       "stderr": ""
     },
     {
@@ -88,7 +88,7 @@
         "houdini/lab/engine-state.test.mjs"
       ],
       "passed": true,
-      "seconds": 3.906,
+      "seconds": 3.933,
       "stdout": "PASS New recipes select Argon v5; older recipes retain legacy and absent display boost\nPASS Engine and endpoint view correction survive project JSON round trip\nPASS Imported engine and display corrections are range checked; stale audits discarded\nPASS Both engine choices dispatch to exactly the corresponding rendered extractor\nPASS Each engine holds actual endpoint geometry and shares thighs across accepted stages\nPASS 27 sampled audits identify the selected engine and report that engine geometry\nPASS Background worker audits the selected experimental extractor rather than legacy\nPASS Display boost changes a preview copy while canonical measurement/export positions stay exact\n{\"passed\":true,\"testCount\":8,\"scope\":\"Actual selected regional extraction and 27 discrete audit states, recipe round trip and independent preview buffers; no continuous topology or anatomical accuracy claim.\"}\n",
       "stderr": ""
     },
@@ -98,8 +98,8 @@
         "houdini/lab/argon-v5.test.mjs"
       ],
       "passed": true,
-      "seconds": 1.81,
-      "stdout": "PASS New consolidated projects default to the exact Argon v5 stage schedule (3ms)\nPASS Older recipes retain their chosen engine and receive only the missing contact default (2ms)\nPASS Contact bulge is interpolated between the accepted stages and held after 0026 (0ms)\nPASS Resetting the Argon schedule preserves source, shared thighs and saved views (1ms)\nPASS Selected renderer extraction matches the exact standalone Argon field module (129ms)\nPASS All 27 actual Argon surfaces at resolution24 are closed, connected and ordered (1444ms)\nPASS Actual canonical endpoint geometry and normals remain identical at 0026 and 0049 (69ms)\nPASS Pose and view boost modify only copied preview positions used for display (59ms)\n{\"passed\":true,\"testCount\":8,\"solverEngine\":\"argon-v5\",\"resolution\":24,\"scope\":\"Exact supplied stage presets, backward recipe compatibility, real selected surfaces at 27 integer frames and separate display buffers. No continuous topology, physical dynamics or anatomical acceptance claim.\"}\n",
+      "seconds": 2.506,
+      "stdout": "PASS New consolidated projects default to the exact Argon v5 stage schedule (2ms)\nPASS Older recipes retain their chosen engine and receive only the missing contact default (3ms)\nPASS Contact bulge is interpolated between the accepted stages and held after 0026 (1ms)\nPASS Resetting the Argon schedule preserves source, shared thighs and saved views (2ms)\nPASS Selected renderer extraction matches the exact standalone Argon field module (155ms)\nPASS All 27 actual Argon surfaces at resolution24 are closed, connected and ordered (2045ms)\nPASS Actual canonical endpoint geometry and normals remain identical at 0026 and 0049 (103ms)\nPASS Pose and view boost modify only copied preview positions used for display (67ms)\n{\"passed\":true,\"testCount\":8,\"solverEngine\":\"argon-v5\",\"resolution\":24,\"scope\":\"Exact supplied stage presets, backward recipe compatibility, real selected surfaces at 27 integer frames and separate display buffers. No continuous topology, physical dynamics or anatomical acceptance claim.\"}\n",
       "stderr": ""
     },
     {
@@ -108,7 +108,7 @@
         "houdini/lab/argon-source-parity.test.mjs"
       ],
       "passed": true,
-      "seconds": 0.279,
+      "seconds": 0.319,
       "stdout": "{\"passed\":true,\"presets\":4,\"fieldSamples\":320,\"sourceSha256\":\"52393af0819e66410b0cea1584e3f7d9ba7a6c47616515c0b90187dedf9b711c\",\"scope\":\"Exact field values and extracted canonical positions/normals/triangles against the supplied standalone source; no anatomy or physics certificate.\"}\n",
       "stderr": ""
     },
@@ -118,7 +118,7 @@
         "measurements/v6-numerics.verify.mjs"
       ],
       "passed": true,
-      "seconds": 0.075,
+      "seconds": 0.089,
       "stdout": "{\"passed\":true,\"checks\":[\"clamped cubic plane and constant reproduction with exact endpoints\",\"invalid spline grids, weights, knots and parameters rejected\",\"opacity threshold never invents a noncrossing surface\",\"sorted compositing and fully opaque splat threshold\",\"affine first-order covariance transport\"],\"scope\":\"Synthetic helpers only; no GOF density, surface attachment, anatomical volume or foldover guarantee\"}\n",
       "stderr": ""
     },
@@ -128,7 +128,7 @@
         "research/gaussian-growth/frosting-field.verify.mjs"
       ],
       "passed": true,
-      "seconds": 0.092,
+      "seconds": 0.115,
       "stdout": "{\"passed\":true,\"cases\":804,\"minimumDeterminant\":0.14034931714983725,\"scope\":\"CPU analytic Jacobian and continuity; noncompact map, no surface binding or GPU certification\"}\n",
       "stderr": ""
     },
@@ -138,7 +138,7 @@
         "houdini/lab/measurements/verify-measurement-model.mjs"
       ],
       "passed": true,
-      "seconds": 0.519,
+      "seconds": 0.48,
       "stdout": "{\n  \"passed\": true,\n  \"tests\": 11,\n  \"report\": \"C:\\\\Users\\\\User\\\\OneDrive\\\\Current Work\\\\Documents\\\\ChatGPT\\\\Local Stuff\\\\rainee-v6-upgrade-review\\\\repo\\\\houdini\\\\lab\\\\measurements\\\\verification.json\",\n  \"largestVolumeRelativeError\": 0.001783568413749845,\n  \"nextView\": \"side\"\n}\n",
       "stderr": ""
     }

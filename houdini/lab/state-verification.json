@@ -2,7 +2,7 @@
   "schema": "rainee-lab-state-verification-v1",
   "passed": true,
   "testCount": 28,
-  "milliseconds": 8758.6952,
+  "milliseconds": 7256.318,
   "source": {
     "body": "body-v4-rest.bin",
     "triangles": "pelvic-repair/implicit-repaired-triangles.bin",
@@ -19,7 +19,7 @@
     {
       "name": "Actual source fingerprints and fixed stature are attached to initial project",
       "passed": true,
-      "milliseconds": 0.7862999999999829,
+      "milliseconds": 19.78389999999999,
       "evidence": {
         "body": "body-v4-rest.bin",
         "triangles": "pelvic-repair/implicit-repaired-triangles.bin",
@@ -32,7 +32,7 @@
     {
       "name": "Initial proposal is explicitly uncalibrated and stages are ordinal identities",
       "passed": true,
-      "milliseconds": 0.09710000000001173,
+      "milliseconds": 0.08619999999999095,
       "evidence": {
         "camera": "assumed / artist adjusted",
         "shape": "Argon v5 artist proposal; reference fit pending",
@@ -43,7 +43,7 @@
     {
       "name": "Initial27 integer frames are one closed component and measured volume is monotonic",
       "passed": true,
-      "milliseconds": 2598.5371999999998,
+      "milliseconds": 1920.7058000000002,
       "evidence": {
         "resolution": 24,
         "firstVolumeH3": 0.007729970873574393,
@@ -245,7 +245,7 @@
     {
       "name": "Endpoint26 and49 have identical canonical shape parameters",
       "passed": true,
-      "milliseconds": 0.22349999999960346,
+      "milliseconds": 0.13679999999976644,
       "evidence": {
         "frame26": {
           "lobeWidth": 1.24,
@@ -288,7 +288,7 @@
     {
       "name": "Endpoint hold produces byte-identical extracted geometry and normals",
       "passed": true,
-      "milliseconds": 226.04849999999988,
+      "milliseconds": 139.47890000000007,
       "evidence": {
         "positionSha256": "78b1f65814b7ff0f2804a398e121253807732385b0deb1fc2244ac2a3d368c6f",
         "triangleSha256": "9384020c92ce8cdaf25f6907078acdbd5dfd6a9d08ffcae49c5766d6bcb9d244",
@@ -298,7 +298,7 @@
     {
       "name": "storeTemplateStage changes stage26 without mutating the prior project",
       "passed": true,
-      "milliseconds": 2334.9902999999995,
+      "milliseconds": 1819.8534,
       "evidence": {
         "storedEndpoint": {
           "lobeWidth": 1.28,
@@ -523,7 +523,7 @@
     {
       "name": "Shared thigh controls apply to every integer frame and held endpoint",
       "passed": true,
-      "milliseconds": 1.0621000000001004,
+      "milliseconds": 1.3265999999998712,
       "evidence": {
         "checkedFrames": [
           0,
@@ -566,7 +566,7 @@
     {
       "name": "Global thigh change affects actual stage0 geometry, while its lobe controls remain fixed",
       "passed": true,
-      "milliseconds": 134.91789999999946,
+      "milliseconds": 121.63349999999991,
       "evidence": {
         "beforeVolumeH3": 0.007729970873574393,
         "afterVolumeH3": 0.008227375501901833,
@@ -576,7 +576,7 @@
     {
       "name": "Decreasing endpoint fails the default27-frame geometric audit",
       "passed": true,
-      "milliseconds": 1509.1475999999993,
+      "milliseconds": 1477.1305999999995,
       "evidence": {
         "rejection": "Regional volume decreases at frame 19. Review this stage before storing the accepted growth order."
       }
@@ -584,7 +584,7 @@
     {
       "name": "Unaudited staging is explicit and deletes a stale prior audit",
       "passed": true,
-      "milliseconds": 1470.548999999999,
+      "milliseconds": 1327.9174999999996,
       "evidence": {
         "mode": "audit:false produces a proposal only; acceptance still requires a fresh audit"
       }
@@ -592,7 +592,7 @@
     {
       "name": "Intermediate integer and fractional shape edits are rejected",
       "passed": true,
-      "milliseconds": 0.2360000000007858,
+      "milliseconds": 0.28439999999955035,
       "evidence": {
         "rejectedFrames": [
           1,
@@ -608,7 +608,7 @@
     {
       "name": "Same-source project import returns an independent valid clone",
       "passed": true,
-      "milliseconds": 0.47040000000015425,
+      "milliseconds": 0.5097999999998137,
       "evidence": {
         "sameSourceImport": true,
         "cloneIndependent": true
@@ -617,7 +617,7 @@
     {
       "name": "Import rejects different body hash",
       "passed": true,
-      "milliseconds": 0.12030000000049768,
+      "milliseconds": 0.13360000000011496,
       "evidence": {
         "field": "bodySha256"
       }
@@ -625,7 +625,7 @@
     {
       "name": "Import rejects different triangle hash",
       "passed": true,
-      "milliseconds": 0.06549999999879219,
+      "milliseconds": 0.06790000000000873,
       "evidence": {
         "field": "trianglesSha256"
       }
@@ -633,7 +633,7 @@
     {
       "name": "Import rejects different source stature",
       "passed": true,
-      "milliseconds": 0.05169999999998254,
+      "milliseconds": 0.05449999999927968,
       "evidence": {
         "field": "heightSourceUnits"
       }
@@ -641,7 +641,7 @@
     {
       "name": "Import rejects nonfinite source stature",
       "passed": true,
-      "milliseconds": 0.03690000000096916,
+      "milliseconds": 0.04310000000077707,
       "evidence": {
         "field": "heightSourceUnits"
       }
@@ -649,7 +649,7 @@
     {
       "name": "Import rejects missing/non-numeric stature",
       "passed": true,
-      "milliseconds": 0.039099999999962165,
+      "milliseconds": 0.03910000000087166,
       "evidence": {
         "field": "heightSourceUnits"
       }
@@ -657,25 +657,25 @@
     {
       "name": "Import rejects absent canonical source and unsupported schema",
       "passed": true,
-      "milliseconds": 0.14140000000043074,
+      "milliseconds": 0.14829999999983556,
       "evidence": null
     },
     {
       "name": "Import rejects invalid frame, mode, camera, pose and anatomy controls",
       "passed": true,
-      "milliseconds": 0.7373000000006869,
+      "milliseconds": 11.891900000000533,
       "evidence": null
     },
     {
       "name": "Import rejects a missing accepted stage instead of falling back to defaults",
       "passed": true,
-      "milliseconds": 0.12910000000010768,
+      "milliseconds": 0.15610000000015134,
       "evidence": null
     },
     {
       "name": "Import rejects fractional source frames",
       "passed": true,
-      "milliseconds": 0.14020000000164146,
+      "milliseconds": 0.1617999999998574,
       "evidence": {
         "rejectedFrames": [
           0.5,
@@ -687,7 +687,7 @@
     {
       "name": "Every accepted imported stage requires complete finite known parameters",
       "passed": true,
-      "milliseconds": 0.6474999999991269,
+      "milliseconds": 0.7046000000000276,
       "evidence": {
         "stages": [
           0,
@@ -702,7 +702,7 @@
     {
       "name": "Held endpoint camera/pose lookup retains stage26 hypothesis",
       "passed": true,
-      "milliseconds": 0.12789999999949941,
+      "milliseconds": 0.15499999999974534,
       "evidence": {
         "camera": {
           "type": "orthographic",
@@ -724,13 +724,13 @@
     {
       "name": "Zero pose returns equal but independently stored canonical positions",
       "passed": true,
-      "milliseconds": 4.760699999998906,
+      "milliseconds": 2.9375999999992928,
       "evidence": null
     },
     {
       "name": "Nonzero pose changes preview but never mutates actual canonical source vertices",
       "passed": true,
-      "milliseconds": 352.3134000000009,
+      "milliseconds": 305.96200000000044,
       "evidence": {
         "canonicalSha256": "ac5fa6809ea218c3964376b6c3868bc1899f39ccdf89a0982a49c4a10a44577b",
         "canonicalIndexedStature": 1,
@@ -773,19 +773,19 @@
     {
       "name": "Point-pose call leaves its caller-owned coordinates untouched",
       "passed": true,
-      "milliseconds": 0.20119999999951688,
+      "milliseconds": 0.14179999999942083,
       "evidence": null
     },
     {
       "name": "Invalid pose is rejected before touching canonical vertices",
       "passed": true,
-      "milliseconds": 4.140099999998711,
+      "milliseconds": 2.5082000000002154,
       "evidence": null
     },
     {
       "name": "Tested module files remain unchanged throughout this run",
       "passed": true,
-      "milliseconds": 0.8231999999989057,
+      "milliseconds": 0.577900000000227,
       "evidence": {
         "labState": "41038e0c659d6e908466d224a4fc878ea1aeea5a8ac079d5c38db7d82080a377",
         "anatomyModel": "1c8e4fd96374801d81665342d034e943c9ae734941be839d981bd34dbcd96730"

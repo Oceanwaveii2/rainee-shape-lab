@@ -32,7 +32,7 @@ export function readRetainedAsset(filename){
     if(raw.length!==12+count*16)throw Error('Invalid sparse payload size');
     const out=Buffer.from(readRetainedAsset(path.join(root,entry.base)));
     if(out.length!==n*12)throw Error('Sparse base size mismatch');
-    for(let j=0;j<count;j++){const i=raw.readUInt32LE(12+4*j);if(i>=n)throw Error('Invalid sparse index');raw.copy(out,i*12,12+4*count+12*j,12+4*count+12*(j+1));}
+    for(let j=0;j<count;j++){const i=raw.readUInt32LE(12+4*j);if(i>=n)throw Error('Invalid sparse index');if(entry.point_values_encoding==='xor-baseline-uint32'){for(let axis=0;axis<3;axis++){const at=i*12+axis*4;out.writeUInt32LE((out.readUInt32LE(at)^raw.readUInt32LE(12+4*count+12*j+axis*4))>>>0,at)}}else if(entry.point_values_encoding===undefined)raw.copy(out,i*12,12+4*count+12*j,12+4*count+12*(j+1));else throw Error('Unknown sparse point encoding');}
     raw=out;
   }else if(!['file','gzip'].includes(entry.codec))throw Error('Unknown retained asset codec');
   if(raw.length!==entry.decoded_bytes||sha(raw)!==entry.decoded_sha256)throw Error('Decoded asset checksum mismatch: '+route);

@@ -150,11 +150,12 @@
       "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
       "lean_review": {
         "path": "videos/V01/review.mp4",
-        "bytes": 270071,
-        "sha256": "8e64ddfc812650719b5b737522cff177d0793c57b10b5288295120b9d45cef91",
-        "transform": "full-duration, uncropped proportional resize <=576px wide, 12fps H.264 CRF31, audio omitted; full source preserved locally",
+        "bytes": 144076,
+        "sha256": "a7475046276e7d31cc0cb7568dba5734eec82fb69b1c5b63c10d651df1295b0e",
+        "transform": "full duration, uncropped proportional resize <=480px,12fps H.264 CRF35; audio omitted; original local source unchanged",
         "source_unchanged": true,
-        "duration_seconds": 8.083333
+        "duration_seconds": 8.083333,
+        "review_duration_seconds": 8.083333
       },
       "sample_frames": [
         {
@@ -287,11 +288,12 @@
       "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
       "lean_review": {
         "path": "videos/V02/review.mp4",
-        "bytes": 248871,
-        "sha256": "f0b9561e14a4476ab0830fdd495835ceb09ecf8addba9097e849176d9be75334",
-        "transform": "full-duration, uncropped proportional resize <=576px wide, 12fps H.264 CRF31, audio omitted; full source preserved locally",
+        "bytes": 140857,
+        "sha256": "bf58a4288f2fd5586a16555b7ae4e770a7d0c973aa6e43829e26e040e02a71ee",
+        "transform": "full duration, uncropped proportional resize <=480px,12fps H.264 CRF35; audio omitted; original local source unchanged",
         "source_unchanged": true,
-        "duration_seconds": 8.083333
+        "duration_seconds": 8.083333,
+        "review_duration_seconds": 8.083333
       },
       "sample_frames": [
         {
@@ -476,11 +478,12 @@
       "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
       "lean_review": {
         "path": "videos/V03/review.mp4",
-        "bytes": 238971,
-        "sha256": "360f36d97d5931438b8284168183a7e28de3c817a7216f6dac0c6e667c6f22b3",
-        "transform": "full-duration, uncropped proportional resize <=576px wide, 12fps H.264 CRF31, audio omitted; full source preserved locally",
+        "bytes": 136595,
+        "sha256": "abb6e077da807b303fae48120b74199a899e4b138d1afa01b6db449369b73318",
+        "transform": "full duration, uncropped proportional resize <=480px,12fps H.264 CRF35; audio omitted; original local source unchanged",
         "source_unchanged": true,
-        "duration_seconds": 8.083333
+        "duration_seconds": 8.083333,
+        "review_duration_seconds": 8.083333
       },
       "sample_frames": [
         {
@@ -665,11 +668,12 @@
       "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
       "lean_review": {
         "path": "videos/V04/review.mp4",
-        "bytes": 267711,
-        "sha256": "4e976884d2959f716c373496c92129053283f8e9786e104dbf9f1b6afdb76c4e",
-        "transform": "full-duration, uncropped proportional resize <=576px wide, 12fps H.264 CRF31, audio omitted; full source preserved locally",
+        "bytes": 147336,
+        "sha256": "f1b619d2a76cf1ca37251ef69142823a413aaea77b5cbc85cde8d4a542b7b9e4",
+        "transform": "full duration, uncropped proportional resize <=480px,12fps H.264 CRF35; audio omitted; original local source unchanged",
         "source_unchanged": true,
-        "duration_seconds": 8.083333
+        "duration_seconds": 8.083333,
+        "review_duration_seconds": 8.083333
       },
       "sample_frames": [
         {
@@ -854,11 +858,12 @@
       "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
       "lean_review": {
         "path": "videos/V05/review.mp4",
-        "bytes": 232161,
-        "sha256": "4fbc76eb56eb286276877944e5ee05ca2badad5086b721c59626584e038026f1",
-        "transform": "full-duration, uncropped proportional resize <=576px wide, 12fps H.264 CRF31, audio omitted; full source preserved locally",
+        "bytes": 132036,
+        "sha256": "63eb7593618fab3ae97829f547860dc9c104fbb8c6498a810de13e74827e79ef",
+        "transform": "full duration, uncropped proportional resize <=480px,12fps H.264 CRF35; audio omitted; original local source unchanged",
         "source_unchanged": true,
-        "duration_seconds": 8.083333
+        "duration_seconds": 8.083333,
+        "review_duration_seconds": 8.083333
       },
       "sample_frames": [
         {
@@ -1043,11 +1048,12 @@
       "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
       "lean_review": {
         "path": "videos/V06/review.mp4",
-        "bytes": 231678,
-        "sha256": "91e31a957fe54de7b755dea447aad01bb57a8ef5a2a5991a419c083097d78440",
-        "transform": "full-duration, uncropped proportional resize <=576px wide, 12fps H.264 CRF31, audio omitted; full source preserved locally",
+        "bytes": 125321,
+        "sha256": "52e5a087e78c8a6474952cf6d3efbb22161352c25b965a95daea01d82912997e",
+        "transform": "full duration, uncropped proportional resize <=480px,12fps H.264 CRF35; audio omitted; original local source unchanged",
         "source_unchanged": true,
-        "duration_seconds": 8.083333
+        "duration_seconds": 8.083333,
+        "review_duration_seconds": 8.083333
       },
       "sample_frames": [
         {
@@ -1180,11 +1186,12 @@
       "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
       "lean_review": {
         "path": "videos/V07/review.mp4",
-        "bytes": 253320,
-        "sha256": "66e6dd478f6918c2b8a7f183eb9da517bb4411545eb51618f1188c12cca7f840",
-        "transform": "full-duration, uncropped proportional resize <=576px wide, 12fps H.264 CRF31, audio omitted; full source preserved locally",
+        "bytes": 140256,
+        "sha256": "1ab1d04a0f6489d5859c69b70e31f918cf710d84519d870ada66c9d37194bc3a",
+        "transform": "full duration, uncropped proportional resize <=480px,12fps H.264 CRF35; audio omitted; original local source unchanged",
         "source_unchanged": true,
-        "duration_seconds": 8.083333
+        "duration_seconds": 8.083333,
+        "review_duration_seconds": 8.083333
       },
       "sample_frames": [
         {
@@ -1367,11 +1374,12 @@
       "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
       "lean_review": {
         "path": "videos/V08/review.mp4",
-        "bytes": 234865,
-        "sha256": "2fc08beaba1b0b8cd82b4c309aba7d6119f65e3be7039e52f67a81e248302cbd",
-        "transform": "full-duration, uncropped proportional resize <=576px wide, 12fps H.264 CRF31, audio omitted; full source preserved locally",
+        "bytes": 133761,
+        "sha256": "73bb8da1a9201382b2773a62a3ff63bd1c272461fb122d265e1841c9a4d2a0c1",
+        "transform": "full duration, uncropped proportional resize <=480px,12fps H.264 CRF35; audio omitted; original local source unchanged",
         "source_unchanged": true,
-        "duration_seconds": 8.083333
+        "duration_seconds": 8.083333,
+        "review_duration_seconds": 8.083333
       },
       "sample_frames": [
         {

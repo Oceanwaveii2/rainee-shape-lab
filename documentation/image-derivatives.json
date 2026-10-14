@@ -1,0 +1,204 @@
+{
+  "schema": "rainee-lossless-pixel-review-images-v1",
+  "images": [
+    {
+      "virtual_route": "measurements/face-identity-20261013/references/blonde-portrait.png",
+      "stored_path": "measurements/face-identity-20261013/references/blonde-portrait.webp",
+      "original_png_sha256": "b16201981a87fa4cf43eaf0636ee52913b85082826de690e6e9c88512791b6e3",
+      "stored_sha256": "a5986d25e108f289e7c9c504ef9d6b648ce99cfa7652036137dd8732aae21175",
+      "pixel_rgba_sha256": "7f157659dc308456f52511dec6eb5c3df19147b5534e64420e98feedf4bbae01",
+      "dimensions": [
+        1825,
+        2048
+      ],
+      "original_png_bytes": 5339188,
+      "stored_webp_bytes": 2455336,
+      "icc_profile_preserved": false,
+      "scope": "full size, uncropped, lossless decoded RGBA pixels; original PNG container remains local"
+    },
+    {
+      "virtual_route": "measurements/face-identity-20261013/references/blue-bust.png",
+      "stored_path": "measurements/face-identity-20261013/references/blue-bust.webp",
+      "original_png_sha256": "9fd2336f4b7321a757dce55cf9f9902bac0ac9b05994184ad27a08fde9adf288",
+      "stored_sha256": "04ef581d106e13753ad309d3f699135bc5a213e681e84b58a67f57227f90c5a7",
+      "pixel_rgba_sha256": "934091f52ffba00caf9df05f3610f8538f5847f90e10a3bb70e98f643342415b",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "original_png_bytes": 1032127,
+      "stored_webp_bytes": 646394,
+      "icc_profile_preserved": false,
+      "scope": "full size, uncropped, lossless decoded RGBA pixels; original PNG container remains local"
+    },
+    {
+      "virtual_route": "references/accepted-growth/frame_0000.png",
+      "stored_path": "references/accepted-growth/frame_0000.webp",
+      "original_png_sha256": "f4de8ffb4809c91cc6f481960d23aa625893a55f324942abffa551534bc2ed96",
+      "stored_sha256": "988e61e96e3991f0c2ae3e840302601e27e3af2d9b18fb50f656732766ee5214",
+      "pixel_rgba_sha256": "d9105ed4a68256ec16f818d4a8869570d335b0a4eb9e1765ebd563adbb22fc6a",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "original_png_bytes": 1764693,
+      "stored_webp_bytes": 1177072,
+      "icc_profile_preserved": false,
+      "scope": "full size, uncropped, lossless decoded RGBA pixels; original PNG container remains local"
+    },
+    {
+      "virtual_route": "references/accepted-growth/frame_0010.png",
+      "stored_path": "references/accepted-growth/frame_0010.webp",
+      "original_png_sha256": "6e65bf5a91145f319dbda6b16e42da9fd002d276d267804588149d6349cd937b",
+      "stored_sha256": "916d4abaf0e6649ea09458071b74314eded937635db97710e68c9a597128aa7f",
+      "pixel_rgba_sha256": "1466f035290321fa137b0835d935edd743316b10564e8495453df6806c6381c6",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "original_png_bytes": 1771504,
+      "stored_webp_bytes": 1189776,
+      "icc_profile_preserved": false,
+      "scope": "full size, uncropped, lossless decoded RGBA pixels; original PNG container remains local"
+    },
+    {
+      "virtual_route": "references/accepted-growth/frame_0018.png",
+      "stored_path": "references/accepted-growth/frame_0018.webp",
+      "original_png_sha256": "37253a70ed6d1076083c7e448591708ea12ca4b70d49edd55f04e2b273789e83",
+      "stored_sha256": "6b5c829808b48f0fc4034b100bef96134b7b24a93d4a555d13e1d3e4afbf8389",
+      "pixel_rgba_sha256": "bb5b296cc4f77791ea195a062fd2cd2ec07ce8f530d1af750e54443db5364f21",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "original_png_bytes": 1811193,
+      "stored_webp_bytes": 1216194,
+      "icc_profile_preserved": false,
+      "scope": "full size, uncropped, lossless decoded RGBA pixels; original PNG container remains local"
+    },
+    {
+      "virtual_route": "references/accepted-growth/frame_0026.png",
+      "stored_path": "references/accepted-growth/frame_0026.webp",
+      "original_png_sha256": "6d235656ee4490a3043006304a6b6df9e066d9898991de319bd9ee77907c7342",
+      "stored_sha256": "319658a217fc97c951333bec64bedf0b3cf5f3c4e7158e40d1cc21dcf4df20b1",
+      "pixel_rgba_sha256": "72470540c5d06f8f073be27f3111dcfe1ec56bebd266074e827591ec899c3b17",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "original_png_bytes": 1711965,
+      "stored_webp_bytes": 1137364,
+      "icc_profile_preserved": false,
+      "scope": "full size, uncropped, lossless decoded RGBA pixels; original PNG container remains local"
+    },
+    {
+      "virtual_route": "references/accepted-growth/frame_0049.png",
+      "stored_path": "references/accepted-growth/frame_0049.webp",
+      "original_png_sha256": "69a05948009e78718759f20e5fa5f2284a09257fcf9087ff99046f8fcaf94fb0",
+      "stored_sha256": "53416e418a4ddcddc1fb0250afdb2dd509538c443a98a861a58a6150a81fa393",
+      "pixel_rgba_sha256": "47ee8d185024580acb8cf28cb2cb5bfca28699ea4c6f0b485cd40809b857cec5",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "original_png_bytes": 1754591,
+      "stored_webp_bytes": 1166460,
+      "icc_profile_preserved": false,
+      "scope": "full size, uncropped, lossless decoded RGBA pixels; original PNG container remains local"
+    },
+    {
+      "virtual_route": "references/canonical/R01.png",
+      "stored_path": "references/canonical/R01.webp",
+      "original_png_sha256": "f6b2421bc361c2eb78dcc35811ff17e07d543814bcc726efa88db881f952c0f6",
+      "stored_sha256": "f11f82f65d6a2625f358db5941c4e77a4d3f8c320702b32d9efe79bd35fe6066",
+      "pixel_rgba_sha256": "290439274a1afc823fcb5e4aa4c4f2d00f4e29dbd96e469688108aafe4fb8812",
+      "dimensions": [
+        1536,
+        2304
+      ],
+      "original_png_bytes": 3674806,
+      "stored_webp_bytes": 2127212,
+      "icc_profile_preserved": false,
+      "scope": "full size, uncropped, lossless decoded RGBA pixels; original PNG container remains local"
+    },
+    {
+      "virtual_route": "references/canonical/R02.png",
+      "stored_path": "references/canonical/R02.webp",
+      "original_png_sha256": "c101bd4c9ff485a379eeafc26effde90c68081528a3d9be030292a366e88887d",
+      "stored_sha256": "d215ae12f32933bdbb8fedb80b0ef134f9ccf0110c9c2b7e295fc788f0c6640c",
+      "pixel_rgba_sha256": "54710cdbfdda9d68a8b2786069b0002bdf4ef4ed6cb2a2bd0d94cc6105b58298",
+      "dimensions": [
+        1792,
+        1984
+      ],
+      "original_png_bytes": 2965474,
+      "stored_webp_bytes": 1602782,
+      "icc_profile_preserved": false,
+      "scope": "full size, uncropped, lossless decoded RGBA pixels; original PNG container remains local"
+    },
+    {
+      "virtual_route": "references/canonical/R03.png",
+      "stored_path": "references/canonical/R03.webp",
+      "original_png_sha256": "fdffd9a1cc63a6a2fa3f7b7a70fe0a56125ca4ef4643ef01a9fc198dc2f49bf6",
+      "stored_sha256": "103a3d6b217de215ddf01bc597120e06a2894fd523f54662b169b626af74d917",
+      "pixel_rgba_sha256": "59fc826469b70a8263238737f2a537924498ccbaf925af7b73cce46dc2410c88",
+      "dimensions": [
+        1408,
+        2176
+      ],
+      "original_png_bytes": 2448843,
+      "stored_webp_bytes": 1269810,
+      "icc_profile_preserved": false,
+      "scope": "full size, uncropped, lossless decoded RGBA pixels; original PNG container remains local"
+    },
+    {
+      "virtual_route": "references/canonical/R04.png",
+      "stored_path": "references/canonical/R04.webp",
+      "original_png_sha256": "2ae315373baf7b7c932d235cd142e77bbbb369d811b027ee375e0b9ba948ab5c",
+      "stored_sha256": "3c51cd478e4441f46266c73d69e2b3bd989d7645450cfa54c97d5afc10ab6cd1",
+      "pixel_rgba_sha256": "3a1724475bc8984dab68cd8de9254128ad29be385125969a21a19daefb11ccc2",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "original_png_bytes": 3992875,
+      "stored_webp_bytes": 2161110,
+      "icc_profile_preserved": false,
+      "scope": "full size, uncropped, lossless decoded RGBA pixels; original PNG container remains local"
+    },
+    {
+      "virtual_route": "references/native-rear.png",
+      "stored_path": "references/native-rear.webp",
+      "original_png_sha256": "0921bced22590f86621827d0781af4aa3d880009dfacb19b98f3e9969cd9aef2",
+      "stored_sha256": "0c145724b3aab992eaf1662983d213284363f6e9a74ee8d9c9d23cff219af1ee",
+      "pixel_rgba_sha256": "79e3e35cb18b6f183fa6df23663b33e08dba36492034a4a3e784205cdc928a0f",
+      "dimensions": [
+        1207,
+        1557
+      ],
+      "original_png_bytes": 909868,
+      "stored_webp_bytes": 521122,
+      "icc_profile_preserved": false,
+      "scope": "full size, uncropped, lossless decoded RGBA pixels; original PNG container remains local"
+    },
+    {
+      "virtual_route": "research/rear-growth-review/grok-01-0.500s.png",
+      "stored_path": "research/rear-growth-review/grok-01-0.500s.webp",
+      "original_png_sha256": "802b1bca1a2cfa236b21251a2981d1a58f42272ec1d610dba538020b7249c479",
+      "stored_sha256": "09296f66a206f9ffb3a82cb6eb186c43bc28e57c05893b06f9835d7caa85eee0",
+      "pixel_rgba_sha256": "16af1242313114ffb06479df3884f12305d35e21441acac76361c9f2e58a837a",
+      "dimensions": [
+        560,
+        560
+      ],
+      "original_png_bytes": 409801,
+      "stored_webp_bytes": 236784,
+      "icc_profile_preserved": false,
+      "scope": "full size, uncropped, lossless decoded RGBA pixels; original PNG container remains local"
+    }
+  ],
+  "total_saved_bytes": 12679512,
+  "original_png_files_kept_local": true,
+  "decoded_pixels_unchanged": true,
+  "png_container_bytes_not_included_for_converted_files": true
+}
