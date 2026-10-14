@@ -1,0 +1,33 @@
+{
+  "version": "22.0.368",
+  "types": {
+    "file": {
+      "type": "file",
+      "parameters": {
+        "file": {
+          "label": "Geometry File",
+          "default": [
+            "default.bgeo"
+          ]
+        }
+      }
+    },
+    "switch": {
+      "type": "switch",
+      "parameters": {
+        "input": {
+          "label": "Select Input",
+          "default": [
+            0
+          ]
+        }
+      }
+    },
+    "null": {
+      "type": "null",
+      "parameters": {}
+    }
+  },
+  "geo_display_parameter": "display",
+  "detached": true
+}

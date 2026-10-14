@@ -1,0 +1,126 @@
+{
+  "status": "operator_semantics_difference_confirmed",
+  "frozen_files_modified": false,
+  "new_optimization_performed": false,
+  "source_operator": "Deform original source points, then transfer their offsets through eight-neighbor repair bind",
+  "native_operator": "Apply production rear field directly to all repaired body points",
+  "same_parameters": {
+    "volume": 1.1707255757826704,
+    "lateral": 0.9399461725937943,
+    "vertical": 0.7577143095420192,
+    "projection": 1.2017703984270913
+  },
+  "regional_objective_points": 24040,
+  "regional_objective_original_points": 18914,
+  "regional_objective_repair_points": 5126,
+  "original_source_defaults_match": true,
+  "features": {
+    "rear_depth_over_width": {
+      "fitter_transferred_patch": 0.5114689383108006,
+      "native_direct_field": 0.5114457473614049,
+      "native_difference_percent": -0.0045341852962454965
+    },
+    "rear_width_over_height": {
+      "fitter_transferred_patch": 1.8148931872842584,
+      "native_direct_field": 1.8149274644613915,
+      "native_difference_percent": 0.0018886608519563808
+    },
+    "rear_pca_middle_over_major": {
+      "fitter_transferred_patch": 0.5609739066153151,
+      "native_direct_field": 0.5610654283925899,
+      "native_difference_percent": 0.016314801133443524
+    },
+    "rear_pca_minor_over_major": {
+      "fitter_transferred_patch": 0.47268325924105475,
+      "native_direct_field": 0.4727140039050423,
+      "native_difference_percent": 0.006504284504793567
+    },
+    "rear_to_waist_width": {
+      "fitter_transferred_patch": 2.705737622590105,
+      "native_direct_field": 2.7057370795439244,
+      "native_difference_percent": -2.0070171469210862e-05
+    },
+    "rear_to_waist_depth": {
+      "fitter_transferred_patch": 2.170115634022532,
+      "native_direct_field": 2.170016751247809,
+      "native_difference_percent": -0.004556567086688723
+    }
+  },
+  "frozen_objective_score": 0.055013116133045006,
+  "native_direct_objective_score": 0.05501395719155105,
+  "absolute_objective_score_difference": 8.410585060417142e-07,
+  "relative_objective_score_difference": 1.528832695107951e-05,
+  "native_direct_regions": {
+    "rear": {
+      "triangles": 46070,
+      "positive_area_triangles": 46070,
+      "surface_area": 0.25387642120536513,
+      "weighted_centroid": [
+        -0.002425066082133153,
+        0.61532760037087,
+        -0.05631538120998332
+      ],
+      "weighted_quantile_05": [
+        -0.13774983167040222,
+        0.5370891957555551,
+        -0.1354149276073795
+      ],
+      "weighted_quantile_95": [
+        0.13899130680013666,
+        0.6895697460196761,
+        0.006123150783331297
+      ],
+      "weighted_spans": {
+        "lateral": 0.2767411384705389,
+        "height": 0.152480550264121,
+        "depth": 0.1415380783907108
+      },
+      "pca_std_axes_ascending": [
+        0.04237356917193009,
+        0.05029329476929931,
+        0.08963891236960687
+      ],
+      "depth_over_width": 0.5114457473614049,
+      "width_over_height": 1.8149274644613915,
+      "pca_middle_over_major": 0.5610654283925899,
+      "pca_minor_over_major": 0.4727140039050423,
+      "open_surface_patch": true
+    },
+    "waist": {
+      "triangles": 3525,
+      "positive_area_triangles": 3525,
+      "surface_area": 0.019692538972934267,
+      "weighted_centroid": [
+        -0.0018530504594330508,
+        0.7064706946530724,
+        0.048535561551909016
+      ],
+      "weighted_quantile_05": [
+        -0.0538879315538814,
+        0.6956733972873735,
+        0.021802419283395207
+      ],
+      "weighted_quantile_95": [
+        0.04839145862145153,
+        0.7223576919496938,
+        0.08702683670290277
+      ],
+      "weighted_spans": {
+        "lateral": 0.10227939017533293,
+        "height": 0.02668429466232025,
+        "depth": 0.06522441741950757
+      },
+      "pca_std_axes_ascending": [
+        0.007762516518835557,
+        0.022009814468261755,
+        0.034676568906373786
+      ],
+      "depth_over_width": 0.6377083135487639,
+      "width_over_height": 3.8329433649882927,
+      "pca_middle_over_major": 0.6347171926867368,
+      "pca_minor_over_major": 0.22385480350706652,
+      "open_surface_patch": true
+    }
+  },
+  "interpretation": "Defaults and original-body deformation match. The added repair collar uses a different deformation operator, which slightly changes regional measures. This is an expected bind-vs-direct-field difference, and native cache measurements should describe the actual editor trial."
+}

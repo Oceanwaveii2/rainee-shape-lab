@@ -1,0 +1,273 @@
+{
+  "vdbfrompolygons": [
+    {
+      "name": "voxelsize",
+      "label": "Voxel Size",
+      "value": 0.1,
+      "tokens": null
+    },
+    {
+      "name": "group",
+      "label": "Reference VDB",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "builddistance",
+      "label": "",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "distancename",
+      "label": "Distance VDB",
+      "value": "surface",
+      "tokens": null
+    },
+    {
+      "name": "buildfog",
+      "label": "",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "fogname",
+      "label": "Fog VDB",
+      "value": "density",
+      "tokens": null
+    },
+    {
+      "name": "useworldspaceunits",
+      "label": "Use World Space Units for Narrow Band",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "exteriorbandvoxels",
+      "label": "Exterior Band Voxels",
+      "value": 3,
+      "tokens": null
+    },
+    {
+      "name": "interiorbandvoxels",
+      "label": "Interior Band Voxels",
+      "value": 3,
+      "tokens": null
+    },
+    {
+      "name": "exteriorband",
+      "label": "Exterior Band",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "interiorband",
+      "label": "Interior Band",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "fillinterior",
+      "label": "Fill Interior",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "unsigneddist",
+      "label": "Unsigned Distance Field",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "preserveholes",
+      "label": "Preserve Holes",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "numattrib",
+      "label": "Surface Attributes",
+      "value": 0,
+      "tokens": null
+    }
+  ],
+  "convertvdb": [
+    {
+      "name": "group",
+      "label": "Group",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "conversion",
+      "label": "Convert To",
+      "value": 0,
+      "tokens": [
+        "volume",
+        "vdb",
+        "poly",
+        "polysoup"
+      ]
+    },
+    {
+      "name": "vdbclass",
+      "label": "VDB Class",
+      "value": 0,
+      "tokens": [
+        "none",
+        "sdf",
+        "fog"
+      ]
+    },
+    {
+      "name": "vdbtype",
+      "label": "VDB Type",
+      "value": "none",
+      "tokens": null
+    },
+    {
+      "name": "vdbprecision",
+      "label": "VDB Precision",
+      "value": "none",
+      "tokens": null
+    },
+    {
+      "name": "splitdisjointvolumes",
+      "label": "Split Disjoint Volumes",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "isovalue",
+      "label": "Isovalue",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "fogisovalue",
+      "label": "Fog Isovalue",
+      "value": 0.5,
+      "tokens": null
+    },
+    {
+      "name": "adaptivity",
+      "label": "Adaptivity",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "computenormals",
+      "label": "Compute Vertex Normals",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "internaladaptivity",
+      "label": "Internal Adaptivity",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "transferattributes",
+      "label": "Transfer Surface Attributes",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "sharpenfeatures",
+      "label": "Sharpen Features",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "edgetolerance",
+      "label": "Edge Tolerance",
+      "value": 0.5,
+      "tokens": null
+    },
+    {
+      "name": "surfacegroup",
+      "label": "Surface Group",
+      "value": "surface_polygons",
+      "tokens": null
+    },
+    {
+      "name": "interiorgroup",
+      "label": "Interior Group",
+      "value": "interior_polygons",
+      "tokens": null
+    },
+    {
+      "name": "seamlinegroup",
+      "label": "Seam Line Group",
+      "value": "seam_polygons",
+      "tokens": null
+    },
+    {
+      "name": "seampoints",
+      "label": "Seam Points",
+      "value": "seam_points",
+      "tokens": null
+    },
+    {
+      "name": "surfacemask",
+      "label": "",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "surfacemaskname",
+      "label": "Surface Mask",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "surfacemaskoffset",
+      "label": "Mask Offset",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "invertmask",
+      "label": "Invert Surface Mask",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "adaptivityfield",
+      "label": "",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "adaptivityfieldname",
+      "label": "Adaptivity Field",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "prune",
+      "label": "",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "tolerance",
+      "label": "Prune Tolerance",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "flood",
+      "label": "Signed-Flood Fill Output",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "activateinsidesdf",
+      "label": "Activate Interior Voxels",
+      "value": 1,
+      "tokens": null
+    }
+  ]
+}

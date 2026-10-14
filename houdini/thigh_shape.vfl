@@ -1,0 +1,34 @@
+// Rainee-specific transverse thigh sculpt, evaluated from canonical coordinates.
+// Add after rear deformation; never multiply already-inflated coordinates.
+vector rest=point(1,"P",@ptnum);
+float side=rest.x<0?-1:1;
+float ax=abs(rest.x);
+float t=clamp((rest.y-.34)/.195,0,1);
+float peak=ch("../CONTROLS/thigh_peak");
+float profile=smooth(0,peak,t)*(1-smooth(peak,1,t));
+float seat=smooth(.49,.555,rest.y)*(1-smooth(.667,.73,rest.y))
+    *(1-smooth(-.045,.015,rest.z))*(1-smooth(.18,.22,ax));
+float mask=pow(profile,lerp(.65,2,ch("../CONTROLS/thigh_taper")))
+    *(1-smooth(0,.025,seat))*(1-smooth(.18,.205,ax));
+float ys[]={.33,.355,.38,.405,.43,.455,.48,.505,.53};
+float xs[]={.121,.110,.101,.093,.087,.086,.083,.079,.077};
+float zs[]={.007,.019,.031,.038,.041,.034,.030,.027,.018};
+float cx=xs[0],cz=zs[0];
+for(int j=1;j<len(ys);j++) {
+    if(rest.y>=ys[j-1]) {
+        float u=smooth(ys[j-1],ys[j],rest.y);
+        cx=lerp(xs[j-1],xs[j],u);cz=lerp(zs[j-1],zs[j],u);
+    }
+}
+float dx=ax-cx,dz=rest.z-cz;
+float outer=smooth(-.006,.006,dx),front=smooth(-.006,.006,dz);
+float strength=ch("../CONTROLS/thigh_fullness")*mask;
+float mx=dx*strength*lerp(ch("../CONTROLS/thigh_inner"),ch("../CONTROLS/thigh_outer"),outer);
+float mz=dz*strength*lerp(ch("../CONTROLS/thigh_back"),ch("../CONTROLS/thigh_front"),front);
+// Softly saturate inward expansion before the opposite leg's medial plane.
+if(mx<0) {
+    float room=max(ax-.006,0);
+    mx=room>0?-room*(1-exp(mx/room)):0;
+}
+@P+=set(side*mx,0,mz);
+f@rainee_thigh_mask=mask;

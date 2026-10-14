@@ -1,0 +1,220 @@
+{
+  "schema": "rainee-static-native-anatomy-proposal-v1",
+  "status": "Editable regional proposal; not accepted or image fitted",
+  "states": [
+    {
+      "name": "default",
+      "obj": "default.obj",
+      "recipe": "default-recipe.json",
+      "parameters": {
+        "lobeWidth": 1,
+        "lobeHeight": 1,
+        "rearProjection": 1,
+        "upperPole": 1.08,
+        "lowerPole": 1,
+        "separation": 1,
+        "attachment": 0.012,
+        "cleft": 0.75,
+        "asymmetry": 0,
+        "pelvisWidth": 1,
+        "pelvisDepth": 1,
+        "thighFullness": 1,
+        "thighOuter": 1,
+        "thighFront": 1,
+        "kneeTaper": 0.65
+      },
+      "canonical_measurement": {
+        "points": 3478,
+        "triangles": 6952,
+        "closed": true,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "inconsistentEdges": 0,
+        "connectedComponents": 1,
+        "degenerateTriangles": 0,
+        "minimumTriangleArea": 4.4440890839506214e-13,
+        "surfaceArea": 0.2800587013553711,
+        "signedVolume": 0.007729970873574393,
+        "volume": 0.007729970873574393,
+        "volumeUnits": "normalized H cubed",
+        "sourceUnitVolume": 0.10620676495224654,
+        "status": "volume of this regional proposal, not a measured anatomical volume",
+        "heightReferenceNormalized": 1
+      },
+      "source_coordinate_measurement": {
+        "points": 3478,
+        "triangles": 6952,
+        "closed": true,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "inconsistentEdges": 0,
+        "connectedComponents": 1,
+        "degenerateTriangles": 0,
+        "minimumTriangleArea": 2.5435770850844976e-12,
+        "surfaceArea": 1.606566156046315,
+        "signedVolume": 0.10620676293368467,
+        "volume": 0.10620676293368467,
+        "volumeUnits": "source native units cubed; physical scale uncalibrated",
+        "sourceUnitVolume": 0.10620676293368467,
+        "status": "volume of this regional proposal, not a measured anatomical volume",
+        "heightReferenceNormalized": 1,
+        "coordinateSystem": "source native coordinates; canonical H=1 mapped to source",
+        "heightReferenceSourceUnits": 2.3951061964035034
+      },
+      "metadata": {
+        "status": "editable regional proposal; not accepted anatomy",
+        "model": "connected pelvic core, paired lobes, upper-thigh transitions",
+        "coordinate_system": "canonical H=1; +Y up; posterior -Z",
+        "height_reference_normalized": 1,
+        "source_height_units": 2.3951061964035034,
+        "surface_scope": "closed regional template; not a complete body or a seamless source-FBX attachment",
+        "units": "linear coordinates in normalized height units; multipliers dimensionless; attachment in normalized height units",
+        "field": "distance-like implicit gauges with smooth unions; not an exact signed-distance field",
+        "volume": "enclosed final union surface, never a sum of overlapping component volumes",
+        "anatomical_acceptance": false,
+        "reference_fitted": false,
+        "neural_paper_implementation": false,
+        "independence": "thigh component fields use only thigh controls; lobe controls affect attachments near the pelvis",
+        "symmetry": "shared lobe controls plus signed asymmetry: negative enlarges left, positive enlarges right",
+        "extraction": "marching tetrahedra; consistent shared face diagonals and global-edge vertex reuse",
+        "resolution": 24,
+        "grid_cells": [
+          24,
+          24,
+          18
+        ],
+        "voxel_spacing": [
+          0.0195,
+          0.0195,
+          0.01843777777777778
+        ],
+        "iso_classification_epsilon": 1.843777777777778e-7
+      },
+      "sha256": "065b39081a3f8bd19c3d5db35340e3c9a8e02c5a7f10c98a1f838da248e9d2c5"
+    },
+    {
+      "name": "expanded",
+      "obj": "expanded.obj",
+      "recipe": "expanded-recipe.json",
+      "parameters": {
+        "lobeWidth": 1.32,
+        "lobeHeight": 1.25,
+        "rearProjection": 1.6,
+        "upperPole": 1.2,
+        "lowerPole": 1.12,
+        "separation": 1,
+        "attachment": 0.018,
+        "cleft": 0.75,
+        "asymmetry": 0,
+        "pelvisWidth": 1,
+        "pelvisDepth": 1,
+        "thighFullness": 1,
+        "thighOuter": 1,
+        "thighFront": 1,
+        "kneeTaper": 0.65
+      },
+      "canonical_measurement": {
+        "points": 3710,
+        "triangles": 7416,
+        "closed": true,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "inconsistentEdges": 0,
+        "connectedComponents": 1,
+        "degenerateTriangles": 0,
+        "minimumTriangleArea": 9.702388772525957e-12,
+        "surfaceArea": 0.407363829540549,
+        "signedVolume": 0.015999952156317873,
+        "volume": 0.015999952156317873,
+        "volumeUnits": "normalized H cubed",
+        "sourceUnitVolume": 0.2198330609139117,
+        "status": "volume of this regional proposal, not a measured anatomical volume",
+        "heightReferenceNormalized": 1
+      },
+      "source_coordinate_measurement": {
+        "points": 3710,
+        "triangles": 7416,
+        "closed": true,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "inconsistentEdges": 0,
+        "connectedComponents": 1,
+        "degenerateTriangles": 0,
+        "minimumTriangleArea": 5.563579801869619e-11,
+        "surfaceArea": 2.3368563379076663,
+        "signedVolume": 0.219833061523257,
+        "volume": 0.219833061523257,
+        "volumeUnits": "source native units cubed; physical scale uncalibrated",
+        "sourceUnitVolume": 0.219833061523257,
+        "status": "volume of this regional proposal, not a measured anatomical volume",
+        "heightReferenceNormalized": 1,
+        "coordinateSystem": "source native coordinates; canonical H=1 mapped to source",
+        "heightReferenceSourceUnits": 2.3951061964035034
+      },
+      "metadata": {
+        "status": "editable regional proposal; not accepted anatomy",
+        "model": "connected pelvic core, paired lobes, upper-thigh transitions",
+        "coordinate_system": "canonical H=1; +Y up; posterior -Z",
+        "height_reference_normalized": 1,
+        "source_height_units": 2.3951061964035034,
+        "surface_scope": "closed regional template; not a complete body or a seamless source-FBX attachment",
+        "units": "linear coordinates in normalized height units; multipliers dimensionless; attachment in normalized height units",
+        "field": "distance-like implicit gauges with smooth unions; not an exact signed-distance field",
+        "volume": "enclosed final union surface, never a sum of overlapping component volumes",
+        "anatomical_acceptance": false,
+        "reference_fitted": false,
+        "neural_paper_implementation": false,
+        "independence": "thigh component fields use only thigh controls; lobe controls affect attachments near the pelvis",
+        "symmetry": "shared lobe controls plus signed asymmetry: negative enlarges left, positive enlarges right",
+        "extraction": "marching tetrahedra; consistent shared face diagonals and global-edge vertex reuse",
+        "resolution": 24,
+        "grid_cells": [
+          24,
+          24,
+          22
+        ],
+        "voxel_spacing": [
+          0.02251133333333333,
+          0.02240625,
+          0.02246
+        ],
+        "iso_classification_epsilon": 2.240625e-7
+      },
+      "sha256": "4e48104734495bbcf8df54fc223d70fbd8169625c27c00d3844d02f12eecabdd"
+    }
+  ],
+  "source_height_units": 2.3951061964035034,
+  "source_origin": [
+    0,
+    -1.220656394958496,
+    0.028106868267059326
+  ],
+  "transform": "P_source = P_canonical * source_height_units + source_origin",
+  "physical_units": null,
+  "source_files_before": [
+    {
+      "path": "C:/Users/User/Downloads/Core Body (Template Only).fbx",
+      "sha256": "15713f1edb4d44420d79f72e4bc06b8299a7ac6e8db11a2e7b05ee94a0a05e48"
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\lab\\anatomy-model.mjs",
+      "sha256": "2cbaeddc046545005e8d9b0f4c9d30b542013fb1af0d794bdde4d374bb8f110b"
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\body-v4-rest.bin",
+      "sha256": "ad055ae745bc884146420dfe872e279100de7a538da85be9f12fc2a590590aad"
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\pelvic-repair\\implicit-repaired-triangles.bin",
+      "sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4"
+    }
+  ],
+  "limits": [
+    "Closed regional surface only; not the whole body or seamlessly joined to FBX",
+    "Two independent static extracted mesh states; topology differs, so no direct blend-shape interpolation",
+    "No native analytic/SDF SOP implementation; no physical/contact simulation",
+    "No source image fit, tissue-volume certification, or accepted inflation-stage mapping",
+    "Recipe fields are editable provenance; changing them in Houdini does not regenerate geometry"
+  ],
+  "guide": "source-height-guide.obj"
+}

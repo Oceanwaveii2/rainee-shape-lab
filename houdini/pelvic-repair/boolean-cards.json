@@ -1,0 +1,873 @@
+{
+  "boolean": [
+    {
+      "name": "inputa",
+      "label": "",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "agroup",
+      "label": "Group",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "asurface",
+      "label": "Treat As",
+      "value": 0,
+      "tokens": [
+        "solid",
+        "surface"
+      ]
+    },
+    {
+      "name": "resolvea",
+      "label": "Resolve Self-intersections",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "inputb",
+      "label": "",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "bgroup",
+      "label": "Group",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "bsurface",
+      "label": "Treat As",
+      "value": 0,
+      "tokens": [
+        "solid",
+        "surface"
+      ]
+    },
+    {
+      "name": "resolveb",
+      "label": "Resolve Self-intersections",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "output",
+      "label": "",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "booleanop",
+      "label": "Operation",
+      "value": 0,
+      "tokens": [
+        "union",
+        "intersect",
+        "subtract",
+        "shatter",
+        "custom",
+        "_separator_",
+        "seam",
+        "_separator_",
+        "detect",
+        "resolve"
+      ]
+    },
+    {
+      "name": "subtractchoices",
+      "label": "Subtract Choices",
+      "value": 0,
+      "tokens": [
+        "aminusb",
+        "bminusa",
+        "both"
+      ]
+    },
+    {
+      "name": "shatterchoices",
+      "label": "Shatter Choices",
+      "value": 0,
+      "tokens": [
+        "apieces",
+        "bpieces",
+        "both"
+      ]
+    },
+    {
+      "name": "opencurvesonly",
+      "label": "Only Use Open Curves",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "generateaaseams",
+      "label": "Generate A-A Seams",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "generatebbseams",
+      "label": "Generate B-B Seams",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "generateabseams",
+      "label": "Generate A-B Seams",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "adepth1",
+      "label": "A Depth Min/Max",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "adepth2",
+      "label": "A Depth Min/Max",
+      "value": 1000,
+      "tokens": null
+    },
+    {
+      "name": "bdepth1",
+      "label": "B Depth Min/Max",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "bdepth2",
+      "label": "B Depth Min/Max",
+      "value": 1000,
+      "tokens": null
+    },
+    {
+      "name": "windingop",
+      "label": "Output Pieces Matching",
+      "value": 0,
+      "tokens": [
+        "arange",
+        "brange",
+        "and",
+        "or",
+        "xor"
+      ]
+    },
+    {
+      "name": "mergenbrs",
+      "label": "Merge Adjacent Pieces",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "detriangulate",
+      "label": "Detriangulate",
+      "value": 2,
+      "tokens": [
+        "none",
+        "unchanged",
+        "all"
+      ]
+    },
+    {
+      "name": "removeinlinepoints",
+      "label": "Assume Seam Polygons Are Flat",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "uniqueseams",
+      "label": "Unique Points Along Seams",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "correctnormals",
+      "label": "Correct Normals on Reversed Faces",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "useaxapolys",
+      "label": "useaxapolys",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "axapolys",
+      "label": "AxA Polygons",
+      "value": "axapolys",
+      "tokens": null
+    },
+    {
+      "name": "useaxbpolys",
+      "label": "useaxbpolys",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "axbpolys",
+      "label": "AxB Polygons",
+      "value": "axbpolys",
+      "tokens": null
+    },
+    {
+      "name": "useaxalist",
+      "label": "useaxalist",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "axalist",
+      "label": "AxA List",
+      "value": "axalist",
+      "tokens": null
+    },
+    {
+      "name": "useaxblist",
+      "label": "useaxblist",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "axblist",
+      "label": "AxB List",
+      "value": "axblist",
+      "tokens": null
+    },
+    {
+      "name": "collapsetinyedges",
+      "label": "Collapse Tiny Seam-Adjacent Edges",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "lengththreshold",
+      "label": "Edge Length Threshold",
+      "value": 1e-05,
+      "tokens": null
+    },
+    {
+      "name": "outputprimgroups",
+      "label": "",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "useapolys",
+      "label": "useapolys",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "apolys",
+      "label": "A Polygons",
+      "value": "apolys",
+      "tokens": null
+    },
+    {
+      "name": "useainsideb",
+      "label": "useainsideb",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "ainsideb",
+      "label": "A Inside B",
+      "value": "ainsideb",
+      "tokens": null
+    },
+    {
+      "name": "useaoutsideb",
+      "label": "useaoutsideb",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "aoutsideb",
+      "label": "A Outside B",
+      "value": "aoutsideb",
+      "tokens": null
+    },
+    {
+      "name": "usebpolys",
+      "label": "usebpolys",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "bpolys",
+      "label": "B Polygons",
+      "value": "bpolys",
+      "tokens": null
+    },
+    {
+      "name": "usebinsidea",
+      "label": "usebinsidea",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "binsidea",
+      "label": "B Inside A",
+      "value": "binsidea",
+      "tokens": null
+    },
+    {
+      "name": "useboutsidea",
+      "label": "useboutsidea",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "boutsidea",
+      "label": "B Outside A",
+      "value": "boutsidea",
+      "tokens": null
+    },
+    {
+      "name": "useaboverlap",
+      "label": "useaboverlap",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "aboverlap",
+      "label": "Overlap",
+      "value": "aboverlap",
+      "tokens": null
+    },
+    {
+      "name": "useaonlypieces",
+      "label": "useaonlypieces",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "aonlypieces",
+      "label": "A-Only Pieces",
+      "value": "apieces",
+      "tokens": null
+    },
+    {
+      "name": "usebonlypieces",
+      "label": "usebonlypieces",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "bonlypieces",
+      "label": "B-Only Pieces",
+      "value": "bpieces",
+      "tokens": null
+    },
+    {
+      "name": "useabpieces",
+      "label": "useabpieces",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "abpieces",
+      "label": "A-B Pieces",
+      "value": "abpieces",
+      "tokens": null
+    },
+    {
+      "name": "usereversedpolys",
+      "label": "usereversedpolys",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "reversedpolys",
+      "label": "Reversed Faces",
+      "value": "reversed",
+      "tokens": null
+    },
+    {
+      "name": "outputedgegroups",
+      "label": "",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "useaaseamedges",
+      "label": "useaaseamedges",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "aaseamedges",
+      "label": "A-A Seams",
+      "value": "aseams",
+      "tokens": null
+    },
+    {
+      "name": "usebbseamedges",
+      "label": "usebbseamedges",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "bbseamedges",
+      "label": "B-B Seams",
+      "value": "bseams",
+      "tokens": null
+    },
+    {
+      "name": "useabseamedges",
+      "label": "useabseamedges",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "abseamedges",
+      "label": "A-B Seams",
+      "value": "abseams",
+      "tokens": null
+    }
+  ],
+  "smooth": [
+    {
+      "name": "group",
+      "label": "Group",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "contrainedboundary",
+      "label": "Constrained Boundary",
+      "value": 2,
+      "tokens": [
+        "none",
+        "unsharededges",
+        "groupboundary"
+      ]
+    },
+    {
+      "name": "constrainedpoints",
+      "label": "Constrained Points",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "attributes",
+      "label": "Attributes",
+      "value": "P",
+      "tokens": null
+    },
+    {
+      "name": "useweightattribute",
+      "label": "Use Weight Attribute",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "weightattribute",
+      "label": "Weight Attribute",
+      "value": "weight",
+      "tokens": null
+    },
+    {
+      "name": "method",
+      "label": "Method",
+      "value": 0,
+      "tokens": [
+        "uniform",
+        "scaledominant",
+        "curvaturedominant"
+      ]
+    },
+    {
+      "name": "strength",
+      "label": "Strength",
+      "value": 10.0,
+      "tokens": null
+    },
+    {
+      "name": "filterquality",
+      "label": "Filter Quality",
+      "value": 2,
+      "tokens": null
+    },
+    {
+      "name": "updateaffectednmls",
+      "label": "Recompute Affected Normals",
+      "value": 1,
+      "tokens": null
+    }
+  ],
+  "groupcreate": [
+    {
+      "name": "groupname",
+      "label": "Group Name",
+      "value": "groupcreate",
+      "tokens": null
+    },
+    {
+      "name": "grouptype",
+      "label": "Group Type",
+      "value": 0,
+      "tokens": [
+        "primitive",
+        "point",
+        "edge",
+        "vertex"
+      ]
+    },
+    {
+      "name": "mergeop",
+      "label": "Initial Merge",
+      "value": 0,
+      "tokens": [
+        "replace",
+        "union",
+        "intersect",
+        "subtract"
+      ]
+    },
+    {
+      "name": "folder0",
+      "label": "",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "groupbase",
+      "label": "Enable",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "basegroup",
+      "label": "Base Group",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "ordered",
+      "label": "Create Ordered",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "geotype",
+      "label": "Geometry Filter",
+      "value": 0,
+      "tokens": [
+        "all",
+        "bezierc",
+        "bezier",
+        "mesh",
+        "Camera",
+        "Channel",
+        "circle",
+        "Hexahedron",
+        "MetaSQuad",
+        "meta",
+        "nurbc",
+        "nurb",
+        "PackedAgent",
+        "AlembicRef",
+        "PackedDisk",
+        "PackedDiskSequence",
+        "PackedFragment",
+        "PackedGeometry",
+        "PackedUSD",
+        "part",
+        "Plane",
+        "poly",
+        "polysoup",
+        "sphere",
+        "tetrahedron",
+        "trifan",
+        "tristrip",
+        "tribez",
+        "tube",
+        "vdb",
+        "volume"
+      ]
+    },
+    {
+      "name": "switcher3",
+      "label": "",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "groupbounding",
+      "label": "Enable",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "boundtype",
+      "label": "Bounding Type",
+      "value": 0,
+      "tokens": [
+        "usebbox",
+        "usebsphere",
+        "usebobject",
+        "usebvolume",
+        "usebconvex"
+      ]
+    },
+    {
+      "name": "sizex",
+      "label": "Size",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "sizey",
+      "label": "Size",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "sizez",
+      "label": "Size",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "tx",
+      "label": "Center",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "ty",
+      "label": "Center",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "tz",
+      "label": "Center",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "initbounds",
+      "label": "Initialize to Input Bounds",
+      "value": "0",
+      "tokens": null
+    },
+    {
+      "name": "includenotwhollycontained",
+      "label": "Include Partially Contained Entities",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "iso",
+      "label": "Iso Surface",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "invertvolume",
+      "label": "Invert",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "switcher4",
+      "label": "",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "groupnormal",
+      "label": "Enable",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "camerapath",
+      "label": "Backface from",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "nonplanar",
+      "label": "Add Non-Planar Polygons",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "nonplanartol",
+      "label": "Non-Planar Polygons Tolerance",
+      "value": 0.001,
+      "tokens": null
+    },
+    {
+      "name": "dirx",
+      "label": "Direction",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "diry",
+      "label": "Direction",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "dirz",
+      "label": "Direction",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "angle",
+      "label": "Spread Angle",
+      "value": 180.0,
+      "tokens": null
+    },
+    {
+      "name": "oppositenormals",
+      "label": "Include Normals Matching Opposite Direction",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "switcher5",
+      "label": "",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "groupedges",
+      "label": "Enable",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "dominedgeangle",
+      "label": "Min Edge Angle",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "minedgeangle",
+      "label": "Min Edge Angle",
+      "value": 20.0,
+      "tokens": null
+    },
+    {
+      "name": "domaxedgeangle",
+      "label": "Max Edge Angle",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "maxedgeangle",
+      "label": "Max Edge Angle",
+      "value": 20.0,
+      "tokens": null
+    },
+    {
+      "name": "edgeanglebetweenedges",
+      "label": "Edge Angle Uses Angle Between Edges",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "dominedgelen",
+      "label": "Min Edge Length",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "minedgelen",
+      "label": "Min Edge Length",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "domaxedgelen",
+      "label": "Max Edge Length",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "maxedgelen",
+      "label": "Max Edge Length",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "dodepth",
+      "label": "Edge Depth",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "edgestep",
+      "label": "Edge Depth",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "edgeptgrp",
+      "label": "Point Group",
+      "value": "0",
+      "tokens": null
+    },
+    {
+      "name": "unshared",
+      "label": "Unshared Edges",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "boundarygroups",
+      "label": "Create Boundary Groups",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "switcher6",
+      "label": "",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "grouprandom",
+      "label": "Enable",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "globalseed",
+      "label": "Global Seed",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "useseedattrib",
+      "label": "Use Seed Attribute",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "seedattrib",
+      "label": "Seed Attribute",
+      "value": "id",
+      "tokens": null
+    },
+    {
+      "name": "percent",
+      "label": "Percent",
+      "value": 50.0,
+      "tokens": null
+    }
+  ]
+}

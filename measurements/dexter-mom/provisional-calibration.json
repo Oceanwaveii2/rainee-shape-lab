@@ -1,0 +1,47 @@
+{
+  "status": "PROVISIONAL UNACCEPTED artist estimate for exploration only",
+  "right_axis": "z",
+  "up_axis": "y",
+  "front_axis": "x",
+  "axis_confidence": "Source geometry reviewed: X/Y is side silhouette, Z/Y is front/rear. Right-axis sign still artist-reviewable.",
+  "selection": {
+    "component_ids": [0],
+    "artist_reviewed_body_only": false,
+    "note": "Main connected component still includes stand and carried props. Region ROIs are exploratory filters, not anatomical segmentation."
+  },
+  "pose_reviewed": false,
+  "midline_origin": [-0.18, 0.0, 0.0],
+  "landmarks": {
+    "head_top": [0.0, 0.949152, 0.0],
+    "feet_bottom": [-0.28, -0.845, 0.0],
+    "confidence": "Provisional outer-hair top and estimated shoe/base contact plane. Not skull crown or barefoot foot; not independently accepted."
+  },
+  "normalization_note": "Outer asset hair-to-shoe height is exploratory. Rainee source stature includes ears. Do not equate these with anatomical skull-to-barefoot stature.",
+  "rear_overhang_anchor": {
+    "rear_region": "rear_surface_candidate",
+    "anchor_region": "torso_surface_center_candidate"
+  },
+  "regions": [
+    {
+      "name": "thigh_surface_candidate",
+      "role": "mass",
+      "height_range": [0.2, 0.43],
+      "confidence": "Coarse provisional region; clothing and pose contribute to extents"
+    },
+    {
+      "name": "rear_surface_candidate",
+      "role": "mass",
+      "height_range": [0.43, 0.57],
+      "depth_range": [-0.25, 0.24],
+      "confidence": "Provisional region; includes pelvis/thigh overlap, does not measure isolated buttock volume"
+    },
+    {
+      "name": "torso_surface_center_candidate",
+      "role": "pose_surface_descriptor",
+      "height_range": [0.59, 0.79],
+      "lateral_range": [-0.1, 0.1],
+      "depth_range": [-0.09, 0.26],
+      "confidence": "Midline crop may include props or arms. Surface center is not a spine estimate."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "native_parameters": {
+    "volume": 1.1707255757826704,
+    "lateral": 0.9399461725937943,
+    "vertical": 0.7577143095420192,
+    "projection": 1.2017703984270913,
+    "separation": 0.15,
+    "upper_pole": 1.15,
+    "lower_pole": 1.0,
+    "cleft_hold": 0.75
+  },
+  "model_defaults": {
+    "lateral": 1.0,
+    "vertical": 1.0,
+    "projection": 1.0,
+    "separation": 0.15,
+    "upper_pole": 1.15,
+    "lower_pole": 1.0,
+    "cleft_hold": 0.75
+  },
+  "native_cage_amplitude": 0.07620096998289227,
+  "native_count": 121901,
+  "frozen_count": 121901,
+  "max_euclidean_delta": 0.00385838679782028,
+  "max_coordinate_delta": 0.0038238167762756348,
+  "original_source_max_euclidean_delta": 6.828569911354542e-08,
+  "added_repair_max_euclidean_delta": 0.00385838679782028,
+  "original_source_points_over_1e_6": 0,
+  "repair_points_over_1e_6": 12550,
+  "maximum_point": {
+    "id": 101994,
+    "baseline": [
+      -0.012214901857078075,
+      0.6447492837905884,
+      -0.05942700058221817
+    ],
+    "native": [
+      -0.011571904644370079,
+      0.6460554003715515,
+      -0.06380350887775421
+    ],
+    "frozen": [
+      -0.0110603803768754,
+      0.6461179852485657,
+      -0.06762732565402985
+    ]
+  },
+  "native_vs_direct_production_python_max_delta": 3.488871866082897e-08,
+  "native_field_guard_full_repaired_body": {
+    "samples": 38118,
+    "min_determinant": 0.8532665438976417,
+    "nonpositive": 0
+  },
+  "frozen_positions_sha256": "2e5d6abebe23a4a4d301ff674bb7795208df33aab9975d5c804264ea81c087fd"
+}

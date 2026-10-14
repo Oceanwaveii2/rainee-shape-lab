@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "created_utc": "2026-10-14T09:27:12.609Z",
+  "elapsed_ms": 1077.7443,
+  "numeric_cases": 2400,
+  "analytic_finite_difference_J_max_error": 3.277421236529479e-9,
+  "analytic_explicit_det_max_error": 3.552713678800501e-15,
+  "anisotropic_covariance_symmetry_max_error": 4.336808689942018e-19,
+  "anisotropic_covariance_minimum_determinant": 3.9022789139790106e-14,
+  "neutral_identity": true,
+  "outside_identity": true,
+  "public_controls_guarded": true,
+  "fixed_field_copies_controls": true,
+  "boundary_checks": [
+    {
+      "epsilon": 0.01,
+      "displacement": 0.000009752241262539485,
+      "J_error": 0.0029011197587499593
+    },
+    {
+      "epsilon": 0.001,
+      "displacement": 9.975022474684181e-9,
+      "J_error": 0.000029900112447522886
+    },
+    {
+      "epsilon": 0.0001,
+      "displacement": 9.997447314447072e-12,
+      "J_error": 2.9990001126911636e-7
+    },
+    {
+      "epsilon": 0.00001,
+      "displacement": 9.992007221626409e-15,
+      "J_error": 2.9998999950819893e-9
+    }
+  ],
+  "maximum_growth": 2.25,
+  "analytic_determinant_lower_bound": 0.18367346938775508,
+  "source_asset": "spz-04-d62ca9b1b3",
+  "source_sha256": "d62ca9b1b3172a7b9254db27d88b9976acabb30c032e9111ab2e8bbc20699877",
+  "source_raw_payload_sha256": "cf8572f67003189b2fe5c777066368bdb61f5e585403eff0323b70fb9680d2d1",
+  "source_point_count": 1179648,
+  "source_payload_unchanged": true,
+  "artificial_region": {
+    "center": [
+      0.1048583984375,
+      -0.0494384765625,
+      -0.84814453125
+    ],
+    "radii": [
+      0.243828125,
+      0.256484375,
+      0.46625
+    ],
+    "selected_centres": 253227,
+    "outside_centres": 926421,
+    "minimum_sampled_determinant": 0.27282361609497985,
+    "maximum_output_normalized_support_q": 0.9999949376565593,
+    "support_boundary_fixed": true,
+    "anatomical_selection": false
+  },
+  "spark_version": "2.3.1",
+  "spark_module_sha256": "2de375d5e489692f976abe3199c8435ecc00f97fabaf35e489eb7d368e1f6f60",
+  "actual_vendored_covariance_generator_to_GLSL": true,
+  "shader_audit_scope": "Generated Dyno graph fragment; renderer common definitions and GPU compilation are separate",
+  "gpu_shader_compile": false,
+  "browser_render_verified": false,
+  "limits": "Numeric and actual Spark graph generation checks. GPU compilation/render requires browser verification. Fixed-boundary compact appearance redistribution, not support enlargement. Nonlinear covariance transport is first-order, exact for local affine linearization; no anatomical volume, semantic segmentation, or source-frame provenance claim."
+}

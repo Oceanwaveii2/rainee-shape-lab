@@ -1,0 +1,20 @@
+{
+  "enabled": false,
+  "status": "unregistered diagnostic soft-constraint candidate",
+  "parameters": {
+    "volume": 1.1707255757826704,
+    "lateral": 0.9399461725937943,
+    "vertical": 0.7577143095420192,
+    "projection": 1.2017703984270913
+  },
+  "amplitude": 0.07620082376524806,
+  "source_height_transfer": false,
+  "reason": "Local pelvis axes, pose and corresponding ROI selections are not accepted; do not automatically adopt.",
+  "inspection_allowed": true,
+  "automatic_adoption": false,
+  "objective_score": 0.055013116133045006,
+  "objective_label": "weighted regional descriptor objective; smaller is better",
+  "match_accuracy_percent": null,
+  "source_height_drift": 0.0,
+  "jacobian_min_determinant": 0.8582560562391179
+}

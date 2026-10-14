@@ -1,0 +1,11 @@
+{
+  "scene": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\Rainee-Volume-Lab-v4.hip",
+  "repair_manifest": "pelvic-repair/final-repair-manifest.json",
+  "body_points": 121901,
+  "body_primitives": 252337,
+  "source_height": 2.3951061964035034,
+  "proxy_rendered_height_normalized": 0.9988301396369934,
+  "source_stature_output": "OUT_FBX_SOURCE_STATURE",
+  "source_authority": "FBX stature/general identity; reference-refined anatomy; flawed source topology is not protected.",
+  "status": "Native static integration verified; see verification-v4.json"
+}

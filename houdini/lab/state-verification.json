@@ -1,0 +1,793 @@
+{
+  "schema": "rainee-lab-state-verification-v1",
+  "passed": true,
+  "testCount": 28,
+  "milliseconds": 5859.662899999999,
+  "source": {
+    "body": "body-v4-rest.bin",
+    "triangles": "pelvic-repair/implicit-repaired-triangles.bin",
+    "bodySha256": "ad055ae745bc884146420dfe872e279100de7a538da85be9f12fc2a590590aad",
+    "trianglesSha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+    "heightSourceUnits": 2.3951061964035034,
+    "physicalUnits": null
+  },
+  "moduleSha256": {
+    "labState": "aa97aef32c53ee80b89e4672c79e64cccfac13b6fb57602b612cbdb490aff2d3",
+    "anatomyModel": "2cbaeddc046545005e8d9b0f4c9d30b542013fb1af0d794bdde4d374bb8f110b"
+  },
+  "checks": [
+    {
+      "name": "Actual source fingerprints and fixed stature are attached to initial project",
+      "passed": true,
+      "milliseconds": 0.6620999999999952,
+      "evidence": {
+        "body": "body-v4-rest.bin",
+        "triangles": "pelvic-repair/implicit-repaired-triangles.bin",
+        "bodySha256": "ad055ae745bc884146420dfe872e279100de7a538da85be9f12fc2a590590aad",
+        "trianglesSha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+        "heightSourceUnits": 2.3951061964035034,
+        "physicalUnits": null
+      }
+    },
+    {
+      "name": "Initial proposal is explicitly uncalibrated and stages are ordinal identities",
+      "passed": true,
+      "milliseconds": 0.0764999999999958,
+      "evidence": {
+        "camera": "assumed / artist adjusted",
+        "shape": "artist proposal; reference fit pending",
+        "depth": "unresolved",
+        "attachments": "artist template; reference fit pending"
+      }
+    },
+    {
+      "name": "Initial27 integer frames are one closed component and measured volume is monotonic",
+      "passed": true,
+      "milliseconds": 1763.6682,
+      "evidence": {
+        "resolution": 24,
+        "firstVolumeH3": 0.007729970873574393,
+        "lastVolumeH3": 0.011631794481207271,
+        "states": [
+          {
+            "sourceFrame": 0,
+            "volumeH3": 0.007729970873574393,
+            "triangles": 6952,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 1,
+            "volumeH3": 0.007836790517856542,
+            "triangles": 7032,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 2,
+            "volumeH3": 0.007945274730167156,
+            "triangles": 7032,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 3,
+            "volumeH3": 0.008055299682171052,
+            "triangles": 7032,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 4,
+            "volumeH3": 0.008166777760746837,
+            "triangles": 7060,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 5,
+            "volumeH3": 0.008279771303697484,
+            "triangles": 7088,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 6,
+            "volumeH3": 0.008394267697169583,
+            "triangles": 7128,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 7,
+            "volumeH3": 0.0085102309549831,
+            "triangles": 7180,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 8,
+            "volumeH3": 0.008627594698149752,
+            "triangles": 7188,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 9,
+            "volumeH3": 0.008746466899629794,
+            "triangles": 7204,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 10,
+            "volumeH3": 0.008866835409283211,
+            "triangles": 7232,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 11,
+            "volumeH3": 0.00901934539452724,
+            "triangles": 7248,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 12,
+            "volumeH3": 0.009174288403408089,
+            "triangles": 7280,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 13,
+            "volumeH3": 0.009331743063900347,
+            "triangles": 7328,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 14,
+            "volumeH3": 0.009502476527331105,
+            "triangles": 7588,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 15,
+            "volumeH3": 0.009665971187928571,
+            "triangles": 7600,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 16,
+            "volumeH3": 0.009831941411799414,
+            "triangles": 7656,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 17,
+            "volumeH3": 0.01000032872553925,
+            "triangles": 7676,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 18,
+            "volumeH3": 0.010171160411182488,
+            "triangles": 7720,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 19,
+            "volumeH3": 0.010344475818522261,
+            "triangles": 7736,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 20,
+            "volumeH3": 0.010520276457852477,
+            "triangles": 7800,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 21,
+            "volumeH3": 0.010698720766160031,
+            "triangles": 7824,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 22,
+            "volumeH3": 0.010879862754726733,
+            "triangles": 7836,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 23,
+            "volumeH3": 0.011063608840462256,
+            "triangles": 7840,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 24,
+            "volumeH3": 0.011250086106932455,
+            "triangles": 7900,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 25,
+            "volumeH3": 0.011439429524415009,
+            "triangles": 7896,
+            "closed": true,
+            "connectedComponents": 1
+          },
+          {
+            "sourceFrame": 26,
+            "volumeH3": 0.011631794481207271,
+            "triangles": 7892,
+            "closed": true,
+            "connectedComponents": 1
+          }
+        ],
+        "scope": "27 sampled integer source frames; continuous topology and physical behavior unverified"
+      }
+    },
+    {
+      "name": "Endpoint26 and49 have identical canonical shape parameters",
+      "passed": true,
+      "milliseconds": 0.12220000000002074,
+      "evidence": {
+        "frame26": {
+          "lobeWidth": 1.24,
+          "lobeHeight": 1.21,
+          "rearProjection": 1.3599999999999999,
+          "upperPole": 1.08,
+          "lowerPole": 1,
+          "separation": 1,
+          "attachment": 0.012,
+          "cleft": 0.75,
+          "asymmetry": 0,
+          "pelvisWidth": 1,
+          "pelvisDepth": 1,
+          "thighFullness": 1,
+          "thighOuter": 1,
+          "thighFront": 1,
+          "kneeTaper": 0.65
+        },
+        "frame49": {
+          "lobeWidth": 1.24,
+          "lobeHeight": 1.21,
+          "rearProjection": 1.3599999999999999,
+          "upperPole": 1.08,
+          "lowerPole": 1,
+          "separation": 1,
+          "attachment": 0.012,
+          "cleft": 0.75,
+          "asymmetry": 0,
+          "pelvisWidth": 1,
+          "pelvisDepth": 1,
+          "thighFullness": 1,
+          "thighOuter": 1,
+          "thighFront": 1,
+          "kneeTaper": 0.65
+        }
+      }
+    },
+    {
+      "name": "Endpoint hold produces byte-identical extracted geometry and normals",
+      "passed": true,
+      "milliseconds": 116.83609999999999,
+      "evidence": {
+        "positionSha256": "78b1f65814b7ff0f2804a398e121253807732385b0deb1fc2244ac2a3d368c6f",
+        "triangleSha256": "9384020c92ce8cdaf25f6907078acdbd5dfd6a9d08ffcae49c5766d6bcb9d244",
+        "volumeH3": 0.011631794481207271
+      }
+    },
+    {
+      "name": "storeTemplateStage changes stage26 without mutating the prior project",
+      "passed": true,
+      "milliseconds": 1532.1177999999998,
+      "evidence": {
+        "storedEndpoint": {
+          "lobeWidth": 1.28,
+          "lobeHeight": 1.23,
+          "rearProjection": 1.54,
+          "upperPole": 1.08,
+          "lowerPole": 1,
+          "separation": 1,
+          "attachment": 0.012,
+          "cleft": 0.75,
+          "asymmetry": 0,
+          "pelvisWidth": 1,
+          "pelvisDepth": 1,
+          "thighFullness": 1.1,
+          "thighOuter": 1.1,
+          "thighFront": 1.05,
+          "kneeTaper": 0.72
+        },
+        "audit": {
+          "schema": "rainee-regional-sequence-audit-v1",
+          "resolution": 24,
+          "states": [
+            {
+              "sourceFrame": 0,
+              "volumeH3": 0.008227375501901833,
+              "triangles": 6352,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 1,
+              "volumeH3": 0.00833393220616861,
+              "triangles": 6348,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 2,
+              "volumeH3": 0.008441991376268122,
+              "triangles": 6368,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 3,
+              "volumeH3": 0.008551525389706842,
+              "triangles": 6436,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 4,
+              "volumeH3": 0.008662614993926464,
+              "triangles": 6552,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 5,
+              "volumeH3": 0.008775254425050163,
+              "triangles": 6548,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 6,
+              "volumeH3": 0.008896665104797776,
+              "triangles": 6772,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 7,
+              "volumeH3": 0.009012364441292477,
+              "triangles": 6772,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 8,
+              "volumeH3": 0.009130132908492022,
+              "triangles": 6828,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 9,
+              "volumeH3": 0.009249519123305443,
+              "triangles": 6836,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 10,
+              "volumeH3": 0.009370471992207986,
+              "triangles": 6880,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 11,
+              "volumeH3": 0.009523813737606204,
+              "triangles": 6864,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 12,
+              "volumeH3": 0.009679596550670496,
+              "triangles": 6844,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 13,
+              "volumeH3": 0.009837933126531851,
+              "triangles": 6892,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 14,
+              "volumeH3": 0.01000471295302074,
+              "triangles": 7168,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 15,
+              "volumeH3": 0.010167652495830114,
+              "triangles": 7204,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 16,
+              "volumeH3": 0.010338880277802831,
+              "triangles": 7484,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 17,
+              "volumeH3": 0.010507471063916167,
+              "triangles": 7520,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 18,
+              "volumeH3": 0.01067901908738398,
+              "triangles": 7568,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 19,
+              "volumeH3": 0.011014029572057993,
+              "triangles": 7644,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 20,
+              "volumeH3": 0.011356917335570009,
+              "triangles": 7676,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 21,
+              "volumeH3": 0.011713473455221005,
+              "triangles": 7956,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 22,
+              "volumeH3": 0.01207384508895117,
+              "triangles": 8048,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 23,
+              "volumeH3": 0.01244253665898422,
+              "triangles": 8020,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 24,
+              "volumeH3": 0.012819575917812727,
+              "triangles": 8100,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 25,
+              "volumeH3": 0.01321201701855875,
+              "triangles": 8436,
+              "closed": true,
+              "connectedComponents": 1
+            },
+            {
+              "sourceFrame": 26,
+              "volumeH3": 0.013607521922069935,
+              "triangles": 8480,
+              "closed": true,
+              "connectedComponents": 1
+            }
+          ],
+          "passed": true,
+          "quantity": "enclosed complete regional proposal, not measured tissue volume",
+          "scope": "27 sampled integer source frames; continuous topology and physical behavior unverified",
+          "endpointHold": true
+        }
+      }
+    },
+    {
+      "name": "Shared thigh controls apply to every integer frame and held endpoint",
+      "passed": true,
+      "milliseconds": 0.7277999999996609,
+      "evidence": {
+        "checkedFrames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          49
+        ],
+        "sharedThighParams": {
+          "thighFullness": 1.1,
+          "thighOuter": 1.1,
+          "thighFront": 1.05,
+          "kneeTaper": 0.72
+        }
+      }
+    },
+    {
+      "name": "Global thigh change affects actual stage0 geometry, while its lobe controls remain fixed",
+      "passed": true,
+      "milliseconds": 91.41319999999996,
+      "evidence": {
+        "beforeVolumeH3": 0.007729970873574393,
+        "afterVolumeH3": 0.008227375501901833,
+        "status": "Volume of complete regional proposal; not measured tissue volume"
+      }
+    },
+    {
+      "name": "Decreasing endpoint fails the default27-frame geometric audit",
+      "passed": true,
+      "milliseconds": 1004.2091999999998,
+      "evidence": {
+        "rejection": "Regional volume decreases at frame 19. Review this stage before storing the accepted growth order."
+      }
+    },
+    {
+      "name": "Unaudited staging is explicit and deletes a stale prior audit",
+      "passed": true,
+      "milliseconds": 1007.7384000000002,
+      "evidence": {
+        "mode": "audit:false produces a proposal only; acceptance still requires a fresh audit"
+      }
+    },
+    {
+      "name": "Intermediate integer and fractional shape edits are rejected",
+      "passed": true,
+      "milliseconds": 0.24319999999988795,
+      "evidence": {
+        "rejectedFrames": [
+          1,
+          9,
+          12,
+          17,
+          19,
+          25,
+          10.5
+        ]
+      }
+    },
+    {
+      "name": "Same-source project import returns an independent valid clone",
+      "passed": true,
+      "milliseconds": 0.26270000000022264,
+      "evidence": {
+        "sameSourceImport": true,
+        "cloneIndependent": true
+      }
+    },
+    {
+      "name": "Import rejects different body hash",
+      "passed": true,
+      "milliseconds": 0.12049999999999272,
+      "evidence": {
+        "field": "bodySha256"
+      }
+    },
+    {
+      "name": "Import rejects different triangle hash",
+      "passed": true,
+      "milliseconds": 0.06349999999929423,
+      "evidence": {
+        "field": "trianglesSha256"
+      }
+    },
+    {
+      "name": "Import rejects different source stature",
+      "passed": true,
+      "milliseconds": 0.0419000000001688,
+      "evidence": {
+        "field": "heightSourceUnits"
+      }
+    },
+    {
+      "name": "Import rejects nonfinite source stature",
+      "passed": true,
+      "milliseconds": 0.03110000000015134,
+      "evidence": {
+        "field": "heightSourceUnits"
+      }
+    },
+    {
+      "name": "Import rejects missing/non-numeric stature",
+      "passed": true,
+      "milliseconds": 0.03440000000045984,
+      "evidence": {
+        "field": "heightSourceUnits"
+      }
+    },
+    {
+      "name": "Import rejects absent canonical source and unsupported schema",
+      "passed": true,
+      "milliseconds": 0.13720000000012078,
+      "evidence": null
+    },
+    {
+      "name": "Import rejects invalid frame, mode, camera, pose and anatomy controls",
+      "passed": true,
+      "milliseconds": 0.6601999999993495,
+      "evidence": null
+    },
+    {
+      "name": "Import rejects a missing accepted stage instead of falling back to defaults",
+      "passed": true,
+      "milliseconds": 0.15560000000004948,
+      "evidence": null
+    },
+    {
+      "name": "Import rejects fractional source frames",
+      "passed": true,
+      "milliseconds": 0.1386000000002241,
+      "evidence": {
+        "rejectedFrames": [
+          0.5,
+          10.25,
+          26.5
+        ]
+      }
+    },
+    {
+      "name": "Every accepted imported stage requires complete finite known parameters",
+      "passed": true,
+      "milliseconds": 0.44350000000031287,
+      "evidence": {
+        "stages": [
+          0,
+          10,
+          18,
+          26
+        ],
+        "missingParameter": "upperPole",
+        "nonfiniteParameter": "rearProjection"
+      }
+    },
+    {
+      "name": "Held endpoint camera/pose lookup retains stage26 hypothesis",
+      "passed": true,
+      "milliseconds": 0.09109999999964202,
+      "evidence": {
+        "camera": {
+          "type": "orthographic",
+          "yaw": 145,
+          "pitch": 12,
+          "span": 1.18,
+          "fov": 40,
+          "distance": 2.4,
+          "targetX": 0,
+          "targetY": 0.5
+        },
+        "pose": {
+          "yaw": 15,
+          "tilt": 2,
+          "arch": 4
+        }
+      }
+    },
+    {
+      "name": "Zero pose returns equal but independently stored canonical positions",
+      "passed": true,
+      "milliseconds": 3.0002000000004045,
+      "evidence": null
+    },
+    {
+      "name": "Nonzero pose changes preview but never mutates actual canonical source vertices",
+      "passed": true,
+      "milliseconds": 278.9867999999997,
+      "evidence": {
+        "canonicalSha256": "ac5fa6809ea218c3964376b6c3868bc1899f39ccdf89a0982a49c4a10a44577b",
+        "canonicalIndexedStature": 1,
+        "previews": [
+          {
+            "pose": {
+              "yaw": 35,
+              "tilt": 0,
+              "arch": 0
+            },
+            "previewSha256": "0c79ca0e7efaab9760134060e0db1bd40a4516a26ab2d1235d28cb0b69b91b90"
+          },
+          {
+            "pose": {
+              "yaw": 0,
+              "tilt": 10,
+              "arch": 0
+            },
+            "previewSha256": "7ea8a5c0d4ba039dc43d5e1961437fabd07c42465c40cadc5d71a67271b0d339"
+          },
+          {
+            "pose": {
+              "yaw": 0,
+              "tilt": 0,
+              "arch": 12
+            },
+            "previewSha256": "8e41fa5938d3576b41fa43c1c49fecc410052438d1b4aa325d3da50b03804bc6"
+          },
+          {
+            "pose": {
+              "yaw": -40,
+              "tilt": -15,
+              "arch": 8
+            },
+            "previewSha256": "d6ffc219f0635c5f5d61dbe6fc7d84cd94a1852dabc4cd2a41352b2c9823c79c"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Point-pose call leaves its caller-owned coordinates untouched",
+      "passed": true,
+      "milliseconds": 0.15560000000004948,
+      "evidence": null
+    },
+    {
+      "name": "Invalid pose is rejected before touching canonical vertices",
+      "passed": true,
+      "milliseconds": 2.4835999999995693,
+      "evidence": null
+    },
+    {
+      "name": "Tested module files remain unchanged throughout this run",
+      "passed": true,
+      "milliseconds": 0.6139000000002852,
+      "evidence": {
+        "labState": "aa97aef32c53ee80b89e4672c79e64cccfac13b6fb57602b612cbdb490aff2d3",
+        "anatomyModel": "2cbaeddc046545005e8d9b0f4c9d30b542013fb1af0d794bdde4d374bb8f110b"
+      }
+    }
+  ],
+  "scope": "Actual deterministic extraction/mesh audit at resolution24 for27 integer source frames. This does not prove continuous topology, collision-free motion, physical behavior, anatomy accuracy or image fitting.",
+  "issues": []
+}

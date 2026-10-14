@@ -1,0 +1,214 @@
+{
+  "id": "spz-04-d62ca9b1b3",
+  "source_sha256": "d62ca9b1b3172a7b9254db27d88b9976acabb30c032e9111ab2e8bbc20699877",
+  "header": {
+    "format": "legacy-gzip-SPZ",
+    "version": 3,
+    "num_points": 1179648,
+    "sh_degree": 0,
+    "fractional_bits": 12,
+    "flags": 0,
+    "uncompressed_bytes": 23592976,
+    "attribute_bytes_expected": 23592976,
+    "trailing_bytes": 0,
+    "raw_payload_sha256": "cf8572f67003189b2fe5c777066368bdb61f5e585403eff0323b70fb9680d2d1",
+    "storage_coordinate_convention": "RUB per Niantic default; producer semantics still reviewable"
+  },
+  "finite_positions": true,
+  "center_bounds_all": {
+    "min": [
+      -0.276123046875,
+      -0.4501953125,
+      -1.57666015625
+    ],
+    "max": [
+      0.48583984375,
+      0.351318359375,
+      -0.11962890625
+    ],
+    "extent": [
+      0.761962890625,
+      0.801513671875,
+      1.45703125
+    ]
+  },
+  "opacity_quantiles": [
+    0.0,
+    0.011764705882352941,
+    0.4235294117647059,
+    0.8980392156862745,
+    0.996078431372549,
+    1.0,
+    1.0
+  ],
+  "log_scale_quantiles": [
+    [
+      -10.0,
+      -10.0,
+      -10.0
+    ],
+    [
+      -9.9375,
+      -10.0,
+      -10.0
+    ],
+    [
+      -8.0625,
+      -8.5625,
+      -8.875
+    ],
+    [
+      -5.6875,
+      -5.8125,
+      -6.5625
+    ],
+    [
+      -5.125,
+      -5.1875,
+      -5.75
+    ]
+  ],
+  "body_constraints_status": "unsegmented appearance field: splat centers/opacity/scale do not define anatomical volume or closed body surface",
+  "sources": [
+    {
+      "archive": "WorldGen-6dfde300-424f-4eb0-89de-c1925ca67615.zip",
+      "entry": "pack/gaussian_splatting/full_res.spz"
+    }
+  ],
+  "frame_mapping_status": "unmapped",
+  "coordinate_frame": "SPZ stored coordinates, no anatomy alignment applied",
+  "opacity_ge_0.05": {
+    "count": 1152687,
+    "center_bounds": {
+      "min": [
+        -0.276123046875,
+        -0.4501953125,
+        -1.57666015625
+      ],
+      "max": [
+        0.48583984375,
+        0.351318359375,
+        -0.11962890625
+      ],
+      "extent": [
+        0.761962890625,
+        0.801513671875,
+        1.45703125
+      ]
+    },
+    "center_quantile_1_99": [
+      [
+        -0.20166015625,
+        -0.114990234375,
+        -1.093017578125
+      ],
+      [
+        0.28173828125,
+        0.2685546875,
+        -0.146240234375
+      ]
+    ]
+  },
+  "opacity_ge_0.2": {
+    "count": 1124185,
+    "center_bounds": {
+      "min": [
+        -0.276123046875,
+        -0.4501953125,
+        -1.57666015625
+      ],
+      "max": [
+        0.48583984375,
+        0.351318359375,
+        -0.12158203125
+      ],
+      "extent": [
+        0.761962890625,
+        0.801513671875,
+        1.455078125
+      ]
+    },
+    "center_quantile_1_99": [
+      [
+        -0.20068359375,
+        -0.11376953125,
+        -1.093017578125
+      ],
+      [
+        0.28076171875,
+        0.268310546875,
+        -0.146240234375
+      ]
+    ]
+  },
+  "opacity_ge_0.5": {
+    "count": 1021989,
+    "center_bounds": {
+      "min": [
+        -0.276123046875,
+        -0.4501953125,
+        -1.57666015625
+      ],
+      "max": [
+        0.48583984375,
+        0.351318359375,
+        -0.144775390625
+      ],
+      "extent": [
+        0.761962890625,
+        0.801513671875,
+        1.431884765625
+      ]
+    },
+    "center_quantile_1_99": [
+      [
+        -0.199462890625,
+        -0.111328125,
+        -1.093505859375
+      ],
+      [
+        0.2783203125,
+        0.266845703125,
+        -0.146240234375
+      ]
+    ]
+  },
+  "opacity_ge_0.8": {
+    "count": 737340,
+    "center_bounds": {
+      "min": [
+        -0.276123046875,
+        -0.4501953125,
+        -1.57666015625
+      ],
+      "max": [
+        0.48583984375,
+        0.351318359375,
+        -0.14501953125
+      ],
+      "extent": [
+        0.761962890625,
+        0.801513671875,
+        1.431640625
+      ]
+    },
+    "center_quantile_1_99": [
+      [
+        -0.2001953125,
+        -0.109375,
+        -1.09521484375
+      ],
+      [
+        0.276123046875,
+        0.267822265625,
+        -0.146240234375
+      ]
+    ]
+  },
+  "center_preview": {
+    "count": 160000,
+    "positions": "derived/spz-04-d62ca9b1b3/center-preview-positions.bin",
+    "colors": "derived/spz-04-d62ca9b1b3/center-preview-colors.bin",
+    "scope": "Deterministic opacity-filtered center sample, no rotation/anisotropic covariance compositing"
+  }
+}

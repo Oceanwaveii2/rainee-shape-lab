@@ -1,0 +1,120 @@
+{
+  "method": "Sewn saddle bridge through four carved manifold triangle seams",
+  "source_points": 98078,
+  "source_triangles": 220971,
+  "output_points": 100576,
+  "output_triangles": 225979,
+  "new_patch_points": 2498,
+  "new_bridge_triangles": 5012,
+  "carved_source_triangles": [
+    124829,
+    49119,
+    111084,
+    189060
+  ],
+  "source_anchor_centroids": [
+    [
+      -7.045455276966095e-07,
+      0.5896326502164205,
+      0.05439856151739756
+    ],
+    [
+      0.00027958442418215174,
+      0.5701605876286825,
+      -0.05110901345809301
+    ],
+    [
+      -0.027082959810892742,
+      0.5544835527737936,
+      0.016596417253216107
+    ],
+    [
+      0.028039773926138878,
+      0.5532142122586569,
+      0.019417937844991684
+    ]
+  ],
+  "source_unchanged_max_displacement": 0.0,
+  "source_height": 0.999796450138092,
+  "output_height": 0.999796450138092,
+  "source_boundary_edges": 4590,
+  "source_nonmanifold_edges": 25441,
+  "output_boundary_edges": 4590,
+  "output_nonmanifold_edges": 25441,
+  "new_edge_count": 7512,
+  "new_edges_all_two_faces": true,
+  "source_seam_edge_face_counts": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "seam_edges_all_two_faces": true,
+  "bridge_one_connected_component": true,
+  "zero_area_faces": 0,
+  "finite": true,
+  "added_bounds": {
+    "min": [
+      -0.036,
+      0.5395916793378047,
+      -0.055
+    ],
+    "max": [
+      0.036,
+      0.597,
+      0.039322648827058014
+    ]
+  },
+  "config": {
+    "center": [
+      0.0,
+      0.574,
+      0.0
+    ],
+    "radius": [
+      0.036,
+      0.023,
+      0.055
+    ],
+    "saddle_drop": 0.03,
+    "rings": 40,
+    "segments": 64,
+    "source_targets": [
+      [
+        0.0,
+        0.59,
+        0.054
+      ],
+      [
+        0.0,
+        0.577,
+        -0.05
+      ],
+      [
+        -0.028,
+        0.553,
+        0.02
+      ],
+      [
+        0.028,
+        0.553,
+        0.02
+      ]
+    ]
+  },
+  "status": "Connected local structural repair candidate; whole source remains nonmanifold",
+  "limits": [
+    "Source/patch overlap is not boolean-unioned; local visual and collision review is required.",
+    "Four small annulus seams are a graft, not production anatomical retopology.",
+    "Whole-body preexisting boundary and nonmanifold defects remain; do not pressure-simulate this render surface.",
+    "Only normal external structural continuity is addressed; no genital detail or internal anatomy."
+  ]
+}

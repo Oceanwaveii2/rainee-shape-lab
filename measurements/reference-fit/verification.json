@@ -1,0 +1,21 @@
+{
+  "pass": true,
+  "checks": [
+    "Exact surface PCA ratios invariant under rigid rotation, uniform scale and translation",
+    "Exact surface covariance invariant under triangle subdivision",
+    "Unregistered target blocks accepted winner",
+    "Objective evaluation count stays below95",
+    "Candidate parameters remain within declared bounds",
+    "Candidate score reproducible from production field",
+    "Closed control-cage volume ratio matches volume parameter",
+    "Full repaired candidate retains source height, finite points and positive sampled field orientation"
+  ],
+  "evaluations": 77,
+  "cage_ratio": 1.1707251071929932,
+  "candidate_height_drift": 0.0,
+  "jacobian_min_determinant": 0.8582560562391179,
+  "partial_objective_points": 24040,
+  "partial_source_points_needed": 20130,
+  "full_body_points": 121901,
+  "limitation": "Optimization hit the declared evaluation cap; candidate is exploratory and not accepted."
+}

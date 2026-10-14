@@ -1,0 +1,18 @@
+{
+  "fit_report": "reference-fit.json",
+  "descriptor_deltas": "descriptor-deltas.json",
+  "preset": "parameter-preset-candidate.json",
+  "candidate_positions": "diagnostic-candidate-positions.bin",
+  "candidate_triangles": "diagnostic-candidate-triangles.bin",
+  "source_roi_preview": "source-regional-roi-preview.png",
+  "candidate_roi_preview": "diagnostic-candidate-roi-preview.png",
+  "verification": "verification.json",
+  "fitter": "fit_regional_rear.py",
+  "evaluated_candidates": "evaluated-candidates.json",
+  "source_point_count": 98078,
+  "candidate_point_count": 121901,
+  "comparison_ready": false,
+  "candidate_inspection_allowed": true,
+  "automatic_adoption": false,
+  "status": "Provisional diagnostic regional fit; local axes/ROI correspondence still need registration"
+}

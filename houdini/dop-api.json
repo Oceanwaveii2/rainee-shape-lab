@@ -1,0 +1,181 @@
+{
+  "restblend": [
+    {
+      "name": "activate",
+      "value": "1",
+      "menu": []
+    },
+    {
+      "name": "updatemode",
+      "value": "0",
+      "menu": [
+        [
+          "frame",
+          "Single Frame"
+        ],
+        [
+          "perframe",
+          "Each Frame"
+        ],
+        [
+          "persubstep",
+          "Each Substep"
+        ]
+      ]
+    },
+    {
+      "name": "activationframe",
+      "value": "1.0",
+      "menu": []
+    },
+    {
+      "name": "usegroup",
+      "value": "0",
+      "menu": []
+    },
+    {
+      "name": "partgroup",
+      "value": "",
+      "menu": []
+    },
+    {
+      "name": "folder01",
+      "value": "0",
+      "menu": []
+    },
+    {
+      "name": "congroup",
+      "value": "",
+      "menu": []
+    },
+    {
+      "name": "restsource",
+      "value": "0",
+      "menu": [
+        [
+          "geo",
+          "Simulation Geometry"
+        ],
+        [
+          "sop",
+          "SOP"
+        ]
+      ]
+    },
+    {
+      "name": "restsop",
+      "value": "",
+      "menu": []
+    },
+    {
+      "name": "blendmode",
+      "value": "0",
+      "menu": [
+        [
+          "blend",
+          "Blend"
+        ],
+        [
+          "distance",
+          "Distance"
+        ]
+      ]
+    },
+    {
+      "name": "blend",
+      "value": "1.0",
+      "menu": []
+    },
+    {
+      "name": "distance",
+      "value": "1.0",
+      "menu": []
+    },
+    {
+      "name": "maskmode",
+      "value": "0",
+      "menu": [
+        [
+          "none",
+          "None"
+        ],
+        [
+          "setfromattrib",
+          "Set From Attribute"
+        ],
+        [
+          "scalefromattrib",
+          "Scale From Attribute"
+        ]
+      ]
+    },
+    {
+      "name": "maskattrib",
+      "value": "mask",
+      "menu": []
+    },
+    {
+      "name": "attribpromote",
+      "value": "2",
+      "menu": [
+        [
+          "max",
+          "Maximum"
+        ],
+        [
+          "min",
+          "Minimum"
+        ],
+        [
+          "mean",
+          "Average"
+        ],
+        [
+          "source",
+          "Use Source"
+        ],
+        [
+          "target",
+          "Use Target"
+        ]
+      ]
+    },
+    {
+      "name": "geometrydata",
+      "value": "Geometry",
+      "menu": []
+    },
+    {
+      "name": "constraintdata",
+      "value": "ConstraintGeometry",
+      "menu": []
+    },
+    {
+      "name": "usetimestep",
+      "value": "1",
+      "menu": []
+    },
+    {
+      "name": "timescale",
+      "value": "1.0",
+      "menu": []
+    }
+  ],
+  "forces": [
+    {
+      "name": "FORCE",
+      "inputs": [],
+      "connections": []
+    },
+    {
+      "name": "SOURCE",
+      "inputs": [],
+      "connections": []
+    },
+    {
+      "name": "vellumrestblend1",
+      "inputs": [],
+      "connections": []
+    }
+  ]
+}

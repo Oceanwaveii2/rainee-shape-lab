@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "different topology preserves cross-section descriptors",
+    "source-axis calibration swaps lateral/depth correctly",
+    "missing landmarks withhold normalization",
+    "narrow ROI clips crossing section segments exactly",
+    "disconnected props remain separate topology components"
+  ]
+}

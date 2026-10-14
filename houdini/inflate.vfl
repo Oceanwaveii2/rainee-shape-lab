@@ -1,0 +1,9 @@
+vector rest=@P;
+float mask=smooth(.49,.555,rest.y)*(1-smooth(.667,.73,rest.y))
+    *(1-smooth(-.045,.015,rest.z))*(1-smooth(.18,.22,abs(rest.x)));
+float amp=detail(1,"inflation_amplitude",0);
+vector delta=set(rest.x*ch("../CONTROLS/lateral"),
+    (rest.y-.61)*ch("../CONTROLS/vertical"),
+    -(.025-rest.z)*ch("../CONTROLS/projection"));
+@P=rest+amp*mask*delta;
+f@rainee_mask=mask;

@@ -1,0 +1,1703 @@
+{
+  "source": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\reference-01a13749\\model.obj",
+  "source_sha256": "9acf24a0b2ee5b5b020c369aab28c4e8b6f6106246dca29cd22845fd750ac20f",
+  "roi_config_sha256": "cb059ac368cb6c883b5a1e4c3eb943be9e40911002d170b13f756f557bb79812",
+  "status": "provisional_local_surface_constraints",
+  "global_comparison_ready": false,
+  "geometry_source": "actual supplied OBJ, not image-inferred mesh or proxy",
+  "axis_semantics": {
+    "source_y": "up",
+    "source_x": "front/depth candidate",
+    "source_z": "lateral candidate",
+    "lobe_partition_source_z": 0.13
+  },
+  "selection": {
+    "method": "Triangle-centroid UV nearest color, base color downsampled to max2048px; explicit RGB candidate rules",
+    "labels": {
+      "0": "other / unknown",
+      "1": "skin-colored candidate",
+      "2": "purple garment candidate",
+      "3": "red hair candidate"
+    },
+    "counts": {
+      "0": 61189,
+      "1": 181858,
+      "2": 83201,
+      "3": 256020
+    },
+    "confidence": "Provisional color segmentation; highlights, seams and generated material errors may misclassify geometry."
+  },
+  "regions": {
+    "rear": {
+      "status": "provisional_geometric_roi",
+      "source_bounds": {
+        "min": [
+          -0.36165499687194824,
+          0.11873199790716171,
+          -0.1075190007686615
+        ],
+        "max": [
+          0.03914999961853027,
+          0.454602986574173,
+          0.5220879912376404
+        ],
+        "extent": [
+          0.4008049964904785,
+          0.33587098121643066,
+          0.6296069622039795
+        ]
+      },
+      "selected_triangles": 51003,
+      "selected_surface_area_source_units_squared": 0.49080976843833923,
+      "explicit_roi": {
+        "min": [
+          -0.4,
+          0.14,
+          -0.15
+        ],
+        "max": [
+          0.03,
+          0.45,
+          0.52
+        ],
+        "confidence": "Provisional butt/pelvis surface patch. Upper thighs and pelvis may overlap; local ROI may truncate attachment."
+      },
+      "selection_rule": "Texture candidate roles + source-space triangle centroid inside ROI; boundary triangles may extend slightly beyond ROI.",
+      "stature_transfer": false,
+      "anatomical_acceptance": false,
+      "source_y_sections": [
+        {
+          "height": 0.14,
+          "valid": true,
+          "intersection_samples": 320,
+          "width": 0.5442068647579745,
+          "depth": 0.24571458942480104,
+          "left": -0.0834498987313328,
+          "right": 0.4607569660266418,
+          "rear": -0.21774760749098343,
+          "front": 0.02796698193381761,
+          "center_x": 0.1886535336476545,
+          "center_depth": -0.09489031277858291
+        },
+        {
+          "height": 0.15033333333333335,
+          "valid": true,
+          "intersection_samples": 766,
+          "width": 0.5560154880316028,
+          "depth": 0.2616479919371989,
+          "left": -0.08420461068341249,
+          "right": 0.4718108773481904,
+          "rear": -0.23054648996626614,
+          "front": 0.03110150197093275,
+          "center_x": 0.19380313333238894,
+          "center_depth": -0.0997224939976667
+        },
+        {
+          "height": 0.16066666666666668,
+          "valid": true,
+          "intersection_samples": 1048,
+          "width": 0.5655802436082333,
+          "depth": 0.29805268104654936,
+          "left": -0.08484937277097962,
+          "right": 0.4807308708372537,
+          "rear": -0.2644459306901944,
+          "front": 0.03360675035635494,
+          "center_x": 0.19794074903313702,
+          "center_depth": -0.11541959016691973
+        },
+        {
+          "height": 0.171,
+          "valid": true,
+          "intersection_samples": 1132,
+          "width": 0.5733370499771597,
+          "depth": 0.31764883118925813,
+          "left": -0.0854362496756827,
+          "right": 0.487900800301477,
+          "rear": -0.2851936548745461,
+          "front": 0.032455176314712016,
+          "center_x": 0.20123227531289714,
+          "center_depth": -0.12636923927991706
+        },
+        {
+          "height": 0.18133333333333335,
+          "valid": true,
+          "intersection_samples": 1144,
+          "width": 0.5796829305312944,
+          "depth": 0.33341541577603034,
+          "left": -0.08598942221759823,
+          "right": 0.4936935083136962,
+          "rear": -0.30025462423084237,
+          "front": 0.033160791545187994,
+          "center_x": 0.203852043048049,
+          "center_depth": -0.1335469163428272
+        },
+        {
+          "height": 0.19166666666666668,
+          "valid": true,
+          "intersection_samples": 1256,
+          "width": 0.5846613888842059,
+          "depth": 0.3435951940381972,
+          "left": -0.08638036931703753,
+          "right": 0.49828101956716836,
+          "rear": -0.3123786219351486,
+          "front": 0.031216572103048606,
+          "center_x": 0.20595032512506542,
+          "center_depth": -0.14058102491604998
+        },
+        {
+          "height": 0.202,
+          "valid": true,
+          "intersection_samples": 1180,
+          "width": 0.588599381751939,
+          "depth": 0.3552870442308933,
+          "left": -0.08677997083413655,
+          "right": 0.5018194109178025,
+          "rear": -0.32236732252276273,
+          "front": 0.03291972170813058,
+          "center_x": 0.20751972004183294,
+          "center_depth": -0.14472380040731608
+        },
+        {
+          "height": 0.21233333333333335,
+          "valid": true,
+          "intersection_samples": 1052,
+          "width": 0.5917788503823905,
+          "depth": 0.3609610048585429,
+          "left": -0.08717957235123557,
+          "right": 0.504599278031155,
+          "rear": -0.3306854406430032,
+          "front": 0.030275564215539688,
+          "center_x": 0.20870985283995971,
+          "center_depth": -0.15020493821373176
+        },
+        {
+          "height": 0.22266666666666668,
+          "valid": true,
+          "intersection_samples": 1058,
+          "width": 0.594104267738328,
+          "depth": 0.36855862277395535,
+          "left": -0.08749697540259657,
+          "right": 0.5066072923357314,
+          "rear": -0.337773006562088,
+          "front": 0.030785616211867362,
+          "center_x": 0.20955515846656741,
+          "center_depth": -0.1534936951751103
+        },
+        {
+          "height": 0.233,
+          "valid": true,
+          "intersection_samples": 1142,
+          "width": 0.6000218364917462,
+          "depth": 0.3730912086911906,
+          "left": -0.09214275630537633,
+          "right": 0.5078790801863698,
+          "rear": -0.3436259088279735,
+          "front": 0.029465299863217137,
+          "center_x": 0.20786816194049676,
+          "center_depth": -0.1570803044823782
+        },
+        {
+          "height": 0.24333333333333335,
+          "valid": true,
+          "intersection_samples": 1174,
+          "width": 0.6055825602042804,
+          "depth": 0.37939148816783835,
+          "left": -0.09697468922741924,
+          "right": 0.5086078709768611,
+          "rear": -0.34854417891086054,
+          "front": 0.030847309256977835,
+          "center_x": 0.20581659087472093,
+          "center_depth": -0.15884843482694136
+        },
+        {
+          "height": 0.2536666666666667,
+          "valid": true,
+          "intersection_samples": 1108,
+          "width": 0.6096637146881697,
+          "depth": 0.38400382988921505,
+          "left": -0.10091413026439555,
+          "right": 0.5087495844237742,
+          "rear": -0.3527304145429363,
+          "front": 0.03127341534627877,
+          "center_x": 0.2039177270796893,
+          "center_depth": -0.16072849959832877
+        },
+        {
+          "height": 0.264,
+          "valid": true,
+          "intersection_samples": 1172,
+          "width": 0.6240407484634127,
+          "depth": 0.3861713088925355,
+          "left": -0.10387587527081033,
+          "right": 0.5201648731926024,
+          "rear": -0.35609006623038547,
+          "front": 0.030081242662149996,
+          "center_x": 0.20814449896089604,
+          "center_depth": -0.16300441178411773
+        },
+        {
+          "height": 0.2743333333333333,
+          "valid": true,
+          "intersection_samples": 1288,
+          "width": 0.6256432661247493,
+          "depth": 0.38989925805947073,
+          "left": -0.10597741876507594,
+          "right": 0.5196658473596734,
+          "rear": -0.3587187173965811,
+          "front": 0.03118054066288963,
+          "center_x": 0.2068442142972987,
+          "center_depth": -0.16376908836684576
+        },
+        {
+          "height": 0.2846666666666667,
+          "valid": true,
+          "intersection_samples": 1244,
+          "width": 0.6156326731874779,
+          "depth": 0.3912647237449386,
+          "left": -0.10721113130026612,
+          "right": 0.5084215418872118,
+          "rear": -0.36041238404849735,
+          "front": 0.030852339696441272,
+          "center_x": 0.20060520529347284,
+          "center_depth": -0.16478002217602805
+        },
+        {
+          "height": 0.29500000000000004,
+          "valid": true,
+          "intersection_samples": 1234,
+          "width": 0.6121653432409017,
+          "depth": 0.3914881662846462,
+          "left": -0.10747279458785008,
+          "right": 0.5046925486530516,
+          "rear": -0.3614193481738454,
+          "front": 0.030068818110800824,
+          "center_x": 0.19860987703260075,
+          "center_depth": -0.1656752650315223
+        },
+        {
+          "height": 0.30533333333333335,
+          "valid": true,
+          "intersection_samples": 1082,
+          "width": 0.6094443764767659,
+          "depth": 0.39180157828049045,
+          "left": -0.10696509639487896,
+          "right": 0.5024792800818869,
+          "rear": -0.3616240959242593,
+          "front": 0.030177482356231113,
+          "center_x": 0.19775709184350398,
+          "center_depth": -0.1657233067840141
+        },
+        {
+          "height": 0.31566666666666665,
+          "valid": true,
+          "intersection_samples": 950,
+          "width": 0.6051499407553407,
+          "depth": 0.3912318049475407,
+          "left": -0.10546245267761278,
+          "right": 0.4996874880777279,
+          "rear": -0.361055786873487,
+          "front": 0.03017601807405368,
+          "center_x": 0.19711251770005755,
+          "center_depth": -0.16543988439971666
+        },
+        {
+          "height": 0.326,
+          "valid": true,
+          "intersection_samples": 932,
+          "width": 0.599435803014281,
+          "depth": 0.3908627871765479,
+          "left": -0.10317481430253331,
+          "right": 0.4962609887117477,
+          "rear": -0.3597911366750888,
+          "front": 0.0310716505014591,
+          "center_x": 0.19654308720460717,
+          "center_depth": -0.16435974308681484
+        },
+        {
+          "height": 0.3363333333333334,
+          "valid": true,
+          "intersection_samples": 944,
+          "width": 0.5921215857764158,
+          "depth": 0.38811651256480706,
+          "left": -0.10008583068475545,
+          "right": 0.4920357550916604,
+          "rear": -0.3578330012748844,
+          "front": 0.030283511289922682,
+          "center_x": 0.19597496220345248,
+          "center_depth": -0.16377474499248085
+        },
+        {
+          "height": 0.3466666666666667,
+          "valid": true,
+          "intersection_samples": 952,
+          "width": 0.5831289470025052,
+          "depth": 0.38582653994090643,
+          "left": -0.09621590837669658,
+          "right": 0.48691303862580865,
+          "rear": -0.35508425596793247,
+          "front": 0.030742283972973967,
+          "center_x": 0.19534856512455603,
+          "center_depth": -0.16217098599747926
+        },
+        {
+          "height": 0.357,
+          "valid": true,
+          "intersection_samples": 986,
+          "width": 0.5724968521726935,
+          "depth": 0.38113825039303073,
+          "left": -0.09182794914720942,
+          "right": 0.48066890302548415,
+          "rear": -0.35147177793727424,
+          "front": 0.029666472455756487,
+          "center_x": 0.19442047693913736,
+          "center_depth": -0.16090265274075888
+        },
+        {
+          "height": 0.36733333333333335,
+          "valid": true,
+          "intersection_samples": 928,
+          "width": 0.5597180467130753,
+          "depth": 0.3771748323121033,
+          "left": -0.08654979799524451,
+          "right": 0.4731682487178308,
+          "rear": -0.3470539345087187,
+          "front": 0.030120897803384627,
+          "center_x": 0.19330922536129314,
+          "center_depth": -0.15846651835266704
+        },
+        {
+          "height": 0.3776666666666667,
+          "valid": true,
+          "intersection_samples": 868,
+          "width": 0.5446522493479257,
+          "depth": 0.37367976477394355,
+          "left": -0.08067723037269338,
+          "right": 0.46397501897523225,
+          "rear": -0.3421199558052029,
+          "front": 0.03155980896874068,
+          "center_x": 0.19164889430126944,
+          "center_depth": -0.1552800734182311
+        },
+        {
+          "height": 0.388,
+          "valid": true,
+          "intersection_samples": 892,
+          "width": 0.526112783577888,
+          "depth": 0.367464853139709,
+          "left": -0.07368368933134824,
+          "right": 0.4524290942465398,
+          "rear": -0.3368143257771214,
+          "front": 0.030650527362587627,
+          "center_x": 0.1893727024575958,
+          "center_depth": -0.1530818992072669
+        },
+        {
+          "height": 0.3983333333333333,
+          "valid": true,
+          "intersection_samples": 954,
+          "width": 0.507055582496322,
+          "depth": 0.36225571808944707,
+          "left": -0.06540674997550415,
+          "right": 0.4416488325208178,
+          "rear": -0.3311327383356232,
+          "front": 0.03112297975382388,
+          "center_x": 0.18812104127265683,
+          "center_depth": -0.15000487929089965
+        },
+        {
+          "height": 0.4086666666666667,
+          "valid": true,
+          "intersection_samples": 830,
+          "width": 0.4898134715692254,
+          "depth": 0.3556954957390515,
+          "left": -0.05578911157191898,
+          "right": 0.43402435999730643,
+          "rear": -0.32428771828069497,
+          "front": 0.03140777745835654,
+          "center_x": 0.18911762421269374,
+          "center_depth": -0.1464399704111692
+        },
+        {
+          "height": 0.41900000000000004,
+          "valid": true,
+          "intersection_samples": 848,
+          "width": 0.4714055541137804,
+          "depth": 0.34488037484210743,
+          "left": -0.04478218140924054,
+          "right": 0.4266233727045398,
+          "rear": -0.31627850694376924,
+          "front": 0.02860186789833816,
+          "center_x": 0.19092059564764963,
+          "center_depth": -0.14383831952271553
+        },
+        {
+          "height": 0.42933333333333334,
+          "valid": true,
+          "intersection_samples": 848,
+          "width": 0.4520367784229543,
+          "depth": 0.34154596080994787,
+          "left": -0.0334514446961368,
+          "right": 0.4185853337268175,
+          "rear": -0.3099256905930597,
+          "front": 0.03162027021688819,
+          "center_x": 0.19256694451534034,
+          "center_depth": -0.13915271018808575
+        },
+        {
+          "height": 0.43966666666666665,
+          "valid": true,
+          "intersection_samples": 1024,
+          "width": 0.4312728239785765,
+          "depth": 0.33292736581278226,
+          "left": -0.02228181191765212,
+          "right": 0.4089910120609244,
+          "rear": -0.3019867455224978,
+          "front": 0.03094062029028442,
+          "center_x": 0.19335460007163616,
+          "center_depth": -0.1355230626161067
+        },
+        {
+          "height": 0.45,
+          "valid": true,
+          "intersection_samples": 742,
+          "width": 0.4305588727568409,
+          "depth": 0.3228836509548393,
+          "left": -0.012364748606190799,
+          "right": 0.4181941241506501,
+          "rear": -0.29201017812001756,
+          "front": 0.03087347283482175,
+          "center_x": 0.20291468777222965,
+          "center_depth": -0.13056835264259792
+        }
+      ],
+      "local_extent_constraints": {
+        "max_lateral_width": 0.6256432661247493,
+        "max_depth": 0.39180157828049045,
+        "roi_height": 0.31,
+        "depth_over_lateral_width": 0.6262379849579771,
+        "width_over_roi_height": 2.018204084273385,
+        "depth_over_roi_height": 1.263876058969324,
+        "ratio_fields_source_unit_independent": true
+      },
+      "negative_z_lobe": {
+        "status": "surface_patch_fit",
+        "center_source": [
+          -0.15603317413826434,
+          0.2959427802762356,
+          0.040537253926577456
+        ],
+        "principal_radii_source": [
+          0.21887219741745317,
+          0.17438175519576332,
+          0.13971566129376897
+        ],
+        "principal_axes_source_columns": [
+          [
+            0.9269964177809707,
+            0.37063646135054146,
+            0.057500042946040573
+          ],
+          [
+            -0.34902203436647367,
+            0.9085549719093221,
+            -0.2295898136798302
+          ],
+          [
+            -0.13733630600804708,
+            0.19276015287501636,
+            0.9715874960679891
+          ]
+        ],
+        "axis_ratio_largest_to_smallest": 1.566554496401431,
+        "implicit_residual_rms": 0.1470321727750226,
+        "directional_coverage_bounds": {
+          "min": [
+            -0.9999589113094578,
+            -0.9825767473081657,
+            -0.999866360708619
+          ],
+          "max": [
+            0.9999903597982374,
+            0.9500450655445354,
+            0.5685930484217846
+          ],
+          "extent": [
+            1.9999492711076952,
+            1.932621812852701,
+            1.5684594091304036
+          ]
+        },
+        "limitation": "Open selected surface patch; inferred back of ellipsoid is unconstrained by ROI. This is a shape cue, not enclosed anatomical volume."
+      },
+      "positive_z_lobe": {
+        "status": "surface_patch_fit",
+        "center_source": [
+          -0.12106206961895548,
+          0.30192257522129495,
+          0.26886185725856293
+        ],
+        "principal_radii_source": [
+          0.27212123335716654,
+          0.18693494539989558,
+          0.16809994914837226
+        ],
+        "principal_axes_source_columns": [
+          [
+            -0.216146351956301,
+            0.9721823421925269,
+            0.09023440621534204
+          ],
+          [
+            0.2626251392396626,
+            -0.03112196617160043,
+            0.9643959039009663
+          ],
+          [
+            -0.9403769407930688,
+            -0.23214847996630583,
+            0.24859262353095457
+          ]
+        ],
+        "axis_ratio_largest_to_smallest": 1.6188061610713553,
+        "implicit_residual_rms": 0.2090616230778336,
+        "directional_coverage_bounds": {
+          "min": [
+            -0.9999912353587153,
+            -0.9684100585055031,
+            -0.8088956439522366
+          ],
+          "max": [
+            0.9450189421968662,
+            0.9494218083500957,
+            0.9997853268828196
+          ],
+          "extent": [
+            1.9450101775555815,
+            1.917831866855599,
+            1.8086809708350562
+          ]
+        },
+        "limitation": "Open selected surface patch; inferred back of ellipsoid is unconstrained by ROI. This is a shape cue, not enclosed anatomical volume."
+      }
+    },
+    "waist": {
+      "status": "provisional_geometric_roi",
+      "source_bounds": {
+        "min": [
+          -0.20377500355243683,
+          0.4634380042552948,
+          0.006324999965727329
+        ],
+        "max": [
+          0.21068499982357025,
+          0.5558689832687378,
+          0.28611400723457336
+        ],
+        "extent": [
+          0.4144600033760071,
+          0.092430979013443,
+          0.279789000749588
+        ]
+      },
+      "selected_triangles": 16533,
+      "selected_surface_area_source_units_squared": 0.09731336683034897,
+      "explicit_roi": {
+        "min": [
+          -0.19,
+          0.47,
+          -0.23
+        ],
+        "max": [
+          0.2,
+          0.55,
+          0.28
+        ],
+        "confidence": "Provisional narrow torso ROI; arms/cloth/hair may still overlap, inspect candidate preview."
+      },
+      "selection_rule": "Texture candidate roles + source-space triangle centroid inside ROI; boundary triangles may extend slightly beyond ROI.",
+      "stature_transfer": false,
+      "anatomical_acceptance": false,
+      "source_y_sections": [
+        {
+          "height": 0.47,
+          "valid": true,
+          "intersection_samples": 410,
+          "width": 0.26081854765644813,
+          "depth": 0.31349692201024665,
+          "left": 0.01903235549084326,
+          "right": 0.2798509031472914,
+          "rear": -0.19173246871372412,
+          "front": 0.12176445329652252,
+          "center_x": 0.14944162931906732,
+          "center_depth": -0.0349840077086008
+        },
+        {
+          "height": 0.4726666666666666,
+          "valid": true,
+          "intersection_samples": 748,
+          "width": 0.2519971982825946,
+          "depth": 0.3165010336829954,
+          "left": 0.028262060389826527,
+          "right": 0.28025925867242113,
+          "rear": -0.19374410666098268,
+          "front": 0.12275692702201271,
+          "center_x": 0.15426065953112383,
+          "center_depth": -0.035493589819484986
+        },
+        {
+          "height": 0.47533333333333333,
+          "valid": true,
+          "intersection_samples": 796,
+          "width": 0.24696022881815893,
+          "depth": 0.3147455175027284,
+          "left": 0.03373935806537142,
+          "right": 0.28069958688353036,
+          "rear": -0.19094474132717262,
+          "front": 0.12380077617555577,
+          "center_x": 0.1572194724744509,
+          "center_depth": -0.03357198257580843
+        },
+        {
+          "height": 0.478,
+          "valid": true,
+          "intersection_samples": 754,
+          "width": 0.24024880118600314,
+          "depth": 0.3148694674608326,
+          "left": 0.04023037125505955,
+          "right": 0.2804791724410627,
+          "rear": -0.1899407528761101,
+          "front": 0.12492871458472252,
+          "center_x": 0.16035477184806113,
+          "center_depth": -0.03250601914569379
+        },
+        {
+          "height": 0.48066666666666663,
+          "valid": true,
+          "intersection_samples": 738,
+          "width": 0.2318820693662234,
+          "depth": 0.3182215677315552,
+          "left": 0.0480272237200528,
+          "right": 0.2799092930862762,
+          "rear": -0.19198169216591535,
+          "front": 0.12623987556563981,
+          "center_x": 0.1639682584031645,
+          "center_depth": -0.032870908300137766
+        },
+        {
+          "height": 0.48333333333333334,
+          "valid": true,
+          "intersection_samples": 744,
+          "width": 0.22301776481611027,
+          "depth": 0.32387151857483504,
+          "left": 0.05735115520241731,
+          "right": 0.2803689200185276,
+          "rear": -0.1907617215027617,
+          "front": 0.13310979707207335,
+          "center_x": 0.16886003761047244,
+          "center_depth": -0.02882596221534417
+        },
+        {
+          "height": 0.486,
+          "valid": true,
+          "intersection_samples": 732,
+          "width": 0.21164432189908314,
+          "depth": 0.3368377863142883,
+          "left": 0.06824035330490394,
+          "right": 0.2798846752039871,
+          "rear": -0.200658864108837,
+          "front": 0.1361789222054513,
+          "center_x": 0.17406251425444552,
+          "center_depth": -0.03223997095169284
+        },
+        {
+          "height": 0.48866666666666664,
+          "valid": true,
+          "intersection_samples": 684,
+          "width": 0.19842474145897165,
+          "depth": 0.330409360996975,
+          "left": 0.08133697840132549,
+          "right": 0.27976171986029713,
+          "rear": -0.19120514839448408,
+          "front": 0.1392042126024909,
+          "center_x": 0.1805493491308113,
+          "center_depth": -0.026000467895996582
+        },
+        {
+          "height": 0.49133333333333334,
+          "valid": true,
+          "intersection_samples": 672,
+          "width": 0.20547145490726643,
+          "depth": 0.3909769404971031,
+          "left": 0.07635068608142825,
+          "right": 0.2818221409886947,
+          "rear": -0.1884591479327522,
+          "front": 0.2025177925643509,
+          "center_x": 0.17908641353506147,
+          "center_depth": 0.0070293223157993495
+        },
+        {
+          "height": 0.494,
+          "valid": true,
+          "intersection_samples": 762,
+          "width": 0.21744233224262258,
+          "depth": 0.20489575317885936,
+          "left": 0.06644022987446965,
+          "right": 0.28388256211709223,
+          "rear": 0.00039508080930630277,
+          "front": 0.20529083398816567,
+          "center_x": 0.17516139599578096,
+          "center_depth": 0.10284295739873599
+        },
+        {
+          "height": 0.49666666666666665,
+          "valid": true,
+          "intersection_samples": 846,
+          "width": 0.22268946441082327,
+          "depth": 0.20070858602444386,
+          "left": 0.0632535188346665,
+          "right": 0.2859429832454898,
+          "rear": 0.0008652863914325802,
+          "front": 0.20157387241587643,
+          "center_x": 0.17459825104007815,
+          "center_depth": 0.1012195794036545
+        },
+        {
+          "height": 0.49933333333333335,
+          "valid": true,
+          "intersection_samples": 798,
+          "width": 0.22040588101137543,
+          "depth": 0.2012895269809839,
+          "left": 0.06006680779486327,
+          "right": 0.2804726888062387,
+          "rear": 0.0012352172730380412,
+          "front": 0.20252474425402195,
+          "center_x": 0.170269748300551,
+          "center_depth": 0.10187998076353
+        },
+        {
+          "height": 0.502,
+          "valid": true,
+          "intersection_samples": 870,
+          "width": 0.2258624635449607,
+          "depth": 0.20243476274655767,
+          "left": 0.05461641615711181,
+          "right": 0.2804788797020725,
+          "rear": 0.0016051481546434944,
+          "front": 0.20403991090120116,
+          "center_x": 0.16754764792959218,
+          "center_depth": 0.10282252952792233
+        },
+        {
+          "height": 0.5046666666666667,
+          "valid": true,
+          "intersection_samples": 1070,
+          "width": 0.22789506698592615,
+          "depth": 0.19806662535464578,
+          "left": 0.0519010681442431,
+          "right": 0.27979613513016927,
+          "rear": 0.001795333104140028,
+          "front": 0.19986195845878582,
+          "center_x": 0.1658486016372062,
+          "center_depth": 0.10082864578146293
+        },
+        {
+          "height": 0.5073333333333333,
+          "valid": true,
+          "intersection_samples": 1302,
+          "width": 0.22898338921713676,
+          "depth": 0.19985074610208545,
+          "left": 0.04877659863153457,
+          "right": 0.27775998784867134,
+          "rear": 0.001912190487881243,
+          "front": 0.2017629365899667,
+          "center_x": 0.16326829324010295,
+          "center_depth": 0.10183756353892397
+        },
+        {
+          "height": 0.51,
+          "valid": true,
+          "intersection_samples": 1384,
+          "width": 0.23435821919474203,
+          "depth": 0.20680016754680647,
+          "left": 0.046104166988623456,
+          "right": 0.2804623861833655,
+          "rear": 0.0019508911697880297,
+          "front": 0.2087510587165945,
+          "center_x": 0.16328327658599448,
+          "center_depth": 0.10535097494319126
+        },
+        {
+          "height": 0.5126666666666667,
+          "valid": true,
+          "intersection_samples": 1392,
+          "width": 0.23972680059272475,
+          "depth": 0.2048341212234931,
+          "left": 0.043439383196240335,
+          "right": 0.2831661837889651,
+          "rear": 0.0019165042086589118,
+          "front": 0.206750625432152,
+          "center_x": 0.16330278349260272,
+          "center_depth": 0.10433356482040546
+        },
+        {
+          "height": 0.5153333333333333,
+          "valid": true,
+          "intersection_samples": 1180,
+          "width": 0.24186941372955817,
+          "depth": 0.20297206959105482,
+          "left": 0.04079493910105919,
+          "right": 0.28266435283061736,
+          "rear": 0.0017781225566547575,
+          "front": 0.2047501921477096,
+          "center_x": 0.16172964596583828,
+          "center_depth": 0.10326415735218218
+        },
+        {
+          "height": 0.518,
+          "valid": true,
+          "intersection_samples": 1054,
+          "width": 0.24213876387077576,
+          "depth": 0.2011834567685895,
+          "left": 0.03815049500587793,
+          "right": 0.2802892588766537,
+          "rear": 0.0015663020946776148,
+          "front": 0.20274975886326713,
+          "center_x": 0.1592198769412658,
+          "center_depth": 0.10215803047897237
+        },
+        {
+          "height": 0.5206666666666667,
+          "valid": true,
+          "intersection_samples": 940,
+          "width": 0.24367023027805224,
+          "depth": 0.1994820551817867,
+          "left": 0.03550605091069668,
+          "right": 0.27917628118874893,
+          "rear": 0.001267270397037937,
+          "front": 0.20074932557882463,
+          "center_x": 0.1573411660497228,
+          "center_depth": 0.10100829798793129
+        },
+        {
+          "height": 0.5233333333333333,
+          "valid": true,
+          "intersection_samples": 906,
+          "width": 0.24927528639695282,
+          "depth": 0.20194292506546163,
+          "left": 0.03308216458817217,
+          "right": 0.282357450985125,
+          "rear": 0.0008223089778214893,
+          "front": 0.20276523404328312,
+          "center_x": 0.15771980778664857,
+          "center_depth": 0.1017937715105523
+        },
+        {
+          "height": 0.526,
+          "valid": true,
+          "intersection_samples": 888,
+          "width": 0.25189522008828696,
+          "depth": 0.20030395292839934,
+          "left": 0.03056837049440409,
+          "right": 0.28246359058269105,
+          "rear": 0.00032912636743623504,
+          "front": 0.20063307929583557,
+          "center_x": 0.15651598053854757,
+          "center_depth": 0.1004811028316359
+        },
+        {
+          "height": 0.5286666666666667,
+          "valid": true,
+          "intersection_samples": 792,
+          "width": 0.25093385086458975,
+          "depth": 0.20096782028764862,
+          "left": 0.028225175584877478,
+          "right": 0.2791590264494672,
+          "rear": -0.00028263225353704845,
+          "front": 0.20068518803411156,
+          "center_x": 0.15369210101717234,
+          "center_depth": 0.10020127789028725
+        },
+        {
+          "height": 0.5313333333333333,
+          "valid": true,
+          "intersection_samples": 780,
+          "width": 0.25426081237556736,
+          "depth": 0.20179078221286464,
+          "left": 0.0259535360898977,
+          "right": 0.28021434846546506,
+          "rear": -0.0009792806971214928,
+          "front": 0.20081150151574315,
+          "center_x": 0.15308394227768138,
+          "center_depth": 0.09991611040931082
+        },
+        {
+          "height": 0.534,
+          "valid": true,
+          "intersection_samples": 746,
+          "width": 0.2562782657244219,
+          "depth": 0.20038492288240434,
+          "left": 0.02368189659491783,
+          "right": 0.27996016231933973,
+          "rear": -0.001807298770655074,
+          "front": 0.19857762411174926,
+          "center_x": 0.15182102945712878,
+          "center_depth": 0.09838516267054709
+        },
+        {
+          "height": 0.5366666666666667,
+          "valid": true,
+          "intersection_samples": 714,
+          "width": 0.2591480905843337,
+          "depth": 0.20327571967912306,
+          "left": 0.021371491166531587,
+          "right": 0.2805195817508653,
+          "rear": -0.002635316844188655,
+          "front": 0.2006404028349344,
+          "center_x": 0.15094553645869843,
+          "center_depth": 0.09900254299537287
+        },
+        {
+          "height": 0.5393333333333333,
+          "valid": true,
+          "intersection_samples": 688,
+          "width": 0.2611660934867588,
+          "depth": 0.20368731908917645,
+          "left": 0.01895908898489478,
+          "right": 0.2801251824716536,
+          "rear": -0.00355300282206517,
+          "front": 0.20013431626711128,
+          "center_x": 0.14954213572827418,
+          "center_depth": 0.09829065672252306
+        },
+        {
+          "height": 0.542,
+          "valid": true,
+          "intersection_samples": 678,
+          "width": 0.2634123731874936,
+          "depth": 0.2048500297052125,
+          "left": 0.016546686803257875,
+          "right": 0.2799590599907515,
+          "rear": -0.00451376183882772,
+          "front": 0.20033626786638478,
+          "center_x": 0.1482528733970047,
+          "center_depth": 0.09791125301377854
+        },
+        {
+          "height": 0.5446666666666667,
+          "valid": true,
+          "intersection_samples": 658,
+          "width": 0.2659906440179236,
+          "depth": 0.20673330572507645,
+          "left": 0.014057909733470106,
+          "right": 0.2800485537513937,
+          "rear": -0.005489976595381373,
+          "front": 0.2012433291296951,
+          "center_x": 0.1470532317424319,
+          "center_depth": 0.09787667626715686
+        },
+        {
+          "height": 0.5473333333333333,
+          "valid": true,
+          "intersection_samples": 610,
+          "width": 0.2678641501719566,
+          "depth": 0.205406093340211,
+          "left": 0.011527558595080933,
+          "right": 0.2793917087670375,
+          "rear": -0.006590137674225469,
+          "front": 0.19881595566598553,
+          "center_x": 0.1454596336810592,
+          "center_depth": 0.09611290899588003
+        },
+        {
+          "height": 0.55,
+          "valid": true,
+          "intersection_samples": 344,
+          "width": 0.27106658386482485,
+          "depth": 0.20723698387880188,
+          "left": 0.009416306140696142,
+          "right": 0.280482890005521,
+          "rear": -0.00769029875306961,
+          "front": 0.19954668512573226,
+          "center_x": 0.1449495980731086,
+          "center_depth": 0.09592819318633132
+        }
+      ],
+      "local_extent_constraints": {
+        "max_lateral_width": 0.27106658386482485,
+        "max_depth": 0.3909769404971031,
+        "roi_height": 0.08000000000000007,
+        "depth_over_lateral_width": 1.442364953003853,
+        "width_over_roi_height": 3.3883322983103077,
+        "depth_over_roi_height": 4.887211756213784,
+        "ratio_fields_source_unit_independent": true
+      },
+      "negative_z_lobe": {
+        "status": "no_positive_definite_ellipsoid",
+        "reason": "Selected patch does not support a bounded ellipsoid fit"
+      },
+      "positive_z_lobe": {
+        "status": "surface_patch_fit",
+        "center_source": [
+          -0.07479288943839357,
+          0.5042135461168534,
+          0.2498515670339447
+        ],
+        "principal_radii_source": [
+          0.31637332367370685,
+          0.15089008834656384,
+          0.026520696586991112
+        ],
+        "principal_axes_source_columns": [
+          [
+            0.9349841838778438,
+            -0.3514088099458807,
+            -0.04812924465127647
+          ],
+          [
+            0.029194586465675285,
+            -0.058986606362887856,
+            0.9978317776012586
+          ],
+          [
+            -0.353485858301829,
+            -0.9343620436223907,
+            -0.04489230912316319
+          ]
+        ],
+        "axis_ratio_largest_to_smallest": 11.929299165878387,
+        "implicit_residual_rms": 0.5571030090150729,
+        "directional_coverage_bounds": {
+          "min": [
+            -0.9029113057986197,
+            -0.827080253437202,
+            -0.9563406787626823
+          ],
+          "max": [
+            0.999997067429592,
+            0.5452756666960213,
+            0.662766380778991
+          ],
+          "extent": [
+            1.9029083732282117,
+            1.3723559201332234,
+            1.6191070595416732
+          ]
+        },
+        "limitation": "Open selected surface patch; inferred back of ellipsoid is unconstrained by ROI. This is a shape cue, not enclosed anatomical volume."
+      }
+    },
+    "upper_thigh": {
+      "status": "provisional_geometric_roi",
+      "source_bounds": {
+        "min": [
+          -0.21472300589084625,
+          -0.05849200114607811,
+          -0.0842130035161972
+        ],
+        "max": [
+          0.14417000114917755,
+          0.15615800023078918,
+          0.4619869887828827
+        ],
+        "extent": [
+          0.3588930070400238,
+          0.2146500051021576,
+          0.5461999773979187
+        ]
+      },
+      "selected_triangles": 8192,
+      "selected_surface_area_source_units_squared": 0.2751842439174652,
+      "explicit_roi": {
+        "min": [
+          -0.21,
+          -0.04,
+          -0.15
+        ],
+        "max": [
+          0.19,
+          0.14,
+          0.48
+        ],
+        "confidence": "Provisional upper thigh outside surface; one leg bent, so this is a pose-dependent local descriptor."
+      },
+      "selection_rule": "Texture candidate roles + source-space triangle centroid inside ROI; boundary triangles may extend slightly beyond ROI.",
+      "stature_transfer": false,
+      "anatomical_acceptance": false,
+      "source_y_sections": [
+        {
+          "height": -0.04,
+          "valid": true,
+          "intersection_samples": 320,
+          "width": 0.42378027951951824,
+          "depth": 0.2641489409483235,
+          "left": -0.036583403760654915,
+          "right": 0.38719687575886336,
+          "rear": -0.12050280158868386,
+          "front": 0.1436461393596396,
+          "center_x": 0.17530673599910424,
+          "center_depth": 0.011571668885477872
+        },
+        {
+          "height": -0.034,
+          "valid": true,
+          "intersection_samples": 530,
+          "width": 0.429383300895212,
+          "depth": 0.26979760637675476,
+          "left": -0.03941548066411111,
+          "right": 0.3899678202311009,
+          "rear": -0.12600640106165023,
+          "front": 0.14379120531510453,
+          "center_x": 0.1752761697834949,
+          "center_depth": 0.00889240212672715
+        },
+        {
+          "height": -0.027999999999999997,
+          "valid": true,
+          "intersection_samples": 604,
+          "width": 0.434628289710684,
+          "depth": 0.27517489633044245,
+          "left": -0.04207665605394881,
+          "right": 0.39255163365673523,
+          "rear": -0.131238625059873,
+          "front": 0.14393627127056943,
+          "center_x": 0.17523748880139323,
+          "center_depth": 0.00634882310534822
+        },
+        {
+          "height": -0.022,
+          "valid": true,
+          "intersection_samples": 630,
+          "width": 0.43979980471566804,
+          "depth": 0.2803214708934776,
+          "left": -0.04471985674037863,
+          "right": 0.3950799479752894,
+          "rear": -0.13624013366744323,
+          "front": 0.14408133722603436,
+          "center_x": 0.17518004561745537,
+          "center_depth": 0.003920601779295568
+        },
+        {
+          "height": -0.015999999999999997,
+          "valid": true,
+          "intersection_samples": 678,
+          "width": 0.4448473465894603,
+          "depth": 0.2851378310337608,
+          "left": -0.047355231851028516,
+          "right": 0.39749211473843177,
+          "rear": -0.1409878826144892,
+          "front": 0.14414994841927156,
+          "center_x": 0.17506844144370162,
+          "center_depth": 0.0015810329023911857
+        },
+        {
+          "height": -0.009999999999999995,
+          "valid": true,
+          "intersection_samples": 658,
+          "width": 0.44951434342685975,
+          "depth": 0.2897736879497679,
+          "left": -0.049743251132358515,
+          "right": 0.39977109229450125,
+          "rear": -0.145614916093999,
+          "front": 0.1441587718557689,
+          "center_x": 0.17501392058107137,
+          "center_depth": -0.0007280721191150474
+        },
+        {
+          "height": -0.003999999999999997,
+          "valid": true,
+          "intersection_samples": 686,
+          "width": 0.45404752809382215,
+          "depth": 0.2941929174041255,
+          "left": -0.052131270413688514,
+          "right": 0.4019162576801336,
+          "rear": -0.15002532211185932,
+          "front": 0.1441675952922662,
+          "center_x": 0.17489249363322254,
+          "center_depth": -0.0029288634097965616
+        },
+        {
+          "height": 0.0020000000000000087,
+          "valid": true,
+          "intersection_samples": 706,
+          "width": 0.4585807127607845,
+          "depth": 0.29816642696989903,
+          "left": -0.054519289695018514,
+          "right": 0.404061423065766,
+          "rear": -0.15411595744043177,
+          "front": 0.14405046952946723,
+          "center_x": 0.17477106668537373,
+          "center_depth": -0.005032743955482269
+        },
+        {
+          "height": 0.008000000000000007,
+          "valid": true,
+          "intersection_samples": 706,
+          "width": 0.46274545854564314,
+          "depth": 0.3018152545397833,
+          "left": -0.0566955351925832,
+          "right": 0.40604992335305995,
+          "rear": -0.1579291272894897,
+          "front": 0.14388612725029357,
+          "center_x": 0.17467719408023838,
+          "center_depth": -0.007021500019598073
+        },
+        {
+          "height": 0.014000000000000005,
+          "valid": true,
+          "intersection_samples": 758,
+          "width": 0.46665886360806197,
+          "depth": 0.305110040357899,
+          "left": -0.05876077029731413,
+          "right": 0.40789809331074783,
+          "rear": -0.16138825538677906,
+          "front": 0.14372178497111993,
+          "center_x": 0.17456866150671685,
+          "center_depth": -0.008833235207829568
+        },
+        {
+          "height": 0.02000000000000001,
+          "valid": true,
+          "intersection_samples": 748,
+          "width": 0.4703745357097443,
+          "depth": 0.30810481144640667,
+          "left": -0.06078711041976821,
+          "right": 0.4095874252899761,
+          "rear": -0.16454736875446038,
+          "front": 0.14355744269194629,
+          "center_x": 0.17440015743510395,
+          "center_depth": -0.010494963031257049
+        },
+        {
+          "height": 0.026000000000000016,
+          "valid": true,
+          "intersection_samples": 764,
+          "width": 0.473872020449132,
+          "depth": 0.3107086407027704,
+          "left": -0.06267660354432067,
+          "right": 0.4111954169048113,
+          "rear": -0.16731554028999773,
+          "front": 0.14339310041277262,
+          "center_x": 0.1742594066802453,
+          "center_depth": -0.011961219938612558
+        },
+        {
+          "height": 0.03200000000000001,
+          "valid": true,
+          "intersection_samples": 752,
+          "width": 0.4772771704863513,
+          "depth": 0.3130586210685695,
+          "left": -0.06449638214471158,
+          "right": 0.4127807883416397,
+          "rear": -0.16982986293497052,
+          "front": 0.14322875813359898,
+          "center_x": 0.17414220309846407,
+          "center_depth": -0.01330055240068577
+        },
+        {
+          "height": 0.03800000000000001,
+          "valid": true,
+          "intersection_samples": 756,
+          "width": 0.4802448360019507,
+          "depth": 0.31513407261545223,
+          "left": -0.06610282147130003,
+          "right": 0.4141420145306507,
+          "rear": -0.17213743904817025,
+          "front": 0.14299663356728196,
+          "center_x": 0.17401959652967533,
+          "center_depth": -0.014570402740444147
+        },
+        {
+          "height": 0.04400000000000002,
+          "valid": true,
+          "intersection_samples": 710,
+          "width": 0.4832067691369613,
+          "depth": 0.3168516677086678,
+          "left": -0.0677035284172997,
+          "right": 0.4155032407196616,
+          "rear": -0.17411920303289083,
+          "front": 0.14273246467577697,
+          "center_x": 0.17389985615118095,
+          "center_depth": -0.015693369178556932
+        },
+        {
+          "height": 0.05000000000000001,
+          "valid": true,
+          "intersection_samples": 730,
+          "width": 0.4861195565827578,
+          "depth": 0.31846275185179457,
+          "left": -0.06928732153222905,
+          "right": 0.41683223505052874,
+          "rear": -0.17599445606752256,
+          "front": 0.142468295784272,
+          "center_x": 0.17377245675914985,
+          "center_depth": -0.01676308014162528
+        },
+        {
+          "height": 0.056000000000000015,
+          "valid": true,
+          "intersection_samples": 730,
+          "width": 0.4887090418400587,
+          "depth": 0.31993467978174556,
+          "left": -0.07057768438903658,
+          "right": 0.41813135745102215,
+          "rear": -0.17785952127329416,
+          "front": 0.1420751585084514,
+          "center_x": 0.1737768365309928,
+          "center_depth": -0.01789218138242138
+        },
+        {
+          "height": 0.06200000000000002,
+          "valid": true,
+          "intersection_samples": 726,
+          "width": 0.49128590983142306,
+          "depth": 0.32126087365224243,
+          "left": -0.07185542997990747,
+          "right": 0.4194304798515156,
+          "rear": -0.17960275052267752,
+          "front": 0.14165812312956494,
+          "center_x": 0.17378752493580407,
+          "center_depth": -0.01897231369655629
+        },
+        {
+          "height": 0.068,
+          "valid": true,
+          "intersection_samples": 722,
+          "width": 0.49395175117159024,
+          "depth": 0.3225870675227394,
+          "left": -0.07312336879014919,
+          "right": 0.42082838238144105,
+          "rear": -0.1813459797720609,
+          "front": 0.1412410877506785,
+          "center_x": 0.17385250679564593,
+          "center_depth": -0.0200524460106912
+        },
+        {
+          "height": 0.07400000000000001,
+          "valid": true,
+          "intersection_samples": 714,
+          "width": 0.49663974560019963,
+          "depth": 0.32377920456076736,
+          "left": -0.07439130760039091,
+          "right": 0.4222484379998087,
+          "rear": -0.18308920902144427,
+          "front": 0.14068999553932313,
+          "center_x": 0.1739285651997089,
+          "center_depth": -0.02119960674106057
+        },
+        {
+          "height": 0.08000000000000002,
+          "valid": true,
+          "intersection_samples": 720,
+          "width": 0.4993145575336087,
+          "depth": 0.3249406242117925,
+          "left": -0.07564606391543231,
+          "right": 0.4236684936181764,
+          "rear": -0.18483243827082765,
+          "front": 0.14010818594096483,
+          "center_x": 0.17401121485137203,
+          "center_depth": -0.022362126164931412
+        },
+        {
+          "height": 0.08600000000000002,
+          "valid": true,
+          "intersection_samples": 752,
+          "width": 0.5017916303292334,
+          "depth": 0.3259091063250062,
+          "left": -0.07670308109268936,
+          "right": 0.42508854923654404,
+          "rear": -0.186575667520211,
+          "front": 0.13933343880479518,
+          "center_x": 0.17419273407192734,
+          "center_depth": -0.023621114357707917
+        },
+        {
+          "height": 0.09200000000000003,
+          "valid": true,
+          "intersection_samples": 812,
+          "width": 0.5042687031248582,
+          "depth": 0.3268775884382199,
+          "left": -0.07776009826994643,
+          "right": 0.42650860485491177,
+          "rear": -0.1883188967695944,
+          "front": 0.1385586916686255,
+          "center_x": 0.17437425329248268,
+          "center_depth": -0.02488010255048445
+        },
+        {
+          "height": 0.098,
+          "valid": true,
+          "intersection_samples": 816,
+          "width": 0.5068490479658877,
+          "depth": 0.3275383504724608,
+          "left": -0.07874840690953468,
+          "right": 0.42810064105635304,
+          "rear": -0.189754405940005,
+          "front": 0.13778394453245585,
+          "center_x": 0.1746761170734092,
+          "center_depth": -0.02598523070377458
+        },
+        {
+          "height": 0.10400000000000001,
+          "valid": true,
+          "intersection_samples": 848,
+          "width": 0.5093357794491155,
+          "depth": 0.3278225597139152,
+          "left": -0.07961385739489144,
+          "right": 0.42972192205422405,
+          "rear": -0.1910219295277348,
+          "front": 0.1368006301861804,
+          "center_x": 0.17505403232966632,
+          "center_depth": -0.027110649670777198
+        },
+        {
+          "height": 0.11000000000000001,
+          "valid": true,
+          "intersection_samples": 896,
+          "width": 0.5118759528706777,
+          "depth": 0.3277123886291357,
+          "left": -0.0804533844760731,
+          "right": 0.4314225683946045,
+          "rear": -0.19194064936089672,
+          "front": 0.135771739268239,
+          "center_x": 0.17548459195926572,
+          "center_depth": -0.028084455046328866
+        },
+        {
+          "height": 0.11600000000000002,
+          "valid": true,
+          "intersection_samples": 906,
+          "width": 0.5144535614541714,
+          "depth": 0.3274569201333958,
+          "left": -0.08118097632264194,
+          "right": 0.4332725851315295,
+          "rear": -0.19271407178309818,
+          "front": 0.1347428483502976,
+          "center_x": 0.17604580440444378,
+          "center_depth": -0.028985611716400295
+        },
+        {
+          "height": 0.12200000000000003,
+          "valid": true,
+          "intersection_samples": 884,
+          "width": 0.5172049119172324,
+          "depth": 0.32694711036391855,
+          "left": -0.0818574156847014,
+          "right": 0.435347496232531,
+          "rear": -0.19328174799674136,
+          "front": 0.1336653623671772,
+          "center_x": 0.1767450402739148,
+          "center_depth": -0.029808192814782086
+        },
+        {
+          "height": 0.12800000000000003,
+          "valid": true,
+          "intersection_samples": 844,
+          "width": 0.5259819160755543,
+          "depth": 0.3316978406108988,
+          "left": -0.08253385504676083,
+          "right": 0.4434480610287935,
+          "rear": -0.1992491308491321,
+          "front": 0.13244870976176673,
+          "center_x": 0.18045710299101636,
+          "center_depth": -0.03340021054368268
+        },
+        {
+          "height": 0.134,
+          "valid": true,
+          "intersection_samples": 818,
+          "width": 0.5358364721803535,
+          "depth": 0.3402388885648363,
+          "left": -0.08302830562937943,
+          "right": 0.452808166550974,
+          "rear": -0.2089640146051559,
+          "front": 0.1312748739596804,
+          "center_x": 0.18488993046079727,
+          "center_depth": -0.03884457032273775
+        },
+        {
+          "height": 0.14,
+          "valid": true,
+          "intersection_samples": 506,
+          "width": 0.5441862151522282,
+          "depth": 0.3409532235679018,
+          "left": -0.08347815604453736,
+          "right": 0.4607080591076908,
+          "rear": -0.21078541850882382,
+          "front": 0.130167805059078,
+          "center_x": 0.18861495153157673,
+          "center_depth": -0.040308806724872914
+        }
+      ],
+      "local_extent_constraints": {
+        "max_lateral_width": 0.5441862151522282,
+        "max_depth": 0.3409532235679018,
+        "roi_height": 0.18000000000000002,
+        "depth_over_lateral_width": 0.6265377807714683,
+        "width_over_roi_height": 3.0232567508457118,
+        "depth_over_roi_height": 1.894184575377232,
+        "ratio_fields_source_unit_independent": true
+      },
+      "negative_z_lobe": {
+        "status": "surface_patch_fit",
+        "center_source": [
+          -0.05192364333168141,
+          0.0930973818900381,
+          0.06134656914194127
+        ],
+        "principal_radii_source": [
+          0.2777303639928059,
+          0.14758658362495253,
+          0.11663460096320723
+        ],
+        "principal_axes_source_columns": [
+          [
+            0.329001584946653,
+            -0.601743641377108,
+            -0.7277791884663974
+          ],
+          [
+            -0.9331253314943115,
+            -0.08879300339600835,
+            -0.3484148651701695
+          ],
+          [
+            0.1450347297243711,
+            0.7937382393523286,
+            -0.5907152736840684
+          ]
+        ],
+        "axis_ratio_largest_to_smallest": 2.38120044737339,
+        "implicit_residual_rms": 0.03334104903075227,
+        "directional_coverage_bounds": {
+          "min": [
+            -0.9998542897476843,
+            -0.904983735505254,
+            -0.9997450941308965
+          ],
+          "max": [
+            0.999846703424159,
+            0.38878448890028783,
+            0.5731578195800884
+          ],
+          "extent": [
+            1.9997009931718432,
+            1.2937682244055417,
+            1.572902913710985
+          ]
+        },
+        "limitation": "Open selected surface patch; inferred back of ellipsoid is unconstrained by ROI. This is a shape cue, not enclosed anatomical volume."
+      },
+      "positive_z_lobe": {
+        "status": "surface_patch_fit",
+        "center_source": [
+          -0.018528249868872707,
+          0.053378318092856876,
+          0.278237583885762
+        ],
+        "principal_radii_source": [
+          0.26148157619055445,
+          0.2519528978247854,
+          0.0634761333794514
+        ],
+        "principal_axes_source_columns": [
+          [
+            -0.9613581101621852,
+            0.2667366853239214,
+            -0.0681331397177555
+          ],
+          [
+            0.07984833463105036,
+            0.03331069304496939,
+            -0.9962502904318331
+          ],
+          [
+            0.26346693811945293,
+            0.9631936141977228,
+            0.053321985022026064
+          ]
+        ],
+        "axis_ratio_largest_to_smallest": 4.119368371533508,
+        "implicit_residual_rms": 0.585002439440827,
+        "directional_coverage_bounds": {
+          "min": [
+            -0.9999785116591674,
+            -0.7557101927940386,
+            -0.935378602863329
+          ],
+          "max": [
+            0.9999794977306048,
+            0.6174325746462759,
+            0.999770294759867
+          ],
+          "extent": [
+            1.9999580093897722,
+            1.3731427674403145,
+            1.935148897623196
+          ]
+        },
+        "limitation": "Open selected surface patch; inferred back of ellipsoid is unconstrained by ROI. This is a shape cue, not enclosed anatomical volume."
+      }
+    }
+  },
+  "local_ratios": {
+    "rear_to_waist_width": 2.308079650410706,
+    "rear_to_waist_depth": 1.002109172429297,
+    "scope": "Real selected surface extents, dimensionless; provisional ROIs and segmentation, no foreign stature/pose transfer."
+  },
+  "configuration": {
+    "status": "Provisional manually chosen 3D ROIs after source geometry preview; not accepted anatomy",
+    "candidate_role_ids": [
+      1,
+      2
+    ],
+    "source_lateral_midline": 0.13,
+    "midline_confidence": "Provisional waist surface center in source Z. The asset is not centered anatomically at source Z=0, and torso is turned.",
+    "selection_intent": "Skin-colored and purple garment surface candidates; remove most red hair, metallic prop and gray base by texture color",
+    "regions": {
+      "rear": {
+        "min": [
+          -0.4,
+          0.14,
+          -0.15
+        ],
+        "max": [
+          0.03,
+          0.45,
+          0.52
+        ],
+        "confidence": "Provisional butt/pelvis surface patch. Upper thighs and pelvis may overlap; local ROI may truncate attachment."
+      },
+      "waist": {
+        "min": [
+          -0.19,
+          0.47,
+          -0.23
+        ],
+        "max": [
+          0.2,
+          0.55,
+          0.28
+        ],
+        "confidence": "Provisional narrow torso ROI; arms/cloth/hair may still overlap, inspect candidate preview."
+      },
+      "upper_thigh": {
+        "min": [
+          -0.21,
+          -0.04,
+          -0.15
+        ],
+        "max": [
+          0.19,
+          0.14,
+          0.48
+        ],
+        "confidence": "Provisional upper thigh outside surface; one leg bent, so this is a pose-dependent local descriptor."
+      }
+    }
+  },
+  "limitations": [
+    "Hair, props, garments and stand fused with body; color filtering is imperfect.",
+    "Bent leg and turned torso make full body comparison unsuitable without registration.",
+    "Surface fit describes selected outside shape; inferred interior anatomy and tissue volume are not measured."
+  ]
+}

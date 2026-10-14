@@ -1,0 +1,11 @@
+{
+  "schema": "rainee-full-local-lookup-v1",
+  "full_project_root": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee",
+  "new_full_archive_root": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full",
+  "original_archive": "C:/Users/User/Downloads/CanonicalShapeReferencePack_20261014.zip",
+  "original_fbx": "C:/Users/User/Downloads/Core Body (Template Only).fbx",
+  "local_manifest": "measurements/canonical-20261014/local-source-manifest.json",
+  "video_manifest": "measurements/canonical-20261014/videos.json",
+  "rule": "Read full local data via these mappings; no original sources are deleted or replaced. Large archive, textures, original videos, OBJ duplicates, native caches and full Gaussian scenes remain local.",
+  "new_archive_integrity": "b7170de9eac720a79d234fdb7b1e292faea0a0c9c2ade49b28344a775d412e63"
+}

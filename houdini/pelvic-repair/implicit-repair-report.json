@@ -1,0 +1,70 @@
+{
+  "method": "Local implicit skin replacement with overlapping cut volumes and native polygon union",
+  "output_points": 121901,
+  "output_triangles": 252337,
+  "new_points": 23823,
+  "source_points_retained_for_binding": 98078,
+  "new_point_bounds": {
+    "min": [
+      -0.07000000029802322,
+      0.508190393447876,
+      -0.11472111940383911
+    ],
+    "max": [
+      0.07000000029802322,
+      0.6555889844894409,
+      0.08235404640436172
+    ]
+  },
+  "new_points_outside_repair_ellipsoid": 10,
+  "distant_source_coordinates_max_shift": 0.0,
+  "distant_source_triangles_restored_verbatim": 180520,
+  "strict_local_composition_box": {
+    "min": [
+      -0.077,
+      0.495,
+      -0.123
+    ],
+    "max": [
+      0.077,
+      0.665,
+      0.113
+    ]
+  },
+  "height_all_points_drift": 0.0,
+  "height_rendered_surface_before": 0.9988301396369934,
+  "height_rendered_surface_after": 0.9988301396369934,
+  "height_rendered_surface_drift": 0.0,
+  "whole_mesh_boundary_edges": 4913,
+  "whole_mesh_nonmanifold_edges": 26797,
+  "core_edges": 22290,
+  "core_boundary_edges": 0,
+  "core_nonmanifold_edges": 0,
+  "joined_core_attachment_points_same_component": true,
+  "attachments_labels": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "rendered_connected_components": 3,
+  "largest_component_referenced_points": 113377,
+  "finite": true,
+  "native_errors": {
+    "REBUILD_SKIN_FIELD": [],
+    "ROUND_DEFECTIVE_FLAP": [],
+    "COVER_DEFECTIVE_SOURCE": [],
+    "LOCAL_SKIN_MESH": [],
+    "TRIM_TO_REPAIR_SCOPE": [],
+    "CARVE_DEFECTIVE_FLAP_AND_OVERLAP": [],
+    "EXACT_SOURCE_PLUS_LOCAL_SKIN": []
+  },
+  "native_warning_summary": "Original solid A has crossed unshared boundary edges in both carve and union. Incidental distant Boolean edits were replaced with original source triangles; boundary defects at the overlap collar remain.",
+  "voxel_size_normalized_height": 0.0015,
+  "limits": [
+    "Outer overlap collar shows a small visible transition; future retopology/detail transfer needed.",
+    "Original whole-body boundary/nonmanifold defects outside the replacement persist.",
+    "This is a coarse external structural repair candidate, not genital/internal anatomical sculpture.",
+    "Deformation binding uses nearby source-point offsets; extreme motion requires renewed seam/collision checks."
+  ]
+}

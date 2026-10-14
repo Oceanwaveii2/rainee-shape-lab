@@ -1,0 +1,15 @@
+{
+  "file": "body-2.5x-round-flow-0.65-volume-fit.bin",
+  "amplitude": 0.450446808245033,
+  "roundness": 0.65,
+  "measured_cage_ratio": 2.499999999824623,
+  "minimum_sampled_body_jacobian": 0.045904286310723415,
+  "negative_sampled_body_jacobians": 0,
+  "height_drift": 0.0,
+  "fixed_region_displacement": 0.0,
+  "finite": true,
+  "neutral_identity": true,
+  "calibration_seconds": 0.6494099000701681,
+  "body_cook_seconds": 2.454150000005029,
+  "limits": "Current-coordinate relaxation flow;20 RK4steps, same point correspondence. No visual/contact certification. FrontZ>=.015,lowerY<=.48,upperY>=.77,sourceabsX>=.22fixed."
+}

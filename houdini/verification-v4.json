@@ -1,0 +1,99 @@
+{
+  "scene": "Rainee-Volume-Lab-v4.hip",
+  "static": [
+    {
+      "rear_ratio": 1,
+      "thigh_fullness": 0,
+      "finite": true,
+      "point_height_drift": 0,
+      "rendered_height_drift": 0,
+      "source_stature_height": 2.395106077194214,
+      "source_stature_points": 113383,
+      "protected_thigh_displacement": 0,
+      "minimum_sampled_rear_jacobian": 1.0
+    },
+    {
+      "rear_ratio": 1,
+      "thigh_fullness": 0.65,
+      "finite": true,
+      "point_height_drift": 0,
+      "rendered_height_drift": 0,
+      "source_stature_height": 2.395106077194214,
+      "source_stature_points": 113383,
+      "protected_thigh_displacement": 0,
+      "minimum_sampled_rear_jacobian": 1.0
+    },
+    {
+      "rear_ratio": 1.5,
+      "thigh_fullness": 0,
+      "finite": true,
+      "point_height_drift": 0,
+      "rendered_height_drift": 0,
+      "source_stature_height": 2.395106077194214,
+      "source_stature_points": 113383,
+      "protected_thigh_displacement": 0,
+      "minimum_sampled_rear_jacobian": 0.6297695636749268
+    },
+    {
+      "rear_ratio": 1.5,
+      "thigh_fullness": 0.65,
+      "finite": true,
+      "point_height_drift": 0,
+      "rendered_height_drift": 0,
+      "source_stature_height": 2.395106077194214,
+      "source_stature_points": 113383,
+      "protected_thigh_displacement": 0,
+      "minimum_sampled_rear_jacobian": 0.6297695636749268
+    },
+    {
+      "rear_ratio": 2,
+      "thigh_fullness": 0,
+      "finite": true,
+      "point_height_drift": 0,
+      "rendered_height_drift": 0,
+      "source_stature_height": 2.395106077194214,
+      "source_stature_points": 113383,
+      "protected_thigh_displacement": 0,
+      "minimum_sampled_rear_jacobian": 0.4413379728794098
+    },
+    {
+      "rear_ratio": 2,
+      "thigh_fullness": 0.65,
+      "finite": true,
+      "point_height_drift": 0,
+      "rendered_height_drift": 0,
+      "source_stature_height": 2.395106077194214,
+      "source_stature_points": 113383,
+      "protected_thigh_displacement": 0,
+      "minimum_sampled_rear_jacobian": 0.4413379728794098
+    },
+    {
+      "rear_ratio": 2.5,
+      "thigh_fullness": 0,
+      "finite": true,
+      "point_height_drift": 0,
+      "rendered_height_drift": 0,
+      "source_stature_height": 2.395106077194214,
+      "source_stature_points": 113383,
+      "protected_thigh_displacement": 0,
+      "minimum_sampled_rear_jacobian": 0.32605230808258057
+    },
+    {
+      "rear_ratio": 2.5,
+      "thigh_fullness": 0.65,
+      "finite": true,
+      "point_height_drift": 0,
+      "rendered_height_drift": 0,
+      "source_stature_height": 2.395106077194214,
+      "source_stature_points": 113383,
+      "protected_thigh_displacement": 0,
+      "minimum_sampled_rear_jacobian": 0.32605230808258057
+    }
+  ],
+  "point_height_normalized": 0.999796450138092,
+  "rendered_height_normalized": 0.9988301396369934,
+  "rendered_vertex_count": 113383,
+  "limits": "Local repaired core; inherited body/collar topology defects remain. Field check is sampled, not a contact certification. Original v1 dynamics are separate evidence.",
+  "unsafe_four_x_rejected": true,
+  "native_integration_passed": true
+}

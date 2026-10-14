@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "known_rotated_ellipse_polygon_moments",
+      "passed": true,
+      "detail": {
+        "center_px": [
+          525.0000000000026,
+          788.0000000000014
+        ],
+        "semimajor_px": 136.99997313546825,
+        "semiminor_px": 90.99998215568581,
+        "major_rotation_degrees": 24.637185190616705,
+        "definition": "Area-equivalent ellipse oriented by exact visible-polygon second moments; center is visible-region area centroid. NOT full anatomical lobe ellipse."
+      }
+    },
+    {
+      "name": "known_circle_region_area",
+      "passed": true,
+      "detail": "Moment ellipse preserves full polygon area, with polygon discretization tolerance"
+    },
+    {
+      "name": "known_partial_rotated_ellipse_curve_fit",
+      "passed": true,
+      "detail": "Fits known 240-degree rotated ellipse without inventing camera/volume"
+    },
+    {
+      "name": "frame0000_unchanged_uncropped_image",
+      "passed": true,
+      "detail": "Exact source and copied PNG bytes match; full1024x1024"
+    },
+    {
+      "name": "frame0000_left_finite_measured_curve",
+      "passed": true,
+      "detail": "192 actual gradient-selected points"
+    },
+    {
+      "name": "frame0000_left_area_equivalent",
+      "passed": true,
+      "detail": "Ellipse area exactly equals measured exposed-region polygon area; no tissue volume"
+    },
+    {
+      "name": "frame0000_right_finite_measured_curve",
+      "passed": true,
+      "detail": "213 actual gradient-selected points"
+    },
+    {
+      "name": "frame0000_right_area_equivalent",
+      "passed": true,
+      "detail": "Ellipse area exactly equals measured exposed-region polygon area; no tissue volume"
+    },
+    {
+      "name": "frame0000_contour_objective_sensitive",
+      "passed": true,
+      "detail": {
+        "exact": 0.0,
+        "shifted12px": 2.3441442572836707e-05
+      }
+    },
+    {
+      "name": "frame0000_unregistered_score_gate",
+      "passed": true,
+      "detail": "Diagnostic output stays inspectable but is not called an accepted match"
+    },
+    {
+      "name": "frame0010_unchanged_uncropped_image",
+      "passed": true,
+      "detail": "Exact source and copied PNG bytes match; full1024x1024"
+    },
+    {
+      "name": "frame0010_left_finite_measured_curve",
+      "passed": true,
+      "detail": "231 actual gradient-selected points"
+    },
+    {
+      "name": "frame0010_left_area_equivalent",
+      "passed": true,
+      "detail": "Ellipse area exactly equals measured exposed-region polygon area; no tissue volume"
+    },
+    {
+      "name": "frame0010_right_finite_measured_curve",
+      "passed": true,
+      "detail": "212 actual gradient-selected points"
+    },
+    {
+      "name": "frame0010_right_area_equivalent",
+      "passed": true,
+      "detail": "Ellipse area exactly equals measured exposed-region polygon area; no tissue volume"
+    },
+    {
+      "name": "frame0010_contour_objective_sensitive",
+      "passed": true,
+      "detail": {
+        "exact": 0.0,
+        "shifted12px": 2.3228900488226115e-05
+      }
+    },
+    {
+      "name": "frame0010_unregistered_score_gate",
+      "passed": true,
+      "detail": "Diagnostic output stays inspectable but is not called an accepted match"
+    },
+    {
+      "name": "frame0018_unchanged_uncropped_image",
+      "passed": true,
+      "detail": "Exact source and copied PNG bytes match; full1024x1024"
+    },
+    {
+      "name": "frame0018_left_finite_measured_curve",
+      "passed": true,
+      "detail": "257 actual gradient-selected points"
+    },
+    {
+      "name": "frame0018_left_area_equivalent",
+      "passed": true,
+      "detail": "Ellipse area exactly equals measured exposed-region polygon area; no tissue volume"
+    },
+    {
+      "name": "frame0018_right_finite_measured_curve",
+      "passed": true,
+      "detail": "204 actual gradient-selected points"
+    },
+    {
+      "name": "frame0018_right_area_equivalent",
+      "passed": true,
+      "detail": "Ellipse area exactly equals measured exposed-region polygon area; no tissue volume"
+    },
+    {
+      "name": "frame0018_contour_objective_sensitive",
+      "passed": true,
+      "detail": {
+        "exact": 0.0,
+        "shifted12px": 2.4540383993660042e-05
+      }
+    },
+    {
+      "name": "frame0018_unregistered_score_gate",
+      "passed": true,
+      "detail": "Diagnostic output stays inspectable but is not called an accepted match"
+    },
+    {
+      "name": "frame0026_unchanged_uncropped_image",
+      "passed": true,
+      "detail": "Exact source and copied PNG bytes match; full1024x1024"
+    },
+    {
+      "name": "frame0026_left_finite_measured_curve",
+      "passed": true,
+      "detail": "252 actual gradient-selected points"
+    },
+    {
+      "name": "frame0026_left_area_equivalent",
+      "passed": true,
+      "detail": "Ellipse area exactly equals measured exposed-region polygon area; no tissue volume"
+    },
+    {
+      "name": "frame0026_right_finite_measured_curve",
+      "passed": true,
+      "detail": "147 actual gradient-selected points"
+    },
+    {
+      "name": "frame0026_right_area_equivalent",
+      "passed": true,
+      "detail": "Ellipse area exactly equals measured exposed-region polygon area; no tissue volume"
+    },
+    {
+      "name": "frame0026_contour_objective_sensitive",
+      "passed": true,
+      "detail": {
+        "exact": 0.0,
+        "shifted12px": 2.73731415048778e-05
+      }
+    },
+    {
+      "name": "frame0026_unregistered_score_gate",
+      "passed": true,
+      "detail": "Diagnostic output stays inspectable but is not called an accepted match"
+    },
+    {
+      "name": "rejected0049_cannot_be_target",
+      "passed": true,
+      "detail": "Endpoint remains0026"
+    },
+    {
+      "name": "ordinal_stage_labels",
+      "passed": true,
+      "detail": "Ordinal labels have no physical4x assignment"
+    },
+    {
+      "name": "full_frame_svg_viewbox",
+      "passed": true,
+      "detail": "Review preserves complete source-image coordinate frame"
+    },
+    {
+      "name": "manual_proposals_separate_from_source_descriptors",
+      "passed": true,
+      "detail": "Export keeps original measurements and manual overlay proposals separate"
+    }
+  ],
+  "scope": "2D contour/moment/objective/provenance verification only; no native 3D fit or physical volume verification"
+}

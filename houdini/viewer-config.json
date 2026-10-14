@@ -1,0 +1,12 @@
+{
+  "body": "body-v4-rest.bin",
+  "triangles": "pelvic-repair/implicit-repaired-triangles.bin",
+  "scene": "Rainee-Volume-Lab-v4.hip",
+  "repair_status": "Local implicit pelvic skin repair: connected structural core; outer collar and inherited body defects still need cleanup.",
+  "height_source_units": 2.3951061964035034,
+  "source_origin": [
+    0.0,
+    -1.220656394958496,
+    0.028106868267059326
+  ]
+}

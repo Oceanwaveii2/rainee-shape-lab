@@ -1,0 +1,180 @@
+{
+  "schema": "rainee-measurement-synthetic-verification-v1",
+  "createdUTC": "2026-10-14T09:14:22.381Z",
+  "environment": {
+    "runtime": "v24.19.0",
+    "execution": "CPU-only Node, no browser/native scene or source asset mutation"
+  },
+  "tests": [
+    {
+      "name": "Explicit canonical adapter preserves stature and uniformly scales all axes",
+      "passed": true,
+      "inputWorkingStature": 0.99883016036,
+      "canonicalStature": 1,
+      "sourceWidth": 0.383216991424,
+      "physicalCalibration": "absent",
+      "elapsedMs": 1.940400000000011
+    },
+    {
+      "name": "Triangle-plane sections recover central ellipsoid width/depth",
+      "passed": true,
+      "centralWidth": 0.16,
+      "centralDepth": 0.1,
+      "offCenterExpectedWidth": 0.13856406460551018,
+      "offCenterRecoveredWidth": 0.13856406460551018,
+      "offCenterAbsoluteError": 0,
+      "elapsedMs": 43.381
+    },
+    {
+      "name": "ROI clips crossing segments even when original endpoints are outside",
+      "passed": true,
+      "coplanarBoundarySegments": 4,
+      "sharedDiagonalRemoved": true,
+      "clippedWidth": 0.3999999999999999,
+      "clippedCurveLength": 0.7999999999999998,
+      "elapsedMs": 0.8832000000000164
+    },
+    {
+      "name": "Selected posterior descriptors and ROI cuts stay distinct from anatomy volume",
+      "passed": true,
+      "selectedDimensions": {
+        "lateralWidth": 0.16,
+        "selectedHeight": 0.11999999999999988,
+        "posteriorDepthSpan": 0.1
+      },
+      "sourceWidth": 0.383216991424,
+      "croppedSelectionWidth": 0.04000000000000004,
+      "croppedVolumeWithheld": true,
+      "elapsedMs": 166.7464
+    },
+    {
+      "name": "Closedness and provenance gates prevent bogus imported/ROI volume",
+      "passed": true,
+      "triangleCount": 9024,
+      "analyticVolume": 0.0010053096491487337,
+      "triangulatedVolume": 0.001003516610612474,
+      "relativeError": 0.001783568413749845,
+      "openBoundaryEdges": 3,
+      "uncheckedImportVolumeWithheld": true,
+      "inconsistentWindingWithheld": true,
+      "elapsedMs": 156.9026
+    },
+    {
+      "name": "Disjoint paired lobes sum volumes despite opposite global winding",
+      "passed": true,
+      "componentCount": 2,
+      "analyticPairVolume": 0.0016336281798666923,
+      "triangulatedPairVolume": 0.0016307144922453332,
+      "relativeError": 0.0017835684137114513,
+      "signedComponentVolumes": [
+        0.0008153572461226794,
+        -0.0008153572461226537
+      ],
+      "incorrectSingleComponentDeclarationWithheld": true,
+      "elapsedMs": 153.84629999999999
+    },
+    {
+      "name": "Reviewed ellipse fitting recovers rotated contour support, not unseen depth",
+      "passed": true,
+      "radiusMajor": 96.99999999999996,
+      "radiusMinor": 43.000000000000036,
+      "widthPixels": 179.3034447529732,
+      "implicitResidualRms": 1.2261505259361467e-15,
+      "unreviewedAndPartialProfilesNotAccepted": true,
+      "elapsedMs": 4.694499999999948
+    },
+    {
+      "name": "Known camera/framing changes preserve recovered observable shape dimensions",
+      "passed": true,
+      "recovered": [
+        {
+          "cameraId": "front",
+          "width": 0.15999999999999992,
+          "height": 0.11999999999999995,
+          "expectedWidth": 0.16
+        },
+        {
+          "cameraId": "different-framing",
+          "width": 0.16000000000000003,
+          "height": 0.12,
+          "expectedWidth": 0.16
+        },
+        {
+          "cameraId": "side",
+          "width": 0.10000000000000003,
+          "height": 0.11999999999999995,
+          "expectedWidth": 0.1
+        },
+        {
+          "cameraId": "oblique",
+          "width": 0.1334166406412633,
+          "height": 0.12000000000000005,
+          "expectedWidth": 0.13341664064126332
+        }
+      ],
+      "framingDoesNotRescaleCanonicalGeometry": true,
+      "elapsedMs": 12.582799999999907
+    },
+    {
+      "name": "Perspective projection uses depth; pose is rigid and does not mutate geometry",
+      "passed": true,
+      "pixel": [
+        525,
+        450
+      ],
+      "depth": 2,
+      "perspectiveDepthHalvesPixelOffset": true,
+      "canonicalGeometryUnchanged": true,
+      "poseScaleRejected": true,
+      "elapsedMs": 25.649900000000002
+    },
+    {
+      "name": "One front view leaves depth unresolved; the side view separates candidates",
+      "passed": true,
+      "singleViewStatus": "underconstrained_single_view",
+      "singleViewCompatibleDepths": [
+        "depth-0.04",
+        "depth-0.08",
+        "depth-0.16"
+      ],
+      "recommendedNextView": "side",
+      "viewRanking": [
+        {
+          "cameraId": "side",
+          "disagreementPixels": 49.5349159717911,
+          "normalizedDisagreement": 0.0495349159717911,
+          "validCandidateFraction": 1,
+          "score": 0.0495349159717911,
+          "reason": "View separates fully framed proposed silhouettes; no texture/lighting loss used"
+        },
+        {
+          "cameraId": "front",
+          "disagreementPixels": 0,
+          "normalizedDisagreement": 0,
+          "validCandidateFraction": 1,
+          "score": 0,
+          "reason": "View separates fully framed proposed silhouettes; no texture/lighting loss used"
+        }
+      ],
+      "twoViewSupportedCandidateIds": [
+        "depth-0.08"
+      ],
+      "uniqueness": "Only in declared candidate family; no unrestricted 3D uniqueness claim",
+      "clippedViewsNotRecommended": true,
+      "elapsedMs": 17.952800000000025
+    },
+    {
+      "name": "Invalid arrays/calibration and nonrigid transforms are rejected",
+      "passed": true,
+      "invalidInputsRejected": true,
+      "elapsedMs": 2.129600000000096
+    }
+  ],
+  "limitations": [
+    "Synthetic geometry verifies numerical behavior; it does not establish reference likeness or calibrate imported characters.",
+    "Authored growth control 2.5 is not a measured volume. Physical units remain unknown.",
+    "Candidate recovery applies only inside the declared ellipsoid family and reviewed camera assumptions."
+  ],
+  "passed": true,
+  "testCount": 11
+}

@@ -1,0 +1,44 @@
+{
+  "source": "C:\\Users\\User\\Downloads\\Maybe she\u2019s doing both at the same time.mp4",
+  "fps": 30.0,
+  "frames": 318,
+  "duration_seconds": 10.6,
+  "preview_sizes_are_resized_uncropped": true,
+  "samples": [
+    {
+      "source_frame": 0,
+      "seconds": 0.0,
+      "file": "frame-0-0.png"
+    },
+    {
+      "source_frame": 63,
+      "seconds": 2.1,
+      "file": "frame-1-63.png"
+    },
+    {
+      "source_frame": 127,
+      "seconds": 4.233333333333333,
+      "file": "frame-2-127.png"
+    },
+    {
+      "source_frame": 190,
+      "seconds": 6.333333333333333,
+      "file": "frame-3-190.png"
+    },
+    {
+      "source_frame": 254,
+      "seconds": 8.466666666666667,
+      "file": "frame-4-254.png"
+    },
+    {
+      "source_frame": 317,
+      "seconds": 10.566666666666666,
+      "file": "frame-5-317.png"
+    }
+  ],
+  "scope": "Uniform time samples only. No camera calibration, physical motion reconstruction or shape-ratio measurements inferred.",
+  "source_width": 1080,
+  "source_height": 1920,
+  "contact_sheet_tile_width": 360,
+  "contact_sheet_tile_height": 640
+}

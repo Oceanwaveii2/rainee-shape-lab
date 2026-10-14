@@ -1,0 +1,85 @@
+{
+  "source": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\reference-01a13749\\model.obj",
+  "source_bytes": 58611197,
+  "source_sha256": "9acf24a0b2ee5b5b020c369aab28c4e8b6f6106246dca29cd22845fd750ac20f",
+  "vertices": 291120,
+  "triangles": 582268,
+  "bounds": {
+    "min": [
+      -0.716703,
+      -0.951749,
+      -0.513813
+    ],
+    "max": [
+      0.714496,
+      0.951506,
+      0.525394
+    ],
+    "extent": [
+      1.4311989999999999,
+      1.903255,
+      1.039207
+    ]
+  },
+  "tags": {
+    "face_tags": [
+      {
+        "object": "model",
+        "group": "",
+        "material": "Material.005"
+      }
+    ],
+    "objects_polygon_counts": {
+      "model": 582268
+    },
+    "groups_polygon_counts": {
+      "": 582268
+    },
+    "materials_polygon_counts": {
+      "Material.005": 582268
+    },
+    "mtllib": [
+      "model.mtl"
+    ],
+    "polygon_size_counts": {
+      "3": 582268
+    }
+  },
+  "component_count": 1,
+  "components": [
+    {
+      "id": 0,
+      "vertices": 291120,
+      "triangles": 582268,
+      "bounds": {
+        "min": [
+          -0.716703,
+          -0.951749,
+          -0.513813
+        ],
+        "max": [
+          0.714496,
+          0.951506,
+          0.525394
+        ],
+        "extent": [
+          1.4311989999999999,
+          1.903255,
+          1.039207
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    }
+  ],
+  "calibration_status": "needs_calibration",
+  "anatomical_warning": "Whole asset may include a stand, hair, garments and carried props. No anatomical or stature labels inferred.",
+  "preview": {
+    "method": "vertex clustering for inspection only",
+    "vertices": 43898,
+    "triangles": 89051,
+    "source_coordinate_system": true,
+    "cell_size": 0.010573638888888888,
+    "not_production_retopology": true
+  },
+  "coordinate_units": "not declared by OBJ"
+}

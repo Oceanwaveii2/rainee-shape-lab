@@ -1,0 +1,69 @@
+{
+  "method": "Stationary velocity RK4 research prototype",
+  "steps": 24,
+  "body_points": 98078,
+  "jacobian_epsilon": 1e-05,
+  "limits": "Sampled field Jacobians; no contact certification, no native/VEX implementation, no established visual match.",
+  "cases": [
+    {
+      "ratio": 2,
+      "controls": {},
+      "duration": 0.3245655968785286,
+      "actual_cage_ratio": 1.9999999944265836,
+      "sampled_active_min_jacobian": 0.42925449920281544,
+      "negative_active_jacobians": 0,
+      "height_drift": 0.0,
+      "protected_displacement": 0.0,
+      "finite_positions": true,
+      "cage_calibration_seconds": 0.6421003999421373,
+      "full_body_flow_seconds": 1.7130917999893427,
+      "jacobian_audit_seconds": 9.826418000040576
+    },
+    {
+      "ratio": 3,
+      "controls": {},
+      "duration": 0.5330927893519402,
+      "actual_cage_ratio": 2.9999999685986825,
+      "sampled_active_min_jacobian": 0.2336546314485042,
+      "negative_active_jacobians": 0,
+      "height_drift": 0.0,
+      "protected_displacement": 0.0,
+      "finite_positions": true,
+      "cage_calibration_seconds": 0.5805084999883547,
+      "full_body_flow_seconds": 1.8174233000027016,
+      "jacobian_audit_seconds": 10.77467820001766
+    },
+    {
+      "ratio": 4,
+      "controls": {},
+      "duration": 0.7075781002640724,
+      "actual_cage_ratio": 3.9999999684214944,
+      "sampled_active_min_jacobian": 0.1430037460229234,
+      "negative_active_jacobians": 0,
+      "height_drift": 0.0,
+      "protected_displacement": 0.0,
+      "finite_positions": true,
+      "cage_calibration_seconds": 0.5650666999863461,
+      "full_body_flow_seconds": 1.285361299989745,
+      "jacobian_audit_seconds": 7.298484199913219
+    },
+    {
+      "ratio": 2,
+      "controls": {
+        "lateral": 0.4,
+        "vertical": 1.6,
+        "projection": 0.4
+      },
+      "duration": 0.49402204900979996,
+      "actual_cage_ratio": 2.000000004582996,
+      "sampled_active_min_jacobian": 0.23288530596397433,
+      "negative_active_jacobians": 0,
+      "height_drift": 0.0,
+      "protected_displacement": 0.0,
+      "finite_positions": true,
+      "cage_calibration_seconds": 0.5982985000591725,
+      "full_body_flow_seconds": 1.6519727999111637,
+      "jacobian_audit_seconds": 9.854396700044163
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "frame_number": 26,
+  "stage_ordinal": 4,
+  "accepted_by_user": true,
+  "geometry_source": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0026\\model.glb",
+  "geometry_representation": "Actual GLB scene mesh, node world transform applied; triangle mode",
+  "source_vertices": 539487,
+  "source_triangles": 997180,
+  "source_axis_hypothesis": {
+    "x": "lateral candidate",
+    "y": "up candidate",
+    "z": "front/depth candidate"
+  },
+  "axis_acceptance": false,
+  "roi_acceptance": false,
+  "pose_registered": false,
+  "source_mesh_role_counts": {
+    "0": 49931,
+    "1": 345777,
+    "2": 258329,
+    "3": 343143
+  },
+  "texture_sampling": {
+    "image_index": 0,
+    "embedded_mime": "image/jpeg",
+    "original_size": [
+      8192,
+      8192
+    ],
+    "sampled_size": [
+      1024,
+      1024
+    ],
+    "sampling": "GLB TEXCOORD_0 triangle-centroid nearest embedded base-color image; JPEG draft/thumbnail max1024."
+  },
+  "regions": {
+    "rear": {
+      "triangles": 179017,
+      "positive_area_triangles": 179017,
+      "surface_area": 2.5939289811579505,
+      "weighted_centroid": [
+        0.024710359546904148,
+        -0.45080083863907633,
+        -0.14835344996385422
+      ],
+      "weighted_quantile_05": [
+        -0.45563774308980265,
+        -0.840718845451783,
+        -0.48263008761373083
+      ],
+      "weighted_quantile_95": [
+        0.5089000836625072,
+        -0.11716871665270463,
+        0.1385264748400184
+      ],
+      "weighted_spans": {
+        "lateral": 0.9645378267523098,
+        "height": 0.7235501287990783,
+        "depth": 0.6211565624537492
+      },
+      "pca_std_axes_ascending": [
+        0.2093202647754061,
+        0.2339773708766421,
+        0.30650429565776705
+      ],
+      "depth_over_width": 0.6439939888570696,
+      "width_over_height": 1.3330628913759077,
+      "pca_middle_over_major": 0.7633738717250925,
+      "pca_minor_over_major": 0.6829276709685219,
+      "open_surface_patch": true,
+      "raw_source_roi": {
+        "min": [
+          -0.8,
+          -0.91,
+          -0.8
+        ],
+        "max": [
+          0.8,
+          -0.1,
+          0.18
+        ],
+        "confidence": "Provisional posterior lower-torso/lobe patch in GLB source coordinates; cropped thigh/pelvis overlap possible."
+      },
+      "selected_triangle_count": 179017
+    },
+    "waist": {
+      "triangles": 122505,
+      "positive_area_triangles": 122505,
+      "surface_area": 0.6530480344908829,
+      "weighted_centroid": [
+        0.004044910956145512,
+        -0.03789444179909418,
+        0.06595778523451121
+      ],
+      "weighted_quantile_05": [
+        -0.26608333985010785,
+        -0.12865161039008902,
+        -0.2108445437162115
+      ],
+      "weighted_quantile_95": [
+        0.2889843115433856,
+        0.10006935806636379,
+        0.27959374932060266
+      ],
+      "weighted_spans": {
+        "lateral": 0.5550676513934935,
+        "height": 0.2287209684564528,
+        "depth": 0.4904382930368142
+      },
+      "pca_std_axes_ascending": [
+        0.06802126591573478,
+        0.14276354484585901,
+        0.18755668380223564
+      ],
+      "depth_over_width": 0.8835648984507966,
+      "width_over_height": 2.4268332507483907,
+      "pca_middle_over_major": 0.7611754588089881,
+      "pca_minor_over_major": 0.36267044467185217,
+      "open_surface_patch": true,
+      "raw_source_roi": {
+        "min": [
+          -0.31,
+          -0.14,
+          -0.27
+        ],
+        "max": [
+          0.31,
+          0.12,
+          0.31
+        ],
+        "confidence": "Provisional central torso waist window in source coordinates; turn/arm/garment contamination possible."
+      },
+      "selected_triangle_count": 122505
+    }
+  },
+  "dimensionless_features": {
+    "rear_depth_over_width": 0.6439939888570696,
+    "rear_width_over_height": 1.3330628913759077,
+    "rear_pca_middle_over_major": 0.7633738717250925,
+    "rear_pca_minor_over_major": 0.6829276709685219,
+    "rear_to_waist_width": 1.7376941789543028,
+    "rear_to_waist_depth": 1.2665335706303071
+  },
+  "preview_proxy": {
+    "method": "vertex clustering for inspection only",
+    "vertices": 52632,
+    "triangles": 108207,
+    "source_coordinate_system": true,
+    "cell_size": 0.010580644011497498,
+    "not_production_retopology": true
+  },
+  "camera_mapping": "No GLB camera/extrinsic or source-image projection calibration. Default preview viewpoint is not evidence of a wrong unseen surface.",
+  "ordinal_stage_not_volume_multiplier": true,
+  "uses_global_bbox_height": false,
+  "limits": [
+    "Independent generated cropped3D models; anatomy/pose and hidden surfaces can differ across stages.",
+    "Color and source-space boxes are provisional selectors, not accepted body-part labels.",
+    "Dimensionless area/PCA descriptors describe selected outside surfaces; no enclosed anatomical volume or stature is measured.",
+    "No vertex correspondence, common rig, morph targets, or image-to-mesh camera registration is established."
+  ]
+}

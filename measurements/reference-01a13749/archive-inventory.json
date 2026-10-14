@@ -1,0 +1,105 @@
+{
+  "archive_source": "D:\\0\\Noir Fiction Engine\\meshy_output\\20261013_150229_image-to-3d_01a13749\\20261013_150229_image-to-3d_01a13749.zip",
+  "archive_bytes": 100666956,
+  "archive_sha256": "719fdc7c4d279c88cd88c82cf5576c83ac0f8cadbf22bd0382c115399786c733",
+  "total_uncompressed_bytes": 148451881,
+  "output_root": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\reference-01a13749",
+  "entries": [
+    {
+      "name": "textures/",
+      "bytes": 0,
+      "compressed_bytes": 0,
+      "directory": true,
+      "extract": false
+    },
+    {
+      "name": "textures/base_color.png",
+      "bytes": 36579665,
+      "compressed_bytes": 36585132,
+      "directory": false,
+      "extract": true,
+      "sha256": "3f74e7e57cd4de8512058bf2f89417d9e81211b133ea43dd46c49d529d688755"
+    },
+    {
+      "name": "textures/metallic.png",
+      "bytes": 2839564,
+      "compressed_bytes": 2817476,
+      "directory": false,
+      "extract": true,
+      "sha256": "024c1bba5577c5f72b2944470de911d6ebaf8c0dda4650cdf0065b6ac4efb55a"
+    },
+    {
+      "name": "textures/normal.png",
+      "bytes": 5840074,
+      "compressed_bytes": 5840916,
+      "directory": false,
+      "extract": true,
+      "sha256": "cd6b63bb8dcbb86d603b04be03adc17750547209fad969d77b916c8f1cfd8c31"
+    },
+    {
+      "name": "textures/roughness.png",
+      "bytes": 4501786,
+      "compressed_bytes": 4500364,
+      "directory": false,
+      "extract": true,
+      "sha256": "c1abecccc268e8a80488de5d05b1b42a780fb7873fd8de4f709a13d8a9ec62b3"
+    },
+    {
+      "name": "metadata.json",
+      "bytes": 637,
+      "compressed_bytes": 288,
+      "directory": false,
+      "extract": true,
+      "sha256": "ce56160b3eab0f04e9eb3d8dd046f4165476e17381891abafcfed2cf8cf6e4cc"
+    },
+    {
+      "name": "model.glb",
+      "bytes": 39833140,
+      "compressed_bytes": 34291192,
+      "directory": false,
+      "extract": true,
+      "sha256": "47e0d6eef2944f139d20dee4c113969018d702aa6f3d995f5c2f1558fe9b849f"
+    },
+    {
+      "name": "model.mtl",
+      "bytes": 238,
+      "compressed_bytes": 143,
+      "directory": false,
+      "extract": true,
+      "sha256": "d98aae728c7e431d2e9624fc29d3814c0839845212308d8e17e421c0f55955bc"
+    },
+    {
+      "name": "model.mtl.original",
+      "bytes": 228,
+      "compressed_bytes": 135,
+      "directory": false,
+      "extract": true,
+      "sha256": "3a75ab839e0e4e39724e8ba3c1b0b2a0456f5a27add38e52f6f915c644e18c5a"
+    },
+    {
+      "name": "model.obj",
+      "bytes": 58611197,
+      "compressed_bytes": 16386144,
+      "directory": false,
+      "extract": true,
+      "sha256": "9acf24a0b2ee5b5b020c369aab28c4e8b6f6106246dca29cd22845fd750ac20f"
+    },
+    {
+      "name": "preview.png",
+      "bytes": 122676,
+      "compressed_bytes": 121724,
+      "directory": false,
+      "extract": true,
+      "sha256": "8901f545e05ebfd8effa3982062ee7d3c0c484c219f0f34a12b3e2d03bfa37dc"
+    },
+    {
+      "name": "thumbnail.png",
+      "bytes": 122676,
+      "compressed_bytes": 121724,
+      "directory": false,
+      "extract": true,
+      "sha256": "8901f545e05ebfd8effa3982062ee7d3c0c484c219f0f34a12b3e2d03bfa37dc"
+    }
+  ],
+  "safety": "Validated relative paths, no drives/traversal/duplicates/symlinks; bounded sizes; asset allowlist; CRC checked; no execution."
+}

@@ -1,0 +1,14 @@
+{
+  "right_axis": "x",
+  "up_axis": "y",
+  "front_axis": "z",
+  "selection": {},
+  "midline_origin": null,
+  "landmarks": {
+    "head_top": null,
+    "feet_bottom": null,
+    "confidence": "not supplied"
+  },
+  "regions": [],
+  "status": "needs artist-reviewed axes, body selection and landmarks"
+}

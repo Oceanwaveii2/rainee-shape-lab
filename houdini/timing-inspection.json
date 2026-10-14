@@ -1,0 +1,27 @@
+[
+  [
+    "/obj/RAINEE/SOFT_MOTION/dopnet1/forces/FOLLOW_AUTHORED_REST_SHAPE",
+    "activationframe",
+    "1.0"
+  ],
+  [
+    "/obj/RAINEE/SOFT_MOTION/dopnet1/forces/FOLLOW_AUTHORED_REST_SHAPE",
+    "restsource",
+    "1"
+  ],
+  [
+    "/obj/RAINEE/SOFT_MOTION/dopnet1/forces/FOLLOW_AUTHORED_REST_SHAPE",
+    "restsop",
+    "/obj/RAINEE/VOLUME_CALIBRATED_TARGET"
+  ],
+  [
+    "/obj/RAINEE/SOFT_MOTION/dopnet1/forces/FOLLOW_AUTHORED_REST_SHAPE",
+    "usetimestep",
+    "0"
+  ],
+  [
+    "/obj/RAINEE/SOFT_MOTION/dopnet1/forces/FOLLOW_AUTHORED_REST_SHAPE",
+    "timescale",
+    "1.0"
+  ]
+]

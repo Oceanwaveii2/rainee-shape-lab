@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "known rotated ellipsoid center and principal radii recovered",
+    "dimensionless axis ratio preserved under translation and scale",
+    "degenerate surface samples rejected"
+  ],
+  "scope": "geometric fitter correctness; does not validate target anatomical ROI acceptance or correspondence"
+}

@@ -1,0 +1,47 @@
+{
+  "hip": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\research\\rear-rounding\\native-study\\Rainee-Optional-Radial-Rounding.hip",
+  "branch": "/obj/RAINEE_OPTIONAL_ROUNDING/OUT_FBX_SOURCE_STATURE",
+  "upstream_normalized": "/obj/RAINEE_OPTIONAL_ROUNDING/OUT_BODY",
+  "source_height_native_units": 2.3951061964035034,
+  "proxy_referenced_height_normalized": 0.9988301396369934,
+  "proxy_referenced_y_min": 0.0002035291399806738,
+  "uniform_export_scale": 2.3979114179253354,
+  "export_translation": [
+    0.0,
+    -1.2211444398071363,
+    0.028106868267059326
+  ],
+  "source_points": 121901,
+  "referenced_points": 113383,
+  "limits": "Uniform export correction, not anatomical changes or physical unit calibration. Existing flow/cage calibration and normalized caches are preserved. Two export states only.",
+  "states": [
+    {
+      "ratio": 1.0,
+      "points": 113383,
+      "primitives": 252337,
+      "referenced_export_height": 2.395106077194214,
+      "height_error": -1.1920928955078125e-07,
+      "y_min": -1.220656394958496,
+      "y_max": 1.1744496822357178,
+      "internal_positions_exactly_match_verified_cache": true,
+      "bgeo": "body-source-stature-1x.bgeo.sc",
+      "obj": "Rainee-source-stature-1x.obj",
+      "positions": "body-source-stature-1x.bin"
+    },
+    {
+      "ratio": 2.5,
+      "points": 113383,
+      "primitives": 252337,
+      "referenced_export_height": 2.395106077194214,
+      "height_error": -1.1920928955078125e-07,
+      "y_min": -1.220656394958496,
+      "y_max": 1.1744496822357178,
+      "internal_positions_exactly_match_verified_cache": true,
+      "bgeo": "body-source-stature-2.5x.bgeo.sc",
+      "obj": "Rainee-source-stature-2.5x.obj",
+      "positions": "body-source-stature-2.5x.bin"
+    }
+  ],
+  "flow_inputs_vfl_settings_caches_preserved": true,
+  "native_export_passed": true
+}

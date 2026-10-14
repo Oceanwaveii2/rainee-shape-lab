@@ -1,0 +1,1654 @@
+{
+  "archives": [
+    {
+      "archive": "C:\\Users\\User\\Downloads\\WorldGen-37454f46-f13b-40bf-aa5f-d6b4abda437d.zip",
+      "archive_name": "WorldGen-37454f46-f13b-40bf-aa5f-d6b4abda437d.zip",
+      "archive_bytes": 32507996,
+      "archive_sha256": "6e8f3748afd367abc7448a482638d35ffd3c2fcda9b1b89a7ef3f4b746fa843d",
+      "entries": [
+        {
+          "name": "pack",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender/scene.blend",
+          "bytes": 16720414,
+          "compressed_bytes": 16720414,
+          "zip_crc32": "c4a9cee8",
+          "extension": ".blend",
+          "extracted": false
+        },
+        {
+          "name": "pack/camera.json",
+          "bytes": 340,
+          "compressed_bytes": 340,
+          "zip_crc32": "6e47847e",
+          "extension": ".json",
+          "extracted": true,
+          "sha256": "a916708ce9503930a5e9acf6f936e64674f0bb7a694ad55303a9a45cab22dfbc",
+          "metadata_as_data": [
+            [
+              0.9976403683121888,
+              0.010442446780766843,
+              -0.06785757746302983,
+              0.0
+            ],
+            [
+              3.9898639947466563e-17,
+              0.9883655249872113,
+              0.15209730114881773,
+              0.0
+            ],
+            [
+              0.06865635814635264,
+              -0.1517384075373964,
+              0.9860333463753114,
+              -0.6400000000000001
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "extracted_path": "cameras/WorldGen-37454f46-f13b-40bf-aa5f-d6b4abda437d.json",
+          "camera_matrix_check": {
+            "shape": [
+              4,
+              4
+            ],
+            "finite": true,
+            "rotation_determinant": 1.0,
+            "orthogonality_max_error": 1.1102230246251565e-16,
+            "interpretation": "4x4 transform only; c2w/w2c direction and intrinsics are not declared. No exact reference-camera claim."
+          }
+        },
+        {
+          "name": "pack/gaussian_splatting",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/gaussian_splatting/environment_collider.glb",
+          "bytes": 2032044,
+          "compressed_bytes": 2032044,
+          "zip_crc32": "7e80a27c",
+          "extension": ".glb",
+          "extracted": true,
+          "sha256": "709fb8be718c13216a199250c629606f9e642601b3269711d18f9f5a643aad77",
+          "collider_id": "collider-00-709fb8be71",
+          "extracted_path": "assets/collider-00-709fb8be71/environment_collider.glb"
+        },
+        {
+          "name": "pack/gaussian_splatting/full_res.spz",
+          "bytes": 13754312,
+          "compressed_bytes": 13754312,
+          "zip_crc32": "76f25091",
+          "extension": ".spz",
+          "extracted": true,
+          "sha256": "52af25e6be7b87426c8f1648d6eceb6cc55df67ad417216aeabb99094da83fdf",
+          "geometry_id": "spz-00-52af25e6be",
+          "extracted_path": "assets/spz-00-52af25e6be/full_res.spz"
+        }
+      ],
+      "frame_mapping_status": "unmapped: no explicit input-frame provenance found",
+      "total_uncompressed_bytes": 32507110
+    },
+    {
+      "archive": "C:\\Users\\User\\Downloads\\WorldGen-76a46eb1-e415-49a2-bb91-3be79caa7dcd.zip",
+      "archive_name": "WorldGen-76a46eb1-e415-49a2-bb91-3be79caa7dcd.zip",
+      "archive_bytes": 33459878,
+      "archive_sha256": "97e1b2d8e396a76006e2a4b4ef0e70a32af9ef17aa9646aa16cb4f65a91bb618",
+      "entries": [
+        {
+          "name": "pack",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender/scene.blend",
+          "bytes": 17252837,
+          "compressed_bytes": 17252837,
+          "zip_crc32": "b0f4be2e",
+          "extension": ".blend",
+          "extracted": false
+        },
+        {
+          "name": "pack/camera.json",
+          "bytes": 178,
+          "compressed_bytes": 178,
+          "zip_crc32": "19ba8d1d",
+          "extension": ".json",
+          "extracted": true,
+          "sha256": "98956bc0c76647d47dff4b615f534374f0f26af8f6512affb2c9aee3f0d1e136",
+          "metadata_as_data": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "extracted_path": "cameras/WorldGen-76a46eb1-e415-49a2-bb91-3be79caa7dcd.json",
+          "camera_matrix_check": {
+            "shape": [
+              4,
+              4
+            ],
+            "finite": true,
+            "rotation_determinant": 1.0,
+            "orthogonality_max_error": 0.0,
+            "interpretation": "4x4 transform only; c2w/w2c direction and intrinsics are not declared. No exact reference-camera claim."
+          }
+        },
+        {
+          "name": "pack/gaussian_splatting",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/gaussian_splatting/environment_collider.glb",
+          "bytes": 2251896,
+          "compressed_bytes": 2251896,
+          "zip_crc32": "763709f8",
+          "extension": ".glb",
+          "extracted": true,
+          "sha256": "ceedc8261fb937d282af482224e6c5fa8fce14d820f12f75855b89fb7e1267e4",
+          "collider_id": "collider-01-ceedc8261f",
+          "extracted_path": "assets/collider-01-ceedc8261f/environment_collider.glb"
+        },
+        {
+          "name": "pack/gaussian_splatting/full_res.spz",
+          "bytes": 13954081,
+          "compressed_bytes": 13954081,
+          "zip_crc32": "fc201bef",
+          "extension": ".spz",
+          "extracted": true,
+          "sha256": "1395a74608479885bbdda9f2320c1b885b5636a4e1ccda5e9bbfa05e044a6651",
+          "geometry_id": "spz-01-1395a74608",
+          "extracted_path": "assets/spz-01-1395a74608/full_res.spz"
+        }
+      ],
+      "frame_mapping_status": "unmapped: no explicit input-frame provenance found",
+      "total_uncompressed_bytes": 33458992
+    },
+    {
+      "archive": "C:\\Users\\User\\Downloads\\WorldGen-6098cc79-65f3-4635-834a-82a324881aa1 (1).zip",
+      "archive_name": "WorldGen-6098cc79-65f3-4635-834a-82a324881aa1 (1).zip",
+      "archive_bytes": 33987034,
+      "archive_sha256": "d50af4b3749b5d112086e026711a7625e3b8e4770abc14ea30793df9d3cbac4e",
+      "entries": [
+        {
+          "name": "pack",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender/scene.blend",
+          "bytes": 17526993,
+          "compressed_bytes": 17526993,
+          "zip_crc32": "268c26bc",
+          "extension": ".blend",
+          "extracted": false
+        },
+        {
+          "name": "pack/camera.json",
+          "bytes": 322,
+          "compressed_bytes": 322,
+          "zip_crc32": "2a832b95",
+          "extension": ".json",
+          "extracted": true,
+          "sha256": "0b11d5c14915b148b6806a28f0551b9cc86dc1a90977f9c1dffa9774eeb21bbd",
+          "metadata_as_data": [
+            [
+              0.9859280126920701,
+              0.025426171745613575,
+              -0.16522549312811197,
+              0.0
+            ],
+            [
+              3.469446951953614e-18,
+              0.9883655249872113,
+              0.15209730114881778,
+              0.0
+            ],
+            [
+              0.1671704333578914,
+              -0.1499569898574812,
+              0.9744572578639958,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "extracted_path": "cameras/WorldGen-6098cc79-65f3-4635-834a-82a324881aa1 (1).json",
+          "camera_matrix_check": {
+            "shape": [
+              4,
+              4
+            ],
+            "finite": true,
+            "rotation_determinant": 1.0,
+            "orthogonality_max_error": 3.608955156774772e-17,
+            "interpretation": "4x4 transform only; c2w/w2c direction and intrinsics are not declared. No exact reference-camera claim."
+          }
+        },
+        {
+          "name": "pack/gaussian_splatting",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/gaussian_splatting/environment_collider.glb",
+          "bytes": 2252736,
+          "compressed_bytes": 2252736,
+          "zip_crc32": "430ba644",
+          "extension": ".glb",
+          "extracted": true,
+          "sha256": "1d759c2cfbaeb7d425b1ff3e9e1de3dcbbb149bc15474f6546e6730ead85ac67",
+          "collider_id": "collider-02-1d759c2cfb",
+          "extracted_path": "assets/collider-02-1d759c2cfb/environment_collider.glb"
+        },
+        {
+          "name": "pack/gaussian_splatting/full_res.spz",
+          "bytes": 14206097,
+          "compressed_bytes": 14206097,
+          "zip_crc32": "8bab6613",
+          "extension": ".spz",
+          "extracted": true,
+          "sha256": "9500dd29891e8343df7ec9f426458fe912c16c608529736663674dd5940ebff4",
+          "geometry_id": "spz-02-9500dd2989",
+          "extracted_path": "assets/spz-02-9500dd2989/full_res.spz"
+        }
+      ],
+      "frame_mapping_status": "unmapped: no explicit input-frame provenance found",
+      "total_uncompressed_bytes": 33986148
+    },
+    {
+      "archive": "C:\\Users\\User\\Downloads\\WorldGen-6098cc79-65f3-4635-834a-82a324881aa1.zip",
+      "archive_name": "WorldGen-6098cc79-65f3-4635-834a-82a324881aa1.zip",
+      "archive_bytes": 33986913,
+      "archive_sha256": "18083570126b1fcf223efb4130d748512b17cf716780189f505bceee425c224f",
+      "entries": [
+        {
+          "name": "pack",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender/scene.blend",
+          "bytes": 17526867,
+          "compressed_bytes": 17526867,
+          "zip_crc32": "1044dec5",
+          "extension": ".blend",
+          "extracted": false
+        },
+        {
+          "name": "pack/camera.json",
+          "bytes": 327,
+          "compressed_bytes": 327,
+          "zip_crc32": "be9c0a31",
+          "extension": ".json",
+          "extracted": true,
+          "sha256": "0f4b1f36188a206bb5303310a13c36e9b9d0e35c35b1a08ac354ba6bead317f2",
+          "metadata_as_data": [
+            [
+              0.9998178590881032,
+              0.0016008907455489648,
+              -0.019018038734390237,
+              0.0
+            ],
+            [
+              -3.3610267347050637e-18,
+              0.9964757931560781,
+              0.0838808300743675,
+              0.0
+            ],
+            [
+              0.01908529927671955,
+              -0.08386555194348708,
+              0.9962942941464296,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "extracted_path": "cameras/WorldGen-6098cc79-65f3-4635-834a-82a324881aa1.json",
+          "camera_matrix_check": {
+            "shape": [
+              4,
+              4
+            ],
+            "finite": true,
+            "rotation_determinant": 0.9999999999999999,
+            "orthogonality_max_error": 1.1102230246251565e-16,
+            "interpretation": "4x4 transform only; c2w/w2c direction and intrinsics are not declared. No exact reference-camera claim."
+          }
+        },
+        {
+          "name": "pack/gaussian_splatting",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/gaussian_splatting/environment_collider.glb",
+          "bytes": 2252736,
+          "compressed_bytes": 2252736,
+          "zip_crc32": "430ba644",
+          "extension": ".glb",
+          "extracted": true,
+          "sha256": "1d759c2cfbaeb7d425b1ff3e9e1de3dcbbb149bc15474f6546e6730ead85ac67",
+          "collider_id": "collider-02-1d759c2cfb",
+          "extracted_path": "assets/collider-02-1d759c2cfb/environment_collider.glb"
+        },
+        {
+          "name": "pack/gaussian_splatting/full_res.spz",
+          "bytes": 14206097,
+          "compressed_bytes": 14206097,
+          "zip_crc32": "8bab6613",
+          "extension": ".spz",
+          "extracted": true,
+          "sha256": "9500dd29891e8343df7ec9f426458fe912c16c608529736663674dd5940ebff4",
+          "geometry_id": "spz-02-9500dd2989",
+          "extracted_path": "assets/spz-02-9500dd2989/full_res.spz"
+        }
+      ],
+      "frame_mapping_status": "unmapped: no explicit input-frame provenance found",
+      "total_uncompressed_bytes": 33986027
+    },
+    {
+      "archive": "C:\\Users\\User\\Downloads\\f9f63233-cc50-4a28-8c61-7c45affbdbbb.zip",
+      "archive_name": "f9f63233-cc50-4a28-8c61-7c45affbdbbb.zip",
+      "archive_bytes": 73325156,
+      "archive_sha256": "c743dd886069b8715759c5311b3310392656a74623b5dda019e2005375deacfb",
+      "entries": [
+        {
+          "name": "base.obj",
+          "bytes": 54502025,
+          "compressed_bytes": 54502025,
+          "zip_crc32": "1e845226",
+          "extension": ".obj",
+          "extracted": true,
+          "sha256": "299c5c92cf71000e437509bbbc50e95f9b281df8de32e4ec01e5a3ff949bd599",
+          "extracted_path": "assets/obj-f9f63233/base.obj"
+        },
+        {
+          "name": "texture_diffuse_00.png",
+          "bytes": 4284576,
+          "compressed_bytes": 4284576,
+          "zip_crc32": "19ef2373",
+          "extension": ".png",
+          "extracted": true,
+          "sha256": "b1e355ee32525d3c84e7129883de26c94202c3a4487f1d27a9a2a662df2eaef2",
+          "extracted_path": "assets/obj-f9f63233/texture_diffuse_00.png"
+        },
+        {
+          "name": "texture_metallic_00.png",
+          "bytes": 1462286,
+          "compressed_bytes": 1462286,
+          "zip_crc32": "26daa2fc",
+          "extension": ".png",
+          "extracted": false,
+          "sha256": "b1e2319cf0bd98364544acbabaee337ab1d634482c448d09cb103590a9f0e892"
+        },
+        {
+          "name": "texture_normal_00.png",
+          "bytes": 3371818,
+          "compressed_bytes": 3371818,
+          "zip_crc32": "61ae7f1e",
+          "extension": ".png",
+          "extracted": false,
+          "sha256": "02a18a51ee08f549a61335e107c0b476a8cb7d9b1a0609bfe570c400c93a7d5e"
+        },
+        {
+          "name": "texture_pbr_00.png",
+          "bytes": 2615264,
+          "compressed_bytes": 2615264,
+          "zip_crc32": "b0f4ebcd",
+          "extension": ".png",
+          "extracted": false,
+          "sha256": "5b645c80c11d7b8ed69a4d1e65cb43662ea72e23602970a1c721c95d59712532"
+        },
+        {
+          "name": "texture_roughness_00.png",
+          "bytes": 3064810,
+          "compressed_bytes": 3064810,
+          "zip_crc32": "aca1c611",
+          "extension": ".png",
+          "extracted": false,
+          "sha256": "c1544667b9380afe8d7e1d259b11935b37ae679ed489365bd8720ce9842626b1"
+        },
+        {
+          "name": "shaded_00.png",
+          "bytes": 4023565,
+          "compressed_bytes": 4023565,
+          "zip_crc32": "3be848a2",
+          "extension": ".png",
+          "extracted": true,
+          "sha256": "6e90e03a4b05776b41241cce11315ed66754988263630cf6d92ebd98ed7eb4b9",
+          "extracted_path": "assets/obj-f9f63233/shaded_00.png"
+        }
+      ],
+      "frame_mapping_status": "unmapped: no explicit input-frame provenance found",
+      "total_uncompressed_bytes": 73324344
+    },
+    {
+      "archive": "C:\\Users\\User\\Downloads\\WorldGen-0bf4b058-d866-4995-a256-d64fe3cb01dc.zip",
+      "archive_name": "WorldGen-0bf4b058-d866-4995-a256-d64fe3cb01dc.zip",
+      "archive_bytes": 34229814,
+      "archive_sha256": "319785871f8948c6e4065e5031bd422c5a9bf6ecfb32501a10311f0bb2a9adee",
+      "entries": [
+        {
+          "name": "pack",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender/scene.blend",
+          "bytes": 17637823,
+          "compressed_bytes": 17637823,
+          "zip_crc32": "bd4c821f",
+          "extension": ".blend",
+          "extracted": false
+        },
+        {
+          "name": "pack/camera.json",
+          "bytes": 311,
+          "compressed_bytes": 311,
+          "zip_crc32": "bc5120af",
+          "extension": ".json",
+          "extracted": true,
+          "sha256": "7e86514e34a4213c2f8c87b6c147824ec72d16ea88c5c2dbce03c583c05748ae",
+          "metadata_as_data": [
+            [
+              0.9983611698723124,
+              -0.0013105912932352033,
+              0.05721238363894658,
+              0.0
+            ],
+            [
+              0.0,
+              0.9997377269931991,
+              0.022901467779855023,
+              0.0
+            ],
+            [
+              -0.057227392839337934,
+              -0.022863936164489125,
+              0.9980993266864167,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "extracted_path": "cameras/WorldGen-0bf4b058-d866-4995-a256-d64fe3cb01dc.json",
+          "camera_matrix_check": {
+            "shape": [
+              4,
+              4
+            ],
+            "finite": true,
+            "rotation_determinant": 1.0,
+            "orthogonality_max_error": 3.523223796085607e-18,
+            "interpretation": "4x4 transform only; c2w/w2c direction and intrinsics are not declared. No exact reference-camera claim."
+          }
+        },
+        {
+          "name": "pack/gaussian_splatting",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/gaussian_splatting/environment_collider.glb",
+          "bytes": 2247120,
+          "compressed_bytes": 2247120,
+          "zip_crc32": "09b46b0d",
+          "extension": ".glb",
+          "extracted": true,
+          "sha256": "8e58b78e74256d6609b3af638cbbcace3aa53b61a576885975bed492029336a3",
+          "collider_id": "collider-03-8e58b78e74",
+          "extracted_path": "assets/collider-03-8e58b78e74/environment_collider.glb"
+        },
+        {
+          "name": "pack/gaussian_splatting/full_res.spz",
+          "bytes": 14343674,
+          "compressed_bytes": 14343674,
+          "zip_crc32": "61ef883a",
+          "extension": ".spz",
+          "extracted": true,
+          "sha256": "ef36acab9fba3bbfe4c72e64f0278d5c87ada5e52a578a416151638ae7c005f0",
+          "geometry_id": "spz-03-ef36acab9f",
+          "extracted_path": "assets/spz-03-ef36acab9f/full_res.spz"
+        }
+      ],
+      "frame_mapping_status": "unmapped: no explicit input-frame provenance found",
+      "total_uncompressed_bytes": 34228928
+    },
+    {
+      "archive": "C:\\Users\\User\\Downloads\\WorldGen-6dfde300-424f-4eb0-89de-c1925ca67615.zip",
+      "archive_name": "WorldGen-6dfde300-424f-4eb0-89de-c1925ca67615.zip",
+      "archive_bytes": 34328829,
+      "archive_sha256": "b3b87bd46de3ed23603d4401da9d27a8caa5fcdf80f651b0b797563a9eecb535",
+      "entries": [
+        {
+          "name": "pack",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender/scene.blend",
+          "bytes": 17700722,
+          "compressed_bytes": 17700722,
+          "zip_crc32": "962a8222",
+          "extension": ".blend",
+          "extracted": false
+        },
+        {
+          "name": "pack/camera.json",
+          "bytes": 379,
+          "compressed_bytes": 379,
+          "zip_crc32": "77cf53fd",
+          "extension": ".json",
+          "extracted": true,
+          "sha256": "2cc2683f95474849e4e8b40521d658b2d957d51d9344f97138828d5aa37ff9e0",
+          "metadata_as_data": [
+            [
+              0.9976403683121888,
+              0.0026201529800932277,
+              -0.06860634309071616,
+              0.006605477492085336
+            ],
+            [
+              3.686287386450715e-18,
+              0.9992715160403763,
+              0.03816329690118368,
+              0.0005914193783047653
+            ],
+            [
+              0.06865635814635195,
+              -0.03807324557650431,
+              0.9969136033064004,
+              0.00010225089094484385
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "extracted_path": "cameras/WorldGen-6dfde300-424f-4eb0-89de-c1925ca67615.json",
+          "camera_matrix_check": {
+            "shape": [
+              4,
+              4
+            ],
+            "finite": true,
+            "rotation_determinant": 0.9999999999999999,
+            "orthogonality_max_error": 1.1102230246251565e-16,
+            "interpretation": "4x4 transform only; c2w/w2c direction and intrinsics are not declared. No exact reference-camera claim."
+          }
+        },
+        {
+          "name": "pack/gaussian_splatting",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/gaussian_splatting/environment_collider.glb",
+          "bytes": 2250540,
+          "compressed_bytes": 2250540,
+          "zip_crc32": "3d78437d",
+          "extension": ".glb",
+          "extracted": true,
+          "sha256": "4187de45ce127270b101c25e3f867482d0d0b7fe761458ce24e7bbfc35c10f92",
+          "collider_id": "collider-04-4187de45ce",
+          "extracted_path": "assets/collider-04-4187de45ce/environment_collider.glb"
+        },
+        {
+          "name": "pack/gaussian_splatting/full_res.spz",
+          "bytes": 14376302,
+          "compressed_bytes": 14376302,
+          "zip_crc32": "e714fb0a",
+          "extension": ".spz",
+          "extracted": true,
+          "sha256": "d62ca9b1b3172a7b9254db27d88b9976acabb30c032e9111ab2e8bbc20699877",
+          "geometry_id": "spz-04-d62ca9b1b3",
+          "extracted_path": "assets/spz-04-d62ca9b1b3/full_res.spz"
+        }
+      ],
+      "frame_mapping_status": "unmapped: no explicit input-frame provenance found",
+      "total_uncompressed_bytes": 34327943
+    },
+    {
+      "archive": "C:\\Users\\User\\Downloads\\WorldGen-905f90ce-a0b6-420e-8cf9-a330b76035aa.zip",
+      "archive_name": "WorldGen-905f90ce-a0b6-420e-8cf9-a330b76035aa.zip",
+      "archive_bytes": 16591828,
+      "archive_sha256": "f8582510e462aec8cdc0c1ed9e61e7f8692b6a06690f188f60564bf3c3530473",
+      "entries": [
+        {
+          "name": "pack",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/camera.json",
+          "bytes": 374,
+          "compressed_bytes": 374,
+          "zip_crc32": "f0febb69",
+          "extension": ".json",
+          "extracted": true,
+          "sha256": "38561a5c18368bee0cfb000e637d910cbb13dabb326b0b85371a7347f185f059",
+          "metadata_as_data": [
+            [
+              0.9981354172492997,
+              0.004655418322486993,
+              -0.06086062695051016,
+              0.033464202438527546
+            ],
+            [
+              2.168404344971009e-18,
+              0.9970871788492736,
+              0.07627029418061008,
+              0.029868882707478023
+            ],
+            [
+              0.06103842095407212,
+              -0.07612808190569008,
+              0.9952280272946467,
+              0.30973087593853693
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "extracted_path": "cameras/WorldGen-905f90ce-a0b6-420e-8cf9-a330b76035aa.json",
+          "camera_matrix_check": {
+            "shape": [
+              4,
+              4
+            ],
+            "finite": true,
+            "rotation_determinant": 0.9999999999999999,
+            "orthogonality_max_error": 1.1102230246251565e-16,
+            "interpretation": "4x4 transform only; c2w/w2c direction and intrinsics are not declared. No exact reference-camera claim."
+          }
+        },
+        {
+          "name": "pack/gaussian_splatting",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/gaussian_splatting/environment_collider.glb",
+          "bytes": 2247120,
+          "compressed_bytes": 2247120,
+          "zip_crc32": "09b46b0d",
+          "extension": ".glb",
+          "extracted": true,
+          "sha256": "8e58b78e74256d6609b3af638cbbcace3aa53b61a576885975bed492029336a3",
+          "collider_id": "collider-03-8e58b78e74",
+          "extracted_path": "assets/collider-03-8e58b78e74/environment_collider.glb"
+        },
+        {
+          "name": "pack/gaussian_splatting/full_res.spz",
+          "bytes": 14343674,
+          "compressed_bytes": 14343674,
+          "zip_crc32": "48315f57",
+          "extension": ".spz",
+          "extracted": true,
+          "sha256": "7fe57387e1b22e2b790da2eaf45080e24f22912f7f8f02a42b02374fe8c0df0a",
+          "geometry_id": "spz-05-7fe57387e1",
+          "extracted_path": "assets/spz-05-7fe57387e1/full_res.spz"
+        }
+      ],
+      "frame_mapping_status": "unmapped: no explicit input-frame provenance found",
+      "total_uncompressed_bytes": 16591168
+    },
+    {
+      "archive": "C:\\Users\\User\\Downloads\\WorldGen-83db5ca5-c31e-46ab-b886-67935fc362ac.zip",
+      "archive_name": "WorldGen-83db5ca5-c31e-46ab-b886-67935fc362ac.zip",
+      "archive_bytes": 75708771,
+      "archive_sha256": "89c2b0f51a19a27ef7a86a3c625e7094b8b5d3015f1a766d5e3a04f077b5bec5",
+      "entries": [
+        {
+          "name": "pack",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/blender/scene.blend",
+          "bytes": 40396509,
+          "compressed_bytes": 40396509,
+          "zip_crc32": "ffc67c84",
+          "extension": ".blend",
+          "extracted": false
+        },
+        {
+          "name": "pack/camera.json",
+          "bytes": 367,
+          "compressed_bytes": 367,
+          "zip_crc32": "aebb75e8",
+          "extension": ".json",
+          "extracted": true,
+          "sha256": "e52d62fa696dfb2c6ba4fe59be90017060b9281e789118dcde5beca8e5ddaff2",
+          "metadata_as_data": [
+            [
+              0.9825579371139196,
+              -0.1078041427238253,
+              -0.1515195268802672,
+              0.02250796280880412
+            ],
+            [
+              -6.938893903907228e-18,
+              0.814810726731218,
+              -0.579727073374829,
+              0.03633189789804983
+            ],
+            [
+              0.18595671597024643,
+              0.5696154373042619,
+              0.8005987467953193,
+              -0.9257226784155065
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "extracted_path": "cameras/WorldGen-83db5ca5-c31e-46ab-b886-67935fc362ac.json",
+          "camera_matrix_check": {
+            "shape": [
+              4,
+              4
+            ],
+            "finite": true,
+            "rotation_determinant": 1.0000000000000002,
+            "orthogonality_max_error": 2.220446049250313e-16,
+            "interpretation": "4x4 transform only; c2w/w2c direction and intrinsics are not declared. No exact reference-camera claim."
+          }
+        },
+        {
+          "name": "pack/gaussian_splatting",
+          "bytes": 0,
+          "compressed_bytes": 0,
+          "zip_crc32": "00000000",
+          "extension": "",
+          "extracted": false
+        },
+        {
+          "name": "pack/gaussian_splatting/environment_collider.glb",
+          "bytes": 7149112,
+          "compressed_bytes": 7149112,
+          "zip_crc32": "0cbdc3b3",
+          "extension": ".glb",
+          "extracted": true,
+          "sha256": "d75fc1a2646a5418694f4545ddbec911add17af05d21ec2514016f520e19af21",
+          "collider_id": "collider-05-d75fc1a264",
+          "extracted_path": "assets/collider-05-d75fc1a264/environment_collider.glb"
+        },
+        {
+          "name": "pack/gaussian_splatting/full_res.spz",
+          "bytes": 28161897,
+          "compressed_bytes": 28161897,
+          "zip_crc32": "edb754d8",
+          "extension": ".spz",
+          "extracted": true,
+          "sha256": "927bab7032d5d8544de6feed9e4ae3a203519e269e133578d08a61a751f4ea91",
+          "geometry_id": "spz-06-927bab7032",
+          "extracted_path": "assets/spz-06-927bab7032/full_res.spz"
+        }
+      ],
+      "frame_mapping_status": "unmapped: no explicit input-frame provenance found",
+      "total_uncompressed_bytes": 75707885
+    }
+  ],
+  "archive_count": 9,
+  "total_archive_bytes": 368126219,
+  "unique_spz": [
+    {
+      "id": "spz-00-52af25e6be",
+      "sha256": "52af25e6be7b87426c8f1648d6eceb6cc55df67ad417216aeabb99094da83fdf",
+      "header": {
+        "format": "legacy-gzip-SPZ",
+        "version": 3,
+        "num_points": 1179648,
+        "sh_degree": 0,
+        "fractional_bits": 12,
+        "flags": 0,
+        "uncompressed_bytes": 23592976,
+        "attribute_bytes_expected": 23592976,
+        "trailing_bytes": 0,
+        "raw_payload_sha256": "f99d8a061d4d83598a6c198e94528e91dc90533d83a76962ac8cdb5614ddfe0f",
+        "storage_coordinate_convention": "RUB per Niantic default; producer semantics still reviewable"
+      },
+      "path": "assets/spz-00-52af25e6be/full_res.spz",
+      "sources": [
+        {
+          "archive": "WorldGen-37454f46-f13b-40bf-aa5f-d6b4abda437d.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    },
+    {
+      "id": "spz-01-1395a74608",
+      "sha256": "1395a74608479885bbdda9f2320c1b885b5636a4e1ccda5e9bbfa05e044a6651",
+      "header": {
+        "format": "legacy-gzip-SPZ",
+        "version": 3,
+        "num_points": 1179648,
+        "sh_degree": 0,
+        "fractional_bits": 12,
+        "flags": 0,
+        "uncompressed_bytes": 23592976,
+        "attribute_bytes_expected": 23592976,
+        "trailing_bytes": 0,
+        "raw_payload_sha256": "c1018737238b9df72783ac6bb917ecf16673fe50fefca95cdcb80b428836a2ac",
+        "storage_coordinate_convention": "RUB per Niantic default; producer semantics still reviewable"
+      },
+      "path": "assets/spz-01-1395a74608/full_res.spz",
+      "sources": [
+        {
+          "archive": "WorldGen-76a46eb1-e415-49a2-bb91-3be79caa7dcd.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    },
+    {
+      "id": "spz-02-9500dd2989",
+      "sha256": "9500dd29891e8343df7ec9f426458fe912c16c608529736663674dd5940ebff4",
+      "header": {
+        "format": "legacy-gzip-SPZ",
+        "version": 3,
+        "num_points": 1179648,
+        "sh_degree": 0,
+        "fractional_bits": 12,
+        "flags": 0,
+        "uncompressed_bytes": 23592976,
+        "attribute_bytes_expected": 23592976,
+        "trailing_bytes": 0,
+        "raw_payload_sha256": "b01435952ad99aeb3f8508eaef415e30f06290d6d144448905b54121a9aaa4f3",
+        "storage_coordinate_convention": "RUB per Niantic default; producer semantics still reviewable"
+      },
+      "path": "assets/spz-02-9500dd2989/full_res.spz",
+      "sources": [
+        {
+          "archive": "WorldGen-6098cc79-65f3-4635-834a-82a324881aa1 (1).zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        },
+        {
+          "archive": "WorldGen-6098cc79-65f3-4635-834a-82a324881aa1.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    },
+    {
+      "id": "spz-03-ef36acab9f",
+      "sha256": "ef36acab9fba3bbfe4c72e64f0278d5c87ada5e52a578a416151638ae7c005f0",
+      "header": {
+        "format": "legacy-gzip-SPZ",
+        "version": 3,
+        "num_points": 1179648,
+        "sh_degree": 0,
+        "fractional_bits": 12,
+        "flags": 0,
+        "uncompressed_bytes": 23592976,
+        "attribute_bytes_expected": 23592976,
+        "trailing_bytes": 0,
+        "raw_payload_sha256": "9961620b022884bc1cc554441690d30c1ca1532250439649a70b21efed05af0e",
+        "storage_coordinate_convention": "RUB per Niantic default; producer semantics still reviewable"
+      },
+      "path": "assets/spz-03-ef36acab9f/full_res.spz",
+      "sources": [
+        {
+          "archive": "WorldGen-0bf4b058-d866-4995-a256-d64fe3cb01dc.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    },
+    {
+      "id": "spz-04-d62ca9b1b3",
+      "sha256": "d62ca9b1b3172a7b9254db27d88b9976acabb30c032e9111ab2e8bbc20699877",
+      "header": {
+        "format": "legacy-gzip-SPZ",
+        "version": 3,
+        "num_points": 1179648,
+        "sh_degree": 0,
+        "fractional_bits": 12,
+        "flags": 0,
+        "uncompressed_bytes": 23592976,
+        "attribute_bytes_expected": 23592976,
+        "trailing_bytes": 0,
+        "raw_payload_sha256": "cf8572f67003189b2fe5c777066368bdb61f5e585403eff0323b70fb9680d2d1",
+        "storage_coordinate_convention": "RUB per Niantic default; producer semantics still reviewable"
+      },
+      "path": "assets/spz-04-d62ca9b1b3/full_res.spz",
+      "sources": [
+        {
+          "archive": "WorldGen-6dfde300-424f-4eb0-89de-c1925ca67615.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    },
+    {
+      "id": "spz-05-7fe57387e1",
+      "sha256": "7fe57387e1b22e2b790da2eaf45080e24f22912f7f8f02a42b02374fe8c0df0a",
+      "header": {
+        "format": "legacy-gzip-SPZ",
+        "version": 3,
+        "num_points": 1179648,
+        "sh_degree": 0,
+        "fractional_bits": 12,
+        "flags": 0,
+        "uncompressed_bytes": 23592976,
+        "attribute_bytes_expected": 23592976,
+        "trailing_bytes": 0,
+        "raw_payload_sha256": "9961620b022884bc1cc554441690d30c1ca1532250439649a70b21efed05af0e",
+        "storage_coordinate_convention": "RUB per Niantic default; producer semantics still reviewable"
+      },
+      "path": "assets/spz-05-7fe57387e1/full_res.spz",
+      "sources": [
+        {
+          "archive": "WorldGen-905f90ce-a0b6-420e-8cf9-a330b76035aa.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    },
+    {
+      "id": "spz-06-927bab7032",
+      "sha256": "927bab7032d5d8544de6feed9e4ae3a203519e269e133578d08a61a751f4ea91",
+      "header": {
+        "format": "legacy-gzip-SPZ",
+        "version": 2,
+        "num_points": 1920000,
+        "sh_degree": 0,
+        "fractional_bits": 12,
+        "flags": 0,
+        "uncompressed_bytes": 36480016,
+        "attribute_bytes_expected": 36480016,
+        "trailing_bytes": 0,
+        "raw_payload_sha256": "b78dacfa5461554c791a6167e4438b7484a47fe7c42bb78567c3c80f54642d1b",
+        "storage_coordinate_convention": "RUB per Niantic default; producer semantics still reviewable"
+      },
+      "path": "assets/spz-06-927bab7032/full_res.spz",
+      "sources": [
+        {
+          "archive": "WorldGen-83db5ca5-c31e-46ab-b886-67935fc362ac.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    }
+  ],
+  "unique_colliders": [
+    {
+      "id": "collider-00-709fb8be71",
+      "sha256": "709fb8be718c13216a199250c629606f9e642601b3269711d18f9f5a643aad77",
+      "path": "assets/collider-00-709fb8be71/environment_collider.glb",
+      "summary": {
+        "asset": {
+          "version": "2.0",
+          "generator": "https://github.com/mikedh/trimesh"
+        },
+        "nodes": [
+          {
+            "name": "world",
+            "mesh": null,
+            "camera": null,
+            "translation": null,
+            "rotation": null,
+            "scale": null
+          },
+          {
+            "name": "geometry_0",
+            "mesh": 0,
+            "camera": null,
+            "translation": null,
+            "rotation": null,
+            "scale": null
+          }
+        ],
+        "primitives": [
+          {
+            "mesh_name": "geometry_0",
+            "mode": 4,
+            "position_count": 57425,
+            "position_min": [
+              -0.1663876324892044,
+              -0.17935822904109955,
+              -1.098596215248108
+            ],
+            "position_max": [
+              0.16147564351558685,
+              0.19058462977409363,
+              -0.8120338320732117
+            ],
+            "index_count": 335535,
+            "extensions": []
+          }
+        ],
+        "cameras": [],
+        "extensions_used": [],
+        "scope": "Environment collider geometry metadata, not a validated body or closed anatomical volume"
+      },
+      "sources": [
+        {
+          "archive": "WorldGen-37454f46-f13b-40bf-aa5f-d6b4abda437d.zip",
+          "entry": "pack/gaussian_splatting/environment_collider.glb"
+        }
+      ]
+    },
+    {
+      "id": "collider-01-ceedc8261f",
+      "sha256": "ceedc8261fb937d282af482224e6c5fa8fce14d820f12f75855b89fb7e1267e4",
+      "path": "assets/collider-01-ceedc8261f/environment_collider.glb",
+      "summary": {
+        "asset": {
+          "version": "2.0",
+          "generator": "https://github.com/mikedh/trimesh"
+        },
+        "nodes": [
+          {
+            "name": "world",
+            "mesh": null,
+            "camera": null,
+            "translation": null,
+            "rotation": null,
+            "scale": null
+          },
+          {
+            "name": "geometry_0",
+            "mesh": 0,
+            "camera": null,
+            "translation": null,
+            "rotation": null,
+            "scale": null
+          }
+        ],
+        "primitives": [
+          {
+            "mesh_name": "geometry_0",
+            "mode": 4,
+            "position_count": 63848,
+            "position_min": [
+              -0.12327825278043747,
+              -0.08501297980546951,
+              -0.6536293625831604
+            ],
+            "position_max": [
+              0.16776490211486816,
+              0.15826401114463806,
+              -0.11298513412475586
+            ],
+            "index_count": 371229,
+            "extensions": []
+          }
+        ],
+        "cameras": [],
+        "extensions_used": [],
+        "scope": "Environment collider geometry metadata, not a validated body or closed anatomical volume"
+      },
+      "sources": [
+        {
+          "archive": "WorldGen-76a46eb1-e415-49a2-bb91-3be79caa7dcd.zip",
+          "entry": "pack/gaussian_splatting/environment_collider.glb"
+        }
+      ]
+    },
+    {
+      "id": "collider-02-1d759c2cfb",
+      "sha256": "1d759c2cfbaeb7d425b1ff3e9e1de3dcbbb149bc15474f6546e6730ead85ac67",
+      "path": "assets/collider-02-1d759c2cfb/environment_collider.glb",
+      "summary": {
+        "asset": {
+          "version": "2.0",
+          "generator": "https://github.com/mikedh/trimesh"
+        },
+        "nodes": [
+          {
+            "name": "world",
+            "mesh": null,
+            "camera": null,
+            "translation": null,
+            "rotation": null,
+            "scale": null
+          },
+          {
+            "name": "geometry_0",
+            "mesh": 0,
+            "camera": null,
+            "translation": null,
+            "rotation": null,
+            "scale": null
+          }
+        ],
+        "primitives": [
+          {
+            "mesh_name": "geometry_0",
+            "mode": 4,
+            "position_count": 63864,
+            "position_min": [
+              -0.2422606647014618,
+              -0.16270673274993896,
+              -1.0036367177963257
+            ],
+            "position_max": [
+              0.2914751470088959,
+              0.2853364646434784,
+              -0.12958434224128723
+            ],
+            "index_count": 371391,
+            "extensions": []
+          }
+        ],
+        "cameras": [],
+        "extensions_used": [],
+        "scope": "Environment collider geometry metadata, not a validated body or closed anatomical volume"
+      },
+      "sources": [
+        {
+          "archive": "WorldGen-6098cc79-65f3-4635-834a-82a324881aa1 (1).zip",
+          "entry": "pack/gaussian_splatting/environment_collider.glb"
+        },
+        {
+          "archive": "WorldGen-6098cc79-65f3-4635-834a-82a324881aa1.zip",
+          "entry": "pack/gaussian_splatting/environment_collider.glb"
+        }
+      ]
+    },
+    {
+      "id": "collider-03-8e58b78e74",
+      "sha256": "8e58b78e74256d6609b3af638cbbcace3aa53b61a576885975bed492029336a3",
+      "path": "assets/collider-03-8e58b78e74/environment_collider.glb",
+      "summary": {
+        "asset": {
+          "version": "2.0",
+          "generator": "https://github.com/mikedh/trimesh"
+        },
+        "nodes": [
+          {
+            "name": "world",
+            "mesh": null,
+            "camera": null,
+            "translation": null,
+            "rotation": null,
+            "scale": null
+          },
+          {
+            "name": "geometry_0",
+            "mesh": 0,
+            "camera": null,
+            "translation": null,
+            "rotation": null,
+            "scale": null
+          }
+        ],
+        "primitives": [
+          {
+            "mesh_name": "geometry_0",
+            "mode": 4,
+            "position_count": 63777,
+            "position_min": [
+              -0.21324379742145538,
+              -0.16062243282794952,
+              -1.0298869609832764
+            ],
+            "position_max": [
+              0.2865760326385498,
+              0.26922762393951416,
+              -0.13807635009288788
+            ],
+            "index_count": 370248,
+            "extensions": []
+          }
+        ],
+        "cameras": [],
+        "extensions_used": [],
+        "scope": "Environment collider geometry metadata, not a validated body or closed anatomical volume"
+      },
+      "sources": [
+        {
+          "archive": "WorldGen-0bf4b058-d866-4995-a256-d64fe3cb01dc.zip",
+          "entry": "pack/gaussian_splatting/environment_collider.glb"
+        },
+        {
+          "archive": "WorldGen-905f90ce-a0b6-420e-8cf9-a330b76035aa.zip",
+          "entry": "pack/gaussian_splatting/environment_collider.glb"
+        }
+      ]
+    },
+    {
+      "id": "collider-04-4187de45ce",
+      "sha256": "4187de45ce127270b101c25e3f867482d0d0b7fe761458ce24e7bbfc35c10f92",
+      "path": "assets/collider-04-4187de45ce/environment_collider.glb",
+      "summary": {
+        "asset": {
+          "version": "2.0",
+          "generator": "https://github.com/mikedh/trimesh"
+        },
+        "nodes": [
+          {
+            "name": "world",
+            "mesh": null,
+            "camera": null,
+            "translation": null,
+            "rotation": null,
+            "scale": null
+          },
+          {
+            "name": "geometry_0",
+            "mesh": 0,
+            "camera": null,
+            "translation": null,
+            "rotation": null,
+            "scale": null
+          }
+        ],
+        "primitives": [
+          {
+            "mesh_name": "geometry_0",
+            "mode": 4,
+            "position_count": 63839,
+            "position_min": [
+              -0.20903605222702026,
+              -0.16851064562797546,
+              -1.123215913772583
+            ],
+            "position_max": [
+              0.29040950536727905,
+              0.27529066801071167,
+              -0.14342057704925537
+            ],
+            "index_count": 370917,
+            "extensions": []
+          }
+        ],
+        "cameras": [],
+        "extensions_used": [],
+        "scope": "Environment collider geometry metadata, not a validated body or closed anatomical volume"
+      },
+      "sources": [
+        {
+          "archive": "WorldGen-6dfde300-424f-4eb0-89de-c1925ca67615.zip",
+          "entry": "pack/gaussian_splatting/environment_collider.glb"
+        }
+      ]
+    },
+    {
+      "id": "collider-05-d75fc1a264",
+      "sha256": "d75fc1a2646a5418694f4545ddbec911add17af05d21ec2514016f520e19af21",
+      "path": "assets/collider-05-d75fc1a264/environment_collider.glb",
+      "summary": {
+        "asset": {
+          "version": "2.0",
+          "generator": "https://github.com/mikedh/trimesh"
+        },
+        "nodes": [
+          {
+            "name": "world",
+            "mesh": null,
+            "camera": null,
+            "translation": null,
+            "rotation": null,
+            "scale": null
+          },
+          {
+            "name": "geometry_0",
+            "mesh": 0,
+            "camera": null,
+            "translation": null,
+            "rotation": null,
+            "scale": null
+          }
+        ],
+        "primitives": [
+          {
+            "mesh_name": "geometry_0",
+            "mode": 4,
+            "position_count": 137592,
+            "position_min": [
+              -14.326332092285156,
+              -8.813897132873535,
+              -10.468737602233887
+            ],
+            "position_max": [
+              12.463239669799805,
+              4.880484104156494,
+              2.8250415325164795
+            ],
+            "index_count": 823743,
+            "extensions": []
+          }
+        ],
+        "cameras": [],
+        "extensions_used": [],
+        "scope": "Environment collider geometry metadata, not a validated body or closed anatomical volume"
+      },
+      "sources": [
+        {
+          "archive": "WorldGen-83db5ca5-c31e-46ab-b886-67935fc362ac.zip",
+          "entry": "pack/gaussian_splatting/environment_collider.glb"
+        }
+      ]
+    }
+  ],
+  "duplicate_payload_groups": [
+    {
+      "sha256": "1d759c2cfbaeb7d425b1ff3e9e1de3dcbbb149bc15474f6546e6730ead85ac67",
+      "members": [
+        {
+          "archive": "WorldGen-6098cc79-65f3-4635-834a-82a324881aa1 (1).zip",
+          "entry": "pack/gaussian_splatting/environment_collider.glb"
+        },
+        {
+          "archive": "WorldGen-6098cc79-65f3-4635-834a-82a324881aa1.zip",
+          "entry": "pack/gaussian_splatting/environment_collider.glb"
+        }
+      ]
+    },
+    {
+      "sha256": "9500dd29891e8343df7ec9f426458fe912c16c608529736663674dd5940ebff4",
+      "members": [
+        {
+          "archive": "WorldGen-6098cc79-65f3-4635-834a-82a324881aa1 (1).zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        },
+        {
+          "archive": "WorldGen-6098cc79-65f3-4635-834a-82a324881aa1.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    },
+    {
+      "sha256": "8e58b78e74256d6609b3af638cbbcace3aa53b61a576885975bed492029336a3",
+      "members": [
+        {
+          "archive": "WorldGen-0bf4b058-d866-4995-a256-d64fe3cb01dc.zip",
+          "entry": "pack/gaussian_splatting/environment_collider.glb"
+        },
+        {
+          "archive": "WorldGen-905f90ce-a0b6-420e-8cf9-a330b76035aa.zip",
+          "entry": "pack/gaussian_splatting/environment_collider.glb"
+        }
+      ]
+    }
+  ],
+  "duplicate_archive_groups": [],
+  "provenance": "Source original ZIPs read-only. Reviewed data assets only. No .blend execution or extraction.",
+  "frame_mapping": "No frame IDs, input image hashes, timing, intrinsics or growth-order metadata found in ZIP paths/camera transforms.",
+  "decoder_reference": "https://github.com/nianticlabs/spz",
+  "complete": true,
+  "canonical_raw_geometry_groups": [
+    {
+      "geometry_id": "geometry-00",
+      "raw_payload_sha256": "f99d8a061d4d83598a6c198e94528e91dc90533d83a76962ac8cdb5614ddfe0f",
+      "canonical_asset_id": "spz-00-52af25e6be",
+      "canonical_path": "assets/spz-00-52af25e6be/full_res.spz",
+      "num_points": 1179648,
+      "compressed_variants": [
+        {
+          "id": "spz-00-52af25e6be",
+          "sha256": "52af25e6be7b87426c8f1648d6eceb6cc55df67ad417216aeabb99094da83fdf",
+          "path": "assets/spz-00-52af25e6be/full_res.spz"
+        }
+      ],
+      "sources": [
+        {
+          "archive": "WorldGen-37454f46-f13b-40bf-aa5f-d6b4abda437d.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    },
+    {
+      "geometry_id": "geometry-01",
+      "raw_payload_sha256": "c1018737238b9df72783ac6bb917ecf16673fe50fefca95cdcb80b428836a2ac",
+      "canonical_asset_id": "spz-01-1395a74608",
+      "canonical_path": "assets/spz-01-1395a74608/full_res.spz",
+      "num_points": 1179648,
+      "compressed_variants": [
+        {
+          "id": "spz-01-1395a74608",
+          "sha256": "1395a74608479885bbdda9f2320c1b885b5636a4e1ccda5e9bbfa05e044a6651",
+          "path": "assets/spz-01-1395a74608/full_res.spz"
+        }
+      ],
+      "sources": [
+        {
+          "archive": "WorldGen-76a46eb1-e415-49a2-bb91-3be79caa7dcd.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    },
+    {
+      "geometry_id": "geometry-02",
+      "raw_payload_sha256": "b01435952ad99aeb3f8508eaef415e30f06290d6d144448905b54121a9aaa4f3",
+      "canonical_asset_id": "spz-02-9500dd2989",
+      "canonical_path": "assets/spz-02-9500dd2989/full_res.spz",
+      "num_points": 1179648,
+      "compressed_variants": [
+        {
+          "id": "spz-02-9500dd2989",
+          "sha256": "9500dd29891e8343df7ec9f426458fe912c16c608529736663674dd5940ebff4",
+          "path": "assets/spz-02-9500dd2989/full_res.spz"
+        }
+      ],
+      "sources": [
+        {
+          "archive": "WorldGen-6098cc79-65f3-4635-834a-82a324881aa1 (1).zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        },
+        {
+          "archive": "WorldGen-6098cc79-65f3-4635-834a-82a324881aa1.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    },
+    {
+      "geometry_id": "geometry-03",
+      "raw_payload_sha256": "9961620b022884bc1cc554441690d30c1ca1532250439649a70b21efed05af0e",
+      "canonical_asset_id": "spz-03-ef36acab9f",
+      "canonical_path": "assets/spz-03-ef36acab9f/full_res.spz",
+      "num_points": 1179648,
+      "compressed_variants": [
+        {
+          "id": "spz-03-ef36acab9f",
+          "sha256": "ef36acab9fba3bbfe4c72e64f0278d5c87ada5e52a578a416151638ae7c005f0",
+          "path": "assets/spz-03-ef36acab9f/full_res.spz"
+        },
+        {
+          "id": "spz-05-7fe57387e1",
+          "sha256": "7fe57387e1b22e2b790da2eaf45080e24f22912f7f8f02a42b02374fe8c0df0a",
+          "path": "assets/spz-05-7fe57387e1/full_res.spz"
+        }
+      ],
+      "sources": [
+        {
+          "archive": "WorldGen-0bf4b058-d866-4995-a256-d64fe3cb01dc.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        },
+        {
+          "archive": "WorldGen-905f90ce-a0b6-420e-8cf9-a330b76035aa.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    },
+    {
+      "geometry_id": "geometry-04",
+      "raw_payload_sha256": "cf8572f67003189b2fe5c777066368bdb61f5e585403eff0323b70fb9680d2d1",
+      "canonical_asset_id": "spz-04-d62ca9b1b3",
+      "canonical_path": "assets/spz-04-d62ca9b1b3/full_res.spz",
+      "num_points": 1179648,
+      "compressed_variants": [
+        {
+          "id": "spz-04-d62ca9b1b3",
+          "sha256": "d62ca9b1b3172a7b9254db27d88b9976acabb30c032e9111ab2e8bbc20699877",
+          "path": "assets/spz-04-d62ca9b1b3/full_res.spz"
+        }
+      ],
+      "sources": [
+        {
+          "archive": "WorldGen-6dfde300-424f-4eb0-89de-c1925ca67615.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    },
+    {
+      "geometry_id": "geometry-05",
+      "raw_payload_sha256": "b78dacfa5461554c791a6167e4438b7484a47fe7c42bb78567c3c80f54642d1b",
+      "canonical_asset_id": "spz-06-927bab7032",
+      "canonical_path": "assets/spz-06-927bab7032/full_res.spz",
+      "num_points": 1920000,
+      "compressed_variants": [
+        {
+          "id": "spz-06-927bab7032",
+          "sha256": "927bab7032d5d8544de6feed9e4ae3a203519e269e133578d08a61a751f4ea91",
+          "path": "assets/spz-06-927bab7032/full_res.spz"
+        }
+      ],
+      "sources": [
+        {
+          "archive": "WorldGen-83db5ca5-c31e-46ab-b886-67935fc362ac.zip",
+          "entry": "pack/gaussian_splatting/full_res.spz"
+        }
+      ]
+    }
+  ],
+  "unique_raw_geometry_count": 6
+}

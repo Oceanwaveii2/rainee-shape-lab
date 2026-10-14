@@ -1,0 +1,68 @@
+{
+  "status": "user_accepted_reference_timing",
+  "accepted_source_frames": [
+    0,
+    10,
+    18,
+    26
+  ],
+  "endpoint_frame": 26,
+  "source_fps_timing_assumption": 24,
+  "after_endpoint_policy": "hold endpoint shape; later deflation/proportion changes are errors",
+  "frames": [
+    {
+      "source_frame": 0,
+      "stage_ordinal": 1,
+      "accepted_as_growth_target": true,
+      "role": "baseline",
+      "image": "../references/accepted-growth/frame_0000.png",
+      "source": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0000.png",
+      "sha256": "f4de8ffb4809c91cc6f481960d23aa625893a55f324942abffa551534bc2ed96",
+      "physical_volume_multiplier": null
+    },
+    {
+      "source_frame": 10,
+      "stage_ordinal": 2,
+      "accepted_as_growth_target": true,
+      "role": "intermediate",
+      "image": "../references/accepted-growth/frame_0010.png",
+      "source": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0010.png",
+      "sha256": "6e65bf5a91145f319dbda6b16e42da9fd002d276d267804588149d6349cd937b",
+      "physical_volume_multiplier": null
+    },
+    {
+      "source_frame": 18,
+      "stage_ordinal": 3,
+      "accepted_as_growth_target": true,
+      "role": "intermediate",
+      "image": "../references/accepted-growth/frame_0018.png",
+      "source": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0018.png",
+      "sha256": "37253a70ed6d1076083c7e448591708ea12ca4b70d49edd55f04e2b273789e83",
+      "physical_volume_multiplier": null
+    },
+    {
+      "source_frame": 26,
+      "stage_ordinal": 4,
+      "accepted_as_growth_target": true,
+      "role": "endpoint",
+      "image": "../references/accepted-growth/frame_0026.png",
+      "source": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0026.png",
+      "sha256": "6d235656ee4490a3043006304a6b6df9e066d9898991de319bd9ee77907c7342",
+      "physical_volume_multiplier": null
+    },
+    {
+      "source_frame": 49,
+      "stage_ordinal": null,
+      "accepted_as_growth_target": false,
+      "role": "rejected_later_deflation",
+      "image": "../references/accepted-growth/frame_0049.png",
+      "source": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0049.png",
+      "sha256": "69a05948009e78718759f20e5fa5f2284a09257fcf9087ff99046f8fcaf94fb0",
+      "physical_volume_multiplier": null
+    }
+  ],
+  "stage_meaning": "ordinal shape states; no measured 1x/2x/3x/4x tissue volume",
+  "source_stature_units": 2.3951061964035034,
+  "face_authority": "The accepted frames and supplied torso/face closeups guide face identity over the flawed FBX face. Preserve visible design variants separately.",
+  "geometry_authority": "Generated meshes and Gaussian fields are inspectable shape/appearance candidates; pose, camera and anatomy correspondence require review."
+}

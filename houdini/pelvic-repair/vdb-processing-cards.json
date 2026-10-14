@@ -1,0 +1,538 @@
+{
+  "vdbsmoothsdf": [
+    {
+      "name": "group",
+      "label": "Group",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "mask",
+      "label": "",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "maskname",
+      "label": "Alpha Mask",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "operation",
+      "label": "Operation",
+      "value": "meanvalue",
+      "tokens": null
+    },
+    {
+      "name": "assumeuniformscale",
+      "label": "Assume Uniform Scaling",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "useworldspaceunits",
+      "label": "Use World Space Units",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "radius",
+      "label": "Filter Voxel Radius",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "radiusworld",
+      "label": "Filter Radius",
+      "value": 0.1,
+      "tokens": null
+    },
+    {
+      "name": "iterations",
+      "label": "Iterations",
+      "value": 4,
+      "tokens": null
+    },
+    {
+      "name": "halfwidth",
+      "label": "Half Width",
+      "value": 3,
+      "tokens": null
+    },
+    {
+      "name": "halfwidthworld",
+      "label": "Half Width",
+      "value": 0.1,
+      "tokens": null
+    },
+    {
+      "name": "voxeloffset",
+      "label": "Offset",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "accuracy",
+      "label": "Renorm Accuracy",
+      "value": "upwind first",
+      "tokens": null
+    },
+    {
+      "name": "invert",
+      "label": "Invert Alpha Mask",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "minmask",
+      "label": "Min Mask Cutoff",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "maxmask",
+      "label": "Max Mask Cutoff",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "trim",
+      "label": "Trim",
+      "value": "all",
+      "tokens": null
+    }
+  ],
+  "vdbreshapesdf": [
+    {
+      "name": "group",
+      "label": "Group",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "mask",
+      "label": "",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "maskname",
+      "label": "Alpha Mask",
+      "value": "",
+      "tokens": null
+    },
+    {
+      "name": "operation",
+      "label": "Operation",
+      "value": "dilate",
+      "tokens": null
+    },
+    {
+      "name": "assumeuniformscale",
+      "label": "Assume Uniform Scaling",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "useworldspaceunits",
+      "label": "Use World Space Units",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "radius",
+      "label": "Filter Voxel Radius",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "radiusworld",
+      "label": "Filter Radius",
+      "value": 0.1,
+      "tokens": null
+    },
+    {
+      "name": "iterations",
+      "label": "Iterations",
+      "value": 4,
+      "tokens": null
+    },
+    {
+      "name": "halfwidth",
+      "label": "Half Width",
+      "value": 3,
+      "tokens": null
+    },
+    {
+      "name": "halfwidthworld",
+      "label": "Half Width",
+      "value": 0.1,
+      "tokens": null
+    },
+    {
+      "name": "voxeloffset",
+      "label": "Offset",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "accuracy",
+      "label": "Renorm Accuracy",
+      "value": "upwind first",
+      "tokens": null
+    },
+    {
+      "name": "invert",
+      "label": "Invert Alpha Mask",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "minmask",
+      "label": "Min Mask Cutoff",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "maxmask",
+      "label": "Max Mask Cutoff",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "trim",
+      "label": "Trim",
+      "value": "all",
+      "tokens": null
+    }
+  ],
+  "sphere": [
+    {
+      "name": "type",
+      "label": "Primitive Type",
+      "value": 0,
+      "tokens": [
+        "prim",
+        "poly",
+        "polymesh",
+        "mesh",
+        "nurbs",
+        "bezier",
+        "polysoup"
+      ]
+    },
+    {
+      "name": "surftype",
+      "label": "Connectivity",
+      "value": 4,
+      "tokens": [
+        "rows",
+        "cols",
+        "rowcol",
+        "triangles",
+        "quads",
+        "alttriangles",
+        "revtriangles"
+      ]
+    },
+    {
+      "name": "radx",
+      "label": "Radius",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "rady",
+      "label": "Radius",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "radz",
+      "label": "Radius",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "tx",
+      "label": "Center",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "ty",
+      "label": "Center",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "tz",
+      "label": "Center",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "rx",
+      "label": "Rotate",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "ry",
+      "label": "Rotate",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "rz",
+      "label": "Rotate",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "scale",
+      "label": "Uniform Scale",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "orient",
+      "label": "Orientation",
+      "value": 1,
+      "tokens": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    {
+      "name": "freq",
+      "label": "Frequency",
+      "value": 2,
+      "tokens": null
+    },
+    {
+      "name": "rows",
+      "label": "Rows",
+      "value": 13,
+      "tokens": null
+    },
+    {
+      "name": "cols",
+      "label": "Columns",
+      "value": 24,
+      "tokens": null
+    },
+    {
+      "name": "orderu",
+      "label": "U Order",
+      "value": 4,
+      "tokens": null
+    },
+    {
+      "name": "orderv",
+      "label": "V Order",
+      "value": 4,
+      "tokens": null
+    },
+    {
+      "name": "imperfect",
+      "label": "Imperfect",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "upole",
+      "label": "Unique Points per Pole",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "accurate",
+      "label": "Accurate Bounds",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "triangularpoles",
+      "label": "Triangular Poles",
+      "value": 1,
+      "tokens": null
+    }
+  ],
+  "box": [
+    {
+      "name": "type",
+      "label": "Primitive Type",
+      "value": 0,
+      "tokens": [
+        "poly",
+        "polymesh",
+        "mesh",
+        "nurbs",
+        "bezier",
+        "points",
+        "prim"
+      ]
+    },
+    {
+      "name": "surftype",
+      "label": "Connectivity",
+      "value": 4,
+      "tokens": [
+        "rows",
+        "cols",
+        "rowcol",
+        "triangles",
+        "quads",
+        "alttriangles",
+        "revtriangles"
+      ]
+    },
+    {
+      "name": "consolidatepts",
+      "label": "Consolidate Corner Points",
+      "value": 1,
+      "tokens": null
+    },
+    {
+      "name": "sizex",
+      "label": "Size",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "sizey",
+      "label": "Size",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "sizez",
+      "label": "Size",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "tx",
+      "label": "Center",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "ty",
+      "label": "Center",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "tz",
+      "label": "Center",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "rx",
+      "label": "Rotate",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "ry",
+      "label": "Rotate",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "rz",
+      "label": "Rotate",
+      "value": 0.0,
+      "tokens": null
+    },
+    {
+      "name": "scale",
+      "label": "Uniform Scale",
+      "value": 1.0,
+      "tokens": null
+    },
+    {
+      "name": "divrate1",
+      "label": "Axis Divisions",
+      "value": 4,
+      "tokens": null
+    },
+    {
+      "name": "divrate2",
+      "label": "Axis Divisions",
+      "value": 4,
+      "tokens": null
+    },
+    {
+      "name": "divrate3",
+      "label": "Axis Divisions",
+      "value": 4,
+      "tokens": null
+    },
+    {
+      "name": "orderrate1",
+      "label": "Axis Orders",
+      "value": 4,
+      "tokens": null
+    },
+    {
+      "name": "orderrate2",
+      "label": "Axis Orders",
+      "value": 4,
+      "tokens": null
+    },
+    {
+      "name": "orderrate3",
+      "label": "Axis Orders",
+      "value": 4,
+      "tokens": null
+    },
+    {
+      "name": "dodivs",
+      "label": "Use Divisions",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "divsx",
+      "label": "Divisions",
+      "value": 3,
+      "tokens": null
+    },
+    {
+      "name": "divsy",
+      "label": "Divisions",
+      "value": 3,
+      "tokens": null
+    },
+    {
+      "name": "divsz",
+      "label": "Divisions",
+      "value": 3,
+      "tokens": null
+    },
+    {
+      "name": "rebar",
+      "label": "Enforcement Bars",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "orientedbbox",
+      "label": "Oriented Bounding Box (points only)",
+      "value": 0,
+      "tokens": null
+    },
+    {
+      "name": "vertexnormals",
+      "label": "Add Vertex Normals",
+      "value": 0,
+      "tokens": null
+    }
+  ]
+}

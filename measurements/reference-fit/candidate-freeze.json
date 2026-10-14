@@ -1,0 +1,24 @@
+{
+  "status": "frozen for root native trial and viewer integration",
+  "frozen_at_utc": "2026-10-13T22:35:41.893487+00:00",
+  "files": {
+    "diagnostic-candidate-positions.bin": {
+      "bytes": 1462812,
+      "sha256": "2e5d6abebe23a4a4d301ff674bb7795208df33aab9975d5c804264ea81c087fd"
+    },
+    "diagnostic-candidate-triangles.bin": {
+      "bytes": 3028044,
+      "sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4"
+    },
+    "parameter-preset-candidate.json": {
+      "bytes": 760,
+      "sha256": "b827bfe441792afd530f34efff21c98ff7635e701b90e30ac4ddb9a2eb5f38ae"
+    },
+    "reference-fit.json": {
+      "bytes": 16831,
+      "sha256": "a4d2bb12e1946e06829c8ff7e7efc6b16ffc7f4451e259473e78bfb96d6056ee"
+    }
+  },
+  "automatic_adoption": false,
+  "inspection_allowed": true
+}

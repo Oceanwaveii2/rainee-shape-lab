@@ -1,0 +1,108 @@
+{
+  "source": "C:\\Users\\User\\Downloads\\Dexter mom  model.obj",
+  "source_bytes": 85202887,
+  "source_sha256": "b0ef157ed9a67fbaf08e48931ecd17fde68999695870ee45b453f0c1b2cb560a",
+  "vertices": 418195,
+  "triangles": 836562,
+  "bounds": {
+    "min": [
+      -0.709229,
+      -0.952567,
+      -0.459087
+    ],
+    "max": [
+      0.719175,
+      0.949152,
+      0.441324
+    ],
+    "extent": [
+      1.428404,
+      1.901719,
+      0.9004110000000001
+    ]
+  },
+  "tags": {
+    "face_tags": [
+      {
+        "object": "model",
+        "group": "",
+        "material": "Material.013"
+      }
+    ],
+    "objects_polygon_counts": {
+      "model": 836562
+    },
+    "groups_polygon_counts": {
+      "": 836562
+    },
+    "materials_polygon_counts": {
+      "Material.013": 836562
+    },
+    "mtllib": [
+      "model.mtl"
+    ],
+    "polygon_size_counts": {
+      "3": 836562
+    }
+  },
+  "component_count": 2,
+  "components": [
+    {
+      "id": 0,
+      "vertices": 402452,
+      "triangles": 805076,
+      "bounds": {
+        "min": [
+          -0.709229,
+          -0.952567,
+          -0.459087
+        ],
+        "max": [
+          0.719175,
+          0.949152,
+          0.441324
+        ],
+        "extent": [
+          1.428404,
+          1.901719,
+          0.9004110000000001
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 1,
+      "vertices": 15743,
+      "triangles": 31486,
+      "bounds": {
+        "min": [
+          -0.6605,
+          0.61274,
+          -0.171561
+        ],
+        "max": [
+          -0.441136,
+          0.747346,
+          0.027381
+        ],
+        "extent": [
+          0.219364,
+          0.134606,
+          0.19894199999999998
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    }
+  ],
+  "calibration_status": "uncalibrated",
+  "anatomical_warning": "Whole asset may include a stand, hair, garments and carried props. No anatomical or stature labels inferred.",
+  "preview": {
+    "method": "vertex clustering for inspection only",
+    "vertices": 56873,
+    "triangles": 118114,
+    "source_coordinate_system": true,
+    "cell_size": 0.010565105555555555,
+    "not_production_retopology": true
+  },
+  "coordinate_units": "not declared by OBJ"
+}

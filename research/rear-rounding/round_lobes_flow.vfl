@@ -1,0 +1,49 @@
+// Research equivalent of rear_rounding_flow.py; not installed or native-tested.
+// Input0: neutral proxy. Input1: cage calibrated by calibrate_rounding from the
+// SAME flow kernel. The recorded default2.5x amplitude is .450446808245033.
+// DEFAULTS were audited; arbitrary changed shape controls were not audited.
+vector relax_velocity(vector p; vector positive_center; vector radii) {
+    float side=p.x<0?-1:1;
+    vector center=positive_center;center.x*=side;
+    vector q=(p-center)/radii;float rho=length(q);
+    vector target=center+radii*q/max(rho,1e-8);
+    float ax=abs(p.x);
+    float gate=smooth(.48,.535,p.y)*(1-smooth(.725,.770,p.y))
+              *(1-smooth(-.045,.015,p.z));
+    gate*=smooth(.025,.060,ax)*(1-smooth(.195,.22,ax))
+          *smooth(.25,.60,rho)*(1-smooth(1.25,1.65,rho));
+    return (target-p)*gate;
+}
+
+vector rest=@P;
+float amp=detail(1,"inflation_amplitude",0),roundness=.65;
+float ax=abs(rest.x),side=rest.x<0?-1:1;
+float mask=smooth(.49,.555,rest.y)*(1-smooth(.667,.73,rest.y))
+    *(1-smooth(-.045,.015,rest.z))*(1-smooth(.18,.22,ax));
+if(amp>0) {
+    float lateral=ch("../CONTROLS/lateral"),vertical=ch("../CONTROLS/vertical");
+    float projection=ch("../CONTROLS/projection"),separation=ch("../CONTROLS/separation");
+    float upper=ch("../CONTROLS/upper_pole"),lower=ch("../CONTROLS/lower_pole");
+    vector authored=rest;
+    if(mask>0) {
+        float cleft=1-ch("../CONTROLS/cleft_hold")*.7*(1-smooth(.004,.035,ax));
+        float a=amp*mask*cleft,sx=1+a*lateral,cs=1+a*separation,cx=.073;
+        float nx=ax<=cx?cx*cs*pow(min(ax/cx,1),sx/cs):cx*cs+(ax-cx)*sx;
+        float pole=lerp(lower,upper,smooth(.595,.625,rest.y));
+        authored=set(side*nx,rest.y+a*(rest.y-.61)*vertical*pole,
+                      rest.z-a*(.025-rest.z)*projection);
+    }
+    vector center=set(.073*(1+amp*separation),.61,-.043-amp*.068*projection);
+    vector radii=set(.088*(1+amp*lateral),.078*(1+amp*vertical*(upper+lower)/2),
+                     .089*(1+amp*projection));
+    float dt=roundness*4*(1-exp(-6*amp))/20;
+    for(int i=0;i<20;i++) {
+        vector k1=relax_velocity(authored,center,radii);
+        vector k2=relax_velocity(authored+dt*k1/2,center,radii);
+        vector k3=relax_velocity(authored+dt*k2/2,center,radii);
+        vector k4=relax_velocity(authored+dt*k3,center,radii);
+        authored+=dt*(k1+2*k2+2*k3+k4)/6;
+    }
+    @P=authored;
+}
+f@rainee_mask=mask;

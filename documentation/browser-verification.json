@@ -1,0 +1,59 @@
+{
+  "scope": "Browser render and visible state only; not an anatomical likeness or physics acceptance",
+  "newModels": {
+    "R01": {
+      "vertices": 405713,
+      "triangles": 751140,
+      "visuallyObserved": true
+    },
+    "R02": {
+      "loadedModel": "R02",
+      "renderedFrames": "3",
+      "sectionSegments": "1284",
+      "sectionY": "0.1888982057571411",
+      "selectedTriangles": "640530",
+      "selection": "all",
+      "sourceTriangles": "640530",
+      "sourceVertices": "343386"
+    },
+    "R03": {
+      "loadedModel": "R03",
+      "renderedFrames": "4",
+      "sectionSegments": "1406",
+      "sectionY": "0.1877439975738524",
+      "selectedTriangles": "840980",
+      "selection": "all",
+      "sourceTriangles": "840980",
+      "sourceVertices": "452290"
+    },
+    "R04": {
+      "loadedModel": "R04",
+      "renderedFrames": "5",
+      "sectionSegments": "2104",
+      "sectionY": "0.18962600231170645",
+      "selectedTriangles": "1174958",
+      "selection": "all",
+      "sourceTriangles": "1174958",
+      "sourceVertices": "634793"
+    }
+  },
+  "growthStatus": true,
+  "growthEditorLoaded": true,
+  "anatomyHold": {
+    "cachedFrame": "26",
+    "canonicalStature": "2.3951061964035034",
+    "geometryMode": "native",
+    "nextView": "side",
+    "projectedWidth": "352.98436051708165",
+    "proposalVolume": "",
+    "regionDepth": "0.2222146087884903",
+    "regionWidth": "0.4071909934282303",
+    "renderedFrames": "4",
+    "sourceFrame": "49"
+  },
+  "newViewerLogs": [],
+  "proofImages": [
+    "reference-workbench.jpg",
+    "growth-editor.jpg"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "proxy_boundary_edges": 4590,
+  "proxy_nonmanifold_edges": 25441,
+  "proxy_watertight_edge_test": false,
+  "scope": "Working proxy only; not a topology audit of original 15.85M-vertex FBX"
+}

@@ -1,0 +1,49 @@
+{
+  "reference_manifest": "reference-sequence-manifest.json",
+  "assessment": "sequence-assessment.json",
+  "descriptors": "stage-shape-descriptors.json",
+  "reader": "sequence_reader.py",
+  "measurements": "measure_stages.py",
+  "verification": "verification.json",
+  "accepted_frame_numbers": [
+    0,
+    10,
+    18,
+    26
+  ],
+  "endpoint": 26,
+  "rejected_frame_numbers": [
+    49
+  ],
+  "comparison_ready": false,
+  "stage_geometry_previews": {
+    "frame_0000": {
+      "positions": "frame_0000/preview-positions.bin",
+      "triangles": "frame_0000/preview-triangles.bin",
+      "ROI_preview": "frame_0000/local-roi-preview.png",
+      "role_preview": "frame_0000/texture-role-preview.png",
+      "report": "frame_0000/shape-descriptors.json"
+    },
+    "frame_0010": {
+      "positions": "frame_0010/preview-positions.bin",
+      "triangles": "frame_0010/preview-triangles.bin",
+      "ROI_preview": "frame_0010/local-roi-preview.png",
+      "role_preview": "frame_0010/texture-role-preview.png",
+      "report": "frame_0010/shape-descriptors.json"
+    },
+    "frame_0018": {
+      "positions": "frame_0018/preview-positions.bin",
+      "triangles": "frame_0018/preview-triangles.bin",
+      "ROI_preview": "frame_0018/local-roi-preview.png",
+      "role_preview": "frame_0018/texture-role-preview.png",
+      "report": "frame_0018/shape-descriptors.json"
+    },
+    "frame_0026": {
+      "positions": "frame_0026/preview-positions.bin",
+      "triangles": "frame_0026/preview-triangles.bin",
+      "ROI_preview": "frame_0026/local-roi-preview.png",
+      "role_preview": "frame_0026/texture-role-preview.png",
+      "report": "frame_0026/shape-descriptors.json"
+    }
+  }
+}

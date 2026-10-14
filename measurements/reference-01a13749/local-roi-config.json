@@ -1,0 +1,24 @@
+{
+  "status": "Provisional manually chosen 3D ROIs after source geometry preview; not accepted anatomy",
+  "candidate_role_ids": [1, 2],
+  "source_lateral_midline": 0.13,
+  "midline_confidence": "Provisional waist surface center in source Z. The asset is not centered anatomically at source Z=0, and torso is turned.",
+  "selection_intent": "Skin-colored and purple garment surface candidates; remove most red hair, metallic prop and gray base by texture color",
+  "regions": {
+    "rear": {
+      "min": [-0.40, 0.14, -0.15],
+      "max": [0.03, 0.45, 0.52],
+      "confidence": "Provisional butt/pelvis surface patch. Upper thighs and pelvis may overlap; local ROI may truncate attachment."
+    },
+    "waist": {
+      "min": [-0.19, 0.47, -0.23],
+      "max": [0.20, 0.55, 0.28],
+      "confidence": "Provisional narrow torso ROI; arms/cloth/hair may still overlap, inspect candidate preview."
+    },
+    "upper_thigh": {
+      "min": [-0.21, -0.04, -0.15],
+      "max": [0.19, 0.14, 0.48],
+      "confidence": "Provisional upper thigh outside surface; one leg bent, so this is a pose-dependent local descriptor."
+    }
+  }
+}

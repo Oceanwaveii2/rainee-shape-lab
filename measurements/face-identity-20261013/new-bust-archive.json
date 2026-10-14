@@ -1,0 +1,143 @@
+{
+  "new": {
+    "source_path": "C:\\Users\\User\\Downloads\\f9f63233-cc50-4a28-8c61-7c45affbdbbb (1).zip",
+    "archive_bytes": 73325156,
+    "archive_sha256": "66ac8fd7614bf5a448ea69ccc10d4b9ac3a6f9211567c22f8ecaad126ad5d0f5",
+    "total_member_bytes": 73324344,
+    "entries": [
+      {
+        "name": "base.obj",
+        "bytes": 54502025,
+        "compressed_bytes": 54502025,
+        "extension": ".obj",
+        "directory": false,
+        "sha256": "299c5c92cf71000e437509bbbc50e95f9b281df8de32e4ec01e5a3ff949bd599"
+      },
+      {
+        "name": "texture_diffuse_00.png",
+        "bytes": 4284576,
+        "compressed_bytes": 4284576,
+        "extension": ".png",
+        "directory": false,
+        "sha256": "b1e355ee32525d3c84e7129883de26c94202c3a4487f1d27a9a2a662df2eaef2"
+      },
+      {
+        "name": "texture_metallic_00.png",
+        "bytes": 1462286,
+        "compressed_bytes": 1462286,
+        "extension": ".png",
+        "directory": false,
+        "sha256": "b1e2319cf0bd98364544acbabaee337ab1d634482c448d09cb103590a9f0e892"
+      },
+      {
+        "name": "texture_normal_00.png",
+        "bytes": 3371818,
+        "compressed_bytes": 3371818,
+        "extension": ".png",
+        "directory": false,
+        "sha256": "02a18a51ee08f549a61335e107c0b476a8cb7d9b1a0609bfe570c400c93a7d5e"
+      },
+      {
+        "name": "texture_pbr_00.png",
+        "bytes": 2615264,
+        "compressed_bytes": 2615264,
+        "extension": ".png",
+        "directory": false,
+        "sha256": "5b645c80c11d7b8ed69a4d1e65cb43662ea72e23602970a1c721c95d59712532"
+      },
+      {
+        "name": "texture_roughness_00.png",
+        "bytes": 3064810,
+        "compressed_bytes": 3064810,
+        "extension": ".png",
+        "directory": false,
+        "sha256": "c1544667b9380afe8d7e1d259b11935b37ae679ed489365bd8720ce9842626b1"
+      },
+      {
+        "name": "shaded_00.png",
+        "bytes": 4023565,
+        "compressed_bytes": 4023565,
+        "extension": ".png",
+        "directory": false,
+        "sha256": "6e90e03a4b05776b41241cce11315ed66754988263630cf6d92ebd98ed7eb4b9"
+      }
+    ],
+    "read_only": true,
+    "extracted": false,
+    "executed": false
+  },
+  "earlier": {
+    "source_path": "C:\\Users\\User\\Downloads\\f9f63233-cc50-4a28-8c61-7c45affbdbbb.zip",
+    "archive_bytes": 73325156,
+    "archive_sha256": "c743dd886069b8715759c5311b3310392656a74623b5dda019e2005375deacfb",
+    "total_member_bytes": 73324344,
+    "entries": [
+      {
+        "name": "base.obj",
+        "bytes": 54502025,
+        "compressed_bytes": 54502025,
+        "extension": ".obj",
+        "directory": false,
+        "sha256": "299c5c92cf71000e437509bbbc50e95f9b281df8de32e4ec01e5a3ff949bd599"
+      },
+      {
+        "name": "texture_diffuse_00.png",
+        "bytes": 4284576,
+        "compressed_bytes": 4284576,
+        "extension": ".png",
+        "directory": false,
+        "sha256": "b1e355ee32525d3c84e7129883de26c94202c3a4487f1d27a9a2a662df2eaef2"
+      },
+      {
+        "name": "texture_metallic_00.png",
+        "bytes": 1462286,
+        "compressed_bytes": 1462286,
+        "extension": ".png",
+        "directory": false,
+        "sha256": "b1e2319cf0bd98364544acbabaee337ab1d634482c448d09cb103590a9f0e892"
+      },
+      {
+        "name": "texture_normal_00.png",
+        "bytes": 3371818,
+        "compressed_bytes": 3371818,
+        "extension": ".png",
+        "directory": false,
+        "sha256": "02a18a51ee08f549a61335e107c0b476a8cb7d9b1a0609bfe570c400c93a7d5e"
+      },
+      {
+        "name": "texture_pbr_00.png",
+        "bytes": 2615264,
+        "compressed_bytes": 2615264,
+        "extension": ".png",
+        "directory": false,
+        "sha256": "5b645c80c11d7b8ed69a4d1e65cb43662ea72e23602970a1c721c95d59712532"
+      },
+      {
+        "name": "texture_roughness_00.png",
+        "bytes": 3064810,
+        "compressed_bytes": 3064810,
+        "extension": ".png",
+        "directory": false,
+        "sha256": "c1544667b9380afe8d7e1d259b11935b37ae679ed489365bd8720ce9842626b1"
+      },
+      {
+        "name": "shaded_00.png",
+        "bytes": 4023565,
+        "compressed_bytes": 4023565,
+        "extension": ".png",
+        "directory": false,
+        "sha256": "6e90e03a4b05776b41241cce11315ed66754988263630cf6d92ebd98ed7eb4b9"
+      }
+    ],
+    "read_only": true,
+    "extracted": false,
+    "executed": false
+  },
+  "status": "same_member_payloads_different_container",
+  "member_payloads_identical": true,
+  "changed_members": [],
+  "earlier_archive_matches_recorded_worldgen_sha256": true,
+  "action": "No extraction or replacement. Reuse earlier copied bust assets.",
+  "face_authority": "Additional generated3D candidate/reference only; no automatic exact face/camera acceptance or head replacement.",
+  "provenance_inventory": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\worldgen-20261013\\inventory.json"
+}

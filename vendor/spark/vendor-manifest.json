@@ -1,0 +1,7 @@
+{
+  "package": "@sparkjsdev/spark",
+  "version": "2.3.1",
+  "tar_sha256": "63b7ee3c9e253f43071ba50c74d2fcd3768852ef4dcf3c75e1983af70263bd5b",
+  "source": "npm registry package; ignore-scripts used",
+  "local_only": "No user assets uploaded; renderer module and WASM bundled locally"
+}

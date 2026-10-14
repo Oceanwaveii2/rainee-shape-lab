@@ -1,0 +1,900 @@
+{
+  "schema": "rainee-review-package-verification-v1",
+  "passed": true,
+  "strict_budget_decimal_bytes": 100000000,
+  "virtual_routes_restored_exactly": 105,
+  "decoded_assets": [
+    {
+      "route": "measurements/face-identity-20261013/references/frame-0000.png",
+      "sha256": "f4de8ffb4809c91cc6f481960d23aa625893a55f324942abffa551534bc2ed96",
+      "bytes": 1764693,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/face-identity-20261013/references/frame-0010.png",
+      "sha256": "6e65bf5a91145f319dbda6b16e42da9fd002d276d267804588149d6349cd937b",
+      "bytes": 1771504,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/face-identity-20261013/references/frame-0018.png",
+      "sha256": "37253a70ed6d1076083c7e448591708ea12ca4b70d49edd55f04e2b273789e83",
+      "bytes": 1811193,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/face-identity-20261013/references/frame-0026.png",
+      "sha256": "6d235656ee4490a3043006304a6b6df9e066d9898991de319bd9ee77907c7342",
+      "bytes": 1711965,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/full/references/R01/codex-clipboard-97762600-7e14-4167-8c99-63302ada6e59.png",
+      "sha256": "f6b2421bc361c2eb78dcc35811ff17e07d543814bcc726efa88db881f952c0f6",
+      "bytes": 3674806,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/full/references/R02/codex-clipboard-bc2e7d59-6725-4d46-975d-b0e70062d189.png",
+      "sha256": "c101bd4c9ff485a379eeafc26effde90c68081528a3d9be030292a366e88887d",
+      "bytes": 2965474,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/full/references/R03/codex-clipboard-d899cf24-6e2b-4ab1-86a1-b0aa78591cb9.png",
+      "sha256": "fdffd9a1cc63a6a2fa3f7b7a70fe0a56125ca4ef4643ef01a9fc198dc2f49bf6",
+      "bytes": 2448843,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/full/references/R04/codex-clipboard-ec3cdc96-e5e2-461b-9846-f6bf843b4eb9.png",
+      "sha256": "2ae315373baf7b7c932d235cd142e77bbbb369d811b027ee375e0b9ba948ab5c",
+      "bytes": 3992875,
+      "codec": "file",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "houdini/body-v4-rest.bin",
+      "sha256": "ad055ae745bc884146420dfe872e279100de7a538da85be9f12fc2a590590aad",
+      "bytes": 1462812,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "houdini/pelvic-repair/implicit-repaired-triangles.bin",
+      "sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+      "bytes": 3028044,
+      "codec": "gzip",
+      "encoding": "delta-zigzag-shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "houdini/cage-rest.bin",
+      "sha256": "527e33a69bca2f33fde92db434efaa33d06b433c1150d1b3d50346a8a292edb9",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "houdini/cage-triangles.bin",
+      "sha256": "a147e8ef59ff68a13959230ea881e80e8afb9f29afafe3999cf5fc9d2baa7940",
+      "bytes": 36096,
+      "codec": "gzip",
+      "encoding": "delta-zigzag-shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "houdini/body-figurine-native.bin",
+      "sha256": "f82fbb2c1c4cbfb6fb96eaa5dde27155015f3100d23878857b2d20114b6e1537",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/body-triangles.bin",
+      "sha256": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4",
+      "bytes": 3028044,
+      "codec": "gzip",
+      "encoding": "delta-zigzag-shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/cage-triangles.bin",
+      "sha256": "a147e8ef59ff68a13959230ea881e80e8afb9f29afafe3999cf5fc9d2baa7940",
+      "bytes": 36096,
+      "codec": "gzip",
+      "encoding": "delta-zigzag-shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/body-native-flow-1.5x.bin",
+      "sha256": "7bd30acb9acbc8a973e3fba74ce380657d5970f85e50d8b63fb89429f707c282",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/body-native-flow-1x.bin",
+      "sha256": "ad055ae745bc884146420dfe872e279100de7a538da85be9f12fc2a590590aad",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/body-native-flow-2.5x.bin",
+      "sha256": "0a02f1d0c78570afd2e0d5dc808b05e0adcf5267a5abd5139bafc0a62b991554",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/body-native-flow-2x.bin",
+      "sha256": "c266c44ad58a8124d40149c8d9e5ead57e9a434f2c063002fac016037d521e25",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/cage-native-flow-1.5x.bin",
+      "sha256": "5f1c7cec5ca5665d6193cd5a896874403acfbc50744dbc6f2452fd042781c537",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/cage-native-flow-1x.bin",
+      "sha256": "527e33a69bca2f33fde92db434efaa33d06b433c1150d1b3d50346a8a292edb9",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/cage-native-flow-2.5x.bin",
+      "sha256": "6ad40dd798d3e80b015623f15bfdcb8666e3dc5179dd24fe3e2f13bc08a75723",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/cage-native-flow-2x.bin",
+      "sha256": "b6e24f83eb8660fe42d69f1aef1746e970c15b5e7aaff910dc295ae18f4d7822",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0000.bin",
+      "sha256": "ad055ae745bc884146420dfe872e279100de7a538da85be9f12fc2a590590aad",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0001.bin",
+      "sha256": "58a4020b257d4642b1d16cb8f866495f14842cfb1f0e8bbbc72324dc214ca1b5",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0002.bin",
+      "sha256": "a48f7d3f41817e2e23e4a22979d56de5d7150f3554efdb16ec93602529aea43c",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0003.bin",
+      "sha256": "2df876503712aa55ab45c359bd989b16a8a0183df51c2a030a24ec98aea57367",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0004.bin",
+      "sha256": "f16b3b849b76ad11dc04ee62e05e790297746f051f81a8b0cb17e6825b7e2293",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0005.bin",
+      "sha256": "d07ac25a270e13d0e50b26bcbf46a24673bbdf19b2ed7cc0ed05efb294aeb9e1",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0006.bin",
+      "sha256": "5924aff22184302e4f420f5497fc1f9b4f0f5a16c2aed77b6a416e94e611e552",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0007.bin",
+      "sha256": "2ccee3908998a66cd03477bfd4350fd458fd9e91a778c9c10cb5c33e747826f2",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0008.bin",
+      "sha256": "c9712b86eaa4ef3988c4d01e85f74c76ea346edaf398273bfb58b08e6a9c2d1c",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0009.bin",
+      "sha256": "efe0ecbb8ee32368a0607c7017edd882cfc27754c24bdb8f3edc0eabf2f4f370",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0010.bin",
+      "sha256": "7bd30acb9acbc8a973e3fba74ce380657d5970f85e50d8b63fb89429f707c282",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0011.bin",
+      "sha256": "b726c25053607ac091ff10c27e289ec270e775fda483fa04f940fa4b655c9725",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0012.bin",
+      "sha256": "03c73a3ec12bb6090e435844e903bbbacae25a59c34ef69441cab1a71b50190c",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0013.bin",
+      "sha256": "00c44001e4fcf8d8805ed98edc65586aa1f1ff2bb1727aa6b200f5080aa2edac",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0014.bin",
+      "sha256": "d521c2d8e7b7401cf2f40e9db9d5d84ad147cc3a2d417a9c9005bb67d4c7e0c8",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0015.bin",
+      "sha256": "89116dff40b16c9120c44787a2e626b55481077e22edad6d3768dda246557116",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0016.bin",
+      "sha256": "e2b4290392e9018231d89fd0d168ea723c19254ee74bcb99f33be18ba99db8e7",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0017.bin",
+      "sha256": "637521b798c061aadd45858bd41d0f65b8c262d766aef4626e0dc804f7833f2c",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0018.bin",
+      "sha256": "c266c44ad58a8124d40149c8d9e5ead57e9a434f2c063002fac016037d521e25",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0019.bin",
+      "sha256": "5cf982513cdbb600bbf98bc4ee6bc7dcfc6497a1c5cfa34b14948176eb21e091",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0020.bin",
+      "sha256": "80209008bca379e2b86509c8b9ee78b5c83e344a075ca91871d859880bb0323b",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0021.bin",
+      "sha256": "0ce63a24c543619a44345363ad5298639349702372461bf4536d591802091110",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0022.bin",
+      "sha256": "fc93f1a917501c032eafd593130fb52a5d9e6220dc0617f855b490a3754f5118",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0023.bin",
+      "sha256": "13db3532a4ed1f4d4277cbc28a3b08e9249613fbbfc06f9fe7ea2f7d2ce4b68d",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0024.bin",
+      "sha256": "bbe503620cdc28866a0da00b535fcbd8e324b81331509b123b38e913cded194c",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0025.bin",
+      "sha256": "5cbc4b161537a3a27bc2d1f440957fb4721b170ea5e60dd013b48c5a424842d6",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0026.bin",
+      "sha256": "0a02f1d0c78570afd2e0d5dc808b05e0adcf5267a5abd5139bafc0a62b991554",
+      "bytes": 1462812,
+      "codec": "sparse-point-f32",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0000.bin",
+      "sha256": "527e33a69bca2f33fde92db434efaa33d06b433c1150d1b3d50346a8a292edb9",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0001.bin",
+      "sha256": "e3e413338e9510929ebe8a16f5b96661c69b448d1de439a020d133264596279a",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0002.bin",
+      "sha256": "6ec1c9f6e3d77ac437c01f7c15f3d8188220273c1c1e1cab06d355bcfa90efd4",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0003.bin",
+      "sha256": "dba3b51f9033e537327c8887993eec5935b500f20aeee650e63746c857d3e06b",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0004.bin",
+      "sha256": "4484bf79d15e6ac28b1da09a24f7a6582796e28d51edbaac03355e283ede1678",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0005.bin",
+      "sha256": "2e6a3ea989eb30bc8fbb1f3ade572fc72df9a1a8629b22c2e91ffd098a810626",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0006.bin",
+      "sha256": "d9a3f5ed2950da1e47f7c808e715df85a6171aa7fa78e351a9efe955e471797b",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0007.bin",
+      "sha256": "7b1e56c70377939725b3a58e35fbaaf7ef0f91f2d7f00ca6214d63043a9a5d1d",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0008.bin",
+      "sha256": "5ee2da3e25971a652b9e79eb74833f709a963c9dbad54c3bc7970618b53adbaf",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0009.bin",
+      "sha256": "79ef1e373921e308020b001bf25c68291afee9fe87ea04a131a8200de76519ce",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0010.bin",
+      "sha256": "5f1c7cec5ca5665d6193cd5a896874403acfbc50744dbc6f2452fd042781c537",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0011.bin",
+      "sha256": "3ebaf702df49f675f374bb6596371f480f29b4dafed4917dd6ec5372ce22789e",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0012.bin",
+      "sha256": "44632f1ac3fbf411fcd56d95b85b127b8ed882b7b74633559b89db00925317a2",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0013.bin",
+      "sha256": "f964e3c1ff565e38c8a0aebf66cd3c1f8102fb3f1ce187b7239cb5d73d842b41",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0014.bin",
+      "sha256": "35e7484301c8934687c58101d421ac9a36603950bec94ccc7261c37e8d455c89",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0015.bin",
+      "sha256": "c394e1d91ecadf0661c69215c7b6199531fcc6bd0d2b3e50647118818cd5db82",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0016.bin",
+      "sha256": "5b4efae959755ebfffde1020d0b332462fe4165f7c600d78dad24770ea63ba3a",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0017.bin",
+      "sha256": "367437c6fd948a89bc9a9aa7d6477017959de30fd84d84f60afbe3875ef8374f",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0018.bin",
+      "sha256": "b6e24f83eb8660fe42d69f1aef1746e970c15b5e7aaff910dc295ae18f4d7822",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0019.bin",
+      "sha256": "f54f3448a9b6f22bf9861414f950f5e37bc32cc88f844d28f318878e2fd5b5cc",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0020.bin",
+      "sha256": "67d9d2d9ffab6f765f35da1d306117e02ea34306ed73b6dbfe8531b436321867",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0021.bin",
+      "sha256": "0c827d1059d3aa7661586265dca4eec7743fbbd6ca79156fd42de8eac251a4fc",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0022.bin",
+      "sha256": "4a3c5112a87d2dd91f1823b9fe243a5a3366e9e7a4d1e022c21fa29b6a861203",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0023.bin",
+      "sha256": "d1c1c36740daaf6bf670cc364198830232d7a2ed1cc17038c729f6767df24ba0",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0024.bin",
+      "sha256": "6c12e2415a69fec6606659ea77d3807008ff934eb92458f5db966dbbeee4c480",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0025.bin",
+      "sha256": "a775f4af5c996ea56fc1dff46545db8f38043cdff40222ca64b7f8ed786e7146",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/cage-frame_0026.bin",
+      "sha256": "6ad40dd798d3e80b015623f15bfdcb8666e3dc5179dd24fe3e2f13bc08a75723",
+      "bytes": 18072,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/five-frame-20261013/frame_0000/preview-positions.bin",
+      "sha256": "1f4e86901d1648f56a250e78478b5dd09a85bcc232f1a937ef756a9511e196fa",
+      "bytes": 958824,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/five-frame-20261013/frame_0000/preview-triangles.bin",
+      "sha256": "25e4e67a5d4a0fa9066c3a9d4b9e76c10325254940350884c8254754cc6a6c34",
+      "bytes": 2136888,
+      "codec": "gzip",
+      "encoding": "delta-zigzag-shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/five-frame-20261013/frame_0010/preview-positions.bin",
+      "sha256": "76a1ecce6c313148d200932f9197655eead4cb71fada8a72b4a05a97867bfde2",
+      "bytes": 1042968,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/five-frame-20261013/frame_0010/preview-triangles.bin",
+      "sha256": "124b9a3059a56d2ad2d81840f882c4ab2c5b7cba4d3e5a13592bc70f47963389",
+      "bytes": 2319576,
+      "codec": "gzip",
+      "encoding": "delta-zigzag-shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/five-frame-20261013/frame_0018/preview-positions.bin",
+      "sha256": "093ea0bdb40bd77e17545269a5615bf96b9fe69268acc90375553488f05057e7",
+      "bytes": 749964,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/five-frame-20261013/frame_0018/preview-triangles.bin",
+      "sha256": "a6cc6cdd10a906e3d090fc803d7604fc9e31f1cb82b1a7e31e8a26d0d63468c8",
+      "bytes": 1545408,
+      "codec": "gzip",
+      "encoding": "delta-zigzag-shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/five-frame-20261013/frame_0026/preview-positions.bin",
+      "sha256": "cf9b785a69f3773e0d7ad65bb92871b09151ff2d646467546f9e7aa0c327e039",
+      "bytes": 631584,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/five-frame-20261013/frame_0026/preview-triangles.bin",
+      "sha256": "32948ef4759ac66cf85f575cb8976eab7e757eb2b76d73ffcc03c8c7a4a8b2d3",
+      "bytes": 1298484,
+      "codec": "gzip",
+      "encoding": "delta-zigzag-shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/reference-01a13749/preview-colors.bin",
+      "sha256": "9d12ae4ae4938e91c18615de3101b65b858b7d371ff1b17786bf4e84c72fcabd",
+      "bytes": 526776,
+      "codec": "gzip",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/reference-01a13749/preview-positions.bin",
+      "sha256": "a5249c902773782395b6943d16450137e5580e7ed5a5ec32529e99da4b383535",
+      "bytes": 526776,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/reference-01a13749/preview-roi-colors.bin",
+      "sha256": "68422540c3c1bae731fa62996e02d4402ac3b5ece0725926ce6acf5f91a2f2b1",
+      "bytes": 526776,
+      "codec": "gzip",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/reference-01a13749/preview-triangles.bin",
+      "sha256": "d7ebc048d60cfc7fa2aceb00bb52f87c6cfed2c62803f0f3cc4e9315d729db65",
+      "bytes": 1068612,
+      "codec": "gzip",
+      "encoding": "delta-zigzag-shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R01/positions.bin",
+      "sha256": "473b7c2948c88923231b0dffb7d9b870f1db5a091a5b736405a3fb6e357106ed",
+      "bytes": 4868556,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R01/triangle-material-ids.bin",
+      "sha256": "1d743c0494da45052b8b00586589ac47c16465a079a44dea4b6349bd7ee88468",
+      "bytes": 3004560,
+      "codec": "gzip",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R01/triangles.bin",
+      "sha256": "33090af7d788c5b39425e8b99d10e7e902743937345264f757c485113d506305",
+      "bytes": 9013680,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R01/vertex-component-ids.bin",
+      "sha256": "35f3edcd88902b8e5db49b7e4ab7a73e1f7e76880a3556bd5dc0a68e97a04734",
+      "bytes": 1622852,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R02/positions.bin",
+      "sha256": "6438af0bfa236d79ee1f0427e460feba30dcc1b63110f661a47d0959da5bdc46",
+      "bytes": 4120632,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R02/triangle-material-ids.bin",
+      "sha256": "12d3363fd2e18bef60d1a1318e787b6b03571b03f238f3af4475ab30021164b1",
+      "bytes": 2562120,
+      "codec": "gzip",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R02/triangles.bin",
+      "sha256": "9ded643228ffac2f86d701ef11b83250f9375f140cb0429c324f31d9057acf89",
+      "bytes": 7686360,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R02/vertex-component-ids.bin",
+      "sha256": "68d21ed7d1163253230f09e03af46a2f8e3f28ed98ae536ecaed574435e20699",
+      "bytes": 1373544,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R03/positions.bin",
+      "sha256": "bcba2cc025da88e89223a4c6ecba0efe67a5633a23825f34eeed14dd9ac4be42",
+      "bytes": 5427480,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R03/triangle-material-ids.bin",
+      "sha256": "4be2dc7848afc6035b535202f16e2831378c599d530db931580f879340d1edac",
+      "bytes": 3363920,
+      "codec": "gzip",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R03/triangles.bin",
+      "sha256": "7273ed5701a0a6569a3af29075b8608dba6d628cc86a7461c2e1b12a42bec562",
+      "bytes": 10091760,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R03/vertex-component-ids.bin",
+      "sha256": "90d0f82c51247b1903ceb4a87707cae27916093979b26fd2a0d1db0c63a7f1a2",
+      "bytes": 1809160,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R04/positions.bin",
+      "sha256": "49ded0ee33961c2d6be2249a095b1e1ff0a698b13882f3f73ebdc6ab12d62434",
+      "bytes": 7617516,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R04/triangle-material-ids.bin",
+      "sha256": "d7cb1c1e024b918a912f86d350c184b4cd7be4f3bed022211a3069dede1a7690",
+      "bytes": 4699832,
+      "codec": "gzip",
+      "encoding": "bytes",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R04/triangles.bin",
+      "sha256": "d203cb6a222d417c2c424f9762e4c82150352a6654d4e34853770e70ec6daffc",
+      "bytes": 14099496,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R04/vertex-component-ids.bin",
+      "sha256": "866c8eafb5cb43a0f7ab9a2bd16dd53867ce3278c53cf8d26a18d69dbb876934",
+      "bytes": 2539172,
+      "codec": "gzip",
+      "encoding": "shuffle32",
+      "matches_full_local_bytes": true
+    }
+  ],
+  "archive_files_retained_verified": 75,
+  "archive_hash_unchanged": true,
+  "original_videos_retained_verified": 8,
+  "review_duration_within_one_12fps_frame": true,
+  "new_meshes_decimated": false,
+  "source_coordinate_or_index_bits_modified_by_compression": false,
+  "http_checks": [
+    {
+      "route": "houdini/body-v4-rest.bin",
+      "response_hash_verified": true
+    },
+    {
+      "route": "research/rear-rounding/native-study/accepted-sequence/body-frame_0026.bin",
+      "response_hash_verified": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R04/positions.bin",
+      "response_hash_verified": true
+    },
+    {
+      "route": "measurements/canonical-20261014/derived/R04/triangles.bin",
+      "response_hash_verified": true
+    }
+  ],
+  "elapsed_seconds": 7.681983232498169,
+  "scope": "Lossless package/source integrity, review duration and actual HTTP restoration. Browser rendering is recorded separately; anatomical likeness/registration/physics are not certified.",
+  "materialized_geometry_glb_roundtrips": [
+    {
+      "id": "R01",
+      "vertices": 405713,
+      "triangles": 751140,
+      "exported_glb_geometry_matches_retained_world_coordinates": true
+    },
+    {
+      "id": "R02",
+      "vertices": 343386,
+      "triangles": 640530,
+      "exported_glb_geometry_matches_retained_world_coordinates": true
+    },
+    {
+      "id": "R03",
+      "vertices": 452290,
+      "triangles": 840980,
+      "exported_glb_geometry_matches_retained_world_coordinates": true
+    },
+    {
+      "id": "R04",
+      "vertices": 634793,
+      "triangles": 1174958,
+      "exported_glb_geometry_matches_retained_world_coordinates": true
+    }
+  ]
+}

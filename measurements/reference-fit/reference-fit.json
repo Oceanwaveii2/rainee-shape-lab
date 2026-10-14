@@ -1,0 +1,498 @@
+{
+  "status": "needs_registration",
+  "comparison_ready": false,
+  "accepted_winner": null,
+  "target": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\reference-01a13749\\local-shape-constraints.json",
+  "source": "FBX-derived Rainee proxy plus local structural repair",
+  "definitions": {
+    "area_weighted_spans": "Weighted 5th-to-95th percentiles of triangle centroids along lateral/up/depth; weights are true selected triangle areas.",
+    "pca": "Exact area-integrated triangle surface covariance; square roots of ascending eigenvalues relative to the largest. Rotation invariant and independent of planar triangle subdivision for a fixed surface patch.",
+    "membership": "Region selection is applied once to baseline triangle centroids, then locked while Rainee deforms. No dynamic box clipping.",
+    "ratios": "No stature normalization from the target. Ratios within each surface patch or between rear and waist are dimensionless.",
+    "not_measured": "Enclosed anatomical/tissue volume, waist circumference, hidden anatomy, donor height, facial identity, or production artistic match."
+  },
+  "source_regions": {
+    "rear": {
+      "min": [
+        -0.18,
+        0.53,
+        -0.15
+      ],
+      "max": [
+        0.18,
+        0.697,
+        0.01
+      ],
+      "exclude_perineal_core": {
+        "abs_x_max": 0.042,
+        "y_max": 0.615,
+        "z_min": -0.075
+      },
+      "confidence": "Provisional posterior lobe/pelvis ROI, stable selected source triangle IDs; perineal core excluded."
+    },
+    "waist": {
+      "min": [
+        -0.1,
+        0.695,
+        -0.08
+      ],
+      "max": [
+        0.1,
+        0.724,
+        0.1
+      ],
+      "confidence": "Provisional central narrow torso surface window. Source is incomplete, so no closed waist circumference is claimed."
+    }
+  },
+  "target_regions": {
+    "rear": {
+      "min": [
+        -0.4,
+        0.14,
+        -0.15
+      ],
+      "max": [
+        0.03,
+        0.45,
+        0.52
+      ],
+      "confidence": "Provisional butt/pelvis surface patch. Upper thighs and pelvis may overlap; local ROI may truncate attachment."
+    },
+    "waist": {
+      "min": [
+        -0.19,
+        0.47,
+        -0.23
+      ],
+      "max": [
+        0.2,
+        0.55,
+        0.28
+      ],
+      "confidence": "Provisional narrow torso ROI; arms/cloth/hair may still overlap, inspect candidate preview."
+    },
+    "upper_thigh": {
+      "min": [
+        -0.21,
+        -0.04,
+        -0.15
+      ],
+      "max": [
+        0.19,
+        0.14,
+        0.48
+      ],
+      "confidence": "Provisional upper thigh outside surface; one leg bent, so this is a pose-dependent local descriptor."
+    }
+  },
+  "target_axis_mapping": {
+    "lateral": "source Z",
+    "height": "source Y",
+    "depth": "source X"
+  },
+  "registration": {
+    "axes_accepted": false,
+    "local_pelvis_pose_accepted": false,
+    "ROI_correspondence_accepted": false
+  },
+  "target_shared_descriptors": {
+    "rear": {
+      "triangles": 51003,
+      "positive_area_triangles": 51003,
+      "surface_area": 0.4908097886135425,
+      "weighted_centroid": [
+        0.18528589741435203,
+        0.2891637275327544,
+        -0.17160962075217778
+      ],
+      "weighted_quantile_05": [
+        -0.0868386305284013,
+        0.15522484026998962,
+        -0.335338785506371
+      ],
+      "weighted_quantile_95": [
+        0.4902964133699577,
+        0.43845122091629,
+        0.016646630167527605
+      ],
+      "weighted_spans": {
+        "lateral": 0.577135043898359,
+        "height": 0.2832263806463004,
+        "depth": 0.35198541567389857
+      },
+      "pca_std_axes_ascending": [
+        0.092199080632351,
+        0.11515868880410639,
+        0.20191092213553677
+      ],
+      "depth_over_width": 0.6098839767142745,
+      "width_over_height": 2.037716411096248,
+      "pca_middle_over_major": 0.5703440288723153,
+      "pca_minor_over_major": 0.45663245780463774,
+      "open_surface_patch": true
+    },
+    "waist": {
+      "triangles": 16533,
+      "positive_area_triangles": 16533,
+      "surface_area": 0.09731336946564964,
+      "weighted_centroid": [
+        0.15290921450591194,
+        0.5052242904302167,
+        0.05399135434505795
+      ],
+      "weighted_quantile_05": [
+        0.034055845903555794,
+        0.4730849584406436,
+        -0.16410166318683708
+      ],
+      "weighted_quantile_95": [
+        0.27282493218460135,
+        0.5435761878040698,
+        0.1843326268039012
+      ],
+      "weighted_spans": {
+        "lateral": 0.23876908628104557,
+        "height": 0.07049122936342622,
+        "depth": 0.3484342899907383
+      },
+      "pca_std_axes_ascending": [
+        0.01885658041749784,
+        0.07326947685936548,
+        0.11210035276487121
+      ],
+      "depth_over_width": 1.459293979039691,
+      "width_over_height": 3.3872169408486568,
+      "pca_middle_over_major": 0.6536061221238715,
+      "pca_minor_over_major": 0.1682116064081371,
+      "open_surface_patch": true
+    }
+  },
+  "target_shared_features": {
+    "rear_depth_over_width": 0.6098839767142745,
+    "rear_width_over_height": 2.037716411096248,
+    "rear_pca_middle_over_major": 0.5703440288723153,
+    "rear_pca_minor_over_major": 0.45663245780463774,
+    "rear_to_waist_width": 2.4171263243811905,
+    "rear_to_waist_depth": 1.0101916653589251
+  },
+  "source_baseline": {
+    "parameters": {
+      "volume": 1.0,
+      "lateral": 1.0,
+      "vertical": 1.0,
+      "projection": 1.0
+    },
+    "amplitude": 0.0,
+    "score": 0.05980025166033354,
+    "data_score": 0.05813358499366687,
+    "regularization_score": 0.0016666666666666666,
+    "features": {
+      "rear_depth_over_width": 0.47934870378629824,
+      "rear_width_over_height": 1.828560093672853,
+      "rear_pca_middle_over_major": 0.5462363316046001,
+      "rear_pca_minor_over_major": 0.44918603718234174,
+      "rear_to_waist_width": 2.629894741974224,
+      "rear_to_waist_depth": 1.9961828878365095
+    },
+    "log_residuals": {
+      "rear_depth_over_width": -0.24084042155656946,
+      "rear_width_over_height": -0.10830095144915056,
+      "rear_pca_middle_over_major": -0.04318801432237957,
+      "rear_pca_minor_over_major": -0.016441678793816545,
+      "rear_to_waist_width": 0.0843644580213797,
+      "rear_to_waist_depth": 0.681096720332696
+    },
+    "measured_cage_volume_ratio": 1.0,
+    "regions": {
+      "rear": {
+        "triangles": 46070,
+        "positive_area_triangles": 46070,
+        "surface_area": 0.2270534022417472,
+        "weighted_centroid": [
+          -0.002593439889659812,
+          0.6155376218798535,
+          -0.049779666722968574
+        ],
+        "weighted_quantile_05": [
+          -0.1341172975407052,
+          0.5399531920529161,
+          -0.12240825959207507
+        ],
+        "weighted_quantile_95": [
+          0.13507049919946487,
+          0.6871661809350471,
+          0.0066265618504149516
+        ],
+        "weighted_spans": {
+          "lateral": 0.26918779674017007,
+          "height": 0.14721298888213097,
+          "depth": 0.12903482144249004
+        },
+        "pca_std_axes_ascending": [
+          0.03933207437055284,
+          0.0478300887385969,
+          0.08756299420452923
+        ],
+        "depth_over_width": 0.47934870378629824,
+        "width_over_height": 1.828560093672853,
+        "pca_middle_over_major": 0.5462363316046001,
+        "pca_minor_over_major": 0.44918603718234174,
+        "open_surface_patch": true
+      },
+      "waist": {
+        "triangles": 3525,
+        "positive_area_triangles": 3525,
+        "surface_area": 0.01963459442666969,
+        "weighted_centroid": [
+          -0.0017057507273404188,
+          0.7064471619156331,
+          0.048770766909546764
+        ],
+        "weighted_quantile_05": [
+          -0.05395761179617351,
+          0.6954492591195782,
+          0.02238669345703996
+        ],
+        "weighted_quantile_95": [
+          0.048399259162888016,
+          0.7223577046630166,
+          0.08702747473452088
+        ],
+        "weighted_spans": {
+          "lateral": 0.10235687095906153,
+          "height": 0.02690844554343841,
+          "depth": 0.06464078127748092
+        },
+        "pca_std_axes_ascending": [
+          0.007777764633667382,
+          0.021732675902438603,
+          0.03455392171109978
+        ],
+        "depth_over_width": 0.6315236160680853,
+        "width_over_height": 3.803893866474986,
+        "pca_middle_over_major": 0.6289496192108753,
+        "pca_minor_over_major": 0.22509064813818008,
+        "open_surface_patch": true
+      }
+    }
+  },
+  "bounds": {
+    "volume": [
+      1.0,
+      2.5
+    ],
+    "lateral": [
+      0.4,
+      1.6
+    ],
+    "vertical": [
+      0.4,
+      1.6
+    ],
+    "projection": [
+      0.4,
+      1.6
+    ]
+  },
+  "metric_weights": {
+    "rear_depth_over_width": 0.45,
+    "rear_width_over_height": 0.45,
+    "rear_pca_middle_over_major": 1.0,
+    "rear_pca_minor_over_major": 1.0,
+    "rear_to_waist_width": 0.2,
+    "rear_to_waist_depth": 0.05
+  },
+  "held_source_controls": {
+    "separation": 0.15,
+    "upper_pole": 1.15,
+    "lower_pole": 1.0,
+    "cleft_hold": 0.75
+  },
+  "equation": "E(theta) = sum_k w_k [log(m_k(theta)/t_k)]^2 + 0.015 ||(theta-theta_prior)/parameter_range||^2",
+  "volume_equation": "Existing cage calibration solves |V_closed_cage(D(theta))| / |V_closed_cage(rest)| = volume by bisection; tissue volume is not measured.",
+  "limitations": [
+    "Target rear/waist color-role ROIs are provisional outside-surface patches; hair, arms, clothing or pelvis overlap may contaminate descriptors.",
+    "Target is posed with turned torso and bent leg. PCA ratios are rotation invariant for a fixed patch, but the patch selection itself is not pose invariant.",
+    "Axis-aligned local spans and rear/waist ratios are low-weight diagnostic cues until local pelvis axes and corresponding patches are accepted.",
+    "No donor height, topology, face, or global proportions are transferred. No enclosed anatomical volume is inferred.",
+    "No numerical optimum is an accepted fit while comparison_ready is false. Artist approval here means accepted correspondence, not permission to execute local analysis."
+  ],
+  "diagnostic_search": {
+    "method": "17 coarse evaluations + bounded Powell, max60 extra objective calls",
+    "evaluations": 77,
+    "optimizer_success": false,
+    "optimizer_message": "Maximum number of function evaluations has been exceeded.",
+    "jacobian_candidates_screened": [
+      {
+        "score": 0.055013116133045006,
+        "samples": 25539,
+        "min_determinant": 0.8582560562391179,
+        "nonpositive": 0
+      }
+    ],
+    "observed_feature_ranges": {
+      "rear_depth_over_width": {
+        "min": 0.47934870378629824,
+        "max": 0.6662459705621453,
+        "target": 0.6098839767142745,
+        "target_below_all_evaluated": false,
+        "target_above_all_evaluated": false
+      },
+      "rear_width_over_height": {
+        "min": 1.518887817705069,
+        "max": 1.8462765929830658,
+        "target": 2.037716411096248,
+        "target_below_all_evaluated": false,
+        "target_above_all_evaluated": true
+      },
+      "rear_pca_middle_over_major": {
+        "min": 0.5462363316046001,
+        "max": 0.6683289300269812,
+        "target": 0.5703440288723153,
+        "target_below_all_evaluated": false,
+        "target_above_all_evaluated": false
+      },
+      "rear_pca_minor_over_major": {
+        "min": 0.44918603718234174,
+        "max": 0.5662554651057804,
+        "target": 0.45663245780463774,
+        "target_below_all_evaluated": false,
+        "target_above_all_evaluated": false
+      },
+      "rear_to_waist_width": {
+        "min": 2.629894741974224,
+        "max": 3.1057928743325616,
+        "target": 2.4171263243811905,
+        "target_below_all_evaluated": true,
+        "target_above_all_evaluated": false
+      },
+      "rear_to_waist_depth": {
+        "min": 1.9961828878365095,
+        "max": 2.9536653510865665,
+        "target": 1.0101916653589251,
+        "target_below_all_evaluated": true,
+        "target_above_all_evaluated": false
+      }
+    },
+    "observed_ranges_limitation": "Ranges cover the evaluated states, not a proof of global infeasibility over continuous parameter bounds.",
+    "registration_independent_field_guard": "Finite-difference field orientation, not triangle contact or artistic acceptance"
+  },
+  "diagnostic_candidate": {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9399461725937943,
+      "vertical": 0.7577143095420192,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07620082376524806,
+    "score": 0.055013116133045006,
+    "data_score": 0.05321717899354292,
+    "regularization_score": 0.0017959371395020883,
+    "features": {
+      "rear_depth_over_width": 0.5114689383108006,
+      "rear_width_over_height": 1.8148931872842584,
+      "rear_pca_middle_over_major": 0.5609739066153151,
+      "rear_pca_minor_over_major": 0.47268325924105475,
+      "rear_to_waist_width": 2.705737622590105,
+      "rear_to_waist_depth": 2.170115634022532
+    },
+    "log_residuals": {
+      "rear_depth_over_width": -0.1759818800862541,
+      "rear_width_over_height": -0.11580315852357653,
+      "rear_pca_middle_over_major": -0.01656534601617495,
+      "rear_pca_minor_over_major": 0.03454670455363029,
+      "rear_to_waist_width": 0.11279519839436862,
+      "rear_to_waist_depth": 0.7646403731689598
+    },
+    "measured_cage_volume_ratio": 1.1707251071929932,
+    "regions": {
+      "rear": {
+        "triangles": 46070,
+        "positive_area_triangles": 46070,
+        "surface_area": 0.25387470873760987,
+        "weighted_centroid": [
+          -0.0024200143121809775,
+          0.61534077537734,
+          -0.056304437426793655
+        ],
+        "weighted_quantile_05": [
+          -0.13774983234207833,
+          0.5370863227486404,
+          -0.13541499026827528
+        ],
+        "weighted_quantile_95": [
+          0.1389913644106486,
+          0.6895697849665093,
+          0.006129535821702336
+        ],
+        "weighted_spans": {
+          "lateral": 0.2767411967527269,
+          "height": 0.1524834622178689,
+          "depth": 0.1415445260899776
+        },
+        "pca_std_axes_ascending": [
+          0.04237057042579968,
+          0.050284802671970226,
+          0.08963839864739513
+        ],
+        "depth_over_width": 0.5114689383108006,
+        "width_over_height": 1.8148931872842584,
+        "pca_middle_over_major": 0.5609739066153151,
+        "pca_minor_over_major": 0.47268325924105475,
+        "open_surface_patch": true
+      },
+      "waist": {
+        "triangles": 3525,
+        "positive_area_triangles": 3525,
+        "surface_area": 0.019692538708112398,
+        "weighted_centroid": [
+          -0.0018530497517244714,
+          0.7064706945089858,
+          0.04853556261182671
+        ],
+        "weighted_quantile_05": [
+          -0.053887932535252966,
+          0.6956733972834388,
+          0.021802420148746494
+        ],
+        "weighted_quantile_95": [
+          0.0483914586526526,
+          0.7223576919497519,
+          0.08702683670557776
+        ],
+        "weighted_spans": {
+          "lateral": 0.10227939118790556,
+          "height": 0.026684294666313058,
+          "depth": 0.06522441655683127
+        },
+        "pca_std_axes_ascending": [
+          0.0077625165134858655,
+          0.022009813318032572,
+          0.03467656827392528
+        ],
+        "depth_over_width": 0.6377082988009024,
+        "width_over_height": 3.832943402361154,
+        "pca_middle_over_major": 0.6347171710928109,
+        "pca_minor_over_major": 0.22385480743556785,
+        "open_surface_patch": true
+      }
+    },
+    "jacobian_guard": {
+      "samples": 25539,
+      "min_determinant": 0.8582560562391179,
+      "nonpositive": 0
+    }
+  },
+  "candidate_checks": {
+    "finite": true,
+    "height_drift": 0.0,
+    "protected_source_points_max_displacement": 0.0,
+    "field_orientation_passed": true
+  },
+  "elapsed_seconds": 6.688626289367676,
+  "input_hashes": {
+    "local-shape-constraints.json": "ec200069aedf243a1e4ba9736aac3715fac19fbc944e38875e24a4c92ab5fec1",
+    "rear_model.py": "e8d292e684b672aa4fb5a89768f50cb8cb0c5bb4752c221ef768a97b2b2b0dba",
+    "cage-rest.bin": "527e33a69bca2f33fde92db434efaa33d06b433c1150d1b3d50346a8a292edb9"
+  }
+}

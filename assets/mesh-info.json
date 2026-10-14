@@ -1,0 +1,28 @@
+{
+  "source": "C:\\Users\\User\\Downloads\\Core Body (Template Only).fbx",
+  "source_vertices": 15853005,
+  "source_polygons": 17673962,
+  "proxy_vertices": 98078,
+  "proxy_triangles": 220971,
+  "source_bounds": {
+    "min": [
+      -0.8095131516456604,
+      -1.220656394958496,
+      -0.30427083373069763
+    ],
+    "max": [
+      0.8095131516456604,
+      1.1744498014450073,
+      0.3604845702648163
+    ]
+  },
+  "source_dimensions_cm": [
+    1.6190263032913208,
+    2.3951061964035034,
+    0.6647554039955139
+  ],
+  "normalization_height_source_units": 2.3951061964035034,
+  "proxy_method": "Vertex clustering, 260 cells along longest dimension; inspection proxy, not production retopology",
+  "rigged": false,
+  "reference_status": "Artist estimates; images do not determine hidden depth or absolute stature"
+}

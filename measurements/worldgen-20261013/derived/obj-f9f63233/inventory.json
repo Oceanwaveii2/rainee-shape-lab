@@ -1,0 +1,562 @@
+{
+  "source": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\worldgen-20261013\\assets\\obj-f9f63233\\base.obj",
+  "source_bytes": 54502025,
+  "source_sha256": "299c5c92cf71000e437509bbbc50e95f9b281df8de32e4ec01e5a3ff949bd599",
+  "vertices": 249768,
+  "triangles": 500000,
+  "bounds": {
+    "min": [
+      -0.819047,
+      0.0,
+      -0.575557
+    ],
+    "max": [
+      0.823114,
+      1.897315,
+      0.572752
+    ],
+    "extent": [
+      1.642161,
+      1.897315,
+      1.148309
+    ]
+  },
+  "tags": {
+    "face_tags": [
+      {
+        "object": "root.10",
+        "group": "",
+        "material": ""
+      },
+      {
+        "object": "root.8",
+        "group": "",
+        "material": ""
+      },
+      {
+        "object": "root.7",
+        "group": "",
+        "material": ""
+      },
+      {
+        "object": "root.6",
+        "group": "",
+        "material": ""
+      },
+      {
+        "object": "root.5",
+        "group": "",
+        "material": ""
+      },
+      {
+        "object": "root.3",
+        "group": "",
+        "material": ""
+      },
+      {
+        "object": "root.1",
+        "group": "",
+        "material": ""
+      },
+      {
+        "object": "root.0",
+        "group": "",
+        "material": ""
+      }
+    ],
+    "objects_polygon_counts": {
+      "root.10": 112946,
+      "root.8": 90516,
+      "root.7": 2904,
+      "root.6": 73948,
+      "root.5": 100194,
+      "root.3": 2896,
+      "root.1": 69654,
+      "root.0": 46942
+    },
+    "groups_polygon_counts": {
+      "": 500000
+    },
+    "materials_polygon_counts": {
+      "": 500000
+    },
+    "mtllib": [],
+    "polygon_size_counts": {
+      "3": 500000
+    }
+  },
+  "component_count": 20,
+  "components": [
+    {
+      "id": 0,
+      "vertices": 55696,
+      "triangles": 111652,
+      "bounds": {
+        "min": [
+          -0.637435,
+          0.000514,
+          -0.575557
+        ],
+        "max": [
+          0.634856,
+          0.888283,
+          0.008558
+        ],
+        "extent": [
+          1.272291,
+          0.887769,
+          0.5841149999999999
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 1,
+      "vertices": 49353,
+      "triangles": 98810,
+      "bounds": {
+        "min": [
+          -0.454681,
+          0.963863,
+          -0.459765
+        ],
+        "max": [
+          0.490073,
+          1.76008,
+          0.201955
+        ],
+        "extent": [
+          0.944754,
+          0.7962170000000001,
+          0.66172
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 2,
+      "vertices": 45258,
+      "triangles": 90516,
+      "bounds": {
+        "min": [
+          -0.622021,
+          0.027571,
+          -0.316518
+        ],
+        "max": [
+          0.625929,
+          1.897315,
+          0.540306
+        ],
+        "extent": [
+          1.24795,
+          1.869744,
+          0.856824
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 3,
+      "vertices": 36208,
+      "triangles": 72500,
+      "bounds": {
+        "min": [
+          0.191292,
+          0.172324,
+          -0.122701
+        ],
+        "max": [
+          0.823114,
+          0.987489,
+          0.533755
+        ],
+        "extent": [
+          0.631822,
+          0.8151649999999999,
+          0.6564559999999999
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 4,
+      "vertices": 33837,
+      "triangles": 67746,
+      "bounds": {
+        "min": [
+          -0.819047,
+          0.191735,
+          -0.121574
+        ],
+        "max": [
+          -0.150362,
+          0.984377,
+          0.534593
+        ],
+        "extent": [
+          0.668685,
+          0.792642,
+          0.656167
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 5,
+      "vertices": 23473,
+      "triangles": 46942,
+      "bounds": {
+        "min": [
+          -0.585035,
+          0.0,
+          -0.287553
+        ],
+        "max": [
+          0.582262,
+          0.576953,
+          0.572752
+        ],
+        "extent": [
+          1.167297,
+          0.576953,
+          0.8603050000000001
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 6,
+      "vertices": 1454,
+      "triangles": 2904,
+      "bounds": {
+        "min": [
+          0.203455,
+          0.896841,
+          -0.185264
+        ],
+        "max": [
+          0.356832,
+          1.041653,
+          -0.02693
+        ],
+        "extent": [
+          0.15337699999999999,
+          0.14481199999999994,
+          0.158334
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 7,
+      "vertices": 1450,
+      "triangles": 2896,
+      "bounds": {
+        "min": [
+          -0.358067,
+          0.897638,
+          -0.183741
+        ],
+        "max": [
+          -0.205636,
+          1.042717,
+          -0.02806
+        ],
+        "extent": [
+          0.152431,
+          0.14507899999999985,
+          0.15568099999999999
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 8,
+      "vertices": 447,
+      "triangles": 890,
+      "bounds": {
+        "min": [
+          -0.412883,
+          0.422537,
+          0.108817
+        ],
+        "max": [
+          -0.363406,
+          0.533474,
+          0.299627
+        ],
+        "extent": [
+          0.04947699999999999,
+          0.11093700000000001,
+          0.19080999999999998
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 9,
+      "vertices": 427,
+      "triangles": 850,
+      "bounds": {
+        "min": [
+          -0.406224,
+          0.510457,
+          -0.073225
+        ],
+        "max": [
+          -0.324228,
+          0.671085,
+          0.015956
+        ],
+        "extent": [
+          0.08199599999999996,
+          0.160628,
+          0.089181
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 10,
+      "vertices": 408,
+      "triangles": 812,
+      "bounds": {
+        "min": [
+          0.345731,
+          0.421865,
+          0.105635
+        ],
+        "max": [
+          0.408751,
+          0.54546,
+          0.270215
+        ],
+        "extent": [
+          0.06301999999999996,
+          0.12359499999999995,
+          0.16457999999999998
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 11,
+      "vertices": 320,
+      "triangles": 636,
+      "bounds": {
+        "min": [
+          0.330618,
+          0.510666,
+          -0.076567
+        ],
+        "max": [
+          0.393308,
+          0.671947,
+          0.013914
+        ],
+        "extent": [
+          0.06268999999999997,
+          0.161281,
+          0.09048099999999999
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 12,
+      "vertices": 315,
+      "triangles": 630,
+      "bounds": {
+        "min": [
+          -0.197614,
+          1.364397,
+          -0.015108
+        ],
+        "max": [
+          -0.091524,
+          1.446697,
+          0.050578
+        ],
+        "extent": [
+          0.10609000000000002,
+          0.08229999999999982,
+          0.065686
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 13,
+      "vertices": 259,
+      "triangles": 514,
+      "bounds": {
+        "min": [
+          0.079661,
+          1.352972,
+          -0.00666
+        ],
+        "max": [
+          0.194354,
+          1.434436,
+          0.051818
+        ],
+        "extent": [
+          0.114693,
+          0.08146399999999998,
+          0.058478
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 14,
+      "vertices": 205,
+      "triangles": 406,
+      "bounds": {
+        "min": [
+          0.355978,
+          0.154581,
+          -0.247873
+        ],
+        "max": [
+          0.470587,
+          0.207867,
+          -0.184051
+        ],
+        "extent": [
+          0.11460899999999996,
+          0.053286,
+          0.06382200000000002
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 15,
+      "vertices": 198,
+      "triangles": 392,
+      "bounds": {
+        "min": [
+          -0.472564,
+          0.153528,
+          -0.24731
+        ],
+        "max": [
+          -0.368516,
+          0.207649,
+          -0.186113
+        ],
+        "extent": [
+          0.10404799999999997,
+          0.054121,
+          0.061197
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 16,
+      "vertices": 131,
+      "triangles": 258,
+      "bounds": {
+        "min": [
+          0.385113,
+          0.072156,
+          -0.45427
+        ],
+        "max": [
+          0.42827,
+          0.124752,
+          -0.41153
+        ],
+        "extent": [
+          0.043157,
+          0.052596000000000004,
+          0.04274
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 17,
+      "vertices": 122,
+      "triangles": 240,
+      "bounds": {
+        "min": [
+          0.211631,
+          0.981663,
+          -0.121461
+        ],
+        "max": [
+          0.264267,
+          1.025303,
+          -0.068472
+        ],
+        "extent": [
+          0.05263599999999996,
+          0.04364000000000012,
+          0.052988999999999994
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 18,
+      "vertices": 121,
+      "triangles": 238,
+      "bounds": {
+        "min": [
+          -0.43262,
+          0.07283,
+          -0.454595
+        ],
+        "max": [
+          -0.389168,
+          0.124427,
+          -0.411642
+        ],
+        "extent": [
+          0.04345199999999999,
+          0.05159699999999999,
+          0.04295300000000002
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    },
+    {
+      "id": 19,
+      "vertices": 86,
+      "triangles": 168,
+      "bounds": {
+        "min": [
+          -0.344045,
+          0.505453,
+          0.285718
+        ],
+        "max": [
+          -0.312423,
+          0.540897,
+          0.335388
+        ],
+        "extent": [
+          0.03162199999999998,
+          0.03544399999999992,
+          0.04966999999999999
+        ]
+      },
+      "interpretation": "unclassified surface component"
+    }
+  ],
+  "calibration_status": "needs_calibration",
+  "anatomical_warning": "Whole asset may include a stand, hair, garments and carried props. No anatomical or stature labels inferred.",
+  "preview": {
+    "method": "vertex clustering for inspection only",
+    "vertices": 136684,
+    "triangles": 283094,
+    "source_coordinate_system": true,
+    "cell_size": 0.01054063888888889,
+    "not_production_retopology": true
+  },
+  "coordinate_units": "not declared by OBJ"
+}

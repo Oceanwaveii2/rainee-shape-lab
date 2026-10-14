@@ -1,0 +1,12 @@
+// Per-lobe growth: radial expansion dominates center separation.
+vector rest=@P;float ax=abs(rest.x),side=rest.x<0?-1:1;
+float mask=smooth(.49,.555,rest.y)*(1-smooth(.667,.73,rest.y))
+    *(1-smooth(-.045,.015,rest.z))*(1-smooth(.18,.22,ax));
+float cleft=1-ch("../CONTROLS/cleft_hold")*.7*(1-smooth(.004,.035,ax));
+float amp=detail(1,"inflation_amplitude",0),a=amp*mask*cleft;
+float sx=1+a*ch("../CONTROLS/lateral"),cs=1+a*ch("../CONTROLS/separation"),cx=.073;
+float nx=ax<=cx?cx*cs*pow(min(ax/cx,1),sx/cs):cx*cs+(ax-cx)*sx;
+float pole=lerp(ch("../CONTROLS/lower_pole"),ch("../CONTROLS/upper_pole"),smooth(.595,.625,rest.y));
+if(mask>0 && amp>0)@P=set(side*nx,rest.y+a*(rest.y-.61)*ch("../CONTROLS/vertical")*pole,
+    rest.z-a*(.025-rest.z)*ch("../CONTROLS/projection"));
+f@rainee_mask=mask;

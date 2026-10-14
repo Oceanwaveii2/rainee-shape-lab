@@ -1,0 +1,341 @@
+{
+  "scene": "Rainee-Volume-Lab-v2.hip",
+  "native_static_cases": [
+    {
+      "rear_ratio": 1,
+      "thigh_controls": {
+        "thigh_fullness": 0,
+        "thigh_outer": 1,
+        "thigh_front": 1,
+        "thigh_inner": 0.45,
+        "thigh_back": 0.25,
+        "thigh_taper": 0.6,
+        "thigh_peak": 0.64
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0,
+      "changed_points": 0,
+      "rear_cage_ratio": 1
+    },
+    {
+      "rear_ratio": 1,
+      "thigh_controls": {
+        "thigh_fullness": 0.35,
+        "thigh_outer": 1,
+        "thigh_front": 1,
+        "thigh_inner": 0.45,
+        "thigh_back": 0.25,
+        "thigh_taper": 0.6,
+        "thigh_peak": 0.64
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0.020084373652935028,
+      "changed_points": 11655,
+      "rear_cage_ratio": 1
+    },
+    {
+      "rear_ratio": 1,
+      "thigh_controls": {
+        "thigh_fullness": 0.65,
+        "thigh_outer": 1,
+        "thigh_front": 1,
+        "thigh_inner": 0.45,
+        "thigh_back": 0.25,
+        "thigh_taper": 0.6,
+        "thigh_peak": 0.64
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0.037299543619155884,
+      "changed_points": 11675,
+      "rear_cage_ratio": 1
+    },
+    {
+      "rear_ratio": 1,
+      "thigh_controls": {
+        "thigh_fullness": 1,
+        "thigh_outer": 2,
+        "thigh_front": 2,
+        "thigh_inner": 1.5,
+        "thigh_back": 1.5,
+        "thigh_taper": 0,
+        "thigh_peak": 0.2
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0.07116172462701797,
+      "changed_points": 11721,
+      "rear_cage_ratio": 1
+    },
+    {
+      "rear_ratio": 1,
+      "thigh_controls": {
+        "thigh_fullness": 1,
+        "thigh_outer": 2,
+        "thigh_front": 2,
+        "thigh_inner": 1.5,
+        "thigh_back": 1.5,
+        "thigh_taper": 1,
+        "thigh_peak": 0.8
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0.13674387335777283,
+      "changed_points": 11583,
+      "rear_cage_ratio": 1
+    },
+    {
+      "rear_ratio": 2,
+      "thigh_controls": {
+        "thigh_fullness": 0,
+        "thigh_outer": 1,
+        "thigh_front": 1,
+        "thigh_inner": 0.45,
+        "thigh_back": 0.25,
+        "thigh_taper": 0.6,
+        "thigh_peak": 0.64
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0,
+      "changed_points": 0,
+      "rear_cage_ratio": 2
+    },
+    {
+      "rear_ratio": 2,
+      "thigh_controls": {
+        "thigh_fullness": 0.35,
+        "thigh_outer": 1,
+        "thigh_front": 1,
+        "thigh_inner": 0.45,
+        "thigh_back": 0.25,
+        "thigh_taper": 0.6,
+        "thigh_peak": 0.64
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0.020084373652935028,
+      "changed_points": 11655,
+      "rear_cage_ratio": 2
+    },
+    {
+      "rear_ratio": 2,
+      "thigh_controls": {
+        "thigh_fullness": 0.65,
+        "thigh_outer": 1,
+        "thigh_front": 1,
+        "thigh_inner": 0.45,
+        "thigh_back": 0.25,
+        "thigh_taper": 0.6,
+        "thigh_peak": 0.64
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0.037299543619155884,
+      "changed_points": 11675,
+      "rear_cage_ratio": 2
+    },
+    {
+      "rear_ratio": 2,
+      "thigh_controls": {
+        "thigh_fullness": 1,
+        "thigh_outer": 2,
+        "thigh_front": 2,
+        "thigh_inner": 1.5,
+        "thigh_back": 1.5,
+        "thigh_taper": 0,
+        "thigh_peak": 0.2
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0.07116172462701797,
+      "changed_points": 11721,
+      "rear_cage_ratio": 2
+    },
+    {
+      "rear_ratio": 2,
+      "thigh_controls": {
+        "thigh_fullness": 1,
+        "thigh_outer": 2,
+        "thigh_front": 2,
+        "thigh_inner": 1.5,
+        "thigh_back": 1.5,
+        "thigh_taper": 1,
+        "thigh_peak": 0.8
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0.13674387335777283,
+      "changed_points": 11583,
+      "rear_cage_ratio": 2
+    },
+    {
+      "rear_ratio": 3,
+      "thigh_controls": {
+        "thigh_fullness": 0,
+        "thigh_outer": 1,
+        "thigh_front": 1,
+        "thigh_inner": 0.45,
+        "thigh_back": 0.25,
+        "thigh_taper": 0.6,
+        "thigh_peak": 0.64
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0,
+      "changed_points": 0,
+      "rear_cage_ratio": 3
+    },
+    {
+      "rear_ratio": 3,
+      "thigh_controls": {
+        "thigh_fullness": 0.35,
+        "thigh_outer": 1,
+        "thigh_front": 1,
+        "thigh_inner": 0.45,
+        "thigh_back": 0.25,
+        "thigh_taper": 0.6,
+        "thigh_peak": 0.64
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0.020084373652935028,
+      "changed_points": 11655,
+      "rear_cage_ratio": 3
+    },
+    {
+      "rear_ratio": 3,
+      "thigh_controls": {
+        "thigh_fullness": 0.65,
+        "thigh_outer": 1,
+        "thigh_front": 1,
+        "thigh_inner": 0.45,
+        "thigh_back": 0.25,
+        "thigh_taper": 0.6,
+        "thigh_peak": 0.64
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0.037299543619155884,
+      "changed_points": 11675,
+      "rear_cage_ratio": 3
+    },
+    {
+      "rear_ratio": 3,
+      "thigh_controls": {
+        "thigh_fullness": 1,
+        "thigh_outer": 2,
+        "thigh_front": 2,
+        "thigh_inner": 1.5,
+        "thigh_back": 1.5,
+        "thigh_taper": 0,
+        "thigh_peak": 0.2
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0.07116172462701797,
+      "changed_points": 11721,
+      "rear_cage_ratio": 3
+    },
+    {
+      "rear_ratio": 3,
+      "thigh_controls": {
+        "thigh_fullness": 1,
+        "thigh_outer": 2,
+        "thigh_front": 2,
+        "thigh_inner": 1.5,
+        "thigh_back": 1.5,
+        "thigh_taper": 1,
+        "thigh_peak": 0.8
+      },
+      "max_height_change_from_authored": 0,
+      "overall_height_drift": 0,
+      "max_protected_change": 0,
+      "max_thigh_displacement": 0.13674387335777283,
+      "changed_points": 11583,
+      "rear_cage_ratio": 3
+    }
+  ],
+  "exports": [
+    {
+      "file": "body-rear-1-thigh-065.bin",
+      "authored_file": "body-1x.bin",
+      "controls": {
+        "fullness": 0.65,
+        "outer": 1,
+        "front": 1,
+        "inner": 0.45,
+        "back": 0.25,
+        "taper": 0.6,
+        "peak": 0.64
+      }
+    },
+    {
+      "file": "body-rear-2-thigh-065.bin",
+      "authored_file": "body-2x.bin",
+      "controls": {
+        "fullness": 0.65,
+        "outer": 1,
+        "front": 1,
+        "inner": 0.45,
+        "back": 0.25,
+        "taper": 0.6,
+        "peak": 0.64
+      }
+    },
+    {
+      "file": "body-sim-72-thigh-065.bin",
+      "authored_file": "body-sim-72.bin",
+      "controls": {
+        "fullness": 0.65,
+        "outer": 1,
+        "front": 1,
+        "inner": 0.45,
+        "back": 0.25,
+        "taper": 0.6,
+        "peak": 0.64
+      }
+    }
+  ],
+  "cached_dynamic_transfer": {
+    "frame": 72,
+    "max_height_change": 0,
+    "max_protected_change": 0,
+    "note": "Native sculpt applied to the existing verified Vellum cache; upstream simulation was not rerun."
+  },
+  "limits": "Transverse artistic sculpt; no measured thigh tissue volume, pose rig, thigh dynamics, or collision certification.",
+  "independent_rear_controls": true,
+  "protected_points": 86357,
+  "native_passed": true,
+  "browser_formula_checks": [
+    {
+      "file": "body-rear-1-thigh-065.bin",
+      "max_position_difference": 2.9802322387695312e-8
+    },
+    {
+      "file": "body-rear-2-thigh-065.bin",
+      "max_position_difference": 2.9802322387695312e-8
+    },
+    {
+      "file": "body-sim-72-thigh-065.bin",
+      "max_position_difference": 2.9802322387695312e-8
+    }
+  ],
+  "browser_formula_passed": true
+}

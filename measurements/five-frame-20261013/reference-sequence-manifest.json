@@ -1,0 +1,1492 @@
+{
+  "sequence": "Rainee accepted ordinal inflation reference",
+  "accepted_frame_numbers": [
+    0,
+    10,
+    18,
+    26
+  ],
+  "rejected_frame_numbers": [
+    49
+  ],
+  "accepted_endpoint": 26,
+  "stage_semantics": "Stage1..4 are ordinal; no physical 4x-volume or stature change is assigned.",
+  "reference_geometry_semantics": "Independent generated3D surfaces are shape evidence; none replaces canonical FBX stature or establishes hidden anatomy.",
+  "external_documents_handling": "Read only as provenance/reference data; no workflow, instruction or script was executed.",
+  "qwen_provenance": {
+    "readme": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\README.txt",
+    "readme_sha256": "f0722e1db1658e5661a23e63776ae085d3436681c69fc8601c024520dbb628a4",
+    "manifest": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\manifest.json",
+    "manifest_sha256": "862469715ad75b6cb7c269a0a836633f8ceba131f4a91c0916004179107aca52",
+    "declared_models_and_process": "Qwen Image2.1 INT8/Qwen3VL/BF16VAE,1024 regeneration thenRealESRGAN_x4plus4096; declaration from supplied README, not runtime verification"
+  },
+  "frames": [
+    {
+      "frame_number": 0,
+      "frame_id": "frame_0000",
+      "accepted": true,
+      "stage_ordinal": 1,
+      "inflation_step_from_baseline": 0,
+      "role": "baseline",
+      "acceptance_authority": "Latest direct user instruction; geometry derivation is not automatically accepted",
+      "original_frame": {
+        "workflow_load_image_reference": [
+          [
+            "selected_five_frames/frame_0000_00.000s.png",
+            "image"
+          ]
+        ],
+        "declared_original_size": [
+          560,
+          560
+        ],
+        "actual_original_present_in_supplied_directories": false,
+        "verification_status": "Original source pixels/hash unavailable here; only workflow/document provenance",
+        "declared_time_seconds_from_filename": [
+          0.0
+        ],
+        "declared_time_is_video_verified": false
+      },
+      "enhanced_versions": [
+        {
+          "kind": "qwen_intermediate_1024",
+          "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0000.png",
+          "sha256": "f4de8ffb4809c91cc6f481960d23aa625893a55f324942abffa551534bc2ed96",
+          "size": [
+            1024,
+            1024
+          ],
+          "declared_sha256": "f4de8ffb4809c91cc6f481960d23aa625893a55f324942abffa551534bc2ed96",
+          "manifest_hash_matches": true,
+          "prompt_id_metadata": "ed2b9455-e6e6-44bc-803d-07718d53d90f",
+          "transformation_kind": "generative image regeneration"
+        },
+        {
+          "kind": "final_4096",
+          "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\final_4096\\frame_0000.png",
+          "sha256": "d4033226125c3f2a0d4ef70faa3187607f9d02ff8ab99f1eaa65061760fba99f",
+          "size": [
+            4096,
+            4096
+          ],
+          "declared_sha256": "d4033226125c3f2a0d4ef70faa3187607f9d02ff8ab99f1eaa65061760fba99f",
+          "manifest_hash_matches": true,
+          "prompt_id_metadata": "ed2b9455-e6e6-44bc-803d-07718d53d90f",
+          "transformation_kind": "upscale of regenerated image, not original"
+        }
+      ],
+      "workflow": {
+        "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\workflows\\frame_0000.json",
+        "sha256": "87cdf22c8df0569b388eeb05d704de1f31df870eac982cbfc84de37ebf660ebe",
+        "executed": false
+      },
+      "derived_3d": {
+        "files": [
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0000\\model.glb",
+            "relative_path": "frame_0000/model.glb",
+            "bytes": 98782800,
+            "sha256": "8a3661df8f3719b0dc9a99674ef9a4f14c86685cbb716de318e1e4038545e1bb"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0000\\model.mtl",
+            "relative_path": "frame_0000/model.mtl",
+            "bytes": 228,
+            "sha256": "bc72e4d25746121a1a8e4ab70b706a20c7c748152b3ad54a67c76b017d0ead3e"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0000\\model.obj",
+            "relative_path": "frame_0000/model.obj",
+            "bytes": 209496500,
+            "sha256": "a6d961b4cfe123611f52f25aeb7572e20142520eab7f5ec962c74df90a37515d"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0000\\model_textures\\base_color.png",
+            "relative_path": "frame_0000/model_textures/base_color.png",
+            "bytes": 55207717,
+            "sha256": "28ce12ed66bf54b275d1259399fc9547eb86d4989fbf6b7c323112e0cc928c42",
+            "image_size": [
+              8192,
+              8192
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0000\\model_textures\\metallic.png",
+            "relative_path": "frame_0000/model_textures/metallic.png",
+            "bytes": 7112699,
+            "sha256": "6775701ced8b159c9bb4315e5835bedad2eb433c11270bfbbba642db06d631a7",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0000\\model_textures\\normal.png",
+            "relative_path": "frame_0000/model_textures/normal.png",
+            "bytes": 10556890,
+            "sha256": "ddf0a3ea6181b0d471421f4ad6a099b73efb7fc08daaa56c1a1df2d65b106588",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0000\\model_textures\\roughness.png",
+            "relative_path": "frame_0000/model_textures/roughness.png",
+            "bytes": 5314353,
+            "sha256": "56c097780aaa9dbcf05117172d09fa5718347cd27517991d4d807ebb9b61a0fc",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0000\\preview.png",
+            "relative_path": "frame_0000/preview.png",
+            "bytes": 120793,
+            "sha256": "b3af93a96937c950d01fc49202e13cd53ea7695dcb3fe90e99cf9bb1ecde301f",
+            "image_size": [
+              512,
+              512
+            ]
+          }
+        ],
+        "obj": {
+          "vertices": 1008376,
+          "polygons": 2018721,
+          "triangles": 2018721,
+          "bounds_inventory_only": {
+            "min": [
+              -0.549819,
+              -0.953191,
+              -0.579236
+            ],
+            "max": [
+              0.552059,
+              0.951221,
+              0.577759
+            ]
+          },
+          "header": [
+            "# Blender 4.4.0",
+            "# www.blender.org"
+          ],
+          "mtllib": [
+            "model.mtl"
+          ],
+          "objects": [
+            "model"
+          ]
+        },
+        "glb": {
+          "asset": {
+            "generator": "pygltflib@v1.16.5",
+            "version": "2.0"
+          },
+          "scene": 0,
+          "scenes": [
+            {
+              "nodes": [
+                0
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "mesh": 0,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            }
+          ],
+          "cameras": [],
+          "animation_count": 0,
+          "skin_count": 0,
+          "mesh_count": 1,
+          "meshes": [
+            {
+              "id": 0,
+              "name": null,
+              "primitives": [
+                {
+                  "mode": 4,
+                  "vertices": 1108576,
+                  "index_count": 6056250,
+                  "position_component_type": 5126,
+                  "position_accessor_min": [
+                    -0.5498189926147461,
+                    -0.9531909823417664,
+                    -0.5792359709739685
+                  ],
+                  "position_accessor_max": [
+                    0.55205899477005,
+                    0.9512209892272949,
+                    0.5777590274810791
+                  ],
+                  "attributes": [
+                    "POSITION",
+                    "NORMAL",
+                    "TEXCOORD_0"
+                  ],
+                  "material": 0,
+                  "extensions": {}
+                }
+              ]
+            }
+          ],
+          "extensions_used": [],
+          "images": [
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 4
+            },
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 5
+            },
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 6
+            }
+          ],
+          "camera_mapping_status": "no_embedded_camera_or_image_extrinsics",
+          "mesh_node_world_matrices": [
+            {
+              "node": 0,
+              "mesh": 0,
+              "matrix_rows": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ]
+            }
+          ]
+        },
+        "image_to_mesh_camera_mapping": "not recorded",
+        "common_topology_correspondence_accepted": false,
+        "stature_transfer_allowed": false,
+        "mtl_texture_references": [
+          "texture_0.png"
+        ],
+        "mtl_missing_references": [
+          "texture_0.png"
+        ],
+        "supplied_base_color_alternative": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0000\\model_textures\\base_color.png"
+      },
+      "provenance_limit": "Folder/frame name establishes packaging association only. No verified generator/source-image hash link or common mesh correspondence is present.",
+      "physical_volume_multiplier": null
+    },
+    {
+      "frame_number": 10,
+      "frame_id": "frame_0010",
+      "accepted": true,
+      "stage_ordinal": 2,
+      "inflation_step_from_baseline": 1,
+      "role": "accepted inflation stage",
+      "acceptance_authority": "Latest direct user instruction; geometry derivation is not automatically accepted",
+      "original_frame": {
+        "workflow_load_image_reference": [
+          [
+            "selected_five_frames/frame_0010_00.417s.png",
+            "image"
+          ]
+        ],
+        "declared_original_size": [
+          560,
+          560
+        ],
+        "actual_original_present_in_supplied_directories": false,
+        "verification_status": "Original source pixels/hash unavailable here; only workflow/document provenance",
+        "declared_time_seconds_from_filename": [
+          0.417
+        ],
+        "declared_time_is_video_verified": false
+      },
+      "enhanced_versions": [
+        {
+          "kind": "qwen_intermediate_1024",
+          "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0010.png",
+          "sha256": "6e65bf5a91145f319dbda6b16e42da9fd002d276d267804588149d6349cd937b",
+          "size": [
+            1024,
+            1024
+          ],
+          "declared_sha256": "6e65bf5a91145f319dbda6b16e42da9fd002d276d267804588149d6349cd937b",
+          "manifest_hash_matches": true,
+          "prompt_id_metadata": "24310ff3-48a6-4dde-b4f2-c60d5b9e9618",
+          "transformation_kind": "generative image regeneration"
+        },
+        {
+          "kind": "final_4096",
+          "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\final_4096\\frame_0010.png",
+          "sha256": "9da181e2cb3f0f448d1e081bb7e8018f9e712a2f768d1f8389c3f4b855264b0f",
+          "size": [
+            4096,
+            4096
+          ],
+          "declared_sha256": "9da181e2cb3f0f448d1e081bb7e8018f9e712a2f768d1f8389c3f4b855264b0f",
+          "manifest_hash_matches": true,
+          "prompt_id_metadata": "24310ff3-48a6-4dde-b4f2-c60d5b9e9618",
+          "transformation_kind": "upscale of regenerated image, not original"
+        }
+      ],
+      "workflow": {
+        "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\workflows\\frame_0010.json",
+        "sha256": "4c7f2c5c353e9a104e41e31efdd4f4b8a4acd43235b5ea6ab95c22063bd21b1e",
+        "executed": false
+      },
+      "derived_3d": {
+        "files": [
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0010\\model.glb",
+            "relative_path": "frame_0010/model.glb",
+            "bytes": 104981408,
+            "sha256": "07ec9f7800848810426b35a10a1a5f3c18b3bbfaed52fa7a443417e18648a4cf"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0010\\model.mtl",
+            "relative_path": "frame_0010/model.mtl",
+            "bytes": 228,
+            "sha256": "be49deb48b81c3f7aaae863ed758d661cf68ee674a52a02884a03ebd76c3b443"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0010\\model.obj",
+            "relative_path": "frame_0010/model.obj",
+            "bytes": 224637904,
+            "sha256": "879834ec751124bc53bfbdb96bd7dda4a5dcf17ddd9c69e0478d258fde1dae85"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0010\\model_textures\\base_color.png",
+            "relative_path": "frame_0010/model_textures/base_color.png",
+            "bytes": 56932518,
+            "sha256": "5f5d54f64fc8d2daa52616cb7f9042fb339ba0c798fb04f416a2cbe811ac3090",
+            "image_size": [
+              8192,
+              8192
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0010\\model_textures\\metallic.png",
+            "relative_path": "frame_0010/model_textures/metallic.png",
+            "bytes": 7237173,
+            "sha256": "05c2beba12355742c98e3eda1e6104f24c05c26034308c94895d792d9400f20d",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0010\\model_textures\\normal.png",
+            "relative_path": "frame_0010/model_textures/normal.png",
+            "bytes": 11304151,
+            "sha256": "d6bd6e6add458a835276fee60c403da0fe2bddd86a6018f290eeb9fe970114fc",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0010\\model_textures\\roughness.png",
+            "relative_path": "frame_0010/model_textures/roughness.png",
+            "bytes": 6098546,
+            "sha256": "788ee344ffd97d7e181b4a6e179e891a82c188fa7b9ccfabb571bf1eb5cb63a2",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0010\\preview.png",
+            "relative_path": "frame_0010/preview.png",
+            "bytes": 131745,
+            "sha256": "02b910fa06a6b0b04304a67d156246e286d3dabe62ab742c058554b2f8a3335c",
+            "image_size": [
+              512,
+              512
+            ]
+          }
+        ],
+        "obj": {
+          "vertices": 1072406,
+          "polygons": 2147542,
+          "triangles": 2147542,
+          "bounds_inventory_only": {
+            "min": [
+              -0.705654,
+              -0.949919,
+              -0.743508
+            ],
+            "max": [
+              0.706003,
+              0.948981,
+              0.740054
+            ]
+          },
+          "header": [
+            "# Blender 4.4.0",
+            "# www.blender.org"
+          ],
+          "mtllib": [
+            "model.mtl"
+          ],
+          "objects": [
+            "model"
+          ]
+        },
+        "glb": {
+          "asset": {
+            "generator": "pygltflib@v1.16.5",
+            "version": "2.0"
+          },
+          "scene": 0,
+          "scenes": [
+            {
+              "nodes": [
+                0
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "mesh": 0,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            }
+          ],
+          "cameras": [],
+          "animation_count": 0,
+          "skin_count": 0,
+          "mesh_count": 1,
+          "meshes": [
+            {
+              "id": 0,
+              "name": null,
+              "primitives": [
+                {
+                  "mode": 4,
+                  "vertices": 1190369,
+                  "index_count": 6442836,
+                  "position_component_type": 5126,
+                  "position_accessor_min": [
+                    -0.7056540250778198,
+                    -0.9499189853668213,
+                    -0.743507981300354
+                  ],
+                  "position_accessor_max": [
+                    0.7060030102729797,
+                    0.948980987071991,
+                    0.7400540113449097
+                  ],
+                  "attributes": [
+                    "POSITION",
+                    "NORMAL",
+                    "TEXCOORD_0"
+                  ],
+                  "material": 0,
+                  "extensions": {}
+                }
+              ]
+            }
+          ],
+          "extensions_used": [],
+          "images": [
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 4
+            },
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 5
+            },
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 6
+            }
+          ],
+          "camera_mapping_status": "no_embedded_camera_or_image_extrinsics",
+          "mesh_node_world_matrices": [
+            {
+              "node": 0,
+              "mesh": 0,
+              "matrix_rows": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ]
+            }
+          ]
+        },
+        "image_to_mesh_camera_mapping": "not recorded",
+        "common_topology_correspondence_accepted": false,
+        "stature_transfer_allowed": false,
+        "mtl_texture_references": [
+          "texture_0.png"
+        ],
+        "mtl_missing_references": [
+          "texture_0.png"
+        ],
+        "supplied_base_color_alternative": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0010\\model_textures\\base_color.png"
+      },
+      "provenance_limit": "Folder/frame name establishes packaging association only. No verified generator/source-image hash link or common mesh correspondence is present.",
+      "physical_volume_multiplier": null
+    },
+    {
+      "frame_number": 18,
+      "frame_id": "frame_0018",
+      "accepted": true,
+      "stage_ordinal": 3,
+      "inflation_step_from_baseline": 2,
+      "role": "accepted inflation stage",
+      "acceptance_authority": "Latest direct user instruction; geometry derivation is not automatically accepted",
+      "original_frame": {
+        "workflow_load_image_reference": [
+          [
+            "selected_five_frames/frame_0018_00.750s.png",
+            "image"
+          ]
+        ],
+        "declared_original_size": [
+          560,
+          560
+        ],
+        "actual_original_present_in_supplied_directories": false,
+        "verification_status": "Original source pixels/hash unavailable here; only workflow/document provenance",
+        "declared_time_seconds_from_filename": [
+          0.75
+        ],
+        "declared_time_is_video_verified": false
+      },
+      "enhanced_versions": [
+        {
+          "kind": "qwen_intermediate_1024",
+          "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0018.png",
+          "sha256": "37253a70ed6d1076083c7e448591708ea12ca4b70d49edd55f04e2b273789e83",
+          "size": [
+            1024,
+            1024
+          ],
+          "declared_sha256": "37253a70ed6d1076083c7e448591708ea12ca4b70d49edd55f04e2b273789e83",
+          "manifest_hash_matches": true,
+          "prompt_id_metadata": "914da63f-517f-4214-84d1-b2724a069d14",
+          "transformation_kind": "generative image regeneration"
+        },
+        {
+          "kind": "final_4096",
+          "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\final_4096\\frame_0018.png",
+          "sha256": "c31e926735155760cc4b7ec7dc9404a51e042f0ebc87fed6c1644e216e5da96d",
+          "size": [
+            4096,
+            4096
+          ],
+          "declared_sha256": "c31e926735155760cc4b7ec7dc9404a51e042f0ebc87fed6c1644e216e5da96d",
+          "manifest_hash_matches": true,
+          "prompt_id_metadata": "914da63f-517f-4214-84d1-b2724a069d14",
+          "transformation_kind": "upscale of regenerated image, not original"
+        }
+      ],
+      "workflow": {
+        "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\workflows\\frame_0018.json",
+        "sha256": "d6c1f2e19e9341542eb6b4879c43d460fc89ca5f09a4680fbbcdfa70b9a4a575",
+        "executed": false
+      },
+      "derived_3d": {
+        "files": [
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0018\\model.glb",
+            "relative_path": "frame_0018/model.glb",
+            "bytes": 57671012,
+            "sha256": "601d1d1b3571ecab881a0c3ff25567a6fc1b9eb487c2b588701817c837f73765"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0018\\model.mtl",
+            "relative_path": "frame_0018/model.mtl",
+            "bytes": 228,
+            "sha256": "9d3f942c9d636c0435d6a26ae9b75e5acc3934f79b28aaec9155f8bc0e54e43d"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0018\\model.obj",
+            "relative_path": "frame_0018/model.obj",
+            "bytes": 95750334,
+            "sha256": "592d3a41a7b999157cd7db8b4d38ba454b8507829ba17410820ace4d352e1a53"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0018\\model_textures\\base_color.png",
+            "relative_path": "frame_0018/model_textures/base_color.png",
+            "bytes": 44255163,
+            "sha256": "c8224ce73855f799f637165bcef7356c56510263851bd6edefbfb39c4ec9c529",
+            "image_size": [
+              8192,
+              8192
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0018\\model_textures\\metallic.png",
+            "relative_path": "frame_0018/model_textures/metallic.png",
+            "bytes": 5420902,
+            "sha256": "2612710a60d6e22d217e62b4d0cfccc3c97f4680ad0fe1ff9dff67a7eca89f73",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0018\\model_textures\\normal.png",
+            "relative_path": "frame_0018/model_textures/normal.png",
+            "bytes": 8193280,
+            "sha256": "5ade07512c5fe09d350aee1ae2a2b510a70e11a1169343245f05f07a8b96c302",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0018\\model_textures\\roughness.png",
+            "relative_path": "frame_0018/model_textures/roughness.png",
+            "bytes": 4916884,
+            "sha256": "617b976e9d68a28e3c8e87bf8f5af73eb60055391a95ae6d905c09cb1583fde4",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0018\\preview.png",
+            "relative_path": "frame_0018/preview.png",
+            "bytes": 118815,
+            "sha256": "7c31fba60dd3763d0efe92db8984fa75be5e61c8bbc571e702a1bf13c5d3acb7",
+            "image_size": [
+              512,
+              512
+            ]
+          }
+        ],
+        "obj": {
+          "vertices": 467834,
+          "polygons": 936157,
+          "triangles": 936157,
+          "bounds_inventory_only": {
+            "min": [
+              -0.736363,
+              -0.951157,
+              -0.700522
+            ],
+            "max": [
+              0.748689,
+              0.951284,
+              0.707936
+            ]
+          },
+          "header": [
+            "# Blender 4.4.0",
+            "# www.blender.org"
+          ],
+          "mtllib": [
+            "model.mtl"
+          ],
+          "objects": [
+            "model"
+          ]
+        },
+        "glb": {
+          "asset": {
+            "generator": "pygltflib@v1.16.5",
+            "version": "2.0"
+          },
+          "scene": 0,
+          "scenes": [
+            {
+              "nodes": [
+                0
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "mesh": 0,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            }
+          ],
+          "cameras": [],
+          "animation_count": 0,
+          "skin_count": 0,
+          "mesh_count": 1,
+          "meshes": [
+            {
+              "id": 0,
+              "name": null,
+              "primitives": [
+                {
+                  "mode": 4,
+                  "vertices": 509751,
+                  "index_count": 2808486,
+                  "position_component_type": 5126,
+                  "position_accessor_min": [
+                    -0.7363629937171936,
+                    -0.9511569738388062,
+                    -0.7005220055580139
+                  ],
+                  "position_accessor_max": [
+                    0.7486889958381653,
+                    0.9512839913368225,
+                    0.7079359889030457
+                  ],
+                  "attributes": [
+                    "POSITION",
+                    "NORMAL",
+                    "TEXCOORD_0"
+                  ],
+                  "material": 0,
+                  "extensions": {}
+                }
+              ]
+            }
+          ],
+          "extensions_used": [],
+          "images": [
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 4
+            },
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 5
+            },
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 6
+            }
+          ],
+          "camera_mapping_status": "no_embedded_camera_or_image_extrinsics",
+          "mesh_node_world_matrices": [
+            {
+              "node": 0,
+              "mesh": 0,
+              "matrix_rows": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ]
+            }
+          ]
+        },
+        "image_to_mesh_camera_mapping": "not recorded",
+        "common_topology_correspondence_accepted": false,
+        "stature_transfer_allowed": false,
+        "mtl_texture_references": [
+          "texture_0.png"
+        ],
+        "mtl_missing_references": [
+          "texture_0.png"
+        ],
+        "supplied_base_color_alternative": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0018\\model_textures\\base_color.png"
+      },
+      "provenance_limit": "Folder/frame name establishes packaging association only. No verified generator/source-image hash link or common mesh correspondence is present.",
+      "physical_volume_multiplier": null
+    },
+    {
+      "frame_number": 26,
+      "frame_id": "frame_0026",
+      "accepted": true,
+      "stage_ordinal": 4,
+      "inflation_step_from_baseline": 3,
+      "role": "correct endpoint",
+      "acceptance_authority": "Latest direct user instruction; geometry derivation is not automatically accepted",
+      "original_frame": {
+        "workflow_load_image_reference": [
+          [
+            "selected_five_frames/frame_0026_01.083s.png",
+            "image"
+          ]
+        ],
+        "declared_original_size": [
+          560,
+          560
+        ],
+        "actual_original_present_in_supplied_directories": false,
+        "verification_status": "Original source pixels/hash unavailable here; only workflow/document provenance",
+        "declared_time_seconds_from_filename": [
+          1.083
+        ],
+        "declared_time_is_video_verified": false
+      },
+      "enhanced_versions": [
+        {
+          "kind": "qwen_intermediate_1024",
+          "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0026.png",
+          "sha256": "6d235656ee4490a3043006304a6b6df9e066d9898991de319bd9ee77907c7342",
+          "size": [
+            1024,
+            1024
+          ],
+          "declared_sha256": "6d235656ee4490a3043006304a6b6df9e066d9898991de319bd9ee77907c7342",
+          "manifest_hash_matches": true,
+          "prompt_id_metadata": "9f106f59-b01e-40dd-819f-43020f51be9a",
+          "transformation_kind": "generative image regeneration"
+        },
+        {
+          "kind": "final_4096",
+          "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\final_4096\\frame_0026.png",
+          "sha256": "4203cb6c12ee250718b69c87d5807b4624f00a8264d1526d9f02e3786899aeda",
+          "size": [
+            4096,
+            4096
+          ],
+          "declared_sha256": "4203cb6c12ee250718b69c87d5807b4624f00a8264d1526d9f02e3786899aeda",
+          "manifest_hash_matches": true,
+          "prompt_id_metadata": "9f106f59-b01e-40dd-819f-43020f51be9a",
+          "transformation_kind": "upscale of regenerated image, not original"
+        }
+      ],
+      "workflow": {
+        "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\workflows\\frame_0026.json",
+        "sha256": "40cfba1758988dac6046aa4072a407ad14f2e990e145da81089f69990cd3b559",
+        "executed": false
+      },
+      "derived_3d": {
+        "files": [
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0026\\model.glb",
+            "relative_path": "frame_0026/model.glb",
+            "bytes": 60828728,
+            "sha256": "fa9cce8ac7acda7790537e042ca31c35c99ac1240d825971212a871587bf04c8"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0026\\model.mtl",
+            "relative_path": "frame_0026/model.mtl",
+            "bytes": 228,
+            "sha256": "be49deb48b81c3f7aaae863ed758d661cf68ee674a52a02884a03ebd76c3b443"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0026\\model.obj",
+            "relative_path": "frame_0026/model.obj",
+            "bytes": 101876107,
+            "sha256": "e657677579b1af4ed4e66d60c63dc46cdbe2b928c36b8238894c246681fa9e10"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0026\\model_textures\\base_color.png",
+            "relative_path": "frame_0026/model_textures/base_color.png",
+            "bytes": 46853709,
+            "sha256": "fc822eb416e6fbf81c7a10721d41a43988aa7837070c353223c938771c8b674d",
+            "image_size": [
+              8192,
+              8192
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0026\\model_textures\\metallic.png",
+            "relative_path": "frame_0026/model_textures/metallic.png",
+            "bytes": 3831991,
+            "sha256": "54ee22280352eac70c1dbf56d33e052c03975088ef8e818686785c2aa9f23a6d",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0026\\model_textures\\normal.png",
+            "relative_path": "frame_0026/model_textures/normal.png",
+            "bytes": 9093060,
+            "sha256": "225ce21c2aafb6ceb3b0fabebfed0797cefb5b029a6f18fe265be35952827492",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0026\\model_textures\\roughness.png",
+            "relative_path": "frame_0026/model_textures/roughness.png",
+            "bytes": 4623853,
+            "sha256": "1d71b74313102911c7fe962e6a7705752c7adeff78b2a153387ca681658a7f1a",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0026\\preview.png",
+            "relative_path": "frame_0026/preview.png",
+            "bytes": 131042,
+            "sha256": "ad5b9d3304e9e0cc23692aa3895e2aaadbaf37305d08630d158a7ff776135ed3",
+            "image_size": [
+              512,
+              512
+            ]
+          }
+        ],
+        "obj": {
+          "vertices": 498449,
+          "polygons": 997163,
+          "triangles": 997163,
+          "bounds_inventory_only": {
+            "min": [
+              -0.605917,
+              -0.952683,
+              -0.516457
+            ],
+            "max": [
+              0.609167,
+              0.951833,
+              0.500443
+            ]
+          },
+          "header": [
+            "# Blender 4.4.0",
+            "# www.blender.org"
+          ],
+          "mtllib": [
+            "model.mtl"
+          ],
+          "objects": [
+            "model"
+          ]
+        },
+        "glb": {
+          "asset": {
+            "generator": "pygltflib@v1.16.5",
+            "version": "2.0"
+          },
+          "scene": 0,
+          "scenes": [
+            {
+              "nodes": [
+                0
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "mesh": 0,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            }
+          ],
+          "cameras": [],
+          "animation_count": 0,
+          "skin_count": 0,
+          "mesh_count": 1,
+          "meshes": [
+            {
+              "id": 0,
+              "name": null,
+              "primitives": [
+                {
+                  "mode": 4,
+                  "vertices": 539487,
+                  "index_count": 2991540,
+                  "position_component_type": 5126,
+                  "position_accessor_min": [
+                    -0.6059169769287109,
+                    -0.9526829719543457,
+                    -0.5164570212364197
+                  ],
+                  "position_accessor_max": [
+                    0.6091669797897339,
+                    0.9518330097198486,
+                    0.5004429817199707
+                  ],
+                  "attributes": [
+                    "POSITION",
+                    "NORMAL",
+                    "TEXCOORD_0"
+                  ],
+                  "material": 0,
+                  "extensions": {}
+                }
+              ]
+            }
+          ],
+          "extensions_used": [],
+          "images": [
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 4
+            },
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 5
+            },
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 6
+            }
+          ],
+          "camera_mapping_status": "no_embedded_camera_or_image_extrinsics",
+          "mesh_node_world_matrices": [
+            {
+              "node": 0,
+              "mesh": 0,
+              "matrix_rows": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ]
+            }
+          ]
+        },
+        "image_to_mesh_camera_mapping": "not recorded",
+        "common_topology_correspondence_accepted": false,
+        "stature_transfer_allowed": false,
+        "mtl_texture_references": [
+          "texture_0.png"
+        ],
+        "mtl_missing_references": [
+          "texture_0.png"
+        ],
+        "supplied_base_color_alternative": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0026\\model_textures\\base_color.png"
+      },
+      "provenance_limit": "Folder/frame name establishes packaging association only. No verified generator/source-image hash link or common mesh correspondence is present.",
+      "physical_volume_multiplier": null
+    },
+    {
+      "frame_number": 49,
+      "frame_id": "frame_0049",
+      "accepted": false,
+      "stage_ordinal": null,
+      "inflation_step_from_baseline": null,
+      "role": "rejected later deflation/proportion drift",
+      "acceptance_authority": "Latest direct user instruction; geometry derivation is not automatically accepted",
+      "original_frame": {
+        "workflow_load_image_reference": [
+          [
+            "selected_five_frames/frame_0049_02.042s.png",
+            "image"
+          ]
+        ],
+        "declared_original_size": [
+          560,
+          560
+        ],
+        "actual_original_present_in_supplied_directories": false,
+        "verification_status": "Original source pixels/hash unavailable here; only workflow/document provenance",
+        "declared_time_seconds_from_filename": [
+          2.042
+        ],
+        "declared_time_is_video_verified": false
+      },
+      "enhanced_versions": [
+        {
+          "kind": "qwen_intermediate_1024",
+          "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0049.png",
+          "sha256": "69a05948009e78718759f20e5fa5f2284a09257fcf9087ff99046f8fcaf94fb0",
+          "size": [
+            1024,
+            1024
+          ],
+          "declared_sha256": "69a05948009e78718759f20e5fa5f2284a09257fcf9087ff99046f8fcaf94fb0",
+          "manifest_hash_matches": true,
+          "prompt_id_metadata": "d4d26acd-2028-4c81-a97b-c6272b3ea15b",
+          "transformation_kind": "generative image regeneration"
+        },
+        {
+          "kind": "final_4096",
+          "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\final_4096\\frame_0049.png",
+          "sha256": "bba764d60b7bbd99145519a5855a299e2fe406f0b79c3754f68d217e7a80e21e",
+          "size": [
+            4096,
+            4096
+          ],
+          "declared_sha256": "bba764d60b7bbd99145519a5855a299e2fe406f0b79c3754f68d217e7a80e21e",
+          "manifest_hash_matches": true,
+          "prompt_id_metadata": "d4d26acd-2028-4c81-a97b-c6272b3ea15b",
+          "transformation_kind": "upscale of regenerated image, not original"
+        }
+      ],
+      "workflow": {
+        "path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\workflows\\frame_0049.json",
+        "sha256": "f4890713a201b4ad4d5d2be890df2f69f22ef3a431bd4eac5000bc1d244951ed",
+        "executed": false
+      },
+      "derived_3d": {
+        "files": [
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0049\\model.glb",
+            "relative_path": "frame_0049/model.glb",
+            "bytes": 79639848,
+            "sha256": "afaca3aa0d1ff1c2e6eb67f9e66a5c0de2c0c69669f18278093c79fe0ac524ac"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0049\\model.mtl",
+            "relative_path": "frame_0049/model.mtl",
+            "bytes": 224,
+            "sha256": "bbc4c2c5908a6fc3ce2a7757e18d2d938fb9254a98a3316614e04b9b36f53d10"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0049\\model.obj",
+            "relative_path": "frame_0049/model.obj",
+            "bytes": 145293665,
+            "sha256": "2d8f66a792d02bb34bb337b3bb604307ca14145f654ef7e89b1d3ea8fa82c815"
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0049\\model_textures\\base_color.png",
+            "relative_path": "frame_0049/model_textures/base_color.png",
+            "bytes": 52240459,
+            "sha256": "5dfad9dcf4aa645f2f71e8451cc18b0112c735e830b0591578cd23b971f9f7b9",
+            "image_size": [
+              8192,
+              8192
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0049\\model_textures\\metallic.png",
+            "relative_path": "frame_0049/model_textures/metallic.png",
+            "bytes": 6746801,
+            "sha256": "7d6e803d6a37d387e62d6898aedd64fa89a58192f3dfc7bf16b48aca415340fa",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0049\\model_textures\\normal.png",
+            "relative_path": "frame_0049/model_textures/normal.png",
+            "bytes": 10550098,
+            "sha256": "33039a8236797e768922175581c58509c8a2f8f9aea6eaff7b662d58264712b8",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0049\\model_textures\\roughness.png",
+            "relative_path": "frame_0049/model_textures/roughness.png",
+            "bytes": 6126589,
+            "sha256": "473b83d0bd0f168470144c532c08ea22661b4b6f225a628fbba60dc3eed792b6",
+            "image_size": [
+              4096,
+              4096
+            ]
+          },
+          {
+            "path": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0049\\preview.png",
+            "relative_path": "frame_0049/preview.png",
+            "bytes": 142877,
+            "sha256": "1d56bbb46dd721e4b9523004e809b1e1d1be379a7db05a400b5586fa0fa1cc12",
+            "image_size": [
+              512,
+              512
+            ]
+          }
+        ],
+        "obj": {
+          "vertices": 704907,
+          "polygons": 1412496,
+          "triangles": 1412496,
+          "bounds_inventory_only": {
+            "min": [
+              -0.601463,
+              -0.95204,
+              -0.511084
+            ],
+            "max": [
+              0.609812,
+              0.948111,
+              0.514163
+            ]
+          },
+          "header": [
+            "# Blender 4.4.0",
+            "# www.blender.org"
+          ],
+          "mtllib": [
+            "model.mtl"
+          ],
+          "objects": [
+            "model"
+          ]
+        },
+        "glb": {
+          "asset": {
+            "generator": "pygltflib@v1.16.5",
+            "version": "2.0"
+          },
+          "scene": 0,
+          "scenes": [
+            {
+              "nodes": [
+                0
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "mesh": 0,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            }
+          ],
+          "cameras": [],
+          "animation_count": 0,
+          "skin_count": 0,
+          "mesh_count": 1,
+          "meshes": [
+            {
+              "id": 0,
+              "name": null,
+              "primitives": [
+                {
+                  "mode": 4,
+                  "vertices": 783801,
+                  "index_count": 4238340,
+                  "position_component_type": 5126,
+                  "position_accessor_min": [
+                    -0.6014630198478699,
+                    -0.9520400166511536,
+                    -0.5110840201377869
+                  ],
+                  "position_accessor_max": [
+                    0.6098120212554932,
+                    0.9481109976768494,
+                    0.5141630172729492
+                  ],
+                  "attributes": [
+                    "POSITION",
+                    "NORMAL",
+                    "TEXCOORD_0"
+                  ],
+                  "material": 0,
+                  "extensions": {}
+                }
+              ]
+            }
+          ],
+          "extensions_used": [],
+          "images": [
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 4
+            },
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 5
+            },
+            {
+              "mimeType": "image/jpeg",
+              "bufferView": 6
+            }
+          ],
+          "camera_mapping_status": "no_embedded_camera_or_image_extrinsics",
+          "mesh_node_world_matrices": [
+            {
+              "node": 0,
+              "mesh": 0,
+              "matrix_rows": [
+                [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  1.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ]
+            }
+          ]
+        },
+        "image_to_mesh_camera_mapping": "not recorded",
+        "common_topology_correspondence_accepted": false,
+        "stature_transfer_allowed": false,
+        "mtl_texture_references": [
+          "texture_0.png"
+        ],
+        "mtl_missing_references": [
+          "texture_0.png"
+        ],
+        "supplied_base_color_alternative": "C:\\Users\\User\\Downloads\\Five-Frame-3D-Handoff\\frame_0049\\model_textures\\base_color.png"
+      },
+      "provenance_limit": "Folder/frame name establishes packaging association only. No verified generator/source-image hash link or common mesh correspondence is present.",
+      "physical_volume_multiplier": null
+    }
+  ],
+  "comparability": {
+    "body_height_calibrated": false,
+    "local_pelvis_axes_accepted": false,
+    "mesh_correspondence_accepted": false,
+    "image_camera_extrinsics_available": false,
+    "accepted_image_stages_dont_accept_synthesized_backside": true
+  },
+  "cross_dataset_payload_mapping": {
+    "worldgen_obj_f9f63233_sha256": "299c5c92cf71000e437509bbbc50e95f9b281df8de32e4ec01e5a3ff949bd599",
+    "exact_OBJ_payload_match_to_any_stage": false,
+    "SPZ_or_worldgen_frame_association": "Not established; no original frame IDs/hashes or camera calibration link these mesh sets to scene splats."
+  }
+}

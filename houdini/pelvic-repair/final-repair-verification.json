@@ -1,0 +1,48 @@
+{
+  "outside_source_triangles_verbatim": true,
+  "outside_source_triangle_count": 180520,
+  "baseline_application_identity": true,
+  "rendered_height_drift": 0.0,
+  "core_edges": 22290,
+  "core_edges_all_two_faces": true,
+  "deformed_states": [
+    {
+      "state": "body-v3-1x.bin",
+      "finite": true,
+      "height_drift_from_state": 0.0,
+      "all_original_state_points_retained_exactly": true,
+      "core_zero_area_faces": 0
+    },
+    {
+      "state": "body-v3-1.5x.bin",
+      "finite": true,
+      "height_drift_from_state": 0.0,
+      "all_original_state_points_retained_exactly": true,
+      "core_zero_area_faces": 0
+    },
+    {
+      "state": "body-v3-2x.bin",
+      "finite": true,
+      "height_drift_from_state": 0.0,
+      "all_original_state_points_retained_exactly": true,
+      "core_zero_area_faces": 0
+    },
+    {
+      "state": "body-rear-2-thigh-065.bin",
+      "finite": true,
+      "height_drift_from_state": 0.0,
+      "all_original_state_points_retained_exactly": true,
+      "core_zero_area_faces": 0
+    }
+  ],
+  "source_hashes": {
+    "positions.bin": "bed29180dc5f62f68a22a67d68ddb9947ce3ba5d7059ecfb81b9530d27725ad6",
+    "triangles.bin": "0558b7ac7246e17349c1c56eb51613990d37d9dd75e3da4b9e8f44a5f4db4e91"
+  },
+  "final_hashes": {
+    "positions": "ad055ae745bc884146420dfe872e279100de7a538da85be9f12fc2a590590aad",
+    "triangles": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4"
+  },
+  "pass": true,
+  "limits": "Verifies structural core and protected distant records; does not prove self-contact, production watertight topology, or final artistic fidelity."
+}

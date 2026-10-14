@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "signed 24-bit fixed-point positions match known values",
+    "gzip timestamp variants deduplicate by raw payload hash",
+    "unsafe archive paths rejected",
+    "truncated SPZ attributes rejected"
+  ],
+  "scope": "importer correctness only; no anatomical volume or renderer fidelity claim"
+}

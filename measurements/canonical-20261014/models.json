@@ -1,0 +1,148 @@
+{
+  "schema": "rainee-canonical-geometry-only-v1",
+  "models": [
+    {
+      "id": "R01",
+      "label": "assets/BlondeFlowerFigurine",
+      "reference_file": "references/R01/codex-clipboard-97762600-7e14-4167-8c99-63302ada6e59.png",
+      "reference_sha256": "f6b2421bc361c2eb78dcc35811ff17e07d543814bcc726efa88db881f952c0f6",
+      "reference_image_size": [
+        1536,
+        2304
+      ],
+      "positions": "derived/R01/positions.bin",
+      "triangles": "derived/R01/triangles.bin",
+      "measurements": "derived/R01/measurements.json",
+      "vertices": 405713,
+      "triangle_count": 751140,
+      "source_bounds": {
+        "min": [
+          -0.5466639995574951,
+          -0.9521809816360474,
+          -0.6062930226325989
+        ],
+        "max": [
+          0.5453959703445435,
+          0.9514170289039612,
+          0.6123890280723572
+        ],
+        "extent": [
+          1.0920599699020386,
+          1.9035980105400085,
+          1.218682050704956
+        ]
+      },
+      "pack_declared_role": "Canonical rear three-quarter silhouette, body flow, hip-to-buttock transition, and long hair flow.",
+      "reviewed_anatomical_regions": false,
+      "scale_registration": false
+    },
+    {
+      "id": "R02",
+      "label": "assets/GoldCatFigurine",
+      "reference_file": "references/R02/codex-clipboard-bc2e7d59-6725-4d46-975d-b0e70062d189.png",
+      "reference_sha256": "c101bd4c9ff485a379eeafc26effde90c68081528a3d9be030292a366e88887d",
+      "reference_image_size": [
+        1792,
+        1984
+      ],
+      "positions": "derived/R02/positions.bin",
+      "triangles": "derived/R02/triangles.bin",
+      "measurements": "derived/R02/measurements.json",
+      "vertices": 343386,
+      "triangle_count": 640530,
+      "source_bounds": {
+        "min": [
+          -0.6603140234947205,
+          -0.9534850120544434,
+          -0.24365000426769257
+        ],
+        "max": [
+          0.6582940220832825,
+          0.9504870176315308,
+          0.23645000159740448
+        ],
+        "extent": [
+          1.318608045578003,
+          1.9039720296859741,
+          0.48010000586509705
+        ]
+      },
+      "pack_declared_role": "Canonical full-length front view for pelvic contour, hip curves, leg placement, and lower-body continuity.",
+      "reviewed_anatomical_regions": false,
+      "scale_registration": false
+    },
+    {
+      "id": "R03",
+      "label": "assets/CatEaredFigurine",
+      "reference_file": "references/R03/codex-clipboard-d899cf24-6e2b-4ab1-86a1-b0aa78591cb9.png",
+      "reference_sha256": "fdffd9a1cc63a6a2fa3f7b7a70fe0a56125ca4ef4643ef01a9fc198dc2f49bf6",
+      "reference_image_size": [
+        1408,
+        2176
+      ],
+      "positions": "derived/R03/positions.bin",
+      "triangles": "derived/R03/triangles.bin",
+      "measurements": "derived/R03/measurements.json",
+      "vertices": 452290,
+      "triangle_count": 840980,
+      "source_bounds": {
+        "min": [
+          -0.5173010230064392,
+          -0.9510679841041565,
+          -0.2698040008544922
+        ],
+        "max": [
+          0.49182501435279846,
+          0.9469519853591919,
+          0.26863399147987366
+        ],
+        "extent": [
+          1.0091260373592377,
+          1.8980199694633484,
+          0.5384379923343658
+        ]
+      },
+      "pack_declared_role": "Canonical face, bust, very large hips, and tall, leggy, strongly curvy overall proportions.",
+      "reviewed_anatomical_regions": false,
+      "scale_registration": false
+    },
+    {
+      "id": "R04",
+      "label": "assets/FoxCupFigurine",
+      "reference_file": "references/R04/codex-clipboard-ec3cdc96-e5e2-461b-9846-f6bf843b4eb9.png",
+      "reference_sha256": "2ae315373baf7b7c932d235cd142e77bbbb369d811b027ee375e0b9ba948ab5c",
+      "reference_image_size": [
+        2048,
+        2048
+      ],
+      "positions": "derived/R04/positions.bin",
+      "triangles": "derived/R04/triangles.bin",
+      "measurements": "derived/R04/measurements.json",
+      "vertices": 634793,
+      "triangle_count": 1174958,
+      "source_bounds": {
+        "min": [
+          -0.6382759809494019,
+          -0.95210200548172,
+          -0.6737350225448608
+        ],
+        "max": [
+          0.6380379796028137,
+          0.9507780075073242,
+          0.6686639785766602
+        ],
+        "extent": [
+          1.2763139605522156,
+          1.9028800129890442,
+          1.342399001121521
+        ]
+      },
+      "pack_declared_role": "Supplementary reference for the extreme overinflated-butt variant and its rear silhouette.",
+      "reviewed_anatomical_regions": false,
+      "scale_registration": false
+    }
+  ],
+  "height_anchor": "Existing FBX stature 2.3951061964035034 source units; donor bounds are not stature.",
+  "roles_reviewed": false,
+  "larger_build_pair": "Not explicitly mapped by the current request. R03/R04 descriptions suggest candidates only. All four builds are retained."
+}

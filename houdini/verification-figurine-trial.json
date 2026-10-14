@@ -1,0 +1,21 @@
+{
+  "scene": "Rainee-Figurine-Projection-Trial.hip",
+  "status": "native_static_verified_provisional_reference_fit",
+  "automatic_adoption": false,
+  "native_verify_network_healthy": true,
+  "error_nodes": [],
+  "native_cage_volume_ratio": 1.1707255840301514,
+  "native_minimum_sampled_jacobian": 0.8532665371894836,
+  "source_stature_height": 2.395106,
+  "points": 113383,
+  "triangles": 252337,
+  "thigh_fullness": 0,
+  "simulation": false,
+  "limits": "Candidate extracted from provisional local surface descriptors; pose and ROI correspondence remain unregistered. Contact and dynamic behavior unverified. Original v4 preserved.",
+  "native_to_candidate_max_position_difference": 0.0038238167762756348,
+  "native_to_candidate_original_source_max_difference": 5.960464477539063e-08,
+  "native_to_candidate_patch_max_difference": 0.0038238167762756348,
+  "max_difference_point": 101994,
+  "normalized_body_file": "body-figurine-native.bin",
+  "cache_policy": "Browser displays actual native output; frozen fitting candidate preserved separately."
+}

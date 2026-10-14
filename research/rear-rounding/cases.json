@@ -1,0 +1,82 @@
+{
+  "source_body": "assets/positions.bin",
+  "comparison": "houdini/body-v3-2.5x.bin",
+  "source_points": 98078,
+  "neutral_identity": true,
+  "authored_ratio": 2.5,
+  "amplitude": 0.4870648286305368,
+  "source_lobe_fit": {
+    "centers_x": [
+      -0.073,
+      0.073
+    ],
+    "center_y": 0.61,
+    "center_z": -0.043,
+    "radii": [
+      0.088,
+      0.078,
+      0.089
+    ]
+  },
+  "limits": "Actual-body artistic ray normalization; no established visual match, anatomical volume or triangle-contact certification. Corrective changes the measured cage ratio, reported separately.",
+  "cases": [
+    {
+      "file": "body-2.5x-round-0.35.bin",
+      "roundness": 0.35,
+      "point_count": 98078,
+      "body_cook_seconds": 0.06115199998021126,
+      "measured_corrected_cage_ratio": 2.5338086024359314,
+      "height_drift": 0.0,
+      "protected_displacement": 0.0,
+      "minimum_sampled_body_jacobian": 0.2346372062428887,
+      "negative_sampled_body_jacobians": 0,
+      "maximum_corrective_displacement": 0.01586375495967847,
+      "changed_points": 21411,
+      "finite": true,
+      "medial_crossings": 0
+    },
+    {
+      "file": "body-2.5x-round-0.65.bin",
+      "roundness": 0.65,
+      "point_count": 98078,
+      "body_cook_seconds": 0.09368980000726879,
+      "measured_corrected_cage_ratio": 2.563850836424628,
+      "height_drift": 0.0,
+      "protected_displacement": 0.0,
+      "minimum_sampled_body_jacobian": 0.06365393323844125,
+      "negative_sampled_body_jacobians": 0,
+      "maximum_corrective_displacement": 0.029461263453125677,
+      "changed_points": 21441,
+      "finite": true,
+      "medial_crossings": 0
+    },
+    {
+      "file": "body-2.5x-round-0.90.bin",
+      "roundness": 0.9,
+      "point_count": 98078,
+      "body_cook_seconds": 0.06337969994638115,
+      "measured_corrected_cage_ratio": 2.5896496273394245,
+      "height_drift": 0.0,
+      "protected_displacement": 0.0,
+      "minimum_sampled_body_jacobian": -0.11215500215892764,
+      "negative_sampled_body_jacobians": 154,
+      "maximum_corrective_displacement": 0.040792520530998515,
+      "changed_points": 21458,
+      "finite": true,
+      "medial_crossings": 0
+    }
+  ],
+  "volume_matched_candidate": {
+    "file": "body-2.5x-round-0.65-volume-fit.bin",
+    "roundness": 0.65,
+    "amplitude": 0.4723725569138031,
+    "point_count": 98078,
+    "measured_corrected_cage_ratio": 2.499999999313888,
+    "minimum_sampled_body_jacobian": 0.09905621205195854,
+    "negative_sampled_body_jacobians": 0,
+    "height_drift": 0.0,
+    "protected_displacement": 0.0,
+    "finite": true,
+    "medial_crossings": 0
+  }
+}

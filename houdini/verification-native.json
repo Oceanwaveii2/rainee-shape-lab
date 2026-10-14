@@ -1,0 +1,142 @@
+{
+  "static": [
+    {
+      "target_ratio": 0.65,
+      "actual_cage_ratio": 0.6499999761581421,
+      "height_normalized": 0.9997964708600193,
+      "height_source_units": 2.39461886882782,
+      "protected_points": 72539,
+      "max_protected_displacement": 0.0,
+      "cage_volume": 0.003225815249606967
+    },
+    {
+      "target_ratio": 1,
+      "actual_cage_ratio": 1.0,
+      "height_normalized": 0.9997964708600193,
+      "height_source_units": 2.39461886882782,
+      "protected_points": 72539,
+      "max_protected_displacement": 0.0,
+      "cage_volume": 0.004962792620062828
+    },
+    {
+      "target_ratio": 1.5,
+      "actual_cage_ratio": 1.5,
+      "height_normalized": 0.9997964708600193,
+      "height_source_units": 2.39461886882782,
+      "protected_points": 72539,
+      "max_protected_displacement": 0.0,
+      "cage_volume": 0.007444189395755529
+    },
+    {
+      "target_ratio": 2,
+      "actual_cage_ratio": 2.0,
+      "height_normalized": 0.9997964708600193,
+      "height_source_units": 2.39461886882782,
+      "protected_points": 72539,
+      "max_protected_displacement": 0.0,
+      "cage_volume": 0.009925585240125656
+    },
+    {
+      "target_ratio": 3,
+      "actual_cage_ratio": 3.0,
+      "height_normalized": 0.9997964708600193,
+      "height_source_units": 2.39461886882782,
+      "protected_points": 72539,
+      "max_protected_displacement": 0.0,
+      "cage_volume": 0.014888378791511059
+    }
+  ],
+  "dynamic": [
+    {
+      "frame": 1,
+      "target_ratio": 1.0,
+      "target_volume": 0.004962792620062828,
+      "simulated_volume": 0.004962792805688068,
+      "relative_volume_error": 3.740338438784523e-08,
+      "elapsed_seconds": 3.8969674999825656,
+      "solver_errors": [],
+      "solver_warnings": []
+    },
+    {
+      "frame": 12,
+      "target_ratio": 1.0,
+      "target_volume": 0.004962792620062828,
+      "simulated_volume": 0.0049627975168094795,
+      "relative_volume_error": 9.866917734170383e-07,
+      "elapsed_seconds": 16.275839000009,
+      "solver_errors": [],
+      "solver_warnings": []
+    },
+    {
+      "frame": 24,
+      "target_ratio": 1.0,
+      "target_volume": 0.004962792620062828,
+      "simulated_volume": 0.004962802652044228,
+      "relative_volume_error": 2.0214387680742207e-06,
+      "elapsed_seconds": 23.552432799944654,
+      "solver_errors": [],
+      "solver_warnings": []
+    },
+    {
+      "frame": 36,
+      "target_ratio": 1.25,
+      "target_volume": 0.006203490775078535,
+      "simulated_volume": 0.006161021605731373,
+      "relative_volume_error": 0.006846011525925796,
+      "elapsed_seconds": 33.83757360000163,
+      "solver_errors": [],
+      "solver_warnings": []
+    },
+    {
+      "frame": 48,
+      "target_ratio": 1.5,
+      "target_volume": 0.007444189395755529,
+      "simulated_volume": 0.007409558184015751,
+      "relative_volume_error": 0.004652113198453077,
+      "elapsed_seconds": 41.43703489995096,
+      "solver_errors": [],
+      "solver_warnings": []
+    },
+    {
+      "frame": 60,
+      "target_ratio": 1.75,
+      "target_volume": 0.008684887550771236,
+      "simulated_volume": 0.008656138358646988,
+      "relative_volume_error": 0.0033102549637151722,
+      "elapsed_seconds": 50.95293839997612,
+      "solver_errors": [],
+      "solver_warnings": []
+    },
+    {
+      "frame": 72,
+      "target_ratio": 2.0,
+      "target_volume": 0.009925585240125656,
+      "simulated_volume": 0.009900871492814012,
+      "relative_volume_error": 0.002489903286683286,
+      "elapsed_seconds": 58.32513089990243,
+      "solver_errors": [],
+      "solver_warnings": []
+    }
+  ],
+  "cage_closed_manifold_edge_test": true,
+  "dynamic_smoke_passed": true,
+  "note": "Dynamics smoke test only. Volume residuals are recorded; this is not a production collision or rig certification.",
+  "exported_simulated_body_checks": [
+    {
+      "frame": 24,
+      "height_drift": 0.0,
+      "max_protected_displacement": 0.0
+    },
+    {
+      "frame": 48,
+      "height_drift": 0.0,
+      "max_protected_displacement": 0.0
+    },
+    {
+      "frame": 72,
+      "height_drift": 0.0,
+      "max_protected_displacement": 0.0
+    }
+  ],
+  "max_sampled_volume_error": 0.006846011525925796
+}

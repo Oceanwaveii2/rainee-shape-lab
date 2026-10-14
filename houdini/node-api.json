@@ -1,0 +1,3936 @@
+{
+  "vellumconstraints": {
+    "type": "vellumconstraints",
+    "parameters": [
+      {
+        "name": "constrainttype",
+        "label": "Constraint Type",
+        "value": "1",
+        "menu": [
+          [
+            "none",
+            "None"
+          ],
+          [
+            "distance",
+            "Distance Along Edges"
+          ],
+          [
+            "bend",
+            "Bend Across Triangles"
+          ],
+          [
+            "cloth",
+            "Cloth"
+          ],
+          [
+            "hair",
+            "Hair"
+          ],
+          [
+            "string",
+            "String"
+          ],
+          [
+            "pin",
+            "Pin to Target"
+          ],
+          [
+            "attach",
+            "Attach to Geometry"
+          ],
+          [
+            "stitch",
+            "Stitch Points"
+          ],
+          [
+            "pressure",
+            "Pressure"
+          ],
+          [
+            "tetvolume",
+            "Tetrahedral Volume"
+          ],
+          [
+            "weld",
+            "Weld Points"
+          ],
+          [
+            "glue",
+            "Glue"
+          ],
+          [
+            "struts",
+            "Struts"
+          ],
+          [
+            "tetfiber",
+            "Tetrahedral Fiber"
+          ],
+          [
+            "tristretch",
+            "Triangle Stretch"
+          ],
+          [
+            "tetstretch",
+            "Tetrahedral Stretch"
+          ],
+          [
+            "shapematch",
+            "Shape Match"
+          ],
+          [
+            "surfacestruts",
+            "Surface Struts"
+          ]
+        ]
+      },
+      {
+        "name": "stretchtype",
+        "label": "Stretch Type",
+        "value": "0",
+        "menu": [
+          [
+            "distance",
+            "Distance Along Edges"
+          ],
+          [
+            "tristretch",
+            "Triangle Stretch"
+          ]
+        ]
+      },
+      {
+        "name": "bendtype",
+        "label": "Bend Type",
+        "value": "0",
+        "menu": [
+          [
+            "angle",
+            "Angle"
+          ],
+          [
+            "distance",
+            "Distance"
+          ]
+        ]
+      },
+      {
+        "name": "preservevol",
+        "label": "Preserve Volume",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "linear",
+        "label": "Model",
+        "value": "2",
+        "menu": [
+          [
+            "off",
+            "Non-Linear ARAP"
+          ],
+          [
+            "on",
+            "Linear ARAP"
+          ],
+          [
+            "normarap",
+            "Scale-Invariant ARAP"
+          ]
+        ]
+      },
+      {
+        "name": "folder8",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "grouptype",
+        "label": "Group Type",
+        "value": "0",
+        "menu": [
+          [
+            "prims",
+            "Primitives"
+          ],
+          [
+            "points",
+            "Points"
+          ],
+          [
+            "edges",
+            "Edges"
+          ]
+        ]
+      },
+      {
+        "name": "group",
+        "label": "Group",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "triangulation",
+        "label": "Triangulation",
+        "value": "2",
+        "menu": [
+          [
+            "none",
+            "None"
+          ],
+          [
+            "regular",
+            "Regular"
+          ],
+          [
+            "alternating",
+            "Alternating"
+          ]
+        ]
+      },
+      {
+        "name": "domass",
+        "label": "Mass",
+        "value": "0",
+        "menu": [
+          [
+            "off",
+            "Unchanged"
+          ],
+          [
+            "on",
+            "Set Uniform"
+          ],
+          [
+            "calcuniform",
+            "Calculate Uniform"
+          ],
+          [
+            "calcvarying",
+            "Calculate Varying"
+          ]
+        ]
+      },
+      {
+        "name": "mass",
+        "label": "Mass",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "density",
+        "label": "Density",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "scaledensitymode",
+        "label": "scaledensitymode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ]
+        ]
+      },
+      {
+        "name": "scaledensityattrib",
+        "label": "Density Attribute",
+        "value": "density",
+        "menu": []
+      },
+      {
+        "name": "dothickness",
+        "label": "Thickness",
+        "value": "0",
+        "menu": [
+          [
+            "off",
+            "Unchanged"
+          ],
+          [
+            "on",
+            "Set Uniform"
+          ],
+          [
+            "calcuniform",
+            "Calculate Uniform"
+          ],
+          [
+            "calcvarying",
+            "Calculate Varying"
+          ]
+        ]
+      },
+      {
+        "name": "thickness",
+        "label": "Thickness",
+        "value": "0.01",
+        "menu": []
+      },
+      {
+        "name": "thicknessscale",
+        "label": "Edge Length Scale",
+        "value": "0.25",
+        "menu": []
+      },
+      {
+        "name": "scalethicknessmode",
+        "label": "scalethicknessmode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ]
+        ]
+      },
+      {
+        "name": "scalethicknessattrib",
+        "label": "Thickness Attribute",
+        "value": "thickness",
+        "menu": []
+      },
+      {
+        "name": "vizthickness",
+        "label": "Visualize Thickness",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "piecemode",
+        "label": "Define Pieces",
+        "value": "1",
+        "menu": [
+          [
+            "attribute",
+            "From Attribute"
+          ],
+          [
+            "connectivity",
+            "From Connectivity"
+          ]
+        ]
+      },
+      {
+        "name": "neighbordist",
+        "label": "Neighbor Distance",
+        "value": "2",
+        "menu": []
+      },
+      {
+        "name": "pieceattrib",
+        "label": "Piece Attrib",
+        "value": "class",
+        "menu": []
+      },
+      {
+        "name": "dolayer",
+        "label": "Layer",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "layer",
+        "label": "Layer",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "computeorient",
+        "label": "Compute Missing Orientation",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "orientframe",
+        "label": "Rest Orientation Frame",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "showguide",
+        "label": "Show Guide Geometry",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "folder7",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "targetgrouptype",
+        "label": "Target Group Type",
+        "value": "0",
+        "menu": [
+          [
+            "prims",
+            "Primitives"
+          ],
+          [
+            "points",
+            "Points"
+          ],
+          [
+            "edges",
+            "Edges"
+          ]
+        ]
+      },
+      {
+        "name": "targetgroup",
+        "label": "Target Group",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "targetpath",
+        "label": "Target Path",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "doattachframe",
+        "label": "doattachframe",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "attachframe",
+        "label": "Attach Frame",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "folder9",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "dragnormal",
+        "label": "Normal Drag",
+        "value": "10.0",
+        "menu": []
+      },
+      {
+        "name": "dragtangent",
+        "label": "Tangent Drag",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "folder3",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "pingroup",
+        "label": "Pin Points",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "pintype",
+        "label": "Pin Type",
+        "value": "0",
+        "menu": [
+          [
+            "hard",
+            "Permanent"
+          ],
+          [
+            "stopped",
+            "Stopped"
+          ],
+          [
+            "soft",
+            "Soft"
+          ]
+        ]
+      },
+      {
+        "name": "pinrotation",
+        "label": "Orientation Pin Type",
+        "value": "1",
+        "menu": [
+          [
+            "none",
+            "None"
+          ],
+          [
+            "same",
+            "Same as Position"
+          ],
+          [
+            "soft",
+            "Soft"
+          ]
+        ]
+      },
+      {
+        "name": "matchanimation",
+        "label": "Match Animation",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "folder2",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "useclosestpt",
+        "label": "Constrain to Closest Point",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "useclosestprim",
+        "label": "Use Closest Location on Primitive",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "maxdistcheck",
+        "label": "maxdistcheck",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "maxdist",
+        "label": "Max Distance",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "dosliding",
+        "label": "dosliding",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "slidingrate",
+        "label": "Sliding Rate",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "slidingscalemode",
+        "label": "Label",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ]
+        ]
+      },
+      {
+        "name": "slidingattrib",
+        "label": "Sliding Attribute",
+        "value": "slidingscale",
+        "menu": []
+      },
+      {
+        "name": "folder6",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "glue_usecluster",
+        "label": "Label",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "glue_clusterattrib",
+        "label": "Cluster Attrib",
+        "value": "cluster",
+        "menu": []
+      },
+      {
+        "name": "glue_minradius",
+        "label": "Min Search Dist",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "glue_radius",
+        "label": "Max Search Dist",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "glue_numpt",
+        "label": "Max Search Points",
+        "value": "10",
+        "menu": []
+      },
+      {
+        "name": "glue_searchpref",
+        "label": "Search Preference",
+        "value": "0",
+        "menu": [
+          [
+            "nearest",
+            "Nearest"
+          ],
+          [
+            "farthest",
+            "Farthest"
+          ]
+        ]
+      },
+      {
+        "name": "glue_constraintsperpt",
+        "label": "Constraints Per Point",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "glue_detach_chance",
+        "label": "Detach Object Chance",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "glue_point_chance",
+        "label": "Detach Point Chance",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "glue_seed",
+        "label": "Seed",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "folder10",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "strut_maxlen",
+        "label": "Max Strut Length",
+        "value": "100.0",
+        "menu": []
+      },
+      {
+        "name": "strut_usedirattrib",
+        "label": "Direction Attribute",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "strut_dirattrib",
+        "label": "Direction Attribute",
+        "value": "N",
+        "menu": []
+      },
+      {
+        "name": "strut_invertnormal",
+        "label": "Invert Normals",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "strut_testnormals",
+        "label": "Test Normals",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "strut_jitter",
+        "label": "Direction Jitter",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "strut_constraintsperpt",
+        "label": "Constraints Per Point",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "strut_point_chance",
+        "label": "Detach Point Chance",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "strut_seed",
+        "label": "Seed",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "strut_rayoff",
+        "label": "Ray Offset",
+        "value": "0.01",
+        "menu": []
+      },
+      {
+        "name": "folder0",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "stretchstiffness",
+        "label": "Stiffness",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "stretchstiffnessexp",
+        "label": "   \u00d7",
+        "value": "10",
+        "menu": [
+          [
+            "10",
+            "1e+10"
+          ],
+          [
+            "9",
+            "1e+9"
+          ],
+          [
+            "8",
+            "1e+8"
+          ],
+          [
+            "7",
+            "1e+7"
+          ],
+          [
+            "6",
+            "1 000 000"
+          ],
+          [
+            "5",
+            "100 000"
+          ],
+          [
+            "4",
+            "10 000"
+          ],
+          [
+            "3",
+            "1 000"
+          ],
+          [
+            "2",
+            "100"
+          ],
+          [
+            "1",
+            "10"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "-1",
+            "0.1"
+          ],
+          [
+            "-2",
+            "0.01"
+          ],
+          [
+            "-3",
+            "0.001"
+          ],
+          [
+            "-4",
+            "0.000 1"
+          ],
+          [
+            "-5",
+            "0.000 01"
+          ],
+          [
+            "-6",
+            "0.000 001"
+          ],
+          [
+            "-7",
+            "1e-7"
+          ],
+          [
+            "-8",
+            "1e-8"
+          ],
+          [
+            "-9",
+            "1e-9"
+          ],
+          [
+            "-10",
+            "1e-10"
+          ]
+        ]
+      },
+      {
+        "name": "stretchstiffnessscalemode",
+        "label": "stretchstiffnessscalemode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ],
+          [
+            "value",
+            "Scale by Value"
+          ],
+          [
+            "attribvalue",
+            "Scale by Both"
+          ]
+        ]
+      },
+      {
+        "name": "stretchstiffnessattrib",
+        "label": "Stiffness Attribute",
+        "value": "stretchstiffness",
+        "menu": []
+      },
+      {
+        "name": "stretchstiffnessscale",
+        "label": "Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "stretchdampingratio",
+        "label": "Damping Ratio",
+        "value": "0.001",
+        "menu": []
+      },
+      {
+        "name": "stretchdampingscalemode",
+        "label": "stretchdampingscalemode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ],
+          [
+            "value",
+            "Scale by Value"
+          ],
+          [
+            "attribvalue",
+            "Scale by Both"
+          ]
+        ]
+      },
+      {
+        "name": "stretchdampingattrib",
+        "label": "Damping Attribute",
+        "value": "stretchdamping",
+        "menu": []
+      },
+      {
+        "name": "stretchdampingscale",
+        "label": "Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "stretchrestscale",
+        "label": "Rest Length Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "docompress",
+        "label": "Enable Compression Settings",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "compressstiffness",
+        "label": "Compression Stiffness",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "compressstiffnessexp",
+        "label": "   \u00d7",
+        "value": "3",
+        "menu": [
+          [
+            "10",
+            "1e+10"
+          ],
+          [
+            "9",
+            "1e+9"
+          ],
+          [
+            "8",
+            "1e+8"
+          ],
+          [
+            "7",
+            "1e+7"
+          ],
+          [
+            "6",
+            "1 000 000"
+          ],
+          [
+            "5",
+            "100 000"
+          ],
+          [
+            "4",
+            "10 000"
+          ],
+          [
+            "3",
+            "1 000"
+          ],
+          [
+            "2",
+            "100"
+          ],
+          [
+            "1",
+            "10"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "-1",
+            "0.1"
+          ],
+          [
+            "-2",
+            "0.01"
+          ],
+          [
+            "-3",
+            "0.001"
+          ],
+          [
+            "-4",
+            "0.000 1"
+          ],
+          [
+            "-5",
+            "0.000 01"
+          ],
+          [
+            "-6",
+            "0.000 001"
+          ],
+          [
+            "-7",
+            "1e-7"
+          ],
+          [
+            "-8",
+            "1e-8"
+          ],
+          [
+            "-9",
+            "1e-9"
+          ],
+          [
+            "-10",
+            "1e-10"
+          ]
+        ]
+      },
+      {
+        "name": "compressstiffnessscalemode",
+        "label": "compressstiffnessscalemode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ],
+          [
+            "value",
+            "Scale by Value"
+          ],
+          [
+            "attribvalue",
+            "Scale by Both"
+          ]
+        ]
+      },
+      {
+        "name": "compressstiffnessattrib",
+        "label": "Compression Stiffness Attribute",
+        "value": "compressstiffness",
+        "menu": []
+      },
+      {
+        "name": "compressstiffnessscale",
+        "label": "Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "dotangent",
+        "label": "Enable Tangent Settings",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "tangentstiffness",
+        "label": "Tangent Stiffness",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "tangentstiffnessexp",
+        "label": "   \u00d7",
+        "value": "3",
+        "menu": [
+          [
+            "10",
+            "1e+10"
+          ],
+          [
+            "9",
+            "1e+9"
+          ],
+          [
+            "8",
+            "1e+8"
+          ],
+          [
+            "7",
+            "1e+7"
+          ],
+          [
+            "6",
+            "1 000 000"
+          ],
+          [
+            "5",
+            "100 000"
+          ],
+          [
+            "4",
+            "10 000"
+          ],
+          [
+            "3",
+            "1 000"
+          ],
+          [
+            "2",
+            "100"
+          ],
+          [
+            "1",
+            "10"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "-1",
+            "0.1"
+          ],
+          [
+            "-2",
+            "0.01"
+          ],
+          [
+            "-3",
+            "0.001"
+          ],
+          [
+            "-4",
+            "0.000 1"
+          ],
+          [
+            "-5",
+            "0.000 01"
+          ],
+          [
+            "-6",
+            "0.000 001"
+          ],
+          [
+            "-7",
+            "1e-7"
+          ],
+          [
+            "-8",
+            "1e-8"
+          ],
+          [
+            "-9",
+            "1e-9"
+          ],
+          [
+            "-10",
+            "1e-10"
+          ]
+        ]
+      },
+      {
+        "name": "dostretchstiffnessdropoff",
+        "label": "dostretchstiffnessfalloff",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "stretchstiffnessdropoff",
+        "label": "Stiffness Dropoff",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "stretchstiffnessdropoffdir",
+        "label": "stretchstiffnessfalloffdir",
+        "value": "1",
+        "menu": [
+          [
+            "increasing",
+            "Increasing"
+          ],
+          [
+            "decreasing",
+            "Decreasing"
+          ]
+        ]
+      },
+      {
+        "name": "dostretchstiffnessdropoffmin",
+        "label": "dostretchstiffnessdropoffmin",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "stretchstiffnessdropoffmin",
+        "label": "Min Stiffness",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "stretchanisotropy",
+        "label": "Enable Warp/Weft",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "folder12",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "stretchwarpscale",
+        "label": "Warp Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "stretchweftscale",
+        "label": "Weft Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "stretchshearscale",
+        "label": "Shear Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "materialuv",
+        "label": "Material UV",
+        "value": "materialuv",
+        "menu": []
+      },
+      {
+        "name": "dostretchvelblend",
+        "label": "dostretchvelblend",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "stretchvelblend",
+        "label": "Velocity Blend",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "stretchvelblendscalemode",
+        "label": "Label",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ]
+        ]
+      },
+      {
+        "name": "stretchvelblendattrib",
+        "label": "Velocity Blend Attribute",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "stretchplasticity",
+        "label": "Enable Plasticity",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "folder4",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "stretchplasticthreshold",
+        "label": "Threshold",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "stretchplasticthresholdscalemode",
+        "label": "stretchplasticthresholdscalemode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ],
+          [
+            "value",
+            "Scale by Value"
+          ],
+          [
+            "attribvalue",
+            "Scale by Both"
+          ]
+        ]
+      },
+      {
+        "name": "stretchplasticthresholdattrib",
+        "label": "Threshold Attribute",
+        "value": "stretchplasticthreshold",
+        "menu": []
+      },
+      {
+        "name": "stretchplasticthresholdscale",
+        "label": "Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "stretchplasticthresholdratio",
+        "label": "Ratio of Current Rest Length",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "stretchplasticrate",
+        "label": "Rate",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "stretchplasticratescalemode",
+        "label": "stretchplasticratescalemode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ],
+          [
+            "value",
+            "Scale by Value"
+          ],
+          [
+            "attribvalue",
+            "Scale by Both"
+          ]
+        ]
+      },
+      {
+        "name": "stretchplasticrateattrib",
+        "label": "Rate Attribute",
+        "value": "stretchplasticrate",
+        "menu": []
+      },
+      {
+        "name": "stretchplasticratescale",
+        "label": "Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "stretchplastichardening",
+        "label": "Hardening",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "stretchplastichardeningscalemode",
+        "label": "stretchplastichardeningmode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ],
+          [
+            "value",
+            "Scale by Value"
+          ],
+          [
+            "attribvalue",
+            "Scale by Both"
+          ]
+        ]
+      },
+      {
+        "name": "stretchplastichardeningattrib",
+        "label": "Hardening Attribute",
+        "value": "stretchplastichardening",
+        "menu": []
+      },
+      {
+        "name": "stretchplastichardeningscale",
+        "label": "Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "dostretchgrp",
+        "label": "dostretchgrp",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "stretchgrp",
+        "label": "Output Group",
+        "value": "stretch",
+        "menu": []
+      },
+      {
+        "name": "keepuniquestretch",
+        "label": "Keep Unique within Output Group",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "folder1",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "bendweld",
+        "label": "Add Bend across Welds",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "bendcopystiffness",
+        "label": "Copy Neighboring Stiffness",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "bendstiffness",
+        "label": "Stiffness",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "bendstiffnessexp",
+        "label": "   \u00d7",
+        "value": "-1",
+        "menu": [
+          [
+            "10",
+            "1e+10"
+          ],
+          [
+            "9",
+            "1e+9"
+          ],
+          [
+            "8",
+            "1e+8"
+          ],
+          [
+            "7",
+            "1e+7"
+          ],
+          [
+            "6",
+            "1 000 000"
+          ],
+          [
+            "5",
+            "100 000"
+          ],
+          [
+            "4",
+            "10 000"
+          ],
+          [
+            "3",
+            "1 000"
+          ],
+          [
+            "2",
+            "100"
+          ],
+          [
+            "1",
+            "10"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "-1",
+            "0.1"
+          ],
+          [
+            "-2",
+            "0.01"
+          ],
+          [
+            "-3",
+            "0.001"
+          ],
+          [
+            "-4",
+            "0.000 1"
+          ],
+          [
+            "-5",
+            "0.000 01"
+          ],
+          [
+            "-6",
+            "0.000 001"
+          ],
+          [
+            "-7",
+            "1e-7"
+          ],
+          [
+            "-8",
+            "1e-8"
+          ],
+          [
+            "-9",
+            "1e-9"
+          ],
+          [
+            "-10",
+            "1e-10"
+          ]
+        ]
+      },
+      {
+        "name": "bendstiffnessscalemode",
+        "label": "bendstiffnessscalemode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ],
+          [
+            "value",
+            "Scale by Value"
+          ],
+          [
+            "attribvalue",
+            "Scale by Both"
+          ]
+        ]
+      },
+      {
+        "name": "bendstiffnessattrib",
+        "label": "Stiffness Attribute",
+        "value": "bendstiffness",
+        "menu": []
+      },
+      {
+        "name": "bendstiffnessscale",
+        "label": "Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "benddampingratio",
+        "label": "Damping Ratio",
+        "value": "0.01",
+        "menu": []
+      },
+      {
+        "name": "benddampingscalemode",
+        "label": "benddampingscalemode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ],
+          [
+            "value",
+            "Scale by Value"
+          ],
+          [
+            "attribvalue",
+            "Scale by Both"
+          ]
+        ]
+      },
+      {
+        "name": "benddampingattrib",
+        "label": "Damping Attribute",
+        "value": "benddamping",
+        "menu": []
+      },
+      {
+        "name": "benddampingscale",
+        "label": "Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "bendrestscale",
+        "label": "Rest Angle Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "dobendstiffnessdropoff",
+        "label": "dobendstiffnessfalloff",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "bendstiffnessdropoff",
+        "label": "Stiffness Dropoff",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "bendstiffnessdropoffdir",
+        "label": "bendstiffnessfalloffdir",
+        "value": "0",
+        "menu": [
+          [
+            "increasing",
+            "Increasing"
+          ],
+          [
+            "decreasing",
+            "Decreasing"
+          ]
+        ]
+      },
+      {
+        "name": "dobendstiffnessdropoffmin",
+        "label": "dobendstiffnessdropoffmin",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "bendstiffnessdropoffmin",
+        "label": "Min Stiffness",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "domaxbranchangle",
+        "label": "domaxbranchangle",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "maxbranchangle",
+        "label": "Max Branch Angle",
+        "value": "10.0",
+        "menu": []
+      },
+      {
+        "name": "bendplasticity",
+        "label": "Enable Plasticity",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "folder5",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "bendplasticthreshold",
+        "label": "Threshold",
+        "value": "10.0",
+        "menu": []
+      },
+      {
+        "name": "bendplasticthresholdscalemode",
+        "label": "bendplasticthresholdscalemode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ],
+          [
+            "value",
+            "Scale by Value"
+          ],
+          [
+            "attribvalue",
+            "Scale by Both"
+          ]
+        ]
+      },
+      {
+        "name": "bendplasticthresholdattrib",
+        "label": "Threshold Attribute",
+        "value": "bendplasticthreshold",
+        "menu": []
+      },
+      {
+        "name": "bendplasticthresholdscale",
+        "label": "Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "bendplasticrate",
+        "label": "Rate",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "bendplasticratescalemode",
+        "label": "bendplasticratescalemode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ],
+          [
+            "value",
+            "Scale by Value"
+          ],
+          [
+            "attribvalue",
+            "Scale by Both"
+          ]
+        ]
+      },
+      {
+        "name": "bendplasticrateattrib",
+        "label": "Rate Attribute",
+        "value": "bendplasticrate",
+        "menu": []
+      },
+      {
+        "name": "bendplasticratescale",
+        "label": "Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "bendplastichardening",
+        "label": "Hardening",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "bendplastichardeningscalemode",
+        "label": "bendplastichardeningmode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ],
+          [
+            "value",
+            "Scale by Value"
+          ],
+          [
+            "attribvalue",
+            "Scale by Both"
+          ]
+        ]
+      },
+      {
+        "name": "bendplastichardeningattrib",
+        "label": "Hardening Attribute",
+        "value": "bendplastichardening",
+        "menu": []
+      },
+      {
+        "name": "bendplastichardeningscale",
+        "label": "Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "dobendgrp",
+        "label": "dobendgrp",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "bendgrp",
+        "label": "Output Group",
+        "value": "bend",
+        "menu": []
+      },
+      {
+        "name": "keepuniquebend",
+        "label": "Keep Unique within Output Group",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "folder11",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "dobreaking",
+        "label": "Enable Breaking",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "breakthreshold",
+        "label": "Threshold",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "breakscalemode",
+        "label": "breakscalemode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ],
+          [
+            "value",
+            "Scale by Value"
+          ],
+          [
+            "attribvalue",
+            "Scale by Both"
+          ]
+        ]
+      },
+      {
+        "name": "breakscaleattrib",
+        "label": "Threshold Attribute",
+        "value": "breakthresholdscale",
+        "menu": []
+      },
+      {
+        "name": "breakscale",
+        "label": "Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "breaktypeall",
+        "label": "Type",
+        "value": "1",
+        "menu": [
+          [
+            "none",
+            "None"
+          ],
+          [
+            "stretchstress",
+            "Stretch Stress"
+          ],
+          [
+            "bendstress",
+            "Bend Stress"
+          ],
+          [
+            "stretchdistance",
+            "Stretch Distance"
+          ],
+          [
+            "stretchratio",
+            "Stretch Ratio"
+          ],
+          [
+            "bendangle",
+            "Bend Angle"
+          ]
+        ]
+      },
+      {
+        "name": "breaktypestretch",
+        "label": "Type",
+        "value": "1",
+        "menu": [
+          [
+            "none",
+            "None"
+          ],
+          [
+            "stretchstress",
+            "Stretch Stress"
+          ],
+          [
+            "stretchdistance",
+            "Stretch Distance"
+          ],
+          [
+            "stretchratio",
+            "Stretch Ratio"
+          ]
+        ]
+      },
+      {
+        "name": "folder13",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "attribpromote",
+        "label": "Promotion Method",
+        "value": "2",
+        "menu": [
+          [
+            "max",
+            "Maximum"
+          ],
+          [
+            "min",
+            "Minimum"
+          ],
+          [
+            "mean",
+            "Average"
+          ],
+          [
+            "mult",
+            "Multiply"
+          ],
+          [
+            "source",
+            "Use Source"
+          ],
+          [
+            "target",
+            "Use Target"
+          ]
+        ]
+      },
+      {
+        "name": "tag",
+        "label": "Tag",
+        "value": "vellumconstraints1",
+        "menu": []
+      },
+      {
+        "name": "statictopology",
+        "label": "Static Topology",
+        "value": "0",
+        "menu": []
+      }
+    ]
+  },
+  "vellumsolver": {
+    "type": "vellumsolver",
+    "parameters": [
+      {
+        "name": "resimulate",
+        "label": "Reset Simulation",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "startframe",
+        "label": "Start Frame",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "folder0_11",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "solvermode",
+        "label": "Solver Mode",
+        "value": "0",
+        "menu": [
+          [
+            "full",
+            "Full"
+          ],
+          [
+            "minimal",
+            "Minimal (Grains and Fluid)"
+          ]
+        ]
+      },
+      {
+        "name": "timescale",
+        "label": "Time Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "dosubstep",
+        "label": "Use Global Substeps",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "substep",
+        "label": "Global Substeps",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "substeps",
+        "label": "Substeps",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "niter",
+        "label": "Constraint Iterations",
+        "value": "100",
+        "menu": []
+      },
+      {
+        "name": "smoothiter",
+        "label": "Smoothing Iterations",
+        "value": "10",
+        "menu": []
+      },
+      {
+        "name": "folder4",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "enablecollisions",
+        "label": "Enable Collisions",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "doselfcollisions",
+        "label": "Self Collisions",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "useground",
+        "label": "Ground Plane",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "groundposx",
+        "label": "Ground Position",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "groundposy",
+        "label": "Ground Position",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "groundposz",
+        "label": "Ground Position",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "collisionsiter",
+        "label": "Collision Passes",
+        "value": "10",
+        "menu": []
+      },
+      {
+        "name": "postcollisioniter",
+        "label": "Post Collision Passes",
+        "value": "3",
+        "menu": []
+      },
+      {
+        "name": "resolveall",
+        "label": "Resolve All Collisions",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "resolveallmax",
+        "label": "Polish Passes",
+        "value": "10",
+        "menu": []
+      },
+      {
+        "name": "layershock",
+        "label": "Layer Shock",
+        "value": "4.0",
+        "menu": []
+      },
+      {
+        "name": "gravityx",
+        "label": "Gravity",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "gravityy",
+        "label": "Gravity",
+        "value": "-9.80665",
+        "menu": []
+      },
+      {
+        "name": "gravityz",
+        "label": "Gravity",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "dowind",
+        "label": "Activation",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "windx",
+        "label": "Built-in Wind",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "windy",
+        "label": "Built-in Wind",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "windz",
+        "label": "Built-in Wind",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "windspeed",
+        "label": "Built-in Wind Speed",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "winddrag",
+        "label": "Built-in Wind Drag",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "veldamping",
+        "label": "Velocity Damping",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "angveldamping",
+        "label": "Angular Damping",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "folder12",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "windshadow_type",
+        "label": "Type",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "None"
+          ],
+          [
+            "ray",
+            "Ray"
+          ]
+        ]
+      },
+      {
+        "name": "windshadow_doexternal",
+        "label": "External Shadow",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "windshadow_externalmask",
+        "label": "External Shadow",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "windshadow_doself",
+        "label": "Self Shadow",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "windshadow_selfmask",
+        "label": "Self Shadow",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "windshadow_maxdistance",
+        "label": "Max Distance",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "windshadow_raybias",
+        "label": "Self Shadow Bias",
+        "value": "0.0001",
+        "menu": []
+      },
+      {
+        "name": "windshadow_coneangle",
+        "label": "Shadow Angle",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "windshadow_samples",
+        "label": "Shadow Samples",
+        "value": "8",
+        "menu": []
+      },
+      {
+        "name": "windshadow_maskfalloff",
+        "label": "Falloff by Distance",
+        "value": "<hou.Ramp is_color=False num_keys=2 data=((t=0.85, 1), (t=0.997386, 0))>",
+        "menu": []
+      },
+      {
+        "name": "windshadow_doblur",
+        "label": "Blur Wind Shadow",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "windshadow_blur_iterations",
+        "label": "Blur Iterations",
+        "value": "4",
+        "menu": []
+      },
+      {
+        "name": "windshadow_blur_influencetype",
+        "label": "Blur Influence Type",
+        "value": "0",
+        "menu": [
+          [
+            "connectivity",
+            "Connectivity"
+          ],
+          [
+            "proximity",
+            "Proximity"
+          ]
+        ]
+      },
+      {
+        "name": "windshadow_blur_proxrad",
+        "label": "Proximity Radius",
+        "value": "0.5",
+        "menu": []
+      },
+      {
+        "name": "windshadow_blur_maxneigh",
+        "label": "Max Neighbors",
+        "value": "20",
+        "menu": []
+      },
+      {
+        "name": "folder2",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "static_threshold",
+        "label": "Static Threshold",
+        "value": "0.5",
+        "menu": []
+      },
+      {
+        "name": "dynamic_scale",
+        "label": "Dynamic Scale",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "friction",
+        "label": "Enable External",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "selffriction",
+        "label": "Enable Self",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "static_sdfscale",
+        "label": "Ground Static Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "dynamic_sdfscale",
+        "label": "Ground Dynamic Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "cacheenabled",
+        "label": "Cache Enabled",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "cachemaxsize",
+        "label": "Cache Memory (MB)",
+        "value": "5000",
+        "menu": []
+      },
+      {
+        "name": "autoresim",
+        "label": "Enable Automatic Resimulation",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "simulationtype",
+        "label": "Simulation Type",
+        "value": "1",
+        "menu": [
+          [
+            "quasistatic",
+            "Quasistatic"
+          ],
+          [
+            "dynamic",
+            "Dynamic"
+          ]
+        ]
+      },
+      {
+        "name": "quasistaticframes",
+        "label": "Quasistatic Frames",
+        "value": "10",
+        "menu": []
+      },
+      {
+        "name": "zerodynamics",
+        "label": "Clear Dynamics",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "targetmethod",
+        "label": "Target",
+        "value": "0",
+        "menu": [
+          [
+            "first",
+            "First Input"
+          ],
+          [
+            "soppath",
+            "SOP Path"
+          ]
+        ]
+      },
+      {
+        "name": "targetpath",
+        "label": "Target Path",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "integration",
+        "label": "Integration",
+        "value": "1",
+        "menu": [
+          [
+            "firstorder",
+            "First Order"
+          ],
+          [
+            "secondorder",
+            "Second Order"
+          ]
+        ]
+      },
+      {
+        "name": "thickness",
+        "label": "Default Thickness",
+        "value": "0.01",
+        "menu": []
+      },
+      {
+        "name": "folder10",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "dosecondary",
+        "label": "Enable Secondary Constraint Pass",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "secondarygroup",
+        "label": "Constraint Group",
+        "value": "@type==bend",
+        "menu": []
+      },
+      {
+        "name": "secondaryfrequency",
+        "label": "Solve Frequency",
+        "value": "0.25",
+        "menu": []
+      },
+      {
+        "name": "folder7",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "domultipass",
+        "label": "Enable Multi-Pass",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "maxmultipass",
+        "label": "Maximum Passes",
+        "value": "10",
+        "menu": []
+      },
+      {
+        "name": "disablestretchratio",
+        "label": "Disable Stretch Ratio",
+        "value": "0.5",
+        "menu": []
+      },
+      {
+        "name": "folder5",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "domaxaccel",
+        "label": "Cap Displacement",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "maxaccel",
+        "label": "Max Acceleration",
+        "value": "30.0",
+        "menu": []
+      },
+      {
+        "name": "accelfallback",
+        "label": "Fallback to First Order Integration on Collision",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "limitaccel",
+        "label": "Limit Acceleration in Velocity Update",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "limitdisplace",
+        "label": "Limit Displacement on Collision",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "disablebrokenwelds",
+        "label": "Disable Broken Welds",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "normalizestress",
+        "label": "Normalize Stress",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "slidingmethod",
+        "label": "Sliding Method",
+        "value": "0",
+        "menu": [
+          [
+            "closest",
+            "Closest Point"
+          ],
+          [
+            "traverse",
+            "Traverse Polygons"
+          ],
+          [
+            "traversetris",
+            "Traverse Triangles (Optimized)"
+          ]
+        ]
+      },
+      {
+        "name": "orientsolve",
+        "label": "Orientation Solve",
+        "value": "0",
+        "menu": [
+          [
+            "dynamic",
+            "Dynamic"
+          ],
+          [
+            "quasistatic",
+            "Quasistatic"
+          ]
+        ]
+      },
+      {
+        "name": "folder8",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "doautosleep",
+        "label": "Enable Auto Sleep",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "sleep_velocitythreshold",
+        "label": "Velocity Threshold",
+        "value": "0.01",
+        "menu": []
+      },
+      {
+        "name": "sleep_delay",
+        "label": "Sleep Delay",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "folder9",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "grain_searchscale",
+        "label": "Search Scale",
+        "value": "2.5",
+        "menu": []
+      },
+      {
+        "name": "grain_maxneighbor",
+        "label": "Max Neighbors",
+        "value": "20",
+        "menu": []
+      },
+      {
+        "name": "grain_uniformradius",
+        "label": "Assume Uniform Radius",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "ignorepiece",
+        "label": "Ignore Neighbors with Same Name or Piece",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "repulsionweight",
+        "label": "Repulsion Weight",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "attractionweight",
+        "label": "Attraction Weight",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "folder11",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "fluid_searchscale",
+        "label": "Kernel Radius Scale",
+        "value": "4.0",
+        "menu": []
+      },
+      {
+        "name": "viscosity",
+        "label": "Viscosity",
+        "value": "5.0",
+        "menu": []
+      },
+      {
+        "name": "collisionviscosity",
+        "label": "Collision Viscosity",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "viscositysolver",
+        "label": "Viscosity Solver",
+        "value": "1",
+        "menu": [
+          [
+            "explicit",
+            "Explicit"
+          ],
+          [
+            "implicit",
+            "Implicit"
+          ]
+        ]
+      },
+      {
+        "name": "tol",
+        "label": "Viscosity Tolerance",
+        "value": "0.001",
+        "menu": []
+      },
+      {
+        "name": "maxviscosityiterations",
+        "label": "Max Viscosity Iterations",
+        "value": "500",
+        "menu": []
+      },
+      {
+        "name": "surfacetension",
+        "label": "Surface Tension",
+        "value": "0.0001",
+        "menu": []
+      },
+      {
+        "name": "adhesion",
+        "label": "Adhesion",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "dosort",
+        "label": "Spatial Sort",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "sortinterval",
+        "label": "Spatial Sort Interval",
+        "value": "20",
+        "menu": []
+      },
+      {
+        "name": "folder6",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "oclgraphcolor",
+        "label": "OpenCL Graph Coloring",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "oclneighborsearch",
+        "label": "OpenCL Neighbor Search",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "folder26_3",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "savecheckpoints",
+        "label": "Save Checkpoints",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "checkpoint_basename",
+        "label": "Base Name",
+        "value": "untitled.vellumsolver1",
+        "menu": [
+          [
+            "$OS",
+            "Node Name"
+          ],
+          [
+            "`opname(\"..\")`_$OS",
+            "Parent + Node Name"
+          ],
+          [
+            "$HIPNAME.$OS",
+            "Scene + Node Name"
+          ],
+          [
+            "`strreplace(opfullpath(\".\"),\"/\",\"_\")`",
+            "Unique Node Name"
+          ]
+        ]
+      },
+      {
+        "name": "checkpoint_basedir",
+        "label": "Base Folder",
+        "value": "C:/Users/User/OneDrive/Current Work/Documents/ChatGPT/Local Stuff/geo",
+        "menu": []
+      },
+      {
+        "name": "checkpoint_openbasedir",
+        "label": "Open Directory",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "checkpoint_enableversion",
+        "label": "Enable Version",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "checkpoint_version",
+        "label": "Version",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "labelparm8",
+        "label": "Output File",
+        "value": "C:/Users/User/OneDrive/Current Work/Documents/ChatGPT/Local Stuff/geo/v1/untitled.vellumsolver1_v1.$SF.sim",
+        "menu": []
+      },
+      {
+        "name": "checkpoint_explicitcachensteps",
+        "label": "Checkpoint Trail Length",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "checkpoint_explicitcachespacing",
+        "label": "Checkpoint Interval",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "showcollision",
+        "label": "Show Collision",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "showguide",
+        "label": "Show Guide Geometry",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "folder0",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "guide_showthickness",
+        "label": "showthickness",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "guide_thicknesscolorr",
+        "label": "Thickness",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "guide_thicknesscolorg",
+        "label": "Thickness",
+        "value": "0.9",
+        "menu": []
+      },
+      {
+        "name": "guide_thicknesscolorb",
+        "label": "Thickness",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "guide_showthicknessextrude",
+        "label": "Extrude",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "guide_showfailedself",
+        "label": "showfailedselfcol",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "guide_failedselfr",
+        "label": "Failed Self Collision",
+        "value": "0.9",
+        "menu": []
+      },
+      {
+        "name": "guide_failedselfg",
+        "label": "Failed Self Collision",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "guide_failedselfb",
+        "label": "Failed Self Collision",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "guide_showfailedexternal",
+        "label": "showfailedexternalcol",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "guide_failedexternalr",
+        "label": "Failed External Collision",
+        "value": "0.9",
+        "menu": []
+      },
+      {
+        "name": "guide_failedexternalg",
+        "label": "Failed External Collision",
+        "value": "0.45",
+        "menu": []
+      },
+      {
+        "name": "guide_failedexternalb",
+        "label": "Failed External Collision",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "guide_showwelds",
+        "label": "showwelds",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "guide_weldcolorr",
+        "label": "Welds",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "guide_weldcolorg",
+        "label": "Welds",
+        "value": "0.9",
+        "menu": []
+      },
+      {
+        "name": "guide_weldcolorb",
+        "label": "Welds",
+        "value": "0.45",
+        "menu": []
+      },
+      {
+        "name": "guide_colvisscale",
+        "label": "Radius Scale",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "folder1",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "guide_usegroup",
+        "label": "usegroup",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "guide_constraintgroup",
+        "label": "Group",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "guide_showpin",
+        "label": "showpin",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "guide_pincolorr",
+        "label": "Pin to Target",
+        "value": "0.25",
+        "menu": []
+      },
+      {
+        "name": "guide_pincolorg",
+        "label": "Pin to Target",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "guide_pincolorb",
+        "label": "Pin to Target",
+        "value": "0.5",
+        "menu": []
+      },
+      {
+        "name": "guide_showstitch",
+        "label": "showstitch",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "guide_stitchcolorr",
+        "label": "Stitch Points",
+        "value": "0.9",
+        "menu": []
+      },
+      {
+        "name": "guide_stitchcolorg",
+        "label": "Stitch Points",
+        "value": "0.9",
+        "menu": []
+      },
+      {
+        "name": "guide_stitchcolorb",
+        "label": "Stitch Points",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "guide_showattach",
+        "label": "showattach",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "guide_attachcolorr",
+        "label": "Attach to Geometry",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "guide_attachcolorg",
+        "label": "Attach to Geometry",
+        "value": "0.45",
+        "menu": []
+      },
+      {
+        "name": "guide_attachcolorb",
+        "label": "Attach to Geometry",
+        "value": "0.9",
+        "menu": []
+      },
+      {
+        "name": "guide_constraintvisradius",
+        "label": "Radius",
+        "value": "0.01",
+        "menu": []
+      },
+      {
+        "name": "folder3",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "vis_mode",
+        "label": "False Color Mode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "None"
+          ],
+          [
+            "stretchstress",
+            "Stretch Stress"
+          ],
+          [
+            "bendstress",
+            "Bend Stress"
+          ],
+          [
+            "stretchdistance",
+            "Stretch Distance"
+          ],
+          [
+            "stretchratio",
+            "Stretch Ratio"
+          ],
+          [
+            "bendangle",
+            "Bend Angle"
+          ],
+          [
+            "stretchplasticflow",
+            "Stretch Plastic Flow"
+          ],
+          [
+            "bendplasticflow",
+            "Bend Plastic Flow"
+          ],
+          [
+            "volumestress",
+            "Volume Stress"
+          ],
+          [
+            "volumedistance",
+            "Volume Distance"
+          ],
+          [
+            "volumeratio",
+            "Volume Ratio"
+          ]
+        ]
+      },
+      {
+        "name": "vis_displaygeo",
+        "label": "Display Visualization Geometry",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "vis_maxstretchstress",
+        "label": "Max Stretch Stress",
+        "value": "0.01",
+        "menu": []
+      },
+      {
+        "name": "vis_maxbendstress",
+        "label": "Max Bend Stress",
+        "value": "0.001",
+        "menu": []
+      },
+      {
+        "name": "vis_maxstretchdistance",
+        "label": "Max Stretch Distance",
+        "value": "0.01",
+        "menu": []
+      },
+      {
+        "name": "vis_maxstretchratio",
+        "label": "Max Stretch Ratio",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "vis_maxbendangle",
+        "label": "Max Bend Angle",
+        "value": "5.0",
+        "menu": []
+      },
+      {
+        "name": "vis_maxstretchplasticflow",
+        "label": "Max Stretch Plastic Flow",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "vis_maxbendplasticflow",
+        "label": "Max Bend Plastic Flow",
+        "value": "10.0",
+        "menu": []
+      },
+      {
+        "name": "vis_maxvolumestress",
+        "label": "Max Volume Stress",
+        "value": "0.01",
+        "menu": []
+      },
+      {
+        "name": "vis_maxvolumedistance",
+        "label": "Max Volume Distance",
+        "value": "0.0001",
+        "menu": []
+      },
+      {
+        "name": "vis_maxvolumeratio",
+        "label": "Max Volume Ratio",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "windshadow_maskfalloff1pos",
+        "label": "Position",
+        "value": "0.8500000238418579",
+        "menu": []
+      },
+      {
+        "name": "windshadow_maskfalloff1value",
+        "label": "Value",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "windshadow_maskfalloff1interp",
+        "label": "Interpolation",
+        "value": "1",
+        "menu": [
+          [
+            "constant",
+            "Constant"
+          ],
+          [
+            "linear",
+            "Linear"
+          ],
+          [
+            "catmull-rom",
+            "Catmull-Rom"
+          ],
+          [
+            "monotonecubic",
+            "Monotone Cubic"
+          ],
+          [
+            "bezier",
+            "Bezier"
+          ],
+          [
+            "bspline",
+            "B-Spline"
+          ],
+          [
+            "hermite",
+            "Hermite"
+          ]
+        ]
+      },
+      {
+        "name": "windshadow_maskfalloff2pos",
+        "label": "Position",
+        "value": "0.9973856210708618",
+        "menu": []
+      },
+      {
+        "name": "windshadow_maskfalloff2value",
+        "label": "Value",
+        "value": "0.0",
+        "menu": []
+      },
+      {
+        "name": "windshadow_maskfalloff2interp",
+        "label": "Interpolation",
+        "value": "1",
+        "menu": [
+          [
+            "constant",
+            "Constant"
+          ],
+          [
+            "linear",
+            "Linear"
+          ],
+          [
+            "catmull-rom",
+            "Catmull-Rom"
+          ],
+          [
+            "monotonecubic",
+            "Monotone Cubic"
+          ],
+          [
+            "bezier",
+            "Bezier"
+          ],
+          [
+            "bspline",
+            "B-Spline"
+          ],
+          [
+            "hermite",
+            "Hermite"
+          ]
+        ]
+      }
+    ],
+    "children": [
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1",
+        "type": "dopnet"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/output",
+        "type": "output"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/vellumobject1",
+        "type": "vellumobject"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/vellumsolver1",
+        "type": "vellumsolver"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/gravity1",
+        "type": "gravity"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/merge1",
+        "type": "merge"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/groundplane",
+        "type": "groundplane"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/switch1",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/merge2",
+        "type": "merge"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/forces",
+        "type": "subnet"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/forces/FORCE",
+        "type": "subnetoutput"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/forces/SOURCE",
+        "type": "subnetoutput"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/popwind1",
+        "type": "popwind"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/external",
+        "type": "staticobject"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/sources",
+        "type": "subnet"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/sources/defaultsource",
+        "type": "vellumsource"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/sources/merge3",
+        "type": "merge"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/popwindshadow1",
+        "type": "popwindshadow"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopnet1/switch_if_minimal",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/turn_off_crinkly_looking_cloth",
+        "type": "attribexpression"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/output1",
+        "type": "output"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopimport_geometry",
+        "type": "dopimportfield"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/set_pscale",
+        "type": "attribexpression"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/GUIDE",
+        "type": "null"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/grid1",
+        "type": "grid"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switch",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/merge3",
+        "type": "merge"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switch4",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/remove_all_normals",
+        "type": "attribdelete"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/COLLIDERS_IN",
+        "type": "null"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/output2",
+        "type": "output"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/dopimport_constraints",
+        "type": "dopimportfield"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switch7",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/delete_history",
+        "type": "attribdelete"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switch8",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/zero_strain",
+        "type": "attribdelete"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/zero_v",
+        "type": "attribexpression"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/zero_w",
+        "type": "attribexpression"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switch9",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/output3",
+        "type": "output"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/null3",
+        "type": "null"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switch10",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/is_dynamic",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/reset_frame",
+        "type": "timeshift"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/copy1",
+        "type": "copy"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/solve_time",
+        "type": "timeshift"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/null4",
+        "type": "null"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/merge4",
+        "type": "merge"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/invoke_guides",
+        "type": "invoke"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/copy_vis_cd",
+        "type": "attribwrangle"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switch1",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switch11",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/ensure_cd_available",
+        "type": "attribdelete"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switch12",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/merge1",
+        "type": "merge"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/color1",
+        "type": "color"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/blast1",
+        "type": "blast"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/error1",
+        "type": "error"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/is_dynamic1",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/null5",
+        "type": "null"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/merge5",
+        "type": "merge"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/solve_time1",
+        "type": "timeshift"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/collision_errors",
+        "type": "error"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/vdb_collision_errors",
+        "type": "error"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/group1",
+        "type": "groupcreate"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/vdbcollidersprocess2",
+        "type": "vdbcollidersprocess"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switch15",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/convertvdb1",
+        "type": "convertvdb"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/iso_surface0",
+        "type": "blast"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/remove_inactive_colliders",
+        "type": "attribwrangle"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switchif_has_id",
+        "type": "switchif"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switch16",
+        "type": "switch"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/COLLISION_ISO",
+        "type": "null"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/COLLIDERS_OUT",
+        "type": "null"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switchif_vdb_colliders",
+        "type": "switchif"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/check_minimal",
+        "type": "attribwrangle"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/switchif_minimal",
+        "type": "switchif"
+      },
+      {
+        "path": "/obj/probe/vellumsolver1/group2",
+        "type": "groupcreate"
+      }
+    ]
+  },
+  "pointdeform": {
+    "type": "pointdeform",
+    "parameters": [
+      {
+        "name": "group",
+        "label": "Group",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "mode",
+        "label": "Mode",
+        "value": "0",
+        "menu": [
+          [
+            "capturedeform",
+            "Capture and Deform"
+          ],
+          [
+            "capture",
+            "Capture"
+          ],
+          [
+            "deform",
+            "Deform"
+          ]
+        ]
+      },
+      {
+        "name": "folder0",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "radius",
+        "label": "Radius",
+        "value": "0.1",
+        "menu": []
+      },
+      {
+        "name": "minpt",
+        "label": "Minimum Points",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "maxpt",
+        "label": "Maximum Points",
+        "value": "100",
+        "menu": []
+      },
+      {
+        "name": "pieceattrib",
+        "label": "Piece Attribute",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "preseparatepieces",
+        "label": "Pre-Separate Pieces",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "folder1",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "rigidprojection",
+        "label": "Rigid Projection",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "enablemask",
+        "label": "Enable Mask",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "mask",
+        "label": "Mask",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "maskscalemode",
+        "label": "Mask Scale Mode",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "No Scaling"
+          ],
+          [
+            "attrib",
+            "Scale by Attribute"
+          ]
+        ]
+      },
+      {
+        "name": "maskattrib",
+        "label": "Mask Attribute",
+        "value": "mask",
+        "menu": []
+      },
+      {
+        "name": "updateaffectednmls",
+        "label": "Recompute Affected Normals",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "attribs",
+        "label": "Attributes to Transform",
+        "value": "*",
+        "menu": []
+      },
+      {
+        "name": "delcaptatr",
+        "label": "Delete Capture Attributes",
+        "value": "1",
+        "menu": []
+      }
+    ]
+  },
+  "vellumrestblend": {
+    "type": "vellumrestblend",
+    "parameters": [
+      {
+        "name": "group",
+        "label": "Group",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "congroup",
+        "label": "Constraint Group",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "blendmode",
+        "label": "Mode",
+        "value": "0",
+        "menu": [
+          [
+            "blend",
+            "Blend"
+          ],
+          [
+            "distance",
+            "Distance"
+          ]
+        ]
+      },
+      {
+        "name": "blend",
+        "label": "Blend",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "distance",
+        "label": "Distance",
+        "value": "1.0",
+        "menu": []
+      },
+      {
+        "name": "maskmode",
+        "label": "Blend Masking",
+        "value": "0",
+        "menu": [
+          [
+            "none",
+            "None"
+          ],
+          [
+            "setfromattrib",
+            "Set From Attribute"
+          ],
+          [
+            "scalefromattrib",
+            "Scale From Attribute"
+          ]
+        ]
+      },
+      {
+        "name": "maskattrib",
+        "label": "Blend Mask Attribute",
+        "value": "mask",
+        "menu": []
+      },
+      {
+        "name": "attribpromote",
+        "label": "Promotion Method",
+        "value": "2",
+        "menu": [
+          [
+            "max",
+            "Maximum"
+          ],
+          [
+            "min",
+            "Minimum"
+          ],
+          [
+            "mean",
+            "Average"
+          ],
+          [
+            "mult",
+            "Multiply"
+          ],
+          [
+            "source",
+            "Use Source"
+          ],
+          [
+            "target",
+            "Use Target"
+          ]
+        ]
+      }
+    ]
+  },
+  "attribwrangle": {
+    "type": "attribwrangle",
+    "parameters": [
+      {
+        "name": "folder01",
+        "label": "",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "group",
+        "label": "Group",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "grouptype",
+        "label": "Group Type",
+        "value": "0",
+        "menu": [
+          [
+            "guess",
+            "Guess from Group"
+          ],
+          [
+            "vertices",
+            "Vertices"
+          ],
+          [
+            "edges",
+            "Edges"
+          ],
+          [
+            "points",
+            "Points"
+          ],
+          [
+            "prims",
+            "Primitives"
+          ]
+        ]
+      },
+      {
+        "name": "class",
+        "label": "Run Over",
+        "value": "2",
+        "menu": [
+          [
+            "detail",
+            "Detail (only once)"
+          ],
+          [
+            "primitive",
+            "Primitives"
+          ],
+          [
+            "point",
+            "Points"
+          ],
+          [
+            "vertex",
+            "Vertices"
+          ],
+          [
+            "number",
+            "Numbers"
+          ]
+        ]
+      },
+      {
+        "name": "vex_numcount",
+        "label": "Number Count",
+        "value": "10",
+        "menu": []
+      },
+      {
+        "name": "vex_threadjobsize",
+        "label": "Thread Job Size",
+        "value": "1024",
+        "menu": []
+      },
+      {
+        "name": "snippet",
+        "label": "VEXpression",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "exportlist",
+        "label": "Attributes to Create",
+        "value": "*",
+        "menu": []
+      },
+      {
+        "name": "vex_strict",
+        "label": "Enforce Prototypes",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "vex_strictvariables",
+        "label": "Standard Variable Names Only",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "autobind",
+        "label": "Autobind by Name",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "bindings",
+        "label": "Number of Bindings",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "groupautobind",
+        "label": "Autobind Groups by Name",
+        "value": "1",
+        "menu": []
+      },
+      {
+        "name": "groupbindings",
+        "label": "Group Bindings",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "vex_cwdpath",
+        "label": "Evaluation Node Path",
+        "value": ".",
+        "menu": []
+      },
+      {
+        "name": "vex_outputmask",
+        "label": "Export Parameters",
+        "value": "*",
+        "menu": []
+      },
+      {
+        "name": "vex_updatenmls",
+        "label": "Update Normals If Displaced",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "vex_matchattrib",
+        "label": "Attribute to Match",
+        "value": "id",
+        "menu": []
+      },
+      {
+        "name": "vex_inplace",
+        "label": "Compute Results In Place",
+        "value": "0",
+        "menu": []
+      },
+      {
+        "name": "vex_selectiongroup",
+        "label": "Output Selection Group",
+        "value": "",
+        "menu": []
+      },
+      {
+        "name": "vex_precision",
+        "label": "VEX Precision",
+        "value": "auto",
+        "menu": [
+          [
+            "auto",
+            "Auto"
+          ],
+          [
+            "32",
+            "32-bit"
+          ],
+          [
+            "64",
+            "64-bit"
+          ]
+        ]
+      }
+    ]
+  }
+}

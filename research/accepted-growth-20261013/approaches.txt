@@ -1,0 +1,85 @@
+Rainee: reconstruction and controlled growth approaches
+2026-10-13
+
+Current author intent
+---------------------
+The accepted sequence is source 0000, 0010, 0018, 0026. Hold 0026 thereafter;
+later deflation and proportion changes are errors. Stages 1 to 4 are ordinal,
+not measured physical volume multipliers. The FBX anchors stature. The frames
+and clear torso images supersede the flawed sculpt for face intent.
+
+What the new supplied data establishes
+-------------------------------------
+Five independent generated meshes exist, without shared rig, cameras or
+vertex correspondence. Their provisional surface descriptors are not
+monotonic; that uncertainty must not reverse the accepted growth. Six distinct
+Gaussian payloads exist across eight WorldGen exports. Camera matrices alone
+do not declare projection or frame association. The ninth ZIP supplies an
+upper-body bust. The later same-named ZIP contains the same asset payloads.
+
+Recommended engineering path (project inference)
+------------------------------------------------
+Keep one editable canonical shape and local coordinates. Fit a selected rear
+surface to each approved image, with camera, pose and shape variables separated.
+Use the generated regional surfaces as soft shape cues after alignment, not as
+four independent full-body replacements. Keep thigh shaping independent.
+
+Use silhouette distance and selected surface distance losses rather than full
+asset bounds or arbitrary tissue-volume estimates. Fix FBX stature and protected
+landmarks. Solve nonnegative growth increments across accepted stages and retain
+the final shape. Camera/pose may change after the endpoint without changing the
+canonical rear state. Local mesh/SDF correction can repair continuity and poles;
+a stable cage or deformation layer retains identity and editable controls.
+
+Current native schedule is an initialization: closed-cage ratios 1, 1.5, 2,
+2.5 at source 0, 10, 18, 26. The 27 native static frames and three hold samples
+are checked for measured cage growth, constant stature, finite geometry and
+sampled field orientation. This is not yet an image-fitted curve or walking,
+contact, clothing or production-head solution.
+
+Gaussian reference handling
+---------------------------
+SPZ is a compressed Gaussian representation. The official format distinguishes
+centre position, anisotropic scale, rotation, opacity and appearance; coordinate
+conventions and versions require explicit handling.
+https://github.com/nianticlabs/spz
+
+The local Spark 2.3.1 viewer displays actual anisotropic Gaussian data. It loads
+one scene at a time and uses onDirty/on-demand rendering. A reversible box and
+opacity threshold can isolate review regions and export centre statistics.
+These are appearance samples, not an enclosed tissue solid or density estimate.
+https://sparkjs.dev/docs/splat-mesh/
+https://sparkjs.dev/docs/on-demand-rendering/
+
+If a reviewed smooth deformation phi maps Gaussian means, a local covariance
+update is mu'=phi(mu), Sigma'=J_phi Sigma J_phi^T. This is a first-order local
+approximation for non-affine fields, not a guarantee for very large splats.
+Only apply it to a segmented character region with an accepted canonical-space
+transform; never deform the room as if its coordinates were Rainee's anatomy.
+
+Surface alternatives researched
+-------------------------------
+2D Gaussian Splatting (SIGGRAPH 2024) represents surfaces using oriented planar
+disks and introduces depth-distortion and normal-consistency constraints. It is
+a useful surface-reconstruction direction when calibrated views exist; these
+ordinary SPZ exports do not become 2DGS merely by being loaded.
+https://surfsplatting.github.io/
+
+Gaussian Opacity Fields (SIGGRAPH Asia 2024, journal track) extracts a level set
+from a regularized Gaussian opacity field using scene-adaptive tetrahedra.
+That provides a possible geometry route, not proof that a supplied unsegmented
+appearance field yields reliable anatomy. Its reconstruction pipeline has not
+been installed, trained or run here.
+https://niujinshuchong.github.io/gaussian-opacity-fields/
+
+Sketch-guided Cage-based 3D Gaussian Splatting Deformation (WACV 2026) uses
+silhouette sketches, cage deformation and a variant of Neural Jacobian Fields.
+Its published pipeline also uses diffusion/ControlNet priors. Only the cage
+and Jacobian design ideas are relevant to our non-diffusion implementation;
+the published system is not claimed as implemented or used.
+https://tianhaoxie.github.io/project/gs_deform/
+
+NeRF/appearance-only splats remain useful for look and view inspection, while
+an editable connected surface/cage is the practical present authoring backbone.
+Future fitting needs reviewed masks, pose/camera alignment and held-out views.
+No training, diffusion generation, cloud upload or model installation occurred.

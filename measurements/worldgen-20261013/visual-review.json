@@ -1,0 +1,16 @@
+{
+  "schema": "rainee-gaussian-visual-review-v1",
+  "basis": "Visual inspection of actual local SPZ rendering; geometry hashes remain in inventory.json",
+  "frame_association": "unconfirmed",
+  "camera_calibrated": false,
+  "anatomical_acceptance": false,
+  "scenes": [
+    {"geometry_id":"spz-00-52af25e6be","label":"Blonde portrait","kind":"face_reference"},
+    {"geometry_id":"spz-01-1395a74608","label":"Growth scene A","kind":"growth_reference","proof":"derived/browser-spz-01.png"},
+    {"geometry_id":"spz-02-9500dd2989","label":"Growth scene B","kind":"growth_reference","proof":"derived/browser-spz-02.png"},
+    {"geometry_id":"spz-03-ef36acab9f","label":"Growth scene C","kind":"growth_reference","proof":"derived/browser-spz-03.png"},
+    {"geometry_id":"spz-04-d62ca9b1b3","label":"Growth scene D","kind":"growth_reference","proof":"derived/browser-spz-04.png"},
+    {"geometry_id":"spz-06-927bab7032","label":"Blue costume bust","kind":"face_reference"}
+  ],
+  "limits": "The four growth scenes visually resemble supplied reference states. Their precise input image, common camera, pose alignment and anatomical correspondence are not established. Portraits are separate artist variants. No growth volumes are inferred from Gaussian opacity or whole-scene bounds."
+}

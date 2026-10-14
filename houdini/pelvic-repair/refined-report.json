@@ -1,0 +1,25 @@
+{
+  "method": "Houdini polygon union plus bounded Taubin transition smoothing",
+  "points": 99979,
+  "triangles": 214346,
+  "modified_points": 10953,
+  "modified_bounds": {
+    "min": [
+      -0.06456153839826584,
+      0.5301592946052551,
+      -0.07487084716558456
+    ],
+    "max": [
+      0.0647745355963707,
+      0.6319659948348999,
+      0.09462015330791473
+    ]
+  },
+  "distant_max_displacement": 0.0,
+  "height_drift": 0.0,
+  "max_local_shift": 0.006691863760352135,
+  "boundary_edges": 6900,
+  "nonmanifold_edges": 16618,
+  "finite": true,
+  "status": "Visually improved local union candidate; source topology defects persist"
+}

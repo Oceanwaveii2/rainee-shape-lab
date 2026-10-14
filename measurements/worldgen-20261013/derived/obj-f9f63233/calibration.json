@@ -1,0 +1,17 @@
+{
+  "right_axis": "x",
+  "up_axis": "y",
+  "front_axis": "z",
+  "selection": {
+    "artist_reviewed_body_only": false
+  },
+  "midline_origin": null,
+  "landmarks": {
+    "head_top": null,
+    "feet_bottom": null,
+    "confidence": "not supplied"
+  },
+  "pose_reviewed": false,
+  "regions": [],
+  "status": "needs artist-reviewed axes, body selection and landmarks"
+}

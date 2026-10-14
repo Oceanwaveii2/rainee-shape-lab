@@ -1,0 +1,754 @@
+{
+  "passed": true,
+  "model_status": "editable deterministic regional proposal; not accepted or image fitted",
+  "source_assets_modified": false,
+  "native_hips_modified": false,
+  "source_stature_metadata": {
+    "status": "editable regional proposal; not accepted anatomy",
+    "model": "connected pelvic core, paired lobes, upper-thigh transitions",
+    "coordinate_system": "canonical H=1; +Y up; posterior -Z",
+    "height_reference_normalized": 1,
+    "source_height_units": 2.3951061964035034,
+    "surface_scope": "closed regional template; not a complete body or a seamless source-FBX attachment",
+    "units": "linear coordinates in normalized height units; multipliers dimensionless; attachment in normalized height units",
+    "field": "distance-like implicit gauges with smooth unions; not an exact signed-distance field",
+    "volume": "enclosed final union surface, never a sum of overlapping component volumes",
+    "anatomical_acceptance": false,
+    "reference_fitted": false,
+    "neural_paper_implementation": false,
+    "independence": "thigh component fields use only thigh controls; lobe controls affect attachments near the pelvis",
+    "symmetry": "shared lobe controls plus signed asymmetry: negative enlarges left, positive enlarges right"
+  },
+  "states": [
+    {
+      "name": "default",
+      "parameters": {
+        "lobeWidth": 1,
+        "lobeHeight": 1,
+        "rearProjection": 1,
+        "upperPole": 1.08,
+        "lowerPole": 1,
+        "separation": 1,
+        "attachment": 0.012,
+        "cleft": 0.75,
+        "asymmetry": 0,
+        "pelvisWidth": 1,
+        "pelvisDepth": 1,
+        "thighFullness": 1,
+        "thighOuter": 1,
+        "thighFront": 1,
+        "kneeTaper": 0.65
+      },
+      "resolution": 24,
+      "points": 3478,
+      "triangles": 6952,
+      "closed": true,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "inconsistentEdges": 0,
+      "connectedComponents": 1,
+      "degenerateTriangles": 0,
+      "minimumTriangleArea": 4.4440890839506214e-13,
+      "surfaceArea": 0.2800587013553711,
+      "signedVolume": 0.007729970873574393,
+      "volume": 0.007729970873574393,
+      "volumeUnits": "normalized H cubed",
+      "sourceUnitVolume": 0.10620676495224654,
+      "status": "volume of this regional proposal, not a measured anatomical volume",
+      "heightReferenceNormalized": 1,
+      "normal_unit_length_error": 3.8602200325144054e-8,
+      "milliseconds": 122.09509999999999,
+      "stature_metadata_fixed": true,
+      "slice_y_061_bounds": {
+        "min": [
+          -0.15474520165058311,
+          0.61,
+          -0.15612636218772116
+        ],
+        "max": [
+          0.15478371647419903,
+          0.61,
+          0.054595176980209735
+        ],
+        "extent": [
+          0.3095289181247821,
+          0,
+          0.2107215391679309
+        ]
+      }
+    },
+    {
+      "name": "wider",
+      "parameters": {
+        "lobeWidth": 1.3,
+        "lobeHeight": 1,
+        "rearProjection": 1,
+        "upperPole": 1.08,
+        "lowerPole": 1,
+        "separation": 1,
+        "attachment": 0.012,
+        "cleft": 0.75,
+        "asymmetry": 0,
+        "pelvisWidth": 1,
+        "pelvisDepth": 1,
+        "thighFullness": 1,
+        "thighOuter": 1,
+        "thighFront": 1,
+        "kneeTaper": 0.65
+      },
+      "resolution": 24,
+      "points": 3658,
+      "triangles": 7312,
+      "closed": true,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "inconsistentEdges": 0,
+      "connectedComponents": 1,
+      "degenerateTriangles": 0,
+      "minimumTriangleArea": 2.1667275929836097e-14,
+      "surfaceArea": 0.29299876498301236,
+      "signedVolume": 0.008602111931307865,
+      "volume": 0.008602111931307865,
+      "volumeUnits": "normalized H cubed",
+      "sourceUnitVolume": 0.11818964067569297,
+      "status": "volume of this regional proposal, not a measured anatomical volume",
+      "heightReferenceNormalized": 1,
+      "normal_unit_length_error": 3.913429735824536e-8,
+      "milliseconds": 107.12189999999998,
+      "stature_metadata_fixed": true,
+      "slice_y_061_bounds": {
+        "min": [
+          -0.1793082957993745,
+          0.61,
+          -0.1561801430841096
+        ],
+        "max": [
+          0.1793416149258523,
+          0.61,
+          0.054595176980209735
+        ],
+        "extent": [
+          0.3586499107252268,
+          0,
+          0.21077532006431934
+        ]
+      }
+    },
+    {
+      "name": "taller",
+      "parameters": {
+        "lobeWidth": 1,
+        "lobeHeight": 1.35,
+        "rearProjection": 1,
+        "upperPole": 1.08,
+        "lowerPole": 1,
+        "separation": 1,
+        "attachment": 0.012,
+        "cleft": 0.75,
+        "asymmetry": 0,
+        "pelvisWidth": 1,
+        "pelvisDepth": 1,
+        "thighFullness": 1,
+        "thighOuter": 1,
+        "thighFront": 1,
+        "kneeTaper": 0.65
+      },
+      "resolution": 24,
+      "points": 3314,
+      "triangles": 6624,
+      "closed": true,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "inconsistentEdges": 0,
+      "connectedComponents": 1,
+      "degenerateTriangles": 0,
+      "minimumTriangleArea": 4.5175967512223367e-10,
+      "surfaceArea": 0.30651287357231033,
+      "signedVolume": 0.009141584529135431,
+      "volume": 0.009141584529135431,
+      "volumeUnits": "normalized H cubed",
+      "sourceUnitVolume": 0.12560178236842826,
+      "status": "volume of this regional proposal, not a measured anatomical volume",
+      "heightReferenceNormalized": 1,
+      "normal_unit_length_error": 4.108583429029977e-8,
+      "milliseconds": 116.68799999999999,
+      "stature_metadata_fixed": true,
+      "slice_y_061_bounds": {
+        "min": [
+          -0.15510716360297797,
+          0.61,
+          -0.15636847972014187
+        ],
+        "max": [
+          0.15511616742670525,
+          0.61,
+          0.053955059045040867
+        ],
+        "extent": [
+          0.31022333102968325,
+          0,
+          0.21032353876518273
+        ]
+      }
+    },
+    {
+      "name": "posterior",
+      "parameters": {
+        "lobeWidth": 1,
+        "lobeHeight": 1,
+        "rearProjection": 1.5,
+        "upperPole": 1.08,
+        "lowerPole": 1,
+        "separation": 1,
+        "attachment": 0.012,
+        "cleft": 0.75,
+        "asymmetry": 0,
+        "pelvisWidth": 1,
+        "pelvisDepth": 1,
+        "thighFullness": 1,
+        "thighOuter": 1,
+        "thighFront": 1,
+        "kneeTaper": 0.65
+      },
+      "resolution": 24,
+      "points": 4026,
+      "triangles": 8052,
+      "closed": true,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "inconsistentEdges": 0,
+      "connectedComponents": 1,
+      "degenerateTriangles": 0,
+      "minimumTriangleArea": 3.887723091757934e-11,
+      "surfaceArea": 0.33269217273380164,
+      "signedVolume": 0.009879972236106666,
+      "volume": 0.009879972236106666,
+      "volumeUnits": "normalized H cubed",
+      "sourceUnitVolume": 0.1357469395650762,
+      "status": "volume of this regional proposal, not a measured anatomical volume",
+      "heightReferenceNormalized": 1,
+      "normal_unit_length_error": 4.1915877879716845e-8,
+      "milliseconds": 95.22839999999997,
+      "stature_metadata_fixed": true,
+      "slice_y_061_bounds": {
+        "min": [
+          -0.15472018635987597,
+          0.61,
+          -0.22669206555353114
+        ],
+        "max": [
+          0.15475235808415994,
+          0.61,
+          0.05452054953662863
+        ],
+        "extent": [
+          0.30947254444403594,
+          0,
+          0.28121261509015977
+        ]
+      }
+    },
+    {
+      "name": "upper-pole",
+      "parameters": {
+        "lobeWidth": 1,
+        "lobeHeight": 1,
+        "rearProjection": 1,
+        "upperPole": 1.35,
+        "lowerPole": 1,
+        "separation": 1,
+        "attachment": 0.012,
+        "cleft": 0.75,
+        "asymmetry": 0,
+        "pelvisWidth": 1,
+        "pelvisDepth": 1,
+        "thighFullness": 1,
+        "thighOuter": 1,
+        "thighFront": 1,
+        "kneeTaper": 0.65
+      },
+      "resolution": 24,
+      "points": 3742,
+      "triangles": 7480,
+      "closed": true,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "inconsistentEdges": 0,
+      "connectedComponents": 1,
+      "degenerateTriangles": 0,
+      "minimumTriangleArea": 3.2877592169878496e-10,
+      "surfaceArea": 0.3032210121830003,
+      "signedVolume": 0.008772340420333626,
+      "volume": 0.008772340420333626,
+      "volumeUnits": "normalized H cubed",
+      "sourceUnitVolume": 0.12052851328179051,
+      "status": "volume of this regional proposal, not a measured anatomical volume",
+      "heightReferenceNormalized": 1,
+      "normal_unit_length_error": 4.595352109948436e-8,
+      "milliseconds": 73.50419999999997,
+      "stature_metadata_fixed": true,
+      "slice_y_061_bounds": {
+        "min": [
+          -0.1653164840833301,
+          0.61,
+          -0.17424384034639936
+        ],
+        "max": [
+          0.16540814453066616,
+          0.61,
+          0.054513983670980384
+        ],
+        "extent": [
+          0.33072462861399626,
+          0,
+          0.22875782401737976
+        ]
+      }
+    },
+    {
+      "name": "lower-pole",
+      "parameters": {
+        "lobeWidth": 1,
+        "lobeHeight": 1,
+        "rearProjection": 1,
+        "upperPole": 1.08,
+        "lowerPole": 1.3,
+        "separation": 1,
+        "attachment": 0.012,
+        "cleft": 0.75,
+        "asymmetry": 0,
+        "pelvisWidth": 1,
+        "pelvisDepth": 1,
+        "thighFullness": 1,
+        "thighOuter": 1,
+        "thighFront": 1,
+        "kneeTaper": 0.65
+      },
+      "resolution": 24,
+      "points": 3610,
+      "triangles": 7216,
+      "closed": true,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "inconsistentEdges": 0,
+      "connectedComponents": 1,
+      "degenerateTriangles": 0,
+      "minimumTriangleArea": 2.9632477890815624e-13,
+      "surfaceArea": 0.30230255836609543,
+      "signedVolume": 0.008876271254328974,
+      "volume": 0.008876271254328974,
+      "volumeUnits": "normalized H cubed",
+      "sourceUnitVolume": 0.12195648213677933,
+      "status": "volume of this regional proposal, not a measured anatomical volume",
+      "heightReferenceNormalized": 1,
+      "normal_unit_length_error": 4.075015858084896e-8,
+      "milliseconds": 85.87879999999996,
+      "stature_metadata_fixed": true,
+      "slice_y_061_bounds": {
+        "min": [
+          -0.1663716133375848,
+          0.61,
+          -0.17670624813320016
+        ],
+        "max": [
+          0.16639058665213297,
+          0.61,
+          0.05453981267152736
+        ],
+        "extent": [
+          0.3327621999897178,
+          0,
+          0.2312460608047275
+        ]
+      }
+    },
+    {
+      "name": "separated",
+      "parameters": {
+        "lobeWidth": 1,
+        "lobeHeight": 1,
+        "rearProjection": 1,
+        "upperPole": 1.08,
+        "lowerPole": 1,
+        "separation": 1.4,
+        "attachment": 0.012,
+        "cleft": 1,
+        "asymmetry": 0,
+        "pelvisWidth": 1,
+        "pelvisDepth": 1,
+        "thighFullness": 1,
+        "thighOuter": 1,
+        "thighFront": 1,
+        "kneeTaper": 0.65
+      },
+      "resolution": 24,
+      "points": 3670,
+      "triangles": 7336,
+      "closed": true,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "inconsistentEdges": 0,
+      "connectedComponents": 1,
+      "degenerateTriangles": 0,
+      "minimumTriangleArea": 3.027602204664659e-10,
+      "surfaceArea": 0.30234230935530415,
+      "signedVolume": 0.007927899221263156,
+      "volume": 0.007927899221263156,
+      "volumeUnits": "normalized H cubed",
+      "sourceUnitVolume": 0.10892622274117952,
+      "status": "volume of this regional proposal, not a measured anatomical volume",
+      "heightReferenceNormalized": 1,
+      "normal_unit_length_error": 4.1865864774948136e-8,
+      "milliseconds": 68.87450000000001,
+      "stature_metadata_fixed": true,
+      "slice_y_061_bounds": {
+        "min": [
+          -0.18375110003819994,
+          0.61,
+          -0.15616373064688444
+        ],
+        "max": [
+          0.1837787339344799,
+          0.61,
+          0.054506530334666445
+        ],
+        "extent": [
+          0.36752983397267985,
+          0,
+          0.2106702609815509
+        ]
+      }
+    },
+    {
+      "name": "thighs",
+      "parameters": {
+        "lobeWidth": 1,
+        "lobeHeight": 1,
+        "rearProjection": 1,
+        "upperPole": 1.08,
+        "lowerPole": 1,
+        "separation": 1,
+        "attachment": 0.012,
+        "cleft": 0.75,
+        "asymmetry": 0,
+        "pelvisWidth": 1,
+        "pelvisDepth": 1,
+        "thighFullness": 1.4,
+        "thighOuter": 1,
+        "thighFront": 1.3,
+        "kneeTaper": 0.65
+      },
+      "resolution": 24,
+      "points": 3124,
+      "triangles": 6244,
+      "closed": true,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "inconsistentEdges": 0,
+      "connectedComponents": 1,
+      "degenerateTriangles": 0,
+      "minimumTriangleArea": 2.7383246847970523e-10,
+      "surfaceArea": 0.3191985342907083,
+      "signedVolume": 0.009564695888858126,
+      "volume": 0.009564695888858126,
+      "volumeUnits": "normalized H cubed",
+      "sourceUnitVolume": 0.1314151663339896,
+      "status": "volume of this regional proposal, not a measured anatomical volume",
+      "heightReferenceNormalized": 1,
+      "normal_unit_length_error": 4.336644199298689e-8,
+      "milliseconds": 66.149,
+      "stature_metadata_fixed": true,
+      "slice_y_061_bounds": {
+        "min": [
+          -0.15426474745550334,
+          0.61,
+          -0.15575304424306058
+        ],
+        "max": [
+          0.15425884984031227,
+          0.61,
+          0.054364450098254344
+        ],
+        "extent": [
+          0.3085235972958156,
+          0,
+          0.21011749434131494
+        ]
+      }
+    },
+    {
+      "name": "asymmetric",
+      "parameters": {
+        "lobeWidth": 1,
+        "lobeHeight": 1,
+        "rearProjection": 1,
+        "upperPole": 1.08,
+        "lowerPole": 1,
+        "separation": 1,
+        "attachment": 0.012,
+        "cleft": 0.75,
+        "asymmetry": 0.18,
+        "pelvisWidth": 1,
+        "pelvisDepth": 1,
+        "thighFullness": 1,
+        "thighOuter": 1,
+        "thighFront": 1,
+        "kneeTaper": 0.65
+      },
+      "resolution": 24,
+      "points": 3346,
+      "triangles": 6688,
+      "closed": true,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "inconsistentEdges": 0,
+      "connectedComponents": 1,
+      "degenerateTriangles": 0,
+      "minimumTriangleArea": 4.867846600586253e-12,
+      "surfaceArea": 0.2851339628934712,
+      "signedVolume": 0.008145283526403549,
+      "volume": 0.008145283526403549,
+      "volumeUnits": "normalized H cubed",
+      "sourceUnitVolume": 0.11191299774692767,
+      "status": "volume of this regional proposal, not a measured anatomical volume",
+      "heightReferenceNormalized": 1,
+      "normal_unit_length_error": 4.241380491265545e-8,
+      "milliseconds": 94.6468000000001,
+      "stature_metadata_fixed": true,
+      "slice_y_061_bounds": {
+        "min": [
+          -0.13952160681243736,
+          0.61,
+          -0.1813895399373116
+        ],
+        "max": [
+          0.1694546215960856,
+          0.61,
+          0.054648910848189666
+        ],
+        "extent": [
+          0.30897622840852296,
+          0,
+          0.23603845078550129
+        ]
+      }
+    },
+    {
+      "name": "compact",
+      "parameters": {
+        "lobeWidth": 0.55,
+        "lobeHeight": 0.65,
+        "rearProjection": 0.55,
+        "upperPole": 1.08,
+        "lowerPole": 1,
+        "separation": 1.5,
+        "attachment": 0.003,
+        "cleft": 0.75,
+        "asymmetry": 0,
+        "pelvisWidth": 1,
+        "pelvisDepth": 1,
+        "thighFullness": 1,
+        "thighOuter": 1,
+        "thighFront": 1,
+        "kneeTaper": 0.65
+      },
+      "resolution": 24,
+      "points": 3598,
+      "triangles": 7192,
+      "closed": true,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "inconsistentEdges": 0,
+      "connectedComponents": 1,
+      "degenerateTriangles": 0,
+      "minimumTriangleArea": 2.562549440091388e-11,
+      "surfaceArea": 0.21362047008829638,
+      "signedVolume": 0.004669161998745605,
+      "volume": 0.004669161998745605,
+      "volumeUnits": "normalized H cubed",
+      "sourceUnitVolume": 0.06415245271104496,
+      "status": "volume of this regional proposal, not a measured anatomical volume",
+      "heightReferenceNormalized": 1,
+      "normal_unit_length_error": 4.320112889644179e-8,
+      "milliseconds": 73.10469999999998,
+      "stature_metadata_fixed": true,
+      "slice_y_061_bounds": {
+        "min": [
+          -0.1540037047791413,
+          0.61,
+          -0.09201513371075506
+        ],
+        "max": [
+          0.15401019770680457,
+          0.61,
+          0.05463604241320183
+        ],
+        "extent": [
+          0.30801390248594585,
+          0,
+          0.1466511761239569
+        ]
+      }
+    },
+    {
+      "name": "thin-thigh-attachment",
+      "parameters": {
+        "lobeWidth": 1,
+        "lobeHeight": 1,
+        "rearProjection": 1,
+        "upperPole": 1.08,
+        "lowerPole": 1,
+        "separation": 1,
+        "attachment": 0.003,
+        "cleft": 0.75,
+        "asymmetry": 0,
+        "pelvisWidth": 0.8,
+        "pelvisDepth": 0.8,
+        "thighFullness": 0.65,
+        "thighOuter": 0.5,
+        "thighFront": 0.5,
+        "kneeTaper": 0.65
+      },
+      "resolution": 24,
+      "points": 3758,
+      "triangles": 7512,
+      "closed": true,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "inconsistentEdges": 0,
+      "connectedComponents": 1,
+      "degenerateTriangles": 0,
+      "minimumTriangleArea": 5.12384844995107e-10,
+      "surfaceArea": 0.23873767222933012,
+      "signedVolume": 0.005882094887567014,
+      "volume": 0.005882094887567014,
+      "volumeUnits": "normalized H cubed",
+      "sourceUnitVolume": 0.08081767439594074,
+      "status": "volume of this regional proposal, not a measured anatomical volume",
+      "heightReferenceNormalized": 1,
+      "normal_unit_length_error": 4.1139689765934406e-8,
+      "milliseconds": 66.6893,
+      "stature_metadata_fixed": true,
+      "slice_y_061_bounds": {
+        "min": [
+          -0.15465470932665665,
+          0.61,
+          -0.15627628605980312
+        ],
+        "max": [
+          0.15462442347225722,
+          0.61,
+          0.04373275854454973
+        ],
+        "extent": [
+          0.30927913279891384,
+          0,
+          0.20000904460435284
+        ]
+      }
+    },
+    {
+      "name": "expanded",
+      "parameters": {
+        "lobeWidth": 1.6,
+        "lobeHeight": 1.55,
+        "rearProjection": 2.1,
+        "upperPole": 1.4,
+        "lowerPole": 1.4,
+        "separation": 1,
+        "attachment": 0.03,
+        "cleft": 0.75,
+        "asymmetry": 0,
+        "pelvisWidth": 1,
+        "pelvisDepth": 1,
+        "thighFullness": 1,
+        "thighOuter": 1,
+        "thighFront": 1,
+        "kneeTaper": 0.65
+      },
+      "resolution": 24,
+      "points": 3032,
+      "triangles": 6060,
+      "closed": true,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "inconsistentEdges": 0,
+      "connectedComponents": 1,
+      "degenerateTriangles": 0,
+      "minimumTriangleArea": 1.6288092952417606e-9,
+      "surfaceArea": 0.6307364357106026,
+      "signedVolume": 0.035253603952291136,
+      "volume": 0.035253603952291136,
+      "volumeUnits": "normalized H cubed",
+      "sourceUnitVolume": 0.48437067744722867,
+      "status": "volume of this regional proposal, not a measured anatomical volume",
+      "heightReferenceNormalized": 1,
+      "normal_unit_length_error": 4.10036549158832e-8,
+      "milliseconds": 56.73450000000014,
+      "stature_metadata_fixed": true,
+      "slice_y_061_bounds": {
+        "min": [
+          -0.24841483414968044,
+          0.61,
+          -0.41318620271275347
+        ],
+        "max": [
+          0.24841460860474035,
+          0.61,
+          0.054459925712288276
+        ],
+        "extent": [
+          0.49682944275442076,
+          0,
+          0.4676461284250417
+        ]
+      }
+    }
+  ],
+  "parameter_independence_cases": 6,
+  "independent_components_exact": true,
+  "protected_mid_thigh_field_exact": true,
+  "protected_deep_lobe_field_exact": true,
+  "mirror_symmetry_and_opposite_asymmetry_max_error": 0,
+  "cleft_control_changes_field": true,
+  "refined": {
+    "resolution": 40,
+    "points": 9632,
+    "triangles": 19260,
+    "closed": true,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 0,
+    "inconsistentEdges": 0,
+    "connectedComponents": 1,
+    "degenerateTriangles": 0,
+    "minimumTriangleArea": 1.1460599492142567e-14,
+    "surfaceArea": 0.28287247240434876,
+    "signedVolume": 0.0078554250334356,
+    "volume": 0.0078554250334356,
+    "volumeUnits": "normalized H cubed",
+    "sourceUnitVolume": 0.10793045585439605,
+    "status": "volume of this regional proposal, not a measured anatomical volume",
+    "heightReferenceNormalized": 1
+  },
+  "voxel_measurement": {
+    "volume": 0.007903561001142857,
+    "insideCells": 8768,
+    "gridCells": [
+      48,
+      48,
+      35
+    ],
+    "spacing": [
+      0.00975,
+      0.00975,
+      0.009482285714285714
+    ],
+    "method": "cell-centre integration of final implicit union; discretization dependent",
+    "volumeUnits": "normalized H cubed"
+  },
+  "coarse_refined_volume_relative_difference": 0.015970384712122976,
+  "voxel_mesh_volume_relative_difference": 0.006127735609769314,
+  "volume_overlap_policy": "final union mesh integral or one negative-field voxel classification; component volumes are never summed",
+  "elapsed_seconds": 1.3385471,
+  "limits": "Closed regional template only. Not attached seamlessly to original full body; no anatomy acceptance, surface detail, clothing, skeleton, contact simulation, actual tissue-volume calibration, or full implementation of an academic paper."
+}

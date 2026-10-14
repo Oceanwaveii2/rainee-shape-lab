@@ -1,0 +1,251 @@
+Rainee: ideas for a program that measures and constructs her shape
+Research synthesis, 2026-10-14
+
+This is a proposal, not an implemented or validated reconstruction system.
+The character build remains paused while the user prepares more data.
+The paper descriptions below are research findings. Their proposed uses for
+Rainee are our engineering inferences, not results demonstrated on her assets.
+
+Main direction
+--------------
+Give the program three responsibilities: understand the evidence, construct an
+editable canonical body, and explain where a proposed shape disagrees with the
+evidence. Preserve alternative plausible shapes when a view cannot resolve
+depth. A new representation improves authoring, but does not supply missing
+side views, trustworthy camera parameters, or structural attachment information.
+
+The accepted sequence remains 0000 -> 0010 -> 0018 -> 0026, then hold 0026.
+These are four changing shape states, not four ordinary views of one static
+object. Stage ordinals do not specify anatomical volume ratios. The FBX supplies
+the existing stature anchor; accepted images guide the face. Thighs remain
+separately authored. The initial native control-volume schedule is provisional.
+
+1. Separate the variables that currently get confused
+---------------------------------------------------
+Each reference should have its own camera, pose, shape stage and appearance.
+One canonical body supplies identity and measurements. A local growth field
+supplies the rear shape. Pose supplies lumbar arch, pelvis orientation and
+limb placement. The camera supplies perspective, framing and apparent size.
+Appearance supplies highlights, costume and painted surface detail.
+
+Fit broad silhouettes and reviewed landmarks first, then selected surface
+profiles, then detail. Starting with all RGB pixels would encourage the solver
+to interpret glossy reflections, clothing folds and generated shading as anatomy.
+
+BARF (ICCV 2021) demonstrates coarse-to-fine representation/camera alignment.
+Its camera-alignment idea is useful, but our changing, independently generated
+references do not satisfy an ordinary static-scene reconstruction assumption.
+https://chenhsuanlin.bitbucket.io/bundle-adjusting-NeRF/
+
+Large Steps (SIGGRAPH Asia 2021) demonstrates a more stable parameterization for
+image-driven geometry optimization. Proposed use: optimize a coarse regional
+shape against registered outlines while protecting stature and distant anatomy.
+Its demonstrations do not establish the correct hidden anatomy in our artwork.
+https://rgl.epfl.ch/publications/Nicolet2021Large
+
+2. Give the character a small, meaningful shape vocabulary
+---------------------------------------------------------
+Proposed controls: lateral width, posterior depth, vertical fullness, upper
+dome, underside fullness, left/right spacing, cleft profile, and attachment
+width. Keep lumbar arch and pelvic tilt in the pose controls. Keep thigh mass,
+front/outer sweep and knee taper in their own controls.
+
+Begin with a connected pelvic template and two lobe fields. Add local profile
+corrections when simple ellipsoids cannot match the curves. Expose artist terms;
+the numerical implementation can use implicit functions, cages and coefficients.
+Report individual lobe quantities and their combined region consistently.
+Adding the volumes of overlapping primitives would double-count their overlap.
+
+Semantic Shape Editing with Parametric Implicit Templates (SIGGRAPH 2024) fits
+an analytical implicit template to a mesh and tracks its surface as template
+parameters change, including anisotropic stretch and local volume changes.
+This is a particularly direct foundation for a custom anatomy authoring tool.
+Our pelvic/lobe/thigh template would still need deliberate fitting and joins;
+a generic smooth union can erase the cleft or overblend the thigh transition.
+https://udaykusupati.github.io/publications/ish/ish/
+
+3. Explore curved cages and incremental deformation fields
+---------------------------------------------------------
+Bézier Green cages (SIGGRAPH 2025) use curved boundaries and position/normal
+controls. Proposed use: manipulate round poles with a few handles, preserving
+the broader body shape. Numerical integration and preprocessing add cost, and
+the method is not an automatic guarantee against folds or contact intersections.
+https://github.com/Submanifold/BezierGreen
+https://arxiv.org/pdf/2501.14068
+
+Vector-field deformation (SIGGRAPH 2006) integrates a field over time rather
+than applying one large displacement. Its original divergence-free construction
+preserves volume. Proposed adaptation: separate deliberate growth from shaping,
+and integrate controlled increments while pinning distant anatomy. Numerical
+integration accuracy, field regularity and collision checks remain necessary.
+https://vc.cs.ovgu.de/assets/publications/2006/Funck_2006_SIGGRAPH.pdf
+
+4. Use an implicit surface for structure and surface extraction
+--------------------------------------------------------------
+A signed distance function can support connected geometry and local blending
+without depending on the inherited vertex layout. A small local grid or sparse
+field around pelvis and rear could provide a workable first experiment. Keep
+the rest of the character on an editable mesh/cage while fitting that region.
+
+Differentiable SDF Rendering (SIGGRAPH 2022) supplies image-based optimization
+of implicit geometry and visibility. FlexiCubes (SIGGRAPH 2023) supplies flexible,
+differentiable surface extraction with optional adaptive/tetrahedral extensions.
+Proposed use: optimize the regional field and extract a usable surface, then
+inspect continuity, creases and mesh quality before production retopology.
+Neither paper makes an invented hidden attachment anatomically authoritative.
+https://rgl.epfl.ch/publications/Vicini2022SDF
+https://research.nvidia.com/labs/toronto-ai/flexicubes/
+
+OpenVDB provides a sparse level-set alternative already relevant to Houdini.
+Fine voxels can consume memory and smooth away creases; remeshing changes
+correspondence. Use sufficient resolution where the attachment changes rapidly,
+and keep construction operations reversible.
+https://www.openvdb.org/documentation/
+
+5. Test a compact surface-patch representation
+--------------------------------------------
+MASH (SIGGRAPH 2025) represents shapes with anchored spherical-distance patches,
+harmonic coefficients and local masks. Its deterministic fitting branch is
+separate from its generation branch. Proposed use: fit a few local charts to
+rear surfaces and expose selected coefficients as curvature controls. That may
+capture richer shape than two ellipsoids without editing every vertex.
+Patch initialization, continuity and watertight extraction need attention;
+geometry fitting does not automatically resolve appearance or anatomy.
+https://565353780.github.io/MASH/
+https://arxiv.org/html/2504.09149v3
+
+6. Give Gaussians an appearance role with a controlled deformation
+----------------------------------------------------------------
+The existing SPZs are useful visual assets. A shared deformation can move their
+centres and transport covariance alongside a geometric control surface. A
+segmented character region is essential: the room, glass, clothing and hair
+must have explicitly chosen roles. Gaussian opacity/covariance is not tissue
+density, and summing Gaussian ellipsoid volumes does not measure the body.
+
+SuGaR (CVPR 2024) demonstrates mesh extraction and surface-bound Gaussians.
+PhysGaussian (CVPR 2024) couples Gaussian appearance with continuum deformation.
+Proposed use: retain appearance while the authored surface/field defines shape.
+For a nonlinear deformation, J Sigma J^T is first-order covariance transport;
+it is exact for the local affine approximation, not a whole finite Gaussian.
+https://imagine.enpc.fr/~guedona/sugar/
+https://xpandora.github.io/PhysGaussian/
+
+2D Gaussian Splatting (SIGGRAPH 2024) uses oriented surface disks and geometry
+regularization. Existing 3D SPZ exports do not become this representation merely
+by being opened in a viewer. Reconstruction/refinement still requires suitable
+images and camera information.
+https://surfsplatting.github.io/
+
+Gaussian Sculpting (August 2026 arXiv preprint) makes an evolving SDF surface
+the geometric authority and constrains Gaussians to it. This is a useful hybrid
+architecture to study. It is a costly research branch: its paper reports 6–18
+hours per scene on a 24 GB RTX 3090 and discusses memory and reflective-material
+limitations. That is the paper's benchmark, not a local performance prediction.
+No SIGGRAPH acceptance or installation is claimed here.
+https://arxiv.org/html/2608.10602v1
+
+Drag Your Gaussian (SIGGRAPH 2025) offers masked point-based edits with score
+distillation and a latent diffusion model. Its interaction ideas are relevant,
+but the full method adds a generative prior. Generated changes would need
+explicit provenance and artist review; they are not recovered measurements.
+https://quyans.github.io/Drag-Your-Gaussian/
+
+7. Preserve uncertainty and choose the next useful view
+------------------------------------------------------
+The program should distinguish observed outlines, artist-defined shape, and
+unseen/ambiguous regions. For an underconstrained depth, show multiple plausible
+solutions with comparable rear-view error. Report ranges produced by those
+solutions rather than a falsely precise circumference or volume. Those ranges
+are sensitivity results, not calibrated probability intervals automatically.
+
+Uncertainty-Aware Geometry Processing on Gaussian Process Implicit Surfaces
+(SIGGRAPH 2026) performs geometric computation on probabilistic surfaces with
+noise/missing-data uncertainty. This suggests a useful architectural direction.
+Gaussian-process surfaces here are distinct from rendering Gaussian splats.
+A valid probabilistic model and uncertainty assumptions must be supplied.
+https://perso.liris.cnrs.fr/david.coeurjolly/publication/gpgp-26/
+
+Our proposed next-view tool: render several acceptable candidate shapes from
+possible viewpoints, identify where their outlines diverge most, and recommend
+that view for the next artist-approved reference. A simple parameter-sensitivity
+version could precede a full probabilistic implementation.
+
+8. Turn generated donor models into regional evidence
+-----------------------------------------------------
+Put every generated model in a reviewed anatomical coordinate frame. Mark
+pelvis, waist, lobe peaks, thigh roots and knees. Register its selected body
+region onto the canonical template before comparing deformation. Exclude props,
+costume and melted/disconnected regions where appropriate. Keep donor source,
+registration error and artist acceptance attached to every derived control.
+
+Deformation Transfer (SIGGRAPH 2004) demonstrates transfer across different
+mesh vertex counts/connectivity with a correspondence map. Proposed use:
+compare registered regional fields rather than subtracting unrelated vertices.
+Independent generated models require semantic registration first; that process
+does not make every donor defect part of the intended body.
+https://people.csail.mit.edu/sumner/research/deftransfer/
+
+9. Author growth, then add motion and contact
+--------------------------------------------
+First fit the four intended shapes and a smooth progression that holds the
+endpoint. Then treat that progression as changing rest geometry. Elasticity,
+damping and contact can produce settling or secondary motion around that target.
+Pressure alone is an unnecessarily indirect way to reproduce the drawings.
+
+Projective Dynamics (SIGGRAPH 2014) and XPBD (Motion in Games 2016) provide useful
+elastic/compliant simulation foundations. Houdini Vellum Rest Blend accepts
+matching-topology rest geometry. Incremental Potential Contact (SIGGRAPH 2020)
+provides a stronger but more demanding contact/inversion-avoidance direction.
+All need suitable solids/surfaces, attachments and material choices.
+https://users.cs.utah.edu/~ladislav/bouaziz14projective/bouaziz14projective.html
+https://mmacklin.com/xpbd.pdf
+https://www.sidefx.com/docs/houdini/nodes/dop/vellumrestblend.html
+https://ipc-sim.github.io/
+
+Volume conservation during ordinary motion and an intentional increase in the
+authored shape's volume are separate requirements. A simulation should settle
+around the currently authored state rather than undo the accepted endpoint.
+
+Program features proposed for exploration
+----------------------------------------
+- Paired 2D reference and 3D views with contour mismatch overlays.
+- Rear and side profile editing plus cross-sections at selected heights.
+- A dimension ledger in FBX-relative units, with camera/pose-independent
+  definitions, closed-region definitions and observed/artist/unknown status.
+- A pelvis coordinate frame that stays stable across donors and shape stages.
+- Separate rear, thighs, posture, face, appearance and secondary-motion controls.
+- A source-linked library of regional donor shape cues with reviewed masks.
+- Depth alternatives and a next-view recommendation based on disagreement.
+- A simple neutral clay preview to judge geometry separately from highlights.
+- Measurement sensitivity when camera estimates, masks or landmarks change.
+- A coarse interactive preview with local refinement after the large shape fits.
+
+Small experiments to run after the build resumes
+-----------------------------------------------
+A. Make a simple synthetic character with known dimensions. Render changing
+camera, pose and growth independently. Check whether the fitter recovers the
+known quantities, or correctly reports ambiguity when the side view is absent.
+B. Fit low-dimensional lobe controls to rear + side profiles. Reserve a rear
+three-quarter view for validation rather than optimizing every supplied view.
+C. Compare an implicit template, curved cage and local grid on the same input,
+using silhouette error, structural continuity, field orientation, edit latency
+and peak memory. Keep stature and unaffected anatomy fixed in every experiment.
+D. Test clipping and garment occlusion. Verify that an unseen lower pole remains
+unknown instead of being promoted from an extrapolated ellipse into a fact.
+E. After accepting shape, compare simple elastic secondary motion with the
+authored rest target held. Audit contact and output shape separately.
+
+Priority for this project
+-------------------------
+Start with camera/pose separation, semantic dimensions and editable implicit
+templates. Add stable contour fitting and confidence/sensitivity displays.
+Evaluate curved cages and local SDF/FlexiCubes on a small regional experiment.
+Keep the supplied Gaussians available for appearance inspection and controlled
+deformation. MASH is a promising compact-shape experiment. Full neural surface
+training and expensive contact solvers can follow only when their added value
+has been demonstrated on the bounded tests.
+
+The important advance is a coherent, inspectable parameter space with a
+reliable comparison loop. The program should make extreme stylization an
+explicit authored property while retaining the evidence and uncertainty behind
+every measurement.

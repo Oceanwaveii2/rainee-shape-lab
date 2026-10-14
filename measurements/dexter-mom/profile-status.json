@@ -1,0 +1,11 @@
+{
+  "calibration": {
+    "status": "needs_calibration",
+    "units": "source units",
+    "reason": "Explicit body head/feet landmarks are missing. Full asset bounds may include props, hair, shoes or a base.",
+    "basis_semantics": "Axis labels are supplied settings, not verified anatomical orientation."
+  },
+  "comparison_ready": false,
+  "sections": [],
+  "message": "No normalized profile emitted until reliable head/feet and body midline are supplied."
+}

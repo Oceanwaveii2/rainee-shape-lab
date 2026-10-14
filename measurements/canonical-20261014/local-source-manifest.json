@@ -1,0 +1,536 @@
+{
+  "schema": "rainee-canonical-local-archive-v1",
+  "archive_path": "C:\\Users\\User\\Downloads\\CanonicalShapeReferencePack_20261014.zip",
+  "archive_sha256": "b7170de9eac720a79d234fdb7b1e292faea0a0c9c2ade49b28344a775d412e63",
+  "archive_bytes": 497683266,
+  "all_files_retained": true,
+  "scripts_executed": false,
+  "files": [
+    {
+      "archive_path": "README.md",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\README.md",
+      "bytes": 2649,
+      "sha256": "4911feb96c683697769fd8578c4ae2d8486fde75bf91d9569f16f36cb0bfbc2c",
+      "declared_hash_matches": false
+    },
+    {
+      "archive_path": "documentation/manifest.json",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\documentation\\manifest.json",
+      "bytes": 31408,
+      "sha256": "1b279cea70f5eadec344ca8311048186fc38920d393c10a4c0345a27d5da3748",
+      "declared_hash_matches": false
+    },
+    {
+      "archive_path": "documentation/SHA256SUMS.txt",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\documentation\\SHA256SUMS.txt",
+      "bytes": 9070,
+      "sha256": "39c582fba4572dae51758c099273a536d32634a601e6a88e9257f4d9e0944718",
+      "declared_hash_matches": false
+    },
+    {
+      "archive_path": "references/R01/codex-clipboard-97762600-7e14-4167-8c99-63302ada6e59.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\references\\R01\\codex-clipboard-97762600-7e14-4167-8c99-63302ada6e59.png",
+      "bytes": 3674806,
+      "sha256": "f6b2421bc361c2eb78dcc35811ff17e07d543814bcc726efa88db881f952c0f6",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/blonde_flower_4k_ultra.glb",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\blonde_flower_4k_ultra.glb",
+      "bytes": 41417376,
+      "sha256": "7e4d0bd16b35f81a154989f65ab0bc663642fee4fcb7c6f77bce7c41b531476d",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/blonde_flower_4k_ultra_textures/base_color.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\blonde_flower_4k_ultra_textures\\base_color.png",
+      "bytes": 23386839,
+      "sha256": "1385045da32a852a66fa4654187490c25aa280e13b0b39bbc9b06ba1a5ffcd4a",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/blonde_flower_4k_ultra_textures/metallic.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\blonde_flower_4k_ultra_textures\\metallic.png",
+      "bytes": 21799,
+      "sha256": "171cf623e37abd51a6b9f1469894c5e633563a9f41df26211db393087dad26a4",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/blonde_flower_4k_ultra_textures/normal.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\blonde_flower_4k_ultra_textures\\normal.png",
+      "bytes": 16469786,
+      "sha256": "781a639c1257f14c0fd2b2fd9d7e559f100bdd48ba8b61c3da5a379dc057d9f6",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/blonde_flower_4k_ultra_textures/roughness.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\blonde_flower_4k_ultra_textures\\roughness.png",
+      "bytes": 1352525,
+      "sha256": "1776750b7660cbfcd4a2155b2bea4d7b6abb226aa9853369d2c0ffa023aa87ff",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/blonde_flower_segmented_5_parts.3mf",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\blonde_flower_segmented_5_parts.3mf",
+      "bytes": 10832485,
+      "sha256": "08ad9b12e0403497b0470e318bfba3923f669ded403a4bd6aa6da57e57c06090",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/inferred_front_transparent.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\inferred_front_transparent.png",
+      "bytes": 1148222,
+      "sha256": "018a1d0d523310a65a8262ea750cf823ef783bdb6eecfc87b676c2b78fba7d28",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/inferred_front_view.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\inferred_front_view.png",
+      "bytes": 538677,
+      "sha256": "9b1eaaf0d670dff5ca677ae5b6aaf214e2e94e64ade14dda87dbdc8829503d7c",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/inspection_contact_sheet.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\inspection_contact_sheet.png",
+      "bytes": 1110699,
+      "sha256": "fc0198a527d0633504e29ac654b41ed91c11affae9476a12660c886ac5dbdb77",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/inspection_minus_x.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\inspection_minus_x.png",
+      "bytes": 578447,
+      "sha256": "986ac46ae8d498dbb8ecae10a487d8a319f976d05f46c2d247bab11f814ff00f",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/inspection_minus_y.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\inspection_minus_y.png",
+      "bytes": 588492,
+      "sha256": "291c28500ceead03f1a933725ff46368dcfcdf00d9bb02c9e1df2caba1bc35d1",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/inspection_plus_x.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\inspection_plus_x.png",
+      "bytes": 574330,
+      "sha256": "5c0cd464e346509d6f6a2c83c8bf0bf0a11a7e607d2dfab6410f118f9f3fe706",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/inspection_plus_y.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\inspection_plus_y.png",
+      "bytes": 588190,
+      "sha256": "6714839180330dc219e87d71f8accd3c7cec67479416d579f97e8b37198af9e3",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/meshy_back.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\meshy_back.png",
+      "bytes": 120796,
+      "sha256": "5b9a4464eb8fd3bbb785536799ebf21a825430e5122552955281fea83222e0eb",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/meshy_front.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\meshy_front.png",
+      "bytes": 120568,
+      "sha256": "9c2c76620ba9c14263b223aaa970ccd7bf2c45368bcd080421232798bcc2e41d",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/meshy_preview.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\meshy_preview.png",
+      "bytes": 120568,
+      "sha256": "9c2c76620ba9c14263b223aaa970ccd7bf2c45368bcd080421232798bcc2e41d",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/render_cardinal.py",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\render_cardinal.py",
+      "bytes": 1647,
+      "sha256": "90d0a4f84505d0a182d36afc9e60d026bd30560f79b60ac00ee1198a77b84a89",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/render_inferred_front.py",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\render_inferred_front.py",
+      "bytes": 2201,
+      "sha256": "693a83a6e30b3c8351e8f71e6d0e5873fc8e0a438b560554d0717ff5efa5468a",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/BlondeFlowerFigurine_20261014/segmented_preview.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\BlondeFlowerFigurine_20261014\\segmented_preview.png",
+      "bytes": 107647,
+      "sha256": "453e6744f413d4eb06b584fdc45fb893469de564a1de15efc861d697d40517ce",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "references/R02/codex-clipboard-bc2e7d59-6725-4d46-975d-b0e70062d189.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\references\\R02\\codex-clipboard-bc2e7d59-6725-4d46-975d-b0e70062d189.png",
+      "bytes": 2965474,
+      "sha256": "c101bd4c9ff485a379eeafc26effde90c68081528a3d9be030292a366e88887d",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/gold_cat_4k_ultra.glb",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\gold_cat_4k_ultra.glb",
+      "bytes": 39469316,
+      "sha256": "891f7b4b65daa76d0d3d622ec8b15ca9a25b56cd1f6c5043ff566560ac1a3b66",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/gold_cat_4k_ultra.obj",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\gold_cat_4k_ultra.obj",
+      "bytes": 64659166,
+      "sha256": "b142889b683b2dea6421dd08d80e2ed5dcc7306515d89a93b066689448b5e11b",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/gold_cat_4k_ultra.stl",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\gold_cat_4k_ultra.stl",
+      "bytes": 32026584,
+      "sha256": "3fa52c7acb9fd3095b669dcd81507cd7265d3758ddf282742f56916cdd2ad0f3",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/gold_cat_4k_ultra_textures/base_color.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\gold_cat_4k_ultra_textures\\base_color.png",
+      "bytes": 24851229,
+      "sha256": "89bc4979dd9a7556b8004063b49f50cca81615910342bdcd4186043e569fcbf9",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/gold_cat_4k_ultra_textures/metallic.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\gold_cat_4k_ultra_textures\\metallic.png",
+      "bytes": 566289,
+      "sha256": "12c47e88eed4904394151b800182431448ee44b0f6639e523d617e5a6803a6f6",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/gold_cat_4k_ultra_textures/normal.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\gold_cat_4k_ultra_textures\\normal.png",
+      "bytes": 18177502,
+      "sha256": "cdf0353bce0e9547036e401bb50e5654a73a3a23c0aa0a2c96ee25ee13c82eee",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/gold_cat_4k_ultra_textures/roughness.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\gold_cat_4k_ultra_textures\\roughness.png",
+      "bytes": 1279968,
+      "sha256": "bee62ac2c06743657df74aa7cc799cd05c8bee722806a5073b74658e56d8080d",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/gold_cat_segmented_11_components.3mf",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\gold_cat_segmented_11_components.3mf",
+      "bytes": 9092503,
+      "sha256": "8e6b3c91b0b3da303b7825fe6749e0bafb0ce17f2cef633a76726916ae5bc684",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/inspection_back.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\inspection_back.png",
+      "bytes": 685541,
+      "sha256": "229df46030768c2c9ad86f8e8a848d3bcb4fd8976da4639206fa479236f3d232",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/inspection_side.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\inspection_side.png",
+      "bytes": 614194,
+      "sha256": "daf213b4bfa7a2a62da82b9b42bf4feec2b52fbcd28b351235317e59d23caa87",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/preview.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\preview.png",
+      "bytes": 89305,
+      "sha256": "a3dc03c9b7d3f86b4bf3024ffc62c7b87d0e70fba3af2bc4137ca7539e21c342",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/preview_verification.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\preview_verification.png",
+      "bytes": 89305,
+      "sha256": "a3dc03c9b7d3f86b4bf3024ffc62c7b87d0e70fba3af2bc4137ca7539e21c342",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/render_views.py",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\render_views.py",
+      "bytes": 1570,
+      "sha256": "65269bcafcf92cee30a640ee1e3cf5277ff59d00c53a4f721df4c79a0e10fd72",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/GoldCatFigurine_20261014/segmented_preview.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\GoldCatFigurine_20261014\\segmented_preview.png",
+      "bytes": 84506,
+      "sha256": "e860f133e4b2d9ebb91fd936ec9ae206ef58dd8060cd5112aab51416c9b82f02",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "references/R03/codex-clipboard-d899cf24-6e2b-4ab1-86a1-b0aa78591cb9.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\references\\R03\\codex-clipboard-d899cf24-6e2b-4ab1-86a1-b0aa78591cb9.png",
+      "bytes": 2448843,
+      "sha256": "fdffd9a1cc63a6a2fa3f7b7a70fe0a56125ca4ef4643ef01a9fc198dc2f49bf6",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/inspection_back.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\inspection_back.png",
+      "bytes": 731744,
+      "sha256": "77574b906e42961199f21d87b20c22ad91fe7a5b25eda665bb2cbb0313f5f1f2",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/inspection_side.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\inspection_side.png",
+      "bytes": 665449,
+      "sha256": "e575b548d18c65c1dae8ad2465203a815b1c7d4c48e8f436ae60f777536523f6",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/original_4k.glb",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\original_4k.glb",
+      "bytes": 43378800,
+      "sha256": "bb7f176ef7d637800041951f23eaf8f38bdf2c22378dce378a386f3c6a4b9c80",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/original_4k.obj",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\original_4k.obj",
+      "bytes": 85525780,
+      "sha256": "db07b3264648e70239ef1764a28ae8c4240b99620df824e7ad6e3e2c388167cf",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/original_4k_textures/base_color.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\original_4k_textures\\base_color.png",
+      "bytes": 23105886,
+      "sha256": "6e5c9a50aca59cd3fddd1c11d8ad1af48877b8c1d3b4710e66530e20ea2feac1",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/original_4k_textures/metallic.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\original_4k_textures\\metallic.png",
+      "bytes": 35185,
+      "sha256": "1b9104a4190233cf0bb91eb0fed1f8974e438eb9a02580f4cdc80386f528609d",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/original_4k_textures/normal.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\original_4k_textures\\normal.png",
+      "bytes": 16671783,
+      "sha256": "3eb43a1a9d26dcc729ecee3008feed2c33d09782e730be6830a67830faefab31",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/original_4k_textures/roughness.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\original_4k_textures\\roughness.png",
+      "bytes": 1362221,
+      "sha256": "5c46154b3ac277dd4f40669f12a9a1a37617765120db44c856e4508af2e0afee",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/preview.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\preview.png",
+      "bytes": 93399,
+      "sha256": "e70e1308ffe1572821385ea137bad78a526025292e68e101bb8af28816b64ac9",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/render_views.py",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\render_views.py",
+      "bytes": 1562,
+      "sha256": "3785dc99d85231e4e8f249b9a5b9b9af665c31fecc920687a578e8c2200eb402",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/segmented_5_parts.3mf",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\segmented_5_parts.3mf",
+      "bytes": 11444985,
+      "sha256": "4849feb6f0954137d718849fba501c77561aaf2198b831dfdc7f3fd087b90eb7",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/segmented_5_parts.glb",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\segmented_5_parts.glb",
+      "bytes": 17712216,
+      "sha256": "5d7d21f53f4f5a8b2cb0fb2d38d75fd7c2b2dbdecf2c719a1f5a40384a140fcc",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/segmented_5_parts.obj",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\segmented_5_parts.obj",
+      "bytes": 85470103,
+      "sha256": "efbdda3f41926a98d3d97a912a71ba05541d3d17b77117c359ee12051dd87acf",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/CatEaredFigurine_20261014/segmented_preview.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\CatEaredFigurine_20261014\\segmented_preview.png",
+      "bytes": 91057,
+      "sha256": "ed53578a1618c690003dcc62d36eef99c9de1d2e10a33781db358c62153f9e67",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "references/R04/codex-clipboard-ec3cdc96-e5e2-461b-9846-f6bf843b4eb9.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\references\\R04\\codex-clipboard-ec3cdc96-e5e2-461b-9846-f6bf843b4eb9.png",
+      "bytes": 3992875,
+      "sha256": "2ae315373baf7b7c932d235cd142e77bbbb369d811b027ee375e0b9ba948ab5c",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/fox_cup_4k_ultra.glb",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\fox_cup_4k_ultra.glb",
+      "bytes": 55701480,
+      "sha256": "e6ceb3b04d3a40eaf876c9a66a82f85d79e062159d410503e9cfc0b7cbf5ae62",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/fox_cup_4k_ultra_textures/base_color.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\fox_cup_4k_ultra_textures\\base_color.png",
+      "bytes": 23477504,
+      "sha256": "b9ccec03526eac4eb268111d9a4340aee3ebd938b81a2d546527ea6e0428ea62",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/fox_cup_4k_ultra_textures/metallic.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\fox_cup_4k_ultra_textures\\metallic.png",
+      "bytes": 92974,
+      "sha256": "98e3d1511bcac243f3dc2c0237d42b374257b1d2435b47291d14b99ca90a117d",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/fox_cup_4k_ultra_textures/normal.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\fox_cup_4k_ultra_textures\\normal.png",
+      "bytes": 18137171,
+      "sha256": "ff49c8725be207e56ae9f7cc35150b600012d7d124db63cb80210669b4fec061",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/fox_cup_4k_ultra_textures/roughness.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\fox_cup_4k_ultra_textures\\roughness.png",
+      "bytes": 1509291,
+      "sha256": "2824426520ff8854d3afcfaf7a58eed6655b0c0d1ba3138fe02e2c693e4859aa",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/fox_cup_segmented_7_parts.3mf",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\fox_cup_segmented_7_parts.3mf",
+      "bytes": 16320515,
+      "sha256": "c93aa6905079464a9c4bcd65321f3988710d81454321a6372b77881cb5483bd1",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/inferred_front_transparent.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\inferred_front_transparent.png",
+      "bytes": 1267480,
+      "sha256": "75d68835a41a532b640aca56fed138dce21fb5ad8cb4d6cc6a83978890a7d89f",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/inferred_front_view.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\inferred_front_view.png",
+      "bytes": 681234,
+      "sha256": "13c669f9efc28618e9d0431efea452e214d905eabda4473c7c11e30d47f6b9cc",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/inspection_contact_sheet.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\inspection_contact_sheet.png",
+      "bytes": 1260629,
+      "sha256": "b2a5db20da60cc789308d0521dec9f490607df378e20f290a87176e8e49b8d5c",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/inspection_minus_x.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\inspection_minus_x.png",
+      "bytes": 590176,
+      "sha256": "a78a0b0eef4083cebaab1acd2c3a5728407b1ef723d580690a504b07797e073a",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/inspection_minus_y.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\inspection_minus_y.png",
+      "bytes": 626223,
+      "sha256": "9afabed001dd93b373e12a97f2941edc0e94905b267d0d1ac96982b6bffe255e",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/inspection_plus_x.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\inspection_plus_x.png",
+      "bytes": 648624,
+      "sha256": "d391660ce0ddb1f5bd82c3e779ffd9e5f2ed3e05ee5bfb3300d01881318d0208",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/inspection_plus_y.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\inspection_plus_y.png",
+      "bytes": 598584,
+      "sha256": "c6f01b6c41a47acd7a33a46c2c557c71730c14c6be7ef4631a58bfc2eb8e959e",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/meshy_back.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\meshy_back.png",
+      "bytes": 132234,
+      "sha256": "6bcb3fc731bd951f7d694e06ca315c37b4411995f6e6e39dff2a742f7eefa4cc",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/meshy_left.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\meshy_left.png",
+      "bytes": 143202,
+      "sha256": "6c2af2ff5f0cea53c957c3bb921f08d3008b6bdf0cb7597da9f22ecb50b67138",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/meshy_preview.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\meshy_preview.png",
+      "bytes": 149512,
+      "sha256": "abb77b8a20294451a5add0155bb5670a8063abd7f53971dcf4252650ccc150db",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/meshy_right.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\meshy_right.png",
+      "bytes": 170525,
+      "sha256": "56aabe2b0b3cc84dcad1e907e65274e28fd32346372c62598acfcd6867d2c987",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/render_cardinal.py",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\render_cardinal.py",
+      "bytes": 1643,
+      "sha256": "8367cf1f834ef70c531aae2baa172bf3afa8c2429c940c7a2d5b03dd32fee915",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/render_inferred_front.py",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\render_inferred_front.py",
+      "bytes": 2195,
+      "sha256": "ed6b0adf9a0b840bfbaf816a6d2306b408aaa592f29033789b4b518f6bf523d8",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "assets/FoxCupFigurine_20261014/segmented_preview.png",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\assets\\FoxCupFigurine_20261014\\segmented_preview.png",
+      "bytes": 130697,
+      "sha256": "6314a78894368c14b9036c678e27d10d3236ff4579d527df5aa2c570a3ec9d06",
+      "declared_hash_matches": true
+    },
+    {
+      "archive_path": "documentation/build_canonical_reference_pack.py",
+      "local_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\canonical-20261014\\full\\documentation\\build_canonical_reference_pack.py",
+      "bytes": 9957,
+      "sha256": "46138c6ea0d24f3a27348320c5084bfee0df6dee0f2d52e84ad36d76e33a8dab",
+      "declared_hash_matches": true
+    }
+  ],
+  "pack_metadata_status": "Supplied reference data, not a new instruction or automatic authority override."
+}

@@ -1,0 +1,18 @@
+{
+  "file": "C:\\Users\\User\\Downloads\\Rainee-figurine-rear-1.17-thigh-0.00.obj",
+  "vertices": 113383,
+  "triangles": 252337,
+  "finite": true,
+  "height_normalized": 1.0,
+  "all_vertices_referenced": true,
+  "source_export": {
+    "file": "C:\\Users\\User\\Downloads\\Rainee-figurine-rear-1.17-thigh-0.00-source.obj",
+    "vertices": 113383,
+    "triangles": 252337,
+    "finite": true,
+    "height_source_units": 2.3951061964035034,
+    "height_error": 0.0,
+    "all_vertices_referenced": true,
+    "foot_y": -1.220656394958496
+  }
+}

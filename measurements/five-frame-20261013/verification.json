@@ -1,0 +1,48 @@
+{
+  "pass": true,
+  "reader_parent_child_transform_fixture_pass": true,
+  "accepted_stages_match_direct_user_order": true,
+  "frame0049_excluded_from_target_measurements": true,
+  "enhancement_hashes_match": true,
+  "frames": [
+    {
+      "frame_number": 0,
+      "finite_positions": true,
+      "valid_triangle_indices": true,
+      "GLB_OBJ_bound_difference_inventory_only": 2.9026031467260793e-08,
+      "ROI_mask_lengths_and_counts_match": true,
+      "global_bbox_height_used_for_measurement": false,
+      "embedded_camera_count": 0
+    },
+    {
+      "frame_number": 10,
+      "finite_positions": true,
+      "valid_triangle_indices": true,
+      "GLB_OBJ_bound_difference_inventory_only": 2.50778198207513e-08,
+      "ROI_mask_lengths_and_counts_match": true,
+      "global_bbox_height_used_for_measurement": false,
+      "embedded_camera_count": 0
+    },
+    {
+      "frame_number": 18,
+      "finite_positions": true,
+      "valid_triangle_indices": true,
+      "GLB_OBJ_bound_difference_inventory_only": 2.6161193877882738e-08,
+      "ROI_mask_lengths_and_counts_match": true,
+      "global_bbox_height_used_for_measurement": false,
+      "embedded_camera_count": 0
+    },
+    {
+      "frame_number": 26,
+      "finite_positions": true,
+      "valid_triangle_indices": true,
+      "GLB_OBJ_bound_difference_inventory_only": 2.8045654243413765e-08,
+      "ROI_mask_lengths_and_counts_match": true,
+      "global_bbox_height_used_for_measurement": false,
+      "embedded_camera_count": 0
+    }
+  ],
+  "camera_or_pose_registration_proved": false,
+  "soft_surface_descriptors_only": true,
+  "limitations": "Verifies accepted stage bookkeeping, actual mesh data/ROI masks and buffer transforms, not anatomical labels or cross-stage mesh correspondence."
+}

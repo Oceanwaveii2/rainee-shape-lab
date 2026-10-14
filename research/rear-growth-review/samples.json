@@ -1,0 +1,19 @@
+{
+  "source": "C:\\Users\\User\\Downloads\\grok-video-69315bad-8ad2-4e94-9377-02314b2270d6_5.mp4",
+  "duration_seconds": 6.041667,
+  "width": 560,
+  "height": 560,
+  "fps": 24,
+  "sample_times": [
+    0,
+    0.5,
+    1,
+    1.5,
+    2,
+    2.5,
+    3,
+    4.5,
+    5.7083333
+  ],
+  "method": "uncropped full-frame extraction; times seek to nearest decoded frame"
+}

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "vertices": 98078,
+  "triangles": 220971,
+  "protectedVertices": 28578,
+  "originalHip": {
+    "width": 0.3012554829359101,
+    "depth": 0.22374979689820954
+  },
+  "newHip": {
+    "width": 0.45587135281615865,
+    "depth": 0.2748691203784012
+  },
+  "originalWaist": {
+    "width": 0.09177869435342556,
+    "depth": 0.055483939040425846
+  },
+  "newWaist": {
+    "width": 0.08357715562071769,
+    "depth": 0.05162276469718177
+  },
+  "tests": [
+    "identity and reset",
+    "finite geometry at each control endpoint",
+    "head feet and outstretched arm preservation",
+    "hip width and depth increase",
+    "waist narrowing",
+    "preset roundtrip and invalid-value rejection",
+    "index bounds"
+  ]
+}

@@ -1,0 +1,41 @@
+// Research equivalent of rear_rounding.round_lobes; not installed in the scene.
+// Input 0: neutral proxy. Input 1: target cage with inflation_amplitude detail.
+// Existing v3 controls are read below. Keep roundness within the audited range.
+// Target cage must be calibrated with the SAME corrective, not the v3 solver.
+vector rest=@P;
+float amp=detail(1,"inflation_amplitude",0);
+float roundness=.65; // audited only at defaults and the recorded ratio-2.5 case
+float ax=abs(rest.x),side=rest.x<0?-1:1;
+float mask=smooth(.49,.555,rest.y)*(1-smooth(.667,.73,rest.y))
+    *(1-smooth(-.045,.015,rest.z))*(1-smooth(.18,.22,ax));
+if(amp>0 && mask>0) {
+    float lateral=ch("../CONTROLS/lateral"),vertical=ch("../CONTROLS/vertical");
+    float projection=ch("../CONTROLS/projection"),separation=ch("../CONTROLS/separation");
+    float upper=ch("../CONTROLS/upper_pole"),lower=ch("../CONTROLS/lower_pole");
+    float cleft=1-ch("../CONTROLS/cleft_hold")*.7*(1-smooth(.004,.035,ax));
+    float a=amp*mask*cleft;
+    float sx=1+a*lateral,cs=1+a*separation,cx=.073;
+    float nx=ax<=cx?cx*cs*pow(min(ax/cx,1),sx/cs):cx*cs+(ax-cx)*sx;
+    float pole=lerp(lower,upper,smooth(.595,.625,rest.y));
+    vector authored=set(side*nx,rest.y+a*(rest.y-.61)*vertical*pole,
+                        rest.z-a*(.025-rest.z)*projection);
+    vector center=set(side*.073,.61,-.043);
+    vector ray=(rest-center)/set(.088,.078,.089);
+    float rho=length(ray);ray/=max(rho,1e-8);
+    vector target_center=center;
+    target_center.x*=1+amp*separation;
+    target_center.z-=amp*(.025+.043)*projection;
+    float target_pole=lerp(lower,upper,smooth(-.15,.15,ray.y));
+    vector target=target_center+set(.088*(1+amp*lateral)*ray.x,
+                                   .078*(1+amp*vertical*target_pole)*ray.y,
+                                   .089*(1+amp*projection)*ray.z);
+    float tx=side*target.x;
+    if(tx<ax) {
+        float room=max(ax-.006,0);
+        tx=room>0?ax-room*(1-exp(min((tx-ax)/max(room,1e-8),0))):ax;
+    }
+    target.x=side*tx;
+    float weight=roundness*(1-exp(-6*amp))*mask*smooth(.025,.060,ax)*smooth(.30,.65,rho);
+    @P=lerp(authored,target,weight);
+}
+f@rainee_mask=mask;

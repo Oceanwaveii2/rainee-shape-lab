@@ -1,0 +1,1388 @@
+[
+  {
+    "parameters": {
+      "volume": 1.0,
+      "lateral": 1.0,
+      "vertical": 1.0,
+      "projection": 1.0
+    },
+    "amplitude": 0.0,
+    "score": 0.05980025166033354,
+    "features": {
+      "rear_depth_over_width": 0.47934870378629824,
+      "rear_width_over_height": 1.828560093672853,
+      "rear_pca_middle_over_major": 0.5462363316046001,
+      "rear_pca_minor_over_major": 0.44918603718234174,
+      "rear_to_waist_width": 2.629894741974224,
+      "rear_to_waist_depth": 1.9961828878365095
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.3,
+      "lateral": 0.65,
+      "vertical": 0.65,
+      "projection": 0.75
+    },
+    "amplitude": 0.18269728822633624,
+    "score": 0.06115429308732734,
+    "features": {
+      "rear_depth_over_width": 0.5222180644785863,
+      "rear_width_over_height": 1.7881764413654841,
+      "rear_pca_middle_over_major": 0.5709109079087017,
+      "rear_pca_minor_over_major": 0.48370178861202934,
+      "rear_to_waist_width": 2.7601777121365947,
+      "rear_to_waist_depth": 2.257438461024786
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.3,
+      "lateral": 0.65,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.12497555138543248,
+    "score": 0.0623411373529436,
+    "features": {
+      "rear_depth_over_width": 0.5529835087747157,
+      "rear_width_over_height": 1.801911410062822,
+      "rear_pca_middle_over_major": 0.5826632166656668,
+      "rear_pca_minor_over_major": 0.49548126308192775,
+      "rear_to_waist_width": 2.7239051859836163,
+      "rear_to_waist_depth": 2.354916159860837
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.3,
+      "lateral": 0.65,
+      "vertical": 1.35,
+      "projection": 0.75
+    },
+    "amplitude": 0.13882871670648456,
+    "score": 0.06803954376530169,
+    "features": {
+      "rear_depth_over_width": 0.5129512977171895,
+      "rear_width_over_height": 1.7078265980317493,
+      "rear_pca_middle_over_major": 0.5845879419317578,
+      "rear_pca_minor_over_major": 0.4835178694712076,
+      "rear_to_waist_width": 2.7322608007032487,
+      "rear_to_waist_depth": 2.1965597618280333
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.3,
+      "lateral": 0.65,
+      "vertical": 1.35,
+      "projection": 1.5
+    },
+    "amplitude": 0.1019846242852509,
+    "score": 0.06751249516311052,
+    "features": {
+      "rear_depth_over_width": 0.5395304466661964,
+      "rear_width_over_height": 1.7395635805515492,
+      "rear_pca_middle_over_major": 0.5858160969682648,
+      "rear_pca_minor_over_major": 0.4974154166044441,
+      "rear_to_waist_width": 2.7098192301496975,
+      "rear_to_waist_depth": 2.2880386176218686
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.3,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 0.75
+    },
+    "amplitude": 0.1515953023917973,
+    "score": 0.06217150811654283,
+    "features": {
+      "rear_depth_over_width": 0.5017690148594625,
+      "rear_width_over_height": 1.8441156402823775,
+      "rear_pca_middle_over_major": 0.5543077995713239,
+      "rear_pca_minor_over_major": 0.46780927627361935,
+      "rear_to_waist_width": 2.8254094710408397,
+      "rear_to_waist_depth": 2.2148060161104475
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.3,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.10900107445195317,
+    "score": 0.05945273626750301,
+    "features": {
+      "rear_depth_over_width": 0.5325112194864535,
+      "rear_width_over_height": 1.8433104656759882,
+      "rear_pca_middle_over_major": 0.5681483575032733,
+      "rear_pca_minor_over_major": 0.48337684352606713,
+      "rear_to_waist_width": 2.7768021528223503,
+      "rear_to_waist_depth": 2.307627090802951
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.3,
+      "lateral": 1.35,
+      "vertical": 1.35,
+      "projection": 0.75
+    },
+    "amplitude": 0.11966307880356908,
+    "score": 0.06589268809536283,
+    "features": {
+      "rear_depth_over_width": 0.4974630696567132,
+      "rear_width_over_height": 1.7635191010865856,
+      "rear_pca_middle_over_major": 0.5696925183091414,
+      "rear_pca_minor_over_major": 0.4705790589898892,
+      "rear_to_waist_width": 2.791804260456462,
+      "rear_to_waist_depth": 2.1715315575679037
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.3,
+      "lateral": 1.35,
+      "vertical": 1.35,
+      "projection": 1.5
+    },
+    "amplitude": 0.09100683452561498,
+    "score": 0.06392286596797123,
+    "features": {
+      "rear_depth_over_width": 0.5239574189650067,
+      "rear_width_over_height": 1.7781497660586212,
+      "rear_pca_middle_over_major": 0.5741131292342951,
+      "rear_pca_minor_over_major": 0.486233623388537,
+      "rear_to_waist_width": 2.7560777580232036,
+      "rear_to_waist_depth": 2.25763685763688
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.9,
+      "lateral": 0.65,
+      "vertical": 0.65,
+      "projection": 0.75
+    },
+    "amplitude": 0.4694623197428882,
+    "score": 0.10107476614409781,
+    "features": {
+      "rear_depth_over_width": 0.5879256318878037,
+      "rear_width_over_height": 1.7056733470870833,
+      "rear_pca_middle_over_major": 0.6113600738344711,
+      "rear_pca_minor_over_major": 0.5286291239339468,
+      "rear_to_waist_width": 2.9499032591802603,
+      "rear_to_waist_depth": 2.684723409846752
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.9,
+      "lateral": 0.65,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.3284423197619617,
+    "score": 0.1360367066631145,
+    "features": {
+      "rear_depth_over_width": 0.6662459705621453,
+      "rear_width_over_height": 1.7477135797823626,
+      "rear_pca_middle_over_major": 0.6683289300269812,
+      "rear_pca_minor_over_major": 0.5383828049062391,
+      "rear_to_waist_width": 2.8691172315989255,
+      "rear_to_waist_depth": 2.9536653510865665
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.9,
+      "lateral": 0.65,
+      "vertical": 1.35,
+      "projection": 0.75
+    },
+    "amplitude": 0.35733814584091306,
+    "score": 0.1339290869522336,
+    "features": {
+      "rear_depth_over_width": 0.5631080774526672,
+      "rear_width_over_height": 1.518887817705069,
+      "rear_pca_middle_over_major": 0.6474145085208469,
+      "rear_pca_minor_over_major": 0.532642161212331,
+      "rear_to_waist_width": 2.890590570733725,
+      "rear_to_waist_depth": 2.5195791484008843
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.9,
+      "lateral": 0.65,
+      "vertical": 1.35,
+      "projection": 1.5
+    },
+    "amplitude": 0.2649213229306042,
+    "score": 0.15544744733403257,
+    "features": {
+      "rear_depth_over_width": 0.6319175651825352,
+      "rear_width_over_height": 1.5946515403666466,
+      "rear_pca_middle_over_major": 0.6553255971415141,
+      "rear_pca_minor_over_major": 0.5662554651057804,
+      "rear_to_waist_width": 2.835288555531382,
+      "rear_to_waist_depth": 2.7714709843874616
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.9,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 0.75
+    },
+    "amplitude": 0.38790781842544675,
+    "score": 0.07740521700872922,
+    "features": {
+      "rear_depth_over_width": 0.5341271972577534,
+      "rear_width_over_height": 1.8462765929830658,
+      "rear_pca_middle_over_major": 0.564227681458698,
+      "rear_pca_minor_over_major": 0.4888202153022529,
+      "rear_to_waist_width": 3.1057928743325616,
+      "rear_to_waist_depth": 2.5677406188442977
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.9,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.282915071118623,
+    "score": 0.09233009647817624,
+    "features": {
+      "rear_depth_over_width": 0.613933431460506,
+      "rear_width_over_height": 1.8389902485399137,
+      "rear_pca_middle_over_major": 0.6201467913451053,
+      "rear_pca_minor_over_major": 0.5113215359713996,
+      "rear_to_waist_width": 2.977166165584221,
+      "rear_to_waist_depth": 2.8245089335682487
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.9,
+      "lateral": 1.35,
+      "vertical": 1.35,
+      "projection": 0.75
+    },
+    "amplitude": 0.3054655040614307,
+    "score": 0.0958538563558092,
+    "features": {
+      "rear_depth_over_width": 0.5238546977715133,
+      "rear_width_over_height": 1.6368130128676033,
+      "rear_pca_middle_over_major": 0.6047898750517215,
+      "rear_pca_minor_over_major": 0.49795036922475727,
+      "rear_to_waist_width": 3.0110079426386953,
+      "rear_to_waist_depth": 2.4428455695783953
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.9,
+      "lateral": 1.35,
+      "vertical": 1.35,
+      "projection": 1.5
+    },
+    "amplitude": 0.2338060955516994,
+    "score": 0.11109821573176332,
+    "features": {
+      "rear_depth_over_width": 0.5919480452205005,
+      "rear_width_over_height": 1.6825803644341877,
+      "rear_pca_middle_over_major": 0.619877493263949,
+      "rear_pca_minor_over_major": 0.5365171050971786,
+      "rear_to_waist_width": 2.9284698262736195,
+      "rear_to_waist_depth": 2.6822389224746264
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.3,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.10900107445195317,
+    "score": 0.05945273626750301,
+    "features": {
+      "rear_depth_over_width": 0.5325112194864535,
+      "rear_width_over_height": 1.8433104656759882,
+      "rear_pca_middle_over_major": 0.5681483575032733,
+      "rear_pca_minor_over_major": 0.48337684352606713,
+      "rear_to_waist_width": 2.7768021528223503,
+      "rear_to_waist_depth": 2.307627090802951
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.5729490168751576,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.19376032752916217,
+    "score": 0.07039200094978822,
+    "features": {
+      "rear_depth_over_width": 0.5724064653650639,
+      "rear_width_over_height": 1.8448691587325854,
+      "rear_pca_middle_over_major": 0.5918944438749705,
+      "rear_pca_minor_over_major": 0.5001118512495796,
+      "rear_to_waist_width": 2.878681007745656,
+      "rear_to_waist_depth": 2.5587314757366437
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.9270509831248421,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.2898057256825268,
+    "score": 0.09443392358945125,
+    "features": {
+      "rear_depth_over_width": 0.6167726197122808,
+      "rear_width_over_height": 1.8394803615648565,
+      "rear_pca_middle_over_major": 0.6223777368862637,
+      "rear_pca_minor_over_major": 0.5120113072778076,
+      "rear_to_waist_width": 2.9861722930869896,
+      "rear_to_waist_depth": 2.8455986633746195
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.3541019662496845,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.12671903567388654,
+    "score": 0.06088540018897263,
+    "features": {
+      "rear_depth_over_width": 0.5412628656127181,
+      "rear_width_over_height": 1.8440418650377368,
+      "rear_pca_middle_over_major": 0.5726996785352587,
+      "rear_pca_minor_over_major": 0.4875275497731905,
+      "rear_to_waist_width": 2.7990313980470076,
+      "rear_to_waist_depth": 2.3622572162247004
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.2188470506254732,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.08143290458247066,
+    "score": 0.058260037349018676,
+    "features": {
+      "rear_depth_over_width": 0.5199811609099997,
+      "rear_width_over_height": 1.8403160976451107,
+      "rear_pca_middle_over_major": 0.5616015124687069,
+      "rear_pca_minor_over_major": 0.47613873167095455,
+      "rear_to_waist_width": 2.739564208015063,
+      "rear_to_waist_depth": 2.229537271913305
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.143453765135729,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.05464285844936967,
+    "score": 0.05845746334051011,
+    "features": {
+      "rear_depth_over_width": 0.5071359633040008,
+      "rear_width_over_height": 1.837686908170425,
+      "rear_pca_middle_over_major": 0.5558993442064636,
+      "rear_pca_minor_over_major": 0.46817056471498636,
+      "rear_to_waist_width": 2.704424141154056,
+      "rear_to_waist_depth": 2.15011192822414
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.193670362651166,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.07261982141062617,
+    "score": 0.05818057790823774,
+    "features": {
+      "rear_depth_over_width": 0.515850391284261,
+      "rear_width_over_height": 1.8402350932280023,
+      "rear_pca_middle_over_major": 0.559652998610413,
+      "rear_pca_minor_over_major": 0.4736192340088353,
+      "rear_to_waist_width": 2.728899850631462,
+      "rear_to_waist_depth": 2.2050864542118216
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.07026434363797307,
+    "score": 0.05815421311531051,
+    "features": {
+      "rear_depth_over_width": 0.5148281816789181,
+      "rear_width_over_height": 1.8397982836983982,
+      "rear_pca_middle_over_major": 0.5591442957501471,
+      "rear_pca_minor_over_major": 0.4729288846338477,
+      "rear_to_waist_width": 2.7253064390531025,
+      "rear_to_waist_depth": 2.198201676516612
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.170369101633261,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.06434593023732305,
+    "score": 0.05821583617280572,
+    "features": {
+      "rear_depth_over_width": 0.5119363967541135,
+      "rear_width_over_height": 1.838567411304121,
+      "rear_pca_middle_over_major": 0.5578885775984126,
+      "rear_pca_minor_over_major": 0.47116284008946446,
+      "rear_to_waist_width": 2.7170665577671116,
+      "rear_to_waist_depth": 2.1798882489658156
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1803370260647033,
+      "lateral": 1.35,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.06789934216067195,
+    "score": 0.058184233408515015,
+    "features": {
+      "rear_depth_over_width": 0.5136236496452485,
+      "rear_width_over_height": 1.8396697660590247,
+      "rear_pca_middle_over_major": 0.5586386349375195,
+      "rear_pca_minor_over_major": 0.4722285644769722,
+      "rear_to_waist_width": 2.722436835702015,
+      "rear_to_waist_depth": 2.191163686897861
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.8583592135001262,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.07697365107014775,
+    "score": 0.05662742163851309,
+    "features": {
+      "rear_depth_over_width": 0.5233459352611798,
+      "rear_width_over_height": 1.8211474946528718,
+      "rear_pca_middle_over_major": 0.5648366691256929,
+      "rear_pca_minor_over_major": 0.47844467938081037,
+      "rear_to_waist_width": 2.7022150498718656,
+      "rear_to_waist_depth": 2.217493133555685
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 1.1416407864998739,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.07294178428128362,
+    "score": 0.05677938832459547,
+    "features": {
+      "rear_depth_over_width": 0.518446471986319,
+      "rear_width_over_height": 1.8316375712019477,
+      "rear_pca_middle_over_major": 0.5614223366879689,
+      "rear_pca_minor_over_major": 0.4751489066491431,
+      "rear_to_waist_width": 2.7156286952039173,
+      "rear_to_waist_depth": 2.206200171980495
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.6832815729997477,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.07972935261204839,
+    "score": 0.0574921897807657,
+    "features": {
+      "rear_depth_over_width": 0.5267565197408968,
+      "rear_width_over_height": 1.8140789935141508,
+      "rear_pca_middle_over_major": 0.5671597341714106,
+      "rear_pca_minor_over_major": 0.48066460642439446,
+      "rear_to_waist_width": 2.69249940940593,
+      "rear_to_waist_depth": 2.2251555058363355
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.97754778949339,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.07521744491532445,
+    "score": 0.05645769180520207,
+    "features": {
+      "rear_depth_over_width": 0.5212743177802289,
+      "rear_width_over_height": 1.8250798929936252,
+      "rear_pca_middle_over_major": 0.563351786587392,
+      "rear_pca_minor_over_major": 0.477016094616341,
+      "rear_to_waist_width": 2.707715642253629,
+      "rear_to_waist_depth": 2.212338828184314
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9842144616844157,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.07512176455929875,
+    "score": 0.05646280344479715,
+    "features": {
+      "rear_depth_over_width": 0.5211274344634785,
+      "rear_width_over_height": 1.8254282569839309,
+      "rear_pca_middle_over_major": 0.5632708387078489,
+      "rear_pca_minor_over_major": 0.4769380056656408,
+      "rear_to_waist_width": 2.708169851654772,
+      "rear_to_waist_depth": 2.212054086847704
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.07548662601038814,
+    "score": 0.0564558346316192,
+    "features": {
+      "rear_depth_over_width": 0.521620747006926,
+      "rear_width_over_height": 1.8244613626525328,
+      "rear_pca_middle_over_major": 0.5635797217801176,
+      "rear_pca_minor_over_major": 0.4772358617948124,
+      "rear_to_waist_width": 2.7068360716078717,
+      "rear_to_waist_depth": 2.2131816659450396
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9204704782918955,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.07604707358404994,
+    "score": 0.056493774157358005,
+    "features": {
+      "rear_depth_over_width": 0.5222514621170337,
+      "rear_width_over_height": 1.8232867679402376,
+      "rear_pca_middle_over_major": 0.5640536519233255,
+      "rear_pca_minor_over_major": 0.47769228177304085,
+      "rear_to_waist_width": 2.7051469296011437,
+      "rear_to_waist_depth": 2.2147910872318897
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9521906785492038,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.0755836027674377,
+    "score": 0.05646103750669249,
+    "features": {
+      "rear_depth_over_width": 0.5217239170628707,
+      "rear_width_over_height": 1.8242891467657902,
+      "rear_pca_middle_over_major": 0.5636615727489233,
+      "rear_pca_minor_over_major": 0.477314762453941,
+      "rear_to_waist_width": 2.706569915059079,
+      "rear_to_waist_depth": 2.213483984492342
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9655240234857032,
+      "vertical": 0.65,
+      "projection": 1.5
+    },
+    "amplitude": 0.07539029000326991,
+    "score": 0.05645760204128024,
+    "features": {
+      "rear_depth_over_width": 0.5214845880052094,
+      "rear_width_over_height": 1.824724385494271,
+      "rear_pca_middle_over_major": 0.5634981992176641,
+      "rear_pca_minor_over_major": 0.47715727203726194,
+      "rear_to_waist_width": 2.7072137966298975,
+      "rear_to_waist_depth": 2.2128798400659058
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.8583592135001262,
+      "projection": 1.5
+    },
+    "amplitude": 0.07102644862607121,
+    "score": 0.05642092553962604,
+    "features": {
+      "rear_depth_over_width": 0.5190209862012539,
+      "rear_width_over_height": 1.809932782430365,
+      "rear_pca_middle_over_major": 0.5647968728728325,
+      "rear_pca_minor_over_major": 0.47746799769973214,
+      "rear_to_waist_width": 2.7038889579068175,
+      "rear_to_waist_depth": 2.2003738980564114
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 1.1416407864998739,
+      "projection": 1.5
+    },
+    "amplitude": 0.06580688478425145,
+    "score": 0.0575823023162161,
+    "features": {
+      "rear_depth_over_width": 0.5161492941809123,
+      "rear_width_over_height": 1.793425474410893,
+      "rear_pca_middle_over_major": 0.566536298057369,
+      "rear_pca_minor_over_major": 0.4774988142525133,
+      "rear_to_waist_width": 2.6993338472527735,
+      "rear_to_waist_depth": 2.184717010322521
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.6832815729997477,
+      "projection": 1.5
+    },
+    "amplitude": 0.07473349990323186,
+    "score": 0.05639458950280644,
+    "features": {
+      "rear_depth_over_width": 0.5211474430499414,
+      "rear_width_over_height": 1.8221080212671183,
+      "rear_pca_middle_over_major": 0.5637680363921128,
+      "rear_pca_minor_over_major": 0.47728858690102827,
+      "rear_to_waist_width": 2.7063353023105297,
+      "rear_to_waist_depth": 2.210898652115241
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7620911724203492,
+      "projection": 1.5
+    },
+    "amplitude": 0.07301337597891688,
+    "score": 0.05633121188204298,
+    "features": {
+      "rear_depth_over_width": 0.5202364069280444,
+      "rear_width_over_height": 1.8163475305734398,
+      "rear_pca_middle_over_major": 0.5642240964050469,
+      "rear_pca_minor_over_major": 0.4773881961805264,
+      "rear_to_waist_width": 2.705197046930026,
+      "rear_to_waist_depth": 2.206333353817905
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7687578407495966,
+      "projection": 1.5
+    },
+    "amplitude": 0.0728718382306397,
+    "score": 0.0563353334188519,
+    "features": {
+      "rear_depth_over_width": 0.5201422974672401,
+      "rear_width_over_height": 1.8158658514211232,
+      "rear_pca_middle_over_major": 0.5642632588457862,
+      "rear_pca_minor_over_major": 0.4773951294225143,
+      "rear_to_waist_width": 2.7051309579845144,
+      "rear_to_waist_depth": 2.2058989293263362
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7468490722895331,
+      "projection": 1.5
+    },
+    "amplitude": 0.07333912374451756,
+    "score": 0.05632513163161214,
+    "features": {
+      "rear_depth_over_width": 0.5204341256088624,
+      "rear_width_over_height": 1.8175298509998496,
+      "rear_pca_middle_over_major": 0.564134841382849,
+      "rear_pca_minor_over_major": 0.4773714681787539,
+      "rear_to_waist_width": 2.7053930683814746,
+      "rear_to_waist_depth": 2.2072887718019554
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7225684481406699,
+      "projection": 1.5
+    },
+    "amplitude": 0.07386480690911412,
+    "score": 0.05632305296534525,
+    "features": {
+      "rear_depth_over_width": 0.5207484321726571,
+      "rear_width_over_height": 1.8194980380094112,
+      "rear_pca_middle_over_major": 0.5639936516722682,
+      "rear_pca_minor_over_major": 0.47734236534888513,
+      "rear_to_waist_width": 2.7057381157683107,
+      "rear_to_waist_depth": 2.2088339339764946
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7293089398424861,
+      "projection": 1.5
+    },
+    "amplitude": 0.07371799228712916,
+    "score": 0.05632272113258626,
+    "features": {
+      "rear_depth_over_width": 0.5206587405682247,
+      "rear_width_over_height": 1.8189436959647023,
+      "rear_pca_middle_over_major": 0.5640326991680296,
+      "rear_pca_minor_over_major": 0.4773507335389153,
+      "rear_to_waist_width": 2.705635339591635,
+      "rear_to_waist_depth": 2.2083890826618564
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.5
+    },
+    "amplitude": 0.07357346592471004,
+    "score": 0.05631902956639639,
+    "features": {
+      "rear_depth_over_width": 0.5205723212589857,
+      "rear_width_over_height": 1.818477054389055,
+      "rear_pca_middle_over_major": 0.5640714384880225,
+      "rear_pca_minor_over_major": 0.4773587943370989,
+      "rear_to_waist_width": 2.7055447429693134,
+      "rear_to_waist_depth": 2.207967721171175
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 0.8583592135001261
+    },
+    "amplitude": 0.09841481922194362,
+    "score": 0.056749830720804646,
+    "features": {
+      "rear_depth_over_width": 0.5045593950440489,
+      "rear_width_over_height": 1.8139789669791175,
+      "rear_pca_middle_over_major": 0.5592238445688577,
+      "rear_pca_minor_over_major": 0.469361602247467,
+      "rear_to_waist_width": 2.728297418145895,
+      "rear_to_waist_depth": 2.157972760439808
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.1416407864998739
+    },
+    "amplitude": 0.08558767614886165,
+    "score": 0.055151195131271584,
+    "features": {
+      "rear_depth_over_width": 0.5126832939334793,
+      "rear_width_over_height": 1.8155286878551957,
+      "rear_pca_middle_over_major": 0.5615212148391672,
+      "rear_pca_minor_over_major": 0.47363603766460227,
+      "rear_to_waist_width": 2.716008455206959,
+      "rear_to_waist_depth": 2.182932752602962
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.3167184270002523
+    },
+    "amplitude": 0.07925102533772588,
+    "score": 0.05532375640776537,
+    "features": {
+      "rear_depth_over_width": 0.5168513905026454,
+      "rear_width_over_height": 1.8165990169965465,
+      "rear_pca_middle_over_major": 0.5628156620455216,
+      "rear_pca_minor_over_major": 0.47563568093011105,
+      "rear_to_waist_width": 2.710417003874197,
+      "rear_to_waist_depth": 2.1962170294130408
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.1951037272380822
+    },
+    "amplitude": 0.08354439912363887,
+    "score": 0.05510321770773788,
+    "features": {
+      "rear_depth_over_width": 0.5140835237953576,
+      "rear_width_over_height": 1.8155643524201777,
+      "rear_pca_middle_over_major": 0.5619265878351031,
+      "rear_pca_minor_over_major": 0.47428935165106656,
+      "rear_to_waist_width": 2.713757064281127,
+      "rear_to_waist_depth": 2.187100934930717
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.08329669060185552,
+    "score": 0.05510279632630219,
+    "features": {
+      "rear_depth_over_width": 0.5142550122725127,
+      "rear_width_over_height": 1.8155902887141724,
+      "rear_pca_middle_over_major": 0.5619765106165494,
+      "rear_pca_minor_over_major": 0.47436803254926824,
+      "rear_to_waist_width": 2.713513173401048,
+      "rear_to_waist_depth": 2.187636793077113
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.187003694407376,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2084370695172177
+    },
+    "amplitude": 0.08305055322125554,
+    "score": 0.05510472779725513,
+    "features": {
+      "rear_depth_over_width": 0.5144130804204915,
+      "rear_width_over_height": 1.8156897529930989,
+      "rear_pca_middle_over_major": 0.5620263185725459,
+      "rear_pca_minor_over_major": 0.4744461377671293,
+      "rear_to_waist_width": 2.7133473208916095,
+      "rear_to_waist_depth": 2.1881783703180533
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.074007388814752,
+      "lateral": 0.5677147020349069,
+      "vertical": 0.821951215370989,
+      "projection": 0.9035407968541826
+    },
+    "amplitude": 0.04214147990569472,
+    "score": 0.05840197564841275,
+    "features": {
+      "rear_depth_over_width": 0.4938046374431875,
+      "rear_width_over_height": 1.8101759699230895,
+      "rear_pca_middle_over_major": 0.5544112996985496,
+      "rear_pca_minor_over_major": 0.46047933466538066,
+      "rear_to_waist_width": 2.656741009906798,
+      "rear_to_waist_depth": 2.0716408308130525
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.5729490168751576,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.22892685933038592,
+    "score": 0.07210346067957862,
+    "features": {
+      "rear_depth_over_width": 0.5702557701618245,
+      "rear_width_over_height": 1.7877083939519829,
+      "rear_pca_middle_over_major": 0.5955124371547266,
+      "rear_pca_minor_over_major": 0.5089248122595905,
+      "rear_to_waist_width": 2.8525360024611364,
+      "rear_to_waist_depth": 2.5274888237276936
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.9270509831248421,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.3416069303639233,
+    "score": 0.10206977925123506,
+    "features": {
+      "rear_depth_over_width": 0.6138514546719139,
+      "rear_width_over_height": 1.7554700584811973,
+      "rear_pca_middle_over_major": 0.6246195918024277,
+      "rear_pca_minor_over_major": 0.5288823899625154,
+      "rear_to_waist_width": 2.949361713869805,
+      "rear_to_waist_depth": 2.7982742866782617
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.3541019662496845,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.14998353319242597,
+    "score": 0.059597117528694406,
+    "features": {
+      "rear_depth_over_width": 0.5397421081104333,
+      "rear_width_over_height": 1.804752458580568,
+      "rear_pca_middle_over_major": 0.5765013047477591,
+      "rear_pca_minor_over_major": 0.4916440922017035,
+      "rear_to_waist_width": 2.782321013739563,
+      "rear_to_waist_depth": 2.3434469950640566
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.2188470506254732,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.09650589106604457,
+    "score": 0.05554487262246836,
+    "features": {
+      "rear_depth_over_width": 0.5189721089094331,
+      "rear_width_over_height": 1.8144083637010409,
+      "rear_pca_middle_over_major": 0.5647231844992395,
+      "rear_pca_minor_over_major": 0.4779966336604143,
+      "rear_to_waist_width": 2.7283259807648896,
+      "rear_to_waist_depth": 2.218382776785192
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.0913604515816275,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.04200354451313615,
+    "score": 0.056060364619541836,
+    "features": {
+      "rear_depth_over_width": 0.49737602600603487,
+      "rear_width_over_height": 1.8232921961416009,
+      "rear_pca_middle_over_major": 0.5538312068675697,
+      "rear_pca_minor_over_major": 0.4623688729067587,
+      "rear_to_waist_width": 2.6713875261874716,
+      "rear_to_waist_depth": 2.0915897930187324
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07644442142918706,
+    "score": 0.055042458011946335,
+    "features": {
+      "rear_depth_over_width": 0.5114194483764172,
+      "rear_width_over_height": 1.8168331357002503,
+      "rear_pca_middle_over_major": 0.5605783347919375,
+      "rear_pca_minor_over_major": 0.4724453155083212,
+      "rear_to_waist_width": 2.7070200791970906,
+      "rear_to_waist_depth": 2.1706653436477925
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1640589088745603,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07361810328438878,
+    "score": 0.05504581202936182,
+    "features": {
+      "rear_depth_over_width": 0.5101584378609876,
+      "rear_width_over_height": 1.817921550954739,
+      "rear_pca_middle_over_major": 0.5600069777323776,
+      "rear_pca_minor_over_major": 0.4716442506233566,
+      "rear_to_waist_width": 2.704642279901205,
+      "rear_to_waist_depth": 2.16378192485887
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1773922426907808,
+      "lateral": 0.9588573510174535,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07925885496661067,
+    "score": 0.05505705132795718,
+    "features": {
+      "rear_depth_over_width": 0.512522858932969,
+      "rear_width_over_height": 1.8166794386350837,
+      "rear_pca_middle_over_major": 0.5611503804103634,
+      "rear_pca_minor_over_major": 0.47323835571201966,
+      "rear_to_waist_width": 2.709986097881303,
+      "rear_to_waist_depth": 2.1775184588734207
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.8583592135001262,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07808783231303096,
+    "score": 0.055106896461617094,
+    "features": {
+      "rear_depth_over_width": 0.5130072951243364,
+      "rear_width_over_height": 1.8134959516472717,
+      "rear_pca_middle_over_major": 0.5617705988415448,
+      "rear_pca_minor_over_major": 0.473649256694126,
+      "rear_to_waist_width": 2.7023378941287555,
+      "rear_to_waist_depth": 2.1745124112409817
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 1.1416407864998739,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07364328624680638,
+    "score": 0.05555472689902621,
+    "features": {
+      "rear_depth_over_width": 0.5083268305841837,
+      "rear_width_over_height": 1.8245712657985254,
+      "rear_pca_middle_over_major": 0.5585370747027705,
+      "rear_pca_minor_over_major": 0.47037953184166753,
+      "rear_to_waist_width": 2.715921185368466,
+      "rear_to_waist_depth": 2.163932401836123
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.6832815729997477,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.08114938018843532,
+    "score": 0.0557808202509998,
+    "features": {
+      "rear_depth_over_width": 0.5162847642509142,
+      "rear_width_over_height": 1.8059680755207441,
+      "rear_pca_middle_over_major": 0.5639805914509587,
+      "rear_pca_minor_over_major": 0.47587553420930656,
+      "rear_to_waist_width": 2.692651033336904,
+      "rear_to_waist_depth": 2.1819684959106
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9332795055477469,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07685567857697606,
+    "score": 0.0550269820199034,
+    "features": {
+      "rear_depth_over_width": 0.5117975272701548,
+      "rear_width_over_height": 1.8161760707290955,
+      "rear_pca_middle_over_major": 0.5608768862811159,
+      "rear_pca_minor_over_major": 0.47274701793008567,
+      "rear_to_waist_width": 2.7057604955039136,
+      "rear_to_waist_depth": 2.1715313116510067
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9399461725937943,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07674768147990108,
+    "score": 0.055025754607845444,
+    "features": {
+      "rear_depth_over_width": 0.5117205849781729,
+      "rear_width_over_height": 1.8162800891261044,
+      "rear_pca_middle_over_major": 0.5607986770920379,
+      "rear_pca_minor_over_major": 0.4726679717266093,
+      "rear_to_waist_width": 2.7059831876294127,
+      "rear_to_waist_depth": 2.171330973547695
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9466128395409591,
+      "vertical": 0.7359756076854945,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07664059521630406,
+    "score": 0.05503061305108193,
+    "features": {
+      "rear_depth_over_width": 0.5116170810535476,
+      "rear_width_over_height": 1.8164608856985411,
+      "rear_pca_middle_over_major": 0.5607208196439045,
+      "rear_pca_minor_over_major": 0.4725893175401312,
+      "rear_to_waist_width": 2.7063200912113197,
+      "rear_to_waist_depth": 2.1711096092144238
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9399461725937943,
+      "vertical": 0.8583592135001262,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.0737743335776031,
+    "score": 0.05506687695473481,
+    "features": {
+      "rear_depth_over_width": 0.5103540692978183,
+      "rear_width_over_height": 1.8083862080759987,
+      "rear_pca_middle_over_major": 0.5617812492235779,
+      "rear_pca_minor_over_major": 0.47272830598071564,
+      "rear_to_waist_width": 2.704093546111853,
+      "rear_to_waist_depth": 2.164286439586107
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9399461725937943,
+      "vertical": 1.1416407864998739,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.06775618670508265,
+    "score": 0.056158242530950524,
+    "features": {
+      "rear_depth_over_width": 0.5080199876058099,
+      "rear_width_over_height": 1.7919453205726223,
+      "rear_pca_middle_over_major": 0.5639949429513649,
+      "rear_pca_minor_over_major": 0.4726838962275648,
+      "rear_to_waist_width": 2.69893369975028,
+      "rear_to_waist_depth": 2.1507226358170612
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9399461725937943,
+      "vertical": 0.6832815729997477,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07811007322743535,
+    "score": 0.05508198403201146,
+    "features": {
+      "rear_depth_over_width": 0.5123078745379738,
+      "rear_width_over_height": 1.8203885735022685,
+      "rear_pca_middle_over_major": 0.560373443483984,
+      "rear_pca_minor_over_major": 0.47262195992579487,
+      "rear_to_waist_width": 2.707020683507078,
+      "rear_to_waist_depth": 2.174532782080982
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9399461725937943,
+      "vertical": 0.7758409752903865,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07575078727677464,
+    "score": 0.05501648993529946,
+    "features": {
+      "rear_depth_over_width": 0.5112493319402975,
+      "rear_width_over_height": 1.8136322681747277,
+      "rear_pca_middle_over_major": 0.5611197421318488,
+      "rear_pca_minor_over_major": 0.47269428579905026,
+      "rear_to_waist_width": 2.7054933718936516,
+      "rear_to_waist_depth": 2.169028464174745
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9399461725937943,
+      "vertical": 0.7825076425483523,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07558733643963933,
+    "score": 0.05502060747699956,
+    "features": {
+      "rear_depth_over_width": 0.5111891442684977,
+      "rear_width_over_height": 1.813055535798302,
+      "rear_pca_middle_over_major": 0.5611734673552174,
+      "rear_pca_minor_over_major": 0.4726981755038794,
+      "rear_to_waist_width": 2.705353461215875,
+      "rear_to_waist_depth": 2.168675667528641
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9399461725937943,
+      "vertical": 0.7404864295937374,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07663366617634892,
+    "score": 0.05501603266711079,
+    "features": {
+      "rear_depth_over_width": 0.5116747514400921,
+      "rear_width_over_height": 1.8160639218144718,
+      "rear_pca_middle_over_major": 0.5608350941703102,
+      "rear_pca_minor_over_major": 0.4726713642248306,
+      "rear_to_waist_width": 2.7059070966070844,
+      "rear_to_waist_depth": 2.171085788954639
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9399461725937943,
+      "vertical": 0.7577143095420192,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07620082376524806,
+    "score": 0.055013116133045006,
+    "features": {
+      "rear_depth_over_width": 0.5114689383108006,
+      "rear_width_over_height": 1.8148931872842584,
+      "rear_pca_middle_over_major": 0.5609739066153151,
+      "rear_pca_minor_over_major": 0.47268325924105475,
+      "rear_to_waist_width": 2.705737622590105,
+      "rear_to_waist_depth": 2.170115634022532
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9399461725937943,
+      "vertical": 0.7510476425529156,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07636765064671636,
+    "score": 0.055015860072029764,
+    "features": {
+      "rear_depth_over_width": 0.5115380456111207,
+      "rear_width_over_height": 1.8153374498716506,
+      "rear_pca_middle_over_major": 0.560920202389941,
+      "rear_pca_minor_over_major": 0.4726787981788193,
+      "rear_to_waist_width": 2.7058081676993777,
+      "rear_to_waist_depth": 2.1704504470910235
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9399461725937943,
+      "vertical": 0.764638079755187,
+      "projection": 1.2017703984270913
+    },
+    "amplitude": 0.07602832792326808,
+    "score": 0.05501384199297781,
+    "features": {
+      "rear_depth_over_width": 0.5113814863707548,
+      "rear_width_over_height": 1.8144310518519726,
+      "rear_pca_middle_over_major": 0.561029645770444,
+      "rear_pca_minor_over_major": 0.4726876544062516,
+      "rear_to_waist_width": 2.7056636445989617,
+      "rear_to_waist_depth": 2.169700701018152
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9399461725937943,
+      "vertical": 0.7577143095420192,
+      "projection": 0.8583592135001262
+    },
+    "amplitude": 0.09001422999426723,
+    "score": 0.05662132228208201,
+    "features": {
+      "rear_depth_over_width": 0.5027502917019043,
+      "rear_width_over_height": 1.8127161981205262,
+      "rear_pca_middle_over_major": 0.5586518638385417,
+      "rear_pca_minor_over_major": 0.4680584590006321,
+      "rear_to_waist_width": 2.7183918752547864,
+      "rear_to_waist_depth": 2.1432312820089807
+    }
+  },
+  {
+    "parameters": {
+      "volume": 1.1707255757826704,
+      "lateral": 0.9399461725937943,
+      "vertical": 0.7577143095420192,
+      "projection": 1.1416407864998739
+    },
+    "amplitude": 0.07829545857384801,
+    "score": 0.05505237008865339,
+    "features": {
+      "rear_depth_over_width": 0.5101864108917139,
+      "rear_width_over_height": 1.8139079774191946,
+      "rear_pca_middle_over_major": 0.5605901177622867,
+      "rear_pca_minor_over_major": 0.4720041527311332,
+      "rear_to_waist_width": 2.707137549502033,
+      "rear_to_waist_depth": 2.1657968271483186
+    }
+  }
+]

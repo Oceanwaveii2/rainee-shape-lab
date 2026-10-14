@@ -1,0 +1,185 @@
+{
+  "scene": "Rainee-Volume-Lab-v3.hip",
+  "static": [
+    {
+      "ratio": 1,
+      "actual_cage_ratio": 1,
+      "amplitude": 0,
+      "height_drift": 0,
+      "protected_displacement": 0,
+      "native_formula_error": 0,
+      "minimum_sampled_jacobian": 1,
+      "cage_right_lobe_width_height": 1.0320929526123936,
+      "cage_width": 0.32199999690055847,
+      "cage_height": 0.15599370002746582,
+      "cage_depth": 0.1779927909374237
+    },
+    {
+      "ratio": 1.25,
+      "actual_cage_ratio": 1.2499999948795404,
+      "amplitude": 0.10856262594461441,
+      "height_drift": 0,
+      "protected_displacement": 0,
+      "native_formula_error": 3.2293229645929955e-8,
+      "minimum_sampled_jacobian": 0.7863717675209045,
+      "cage_right_lobe_width_height": 1.014806133991184,
+      "cage_width": 0.3434145152568817,
+      "cage_height": 0.1692020297050476,
+      "cage_depth": 0.19503672420978546
+    },
+    {
+      "ratio": 1.5,
+      "actual_cage_ratio": 1.5000000136871203,
+      "amplitude": 0.20152239501476288,
+      "height_drift": 0,
+      "protected_displacement": 0,
+      "native_formula_error": 3.392533176604928e-8,
+      "minimum_sampled_jacobian": 0.6406333446502686,
+      "cage_right_lobe_width_height": 1.002013791687015,
+      "cage_width": 0.3617512881755829,
+      "cage_height": 0.18051213026046753,
+      "cage_depth": 0.209631085395813
+    },
+    {
+      "ratio": 2,
+      "actual_cage_ratio": 2.0000000166298,
+      "amplitude": 0.357358455657959,
+      "height_drift": 0,
+      "protected_displacement": 0,
+      "native_formula_error": 3.786971969343966e-8,
+      "minimum_sampled_jacobian": 0.455322802066803,
+      "cage_right_lobe_width_height": 0.9838241072615815,
+      "cage_width": 0.3924907445907593,
+      "cage_height": 0.19947201013565063,
+      "cage_depth": 0.23409678041934967
+    },
+    {
+      "ratio": 2.5,
+      "actual_cage_ratio": 2.500000011230969,
+      "amplitude": 0.48706483840942383,
+      "height_drift": 0,
+      "protected_displacement": 0,
+      "native_formula_error": 4.066321179774235e-8,
+      "minimum_sampled_jacobian": 0.32605230808258057,
+      "cage_right_lobe_width_height": 0.9711277771178202,
+      "cage_width": 0.4180759787559509,
+      "cage_height": 0.2152528166770935,
+      "cage_depth": 0.2544602155685425
+    },
+    {
+      "ratio": 3,
+      "actual_cage_ratio": 3.000000037060158,
+      "amplitude": 0.5994845032691956,
+      "height_drift": 0,
+      "protected_displacement": 0,
+      "native_formula_error": 4.657284013998009e-8,
+      "minimum_sampled_jacobian": 0.1154213547706604,
+      "cage_right_lobe_width_height": 0.9615392926919696,
+      "cage_width": 0.44025129079818726,
+      "cage_height": 0.22893047332763672,
+      "cage_depth": 0.2721096873283386
+    }
+  ],
+  "shape_control_cases": [
+    {
+      "controls": {
+        "lateral": 1,
+        "vertical": 1,
+        "projection": 1,
+        "separation": 0.15,
+        "upper_pole": 1.6,
+        "lower_pole": 1.6,
+        "cleft_hold": 0.75
+      },
+      "accepted": true,
+      "passed": true
+    },
+    {
+      "controls": {
+        "lateral": 1,
+        "vertical": 1,
+        "projection": 1,
+        "separation": 0,
+        "upper_pole": 1.15,
+        "lower_pole": 1,
+        "cleft_hold": 1
+      },
+      "accepted": true,
+      "passed": true
+    },
+    {
+      "controls": {
+        "lateral": 1.6,
+        "vertical": 0.4,
+        "projection": 1.6,
+        "separation": 0.15,
+        "upper_pole": 1.15,
+        "lower_pole": 1,
+        "cleft_hold": 0.75
+      },
+      "accepted": true,
+      "passed": true
+    },
+    {
+      "controls": {
+        "lateral": 0.4,
+        "vertical": 1.6,
+        "projection": 0.4,
+        "separation": 0.15,
+        "upper_pole": 1.15,
+        "lower_pole": 1,
+        "cleft_hold": 0.75
+      },
+      "accepted": false,
+      "rejected_as_expected": true,
+      "reason": "Nonpositive sampled field Jacobian"
+    }
+  ],
+  "field": "Per-lobe authored deformation with an enclosed-volume constraint. It is not a measured anatomical tissue volume.",
+  "visual_status": "Grok-informed shape study; visual match not established.",
+  "rejected_extreme": {
+    "ratio": 4,
+    "rejected_as_expected": true,
+    "reason": "Nonpositive sampled field Jacobian"
+  },
+  "jacobian_screen_limit": "Point-sampled field orientation check; no triangle contact or collision certification.",
+  "native_static_passed": true,
+  "browser_formula_checks": [
+    {
+      "ratio": 1,
+      "max_position_difference": 0,
+      "cage_ratio": 1
+    },
+    {
+      "ratio": 1.25,
+      "max_position_difference": 3.206336973704538e-8,
+      "cage_ratio": 1.2500000000831633
+    },
+    {
+      "ratio": 1.5,
+      "max_position_difference": 3.4089225442457405e-8,
+      "cage_ratio": 1.4999999988217616
+    },
+    {
+      "ratio": 2,
+      "max_position_difference": 3.725727404368939e-8,
+      "cage_ratio": 2.0000000000607923
+    },
+    {
+      "ratio": 2.5,
+      "max_position_difference": 3.996161856978375e-8,
+      "cage_ratio": 2.4999999995810436
+    },
+    {
+      "ratio": 3,
+      "max_position_difference": 4.537159203898966e-8,
+      "cage_ratio": 2.9999999985842116
+    }
+  ],
+  "browser_formula_passed": true,
+  "browser_rejection_check": {
+    "ratio": 4,
+    "minimum": -0.42334114182020643,
+    "nonpositive": 309
+  }
+}

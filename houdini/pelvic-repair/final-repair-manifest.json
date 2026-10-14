@@ -1,0 +1,16 @@
+{
+  "positions": "implicit-repaired-positions.bin",
+  "triangles": "implicit-repaired-triangles.bin",
+  "bgeo": "body-local-implicit-repair.bgeo.sc",
+  "report": "implicit-repair-report.json",
+  "verification": "final-repair-verification.json",
+  "recipe": "implicit-repair-recipe.npz",
+  "application": "apply_repair.py",
+  "source_point_count": 98078,
+  "native_study": "Rainee-Local-VDB-Repair.hip",
+  "baked_study": "Rainee-Final-Local-Repair.hip",
+  "obj": "Rainee-local-implicit-repair.obj",
+  "preview_front": "implicit-repaired-front.png",
+  "preview_back": "implicit-repaired-back.png",
+  "status": "Local core structurally repaired; collar and inherited source topology require further cleanup"
+}

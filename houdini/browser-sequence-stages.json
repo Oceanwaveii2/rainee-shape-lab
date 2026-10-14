@@ -1,0 +1,44 @@
+[
+  {
+    "control": "1.000×",
+    "drift": "0.00000%",
+    "field": "1.000",
+    "height": "2.395106 units",
+    "status": "Frame 0000 · stage 1 · rear 1.00× · thighs 0.00"
+  },
+  {
+    "control": "1.500×",
+    "drift": "0.00000%",
+    "field": "0.144",
+    "height": "2.395106 units",
+    "status": "Frame 0010 · stage 2 · rear 1.50× · thighs 0.00"
+  },
+  {
+    "control": "2.000×",
+    "drift": "0.00000%",
+    "field": "0.075",
+    "height": "2.395106 units",
+    "status": "Frame 0018 · stage 3 · rear 2.00× · thighs 0.00"
+  },
+  {
+    "control": "2.500×",
+    "drift": "0.00000%",
+    "field": "0.046",
+    "height": "2.395106 units",
+    "status": "Frame 0026 · stage 4 · rear 2.50× · thighs 0.00"
+  },
+  {
+    "control": "2.500×",
+    "drift": "0.00000%",
+    "field": "0.046",
+    "height": "2.395106 units",
+    "status": "Frame 0049 · endpoint held from 0026 · rear 2.50× · thighs 0.00"
+  },
+  {
+    "control": "2.500×",
+    "drift": "0.00000%",
+    "field": "0.046",
+    "height": "2.395106 units",
+    "status": "Frame 0049 · endpoint held from 0026 · rear 2.50× · thighs 0.65"
+  }
+]

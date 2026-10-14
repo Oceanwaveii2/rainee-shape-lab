@@ -1,0 +1,114 @@
+RAINEE: RESEARCH AND IMPLEMENTATION DIRECTION - 2026-10-13
+
+REVISED SOURCE AUTHORITY
+The user clarified that Core Body (Template Only).fbx is a flawed, incomplete
+ZBrush sculpt. Its stature and general identity are the anchor. Its pelvic gap
+is an error. Selected consistent drawings and figurines refine the anatomy.
+The Chun-Li-style video supplies independently designed thigh contours.
+Early Grok frames (approximately 0-1.5 seconds) supply rear growth shape cues.
+Later camera pullback and shorter stature do not define body proportions.
+
+WHAT WAS LEARNED FROM THE REFERENCES
+Grok's rear lobes read as near-round caps: domed upper poles, rounded lower
+poles, narrow medial roots, and substantial overhang beyond the underlying hips.
+Approximate image aspect 0.9-1.1 width/height is a qualitative guide, not a 3D
+measurement. There is no clean orthogonal side view in that clip.
+Thighs carry a long upper-to-middle convex sweep and taper into narrower knees.
+They have a separate authoring control; butt inflation does not auto-enlarge them.
+
+ART-DIRECTED DEFORMATION REFERENCES
+Pose Space Deformation, SIGGRAPH 2000, Lewis/Cordner/Fong:
+https://www.cs.toronto.edu/~jacobson/seminar/lewis-et-al-2000.pdf
+Useful principle: deformation is an authored function of shape/pose parameters,
+with corrective examples. Rainee currently uses custom procedural mappings,
+not a complete PSD implementation or an inferred anatomical model.
+
+Bounded Biharmonic Weights, SIGGRAPH 2011, Jacobson et al.:
+https://igl.ethz.ch/projects/bbw/
+Useful principle: local handles and smooth shape-aware influence weights, with
+binding work precomputed. Candidate replacement for hand-coded coordinate masks;
+BBW weight optimization has not been implemented in this project.
+
+Implicit Skinning, SIGGRAPH 2013, Vaillant et al.:
+https://www.rodolphe-vaillant.fr/entry/31/implicit-skinning-real-time-skin-deformation-with-contact-modeli
+Useful principle: volumetric implicit representations can refine skin contact and
+organic bulges after geometric skinning. Candidate for lobe/thigh contact, not
+implemented or certified by current positive field-Jacobian checks.
+
+IMAGE RECONSTRUCTION / REPRESENTATION REFERENCES
+NeRF, ECCV 2020:
+https://www.matthewtancik.com/nerf
+3D Gaussian Splatting, SIGGRAPH 2023:
+https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/
+SC-GS, CVPR 2024:
+https://yihua7.github.io/SC-GS-web/
+These are useful for appearance and view synthesis; SC-GS demonstrates sparse
+control editing of dynamic Gaussians. Gaussian/radiance density is not a closed
+collision body or a measured anatomical solid. No NeRF/3DGS training was run.
+
+NeuS, NeurIPS 2021:
+https://lingjie0206.github.io/papers/NeuS/index.htm
+DMTet, NeurIPS 2021:
+https://research.nvidia.com/labs/toronto-ai/DMTet/
+These provide surface-centered SDF/tetrahedral approaches. They are better
+directions for rebuilding a continuous shape than appearance-only density.
+Regenerating topology requires correspondence/UV/binding work. Neither model
+has been trained or installed here.
+
+nvdiffrast, TOG 2020:
+https://nvlabs.github.io/nvdiffrast/
+Provides differentiable rasterization primitives. A silhouette fitter would
+still need camera fitting, pose/state selection, priors, and a deformation model.
+Conflicting generated references are not calibrated multiview capture data.
+
+Houdini VDB from Polygons, official Houdini 22 documentation:
+https://www.sidefx.com/docs/houdini/nodes/sop/vdbfrompolygons.html
+Sparse SDF volumes are a practical local modeling option. Unsigned distance
+does not require an airtight source; true interior/pressure assumptions do.
+
+CURRENT IMPLEMENTATION / LIMITS
+v1: coarse regional scaling with measured closed-cage volume and native Vellum.
+v2: independently authored thigh sculpt, neutral at zero strength.
+v3: paired lobe center/radius growth, explicit upper/lower poles and cleft hold,
+plus a point-sampled field determinant guard. This improves cage proportions,
+but the source body transfer still needs visual pole-shape refinement.
+Positive sampled determinants do not prove global injectivity or triangle contact.
+Unsafe settings (including direct default 4x growth) are rejected rather than
+treated as valid merely because closed-cage volume is numerically correct.
+
+rear-flow-prototype.py explores RK4 integration of a stationary growth velocity.
+Sampled 2x/3x/4x and a difficult direction case avoid the direct-map folds.
+Full-body NumPy cost is about 1.3-1.8 seconds per 98k-point evaluation at 24 steps.
+This remains research; no claim of native integration, full-range correctness,
+physical contact, or completed artistic match is made.
+
+NEXT RECONSTRUCTION ARCHITECTURE (PROJECT DESIGN INFERENCE)
+1. Repair the neutral pelvic connection as a joined external surface.
+2. Fit per-reference cameras/poses to stature and protected body landmarks.
+3. Fit selected silhouettes with separate rear lobe and thigh shape controls.
+4. Use procedural SDF/voxel surface correction where the current body cannot
+   express the rounded poles or folds; retain a stable editable deformation layer.
+5. Add secondary motion and contact after the authored target shape is accepted.
+
+
+CURRENT V4 AND NATIVE ROUNDING ADDENDUM
+The local VDB pelvic repair is now integrated in Rainee-Volume-Lab-v4.hip.
+Eight native rear/thigh combinations retain FBX stature. The repaired core is
+connected; inherited topology defects and outer collar cleanup remain.
+
+The separate rear-rounding/native-study/Rainee-Optional-Radial-Rounding.hip
+compiles radial relaxation in a native VFL node. Four static states (1, 1.5,
+2, 2.5x closed-cage volume) pass all sampled rear-region determinant checks.
+This differs from the earlier stationary-growth prototype mentioned above.
+The browser rounds through these actual native caches; arbitrary rounded
+settings, dynamic contact, and exact video fidelity remain unverified.
+
+Both native studies include an export branch that removes unused points and
+restores the referenced surface to 2.3951061964 FBX source units. Source units
+do not establish centimetres. Normalized internal solver coordinates remain.
+
+Supplied generated 3D figurines now feed a local measurement pipeline. Texture
+role candidates and explicit surface ROIs exclude most hair, stands and props.
+Dimensionless measurements are provisional shape cues; generated pose and
+region differences do not constitute a calibrated scan or anatomical volume.
+See ../measurements/inspection.html and ../measurements/README.txt.

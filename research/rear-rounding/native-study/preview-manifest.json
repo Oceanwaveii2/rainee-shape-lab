@@ -1,0 +1,80 @@
+{
+  "title": "Optional native radial rounding on locally repaired Rainee",
+  "schema": "positions float32 little-endian XYZ, normalized units; indices uint32 little-endian triangles",
+  "body_points": 121901,
+  "body_triangles": 252337,
+  "body_indices": "body-triangles.bin",
+  "body_baseline": "body-native-flow-1x.bin",
+  "cage_points": 1506,
+  "cage_indices": "cage-triangles.bin",
+  "roundness": 0.65,
+  "hip": "Rainee-Optional-Radial-Rounding.hip",
+  "verification": "verification-native-flow.json",
+  "states": [
+    {
+      "ratio": 1.0,
+      "positions": "body-native-flow-1x.bin",
+      "cage": "cage-native-flow-1x.bin",
+      "actual_cage_ratio": 1.0,
+      "amplitude": 0.0
+    },
+    {
+      "ratio": 1.5,
+      "positions": "body-native-flow-1.5x.bin",
+      "cage": "cage-native-flow-1.5x.bin",
+      "actual_cage_ratio": 1.5000004768371582,
+      "amplitude": 0.18809376657009125
+    },
+    {
+      "ratio": 2.0,
+      "positions": "body-native-flow-2x.bin",
+      "cage": "cage-native-flow-2x.bin",
+      "actual_cage_ratio": 2.0000007152557373,
+      "amplitude": 0.3307205140590668
+    },
+    {
+      "ratio": 2.5,
+      "positions": "body-native-flow-2.5x.bin",
+      "cage": "cage-native-flow-2.5x.bin",
+      "actual_cage_ratio": 2.5000009536743164,
+      "amplitude": 0.45044681429862976
+    }
+  ],
+  "status": "Native static study verified; artistic match and collision behavior remain unverified",
+  "source_stature_export": {
+    "branch": "/obj/RAINEE_OPTIONAL_ROUNDING/OUT_FBX_SOURCE_STATURE",
+    "uniform_scale": 2.3979114179253354,
+    "source_height_native_units": 2.3951061964035034,
+    "point_count": 113383,
+    "triangles": "source-stature-triangles.bin",
+    "verification": "verification-source-stature.json",
+    "states": [
+      {
+        "ratio": 1.0,
+        "points": 113383,
+        "primitives": 252337,
+        "referenced_export_height": 2.395106077194214,
+        "height_error": -1.1920928955078125e-07,
+        "y_min": -1.220656394958496,
+        "y_max": 1.1744496822357178,
+        "internal_positions_exactly_match_verified_cache": true,
+        "bgeo": "body-source-stature-1x.bgeo.sc",
+        "obj": "Rainee-source-stature-1x.obj",
+        "positions": "body-source-stature-1x.bin"
+      },
+      {
+        "ratio": 2.5,
+        "points": 113383,
+        "primitives": 252337,
+        "referenced_export_height": 2.395106077194214,
+        "height_error": -1.1920928955078125e-07,
+        "y_min": -1.220656394958496,
+        "y_max": 1.1744496822357178,
+        "internal_positions_exactly_match_verified_cache": true,
+        "bgeo": "body-source-stature-2.5x.bgeo.sc",
+        "obj": "Rainee-source-stature-2.5x.obj",
+        "positions": "body-source-stature-2.5x.bin"
+      }
+    ]
+  }
+}

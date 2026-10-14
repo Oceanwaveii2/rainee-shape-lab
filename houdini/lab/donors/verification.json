@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "Column-vector rotation/pivot/translation convention",
+      "passed": true
+    },
+    {
+      "name": "Inverse exactly returns original source coordinates",
+      "passed": true
+    },
+    {
+      "name": "Signed-axis mapping is right-handed and invertible",
+      "passed": true
+    },
+    {
+      "name": "Only indexed source vertices define canonical stature",
+      "passed": true
+    },
+    {
+      "name": "Donor scale never leaks into canonical source stature",
+      "passed": true
+    },
+    {
+      "name": "Nonfinite geometry and invalid topology are rejected",
+      "passed": true
+    },
+    {
+      "name": "Zero canonical stature is rejected",
+      "passed": true
+    },
+    {
+      "name": "Singular/negative/nonfinite donor transforms are rejected",
+      "passed": true
+    },
+    {
+      "name": "Triad alignment recovers known similarity with nondefault axes",
+      "passed": true
+    },
+    {
+      "name": "Unreviewed and collinear semantic guides cannot fit",
+      "passed": true
+    },
+    {
+      "name": "Surface area and centroid use real triangle area",
+      "passed": true
+    },
+    {
+      "name": "Aligned ROI selection and invalid-box guard",
+      "passed": true
+    },
+    {
+      "name": "Rejected frame0049 never becomes a target",
+      "passed": true
+    },
+    {
+      "name": "Actual repaired source has fixed normalized indexed stature",
+      "passed": true
+    },
+    {
+      "name": "Actual frame0000 proxy alignment and regional metrics",
+      "passed": true
+    },
+    {
+      "name": "Actual frame0010 proxy alignment and regional metrics",
+      "passed": true
+    },
+    {
+      "name": "Actual frame0018 proxy alignment and regional metrics",
+      "passed": true
+    },
+    {
+      "name": "Actual frame0026 proxy alignment and regional metrics",
+      "passed": true
+    },
+    {
+      "name": "Export preserves uncertainty and original hash without automatic adoption",
+      "passed": true
+    }
+  ],
+  "scope": "Pure affine math, real proxy geometry/ROI, source-stature independence and provenance gates. Browser interaction/rendering is verified separately by root."
+}

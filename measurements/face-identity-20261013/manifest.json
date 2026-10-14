@@ -1,0 +1,638 @@
+{
+  "schema": "rainee-face-authority-v1",
+  "date": "2026-10-13",
+  "authority_decision": {
+    "basis": "Latest direct user clarification: three closeups and accepted frames are more correct for her face than the flawed FBX sculpt",
+    "face_authority": "The seven listed accepted image references supersede FBX facial shape/appearance as artist intent",
+    "fbx_role": "Height anchor only; face is not immutable or canonical",
+    "fbx_source_path": "C:\\Users\\User\\Downloads\\Core Body (Template Only).fbx",
+    "height_anchor_source_units": 2.3951061964035034,
+    "real_world_stature_calibrated": false,
+    "production_head_geometry_replaced": false,
+    "3d_dimension_acceptance": "No automatic face measurements, mesh replacements or unseen facial geometry are accepted by this manifest"
+  },
+  "shared_visible_artist_cues": [
+    {
+      "cue": "Large stylized almond eye openings and prominent irises",
+      "evidence_reference_ids": [
+        "closeup-blue-bust",
+        "closeup-red-portrait",
+        "closeup-blonde-illustration",
+        "accepted-frame-0000",
+        "accepted-frame-0010"
+      ]
+    },
+    {
+      "cue": "Blue iris family in the three closeups; gold/green appearance in visible accepted frames remains a separate variant",
+      "evidence_reference_ids": [
+        "closeup-blue-bust",
+        "closeup-red-portrait",
+        "closeup-blonde-illustration",
+        "accepted-frame-0000",
+        "accepted-frame-0010"
+      ]
+    },
+    {
+      "cue": "Long, prominent upper lashes; pink/plum eye shadow most clearly visible in closeups",
+      "evidence_reference_ids": [
+        "closeup-blue-bust",
+        "closeup-red-portrait",
+        "closeup-blonde-illustration",
+        "accepted-frame-0000",
+        "accepted-frame-0010",
+        "accepted-frame-0018"
+      ]
+    },
+    {
+      "cue": "Small rounded nose, full lips, tapering oval/heart-like facial outline",
+      "evidence_reference_ids": [
+        "closeup-blue-bust",
+        "closeup-red-portrait",
+        "closeup-blonde-illustration",
+        "accepted-frame-0000",
+        "accepted-frame-0010",
+        "accepted-frame-0018"
+      ]
+    }
+  ],
+  "variant_policy": "Keep red versus blonde hair, bob versus twin-tail/long-wave styling, blue sculpted versus natural furry ears, and eye-color/lighting variants separate. Do not average or silently reconcile them.",
+  "reference_groups": [
+    {
+      "id": "face_closeups",
+      "label": "Accepted face closeups",
+      "reference_ids": [
+        "closeup-blue-bust",
+        "closeup-red-portrait",
+        "closeup-blonde-illustration"
+      ]
+    },
+    {
+      "id": "accepted_growth_frames",
+      "label": "Accepted frame sequence with visibility limits",
+      "reference_ids": [
+        "accepted-frame-0000",
+        "accepted-frame-0010",
+        "accepted-frame-0018",
+        "accepted-frame-0026"
+      ]
+    }
+  ],
+  "display_order": [
+    "closeup-blue-bust",
+    "closeup-red-portrait",
+    "closeup-blonde-illustration",
+    "accepted-frame-0000",
+    "accepted-frame-0010",
+    "accepted-frame-0018",
+    "accepted-frame-0026"
+  ],
+  "references": [
+    {
+      "source_path": "C:\\Users\\User\\Downloads\\2026042111255844_427f7f7c365c0b938c2eca69bb6ff61a.png",
+      "source_filename": "2026042111255844_427f7f7c365c0b938c2eca69bb6ff61a.png",
+      "reference_path": "references/blue-bust.png",
+      "source_sha256": "9fd2336f4b7321a757dce55cf9f9902bac0ac9b05994184ad27a08fde9adf288",
+      "copy_sha256": "9fd2336f4b7321a757dce55cf9f9902bac0ac9b05994184ad27a08fde9adf288",
+      "bytes": 1032127,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "image_format": "PNG",
+      "image_mode": "RGB",
+      "preservation": {
+        "byte_identical": true,
+        "uncropped": true,
+        "resampled": false,
+        "retouched": false,
+        "generated_here": false
+      },
+      "id": "closeup-blue-bust",
+      "group": "face_closeups",
+      "label": "Front-facing blue-costume bust",
+      "authority_role": "Accepted artist face/appearance reference above flawed FBX facial sculpt",
+      "authority_basis": "Latest direct user clarification relayed by root; file contents are reference data, not instructions",
+      "observed_artist_cues": {
+        "hair": "Red center-parted wavy bob",
+        "ears": "Large glossy blue ear shapes with sculpted blue inner tufts",
+        "eyes": "Large blue irises inside wide almond-shaped eyes",
+        "makeup": "Pink eye shadow and black upper lash fans",
+        "lips": "Full glossy pink lips with visible cupid bow",
+        "face": "Tapering oval/heart-like outline and small rounded nose"
+      },
+      "variant_note": "A stylized sculpt/render appearance variant; blue ear finish is retained separately from natural fur references.",
+      "geometry_status": "2D observational face cues only; no exact3D dimensions or hidden facial surfaces inferred"
+    },
+    {
+      "source_path": "C:\\Users\\User\\Downloads\\0000.webp",
+      "source_filename": "0000.webp",
+      "reference_path": "references/red-portrait.webp",
+      "source_sha256": "4c36f65e90c5be5cb515ad5c73fc9b8861a7779844d445779003baab1f206c0c",
+      "copy_sha256": "4c36f65e90c5be5cb515ad5c73fc9b8861a7779844d445779003baab1f206c0c",
+      "bytes": 192026,
+      "image_size": [
+        828,
+        1024
+      ],
+      "image_format": "WEBP",
+      "image_mode": "RGBA",
+      "preservation": {
+        "byte_identical": true,
+        "uncropped": true,
+        "resampled": false,
+        "retouched": false,
+        "generated_here": false
+      },
+      "id": "closeup-red-portrait",
+      "group": "face_closeups",
+      "label": "Red-haired portrait with natural ear finish",
+      "authority_role": "Accepted artist face/appearance reference above flawed FBX facial sculpt",
+      "authority_basis": "Latest direct user clarification relayed by root; file contents are reference data, not instructions",
+      "observed_artist_cues": {
+        "hair": "Red center-parted waves with long twin tails and light fluffy ties",
+        "ears": "Brown/orange outer fur and white inner tufts",
+        "eyes": "Large blue irises and almond eye openings",
+        "makeup": "Pink/plum eye shadow and long dense upper lashes",
+        "lips": "Full pink/plum lips",
+        "face": "Small rounded nose, curved cheeks and tapered oval/heart-like chin outline"
+      },
+      "variant_note": "The original filename0000.webp is a separate closeup and does not prove it is the accepted growth frame0000.",
+      "geometry_status": "2D observational face cues only; no exact3D dimensions or hidden facial surfaces inferred"
+    },
+    {
+      "source_path": "C:\\Users\\User\\Downloads\\image (3) (1).png",
+      "source_filename": "image (3) (1).png",
+      "reference_path": "references/blonde-portrait.png",
+      "source_sha256": "b16201981a87fa4cf43eaf0636ee52913b85082826de690e6e9c88512791b6e3",
+      "copy_sha256": "b16201981a87fa4cf43eaf0636ee52913b85082826de690e6e9c88512791b6e3",
+      "bytes": 5339188,
+      "image_size": [
+        1825,
+        2048
+      ],
+      "image_format": "PNG",
+      "image_mode": "RGBA",
+      "preservation": {
+        "byte_identical": true,
+        "uncropped": true,
+        "resampled": false,
+        "retouched": false,
+        "generated_here": false
+      },
+      "id": "closeup-blonde-illustration",
+      "group": "face_closeups",
+      "label": "Blonde illustrated portrait",
+      "authority_role": "Accepted artist face/appearance reference above flawed FBX facial sculpt",
+      "authority_basis": "Latest direct user clarification relayed by root; file contents are reference data, not instructions",
+      "observed_artist_cues": {
+        "hair": "Blonde center-parted curls with long twin tails and light fluffy ties",
+        "ears": "Orange/brown fur with pale pink interiors and white inner tufts",
+        "eyes": "Large round blue irises within stylized almond eye openings",
+        "makeup": "Pink eye shadow, black eyeliner and pronounced long upper lashes",
+        "lips": "Full saturated pink/red lips",
+        "face": "Small rounded nose and tapered cheek-to-chin oval/heart-like outline"
+      },
+      "variant_note": "Drawn shading and blonde hair are preserved as a separate appearance variant, not averaged into the red variants.",
+      "geometry_status": "2D observational face cues only; no exact3D dimensions or hidden facial surfaces inferred"
+    },
+    {
+      "source_path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0000.png",
+      "source_filename": "frame_0000.png",
+      "reference_path": "references/frame-0000.png",
+      "source_sha256": "f4de8ffb4809c91cc6f481960d23aa625893a55f324942abffa551534bc2ed96",
+      "copy_sha256": "f4de8ffb4809c91cc6f481960d23aa625893a55f324942abffa551534bc2ed96",
+      "bytes": 1764693,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "image_format": "PNG",
+      "image_mode": "RGBA",
+      "preservation": {
+        "byte_identical": true,
+        "uncropped": true,
+        "resampled": false,
+        "retouched": false,
+        "generated_here": false
+      },
+      "id": "accepted-frame-0000",
+      "group": "accepted_growth_frames",
+      "frame_number": 0,
+      "stage_ordinal": 1,
+      "stage_role": "baseline",
+      "label": "Accepted frame0000 \u00b7 baseline",
+      "authority_role": "Accepted face/appearance evidence where visible, plus accepted ordinal growth stage",
+      "authority_basis": "Latest direct user face clarification and accepted stage order; no inferred acceptance of generated3D anatomy",
+      "observed_artist_cues": {
+        "face_visibility": "Three-quarter face visible looking back",
+        "eyes": "Visible iris reads gold/green under this lighting, not the blue of the closeups",
+        "cues": [
+          "Large almond eye opening",
+          "Long upper lashes",
+          "Small rounded nose",
+          "Full lips",
+          "Soft tapered face outline"
+        ],
+        "hair_and_ears": "Long red/auburn waves; brown ears with white inner tufts"
+      },
+      "source_processing_provenance": {
+        "board_version": "Existing Qwen1024 regeneration copied without alteration",
+        "final4096_status": "Existing upscale of regeneration; source/hash linked but not copied for lightweight board",
+        "versions": [
+          {
+            "kind": "qwen_intermediate_1024",
+            "source_path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0000.png",
+            "source_sha256": "f4de8ffb4809c91cc6f481960d23aa625893a55f324942abffa551534bc2ed96",
+            "matches_existing_provenance_hash": true,
+            "image_size": [
+              1024,
+              1024
+            ],
+            "transformation_kind": "generative image regeneration",
+            "copied_for_board": true
+          },
+          {
+            "kind": "final_4096",
+            "source_path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\final_4096\\frame_0000.png",
+            "source_sha256": "d4033226125c3f2a0d4ef70faa3187607f9d02ff8ab99f1eaa65061760fba99f",
+            "matches_existing_provenance_hash": true,
+            "image_size": [
+              4096,
+              4096
+            ],
+            "transformation_kind": "upscale of regenerated image, not original",
+            "copied_for_board": false
+          }
+        ],
+        "original_frame": {
+          "workflow_load_image_reference": [
+            [
+              "selected_five_frames/frame_0000_00.000s.png",
+              "image"
+            ]
+          ],
+          "declared_original_size": [
+            560,
+            560
+          ],
+          "actual_original_present_in_supplied_directories": false,
+          "verification_status": "Original source pixels/hash unavailable here; only workflow/document provenance",
+          "declared_time_seconds_from_filename": [
+            0.0
+          ],
+          "declared_time_is_video_verified": false
+        }
+      },
+      "geometry_status": "Appearance/frame authority does not establish calibrated 3D facial dimensions or shared mesh topology"
+    },
+    {
+      "source_path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0010.png",
+      "source_filename": "frame_0010.png",
+      "reference_path": "references/frame-0010.png",
+      "source_sha256": "6e65bf5a91145f319dbda6b16e42da9fd002d276d267804588149d6349cd937b",
+      "copy_sha256": "6e65bf5a91145f319dbda6b16e42da9fd002d276d267804588149d6349cd937b",
+      "bytes": 1771504,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "image_format": "PNG",
+      "image_mode": "RGBA",
+      "preservation": {
+        "byte_identical": true,
+        "uncropped": true,
+        "resampled": false,
+        "retouched": false,
+        "generated_here": false
+      },
+      "id": "accepted-frame-0010",
+      "group": "accepted_growth_frames",
+      "frame_number": 10,
+      "stage_ordinal": 2,
+      "stage_role": "accepted inflation stage",
+      "label": "Accepted frame0010 \u00b7 accepted inflation stage",
+      "authority_role": "Accepted face/appearance evidence where visible, plus accepted ordinal growth stage",
+      "authority_basis": "Latest direct user face clarification and accepted stage order; no inferred acceptance of generated3D anatomy",
+      "observed_artist_cues": {
+        "face_visibility": "Three-quarter face visible looking back",
+        "eyes": "Visible iris reads gold/green under this lighting; do not automatically recolor or average",
+        "cues": [
+          "Large almond eye opening",
+          "Long upper lashes",
+          "Small rounded nose",
+          "Full lips",
+          "Soft tapered face outline"
+        ],
+        "hair_and_ears": "Long red/auburn waves; brown ears with white inner tufts"
+      },
+      "source_processing_provenance": {
+        "board_version": "Existing Qwen1024 regeneration copied without alteration",
+        "final4096_status": "Existing upscale of regeneration; source/hash linked but not copied for lightweight board",
+        "versions": [
+          {
+            "kind": "qwen_intermediate_1024",
+            "source_path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0010.png",
+            "source_sha256": "6e65bf5a91145f319dbda6b16e42da9fd002d276d267804588149d6349cd937b",
+            "matches_existing_provenance_hash": true,
+            "image_size": [
+              1024,
+              1024
+            ],
+            "transformation_kind": "generative image regeneration",
+            "copied_for_board": true
+          },
+          {
+            "kind": "final_4096",
+            "source_path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\final_4096\\frame_0010.png",
+            "source_sha256": "9da181e2cb3f0f448d1e081bb7e8018f9e712a2f768d1f8389c3f4b855264b0f",
+            "matches_existing_provenance_hash": true,
+            "image_size": [
+              4096,
+              4096
+            ],
+            "transformation_kind": "upscale of regenerated image, not original",
+            "copied_for_board": false
+          }
+        ],
+        "original_frame": {
+          "workflow_load_image_reference": [
+            [
+              "selected_five_frames/frame_0010_00.417s.png",
+              "image"
+            ]
+          ],
+          "declared_original_size": [
+            560,
+            560
+          ],
+          "actual_original_present_in_supplied_directories": false,
+          "verification_status": "Original source pixels/hash unavailable here; only workflow/document provenance",
+          "declared_time_seconds_from_filename": [
+            0.417
+          ],
+          "declared_time_is_video_verified": false
+        }
+      },
+      "geometry_status": "Appearance/frame authority does not establish calibrated 3D facial dimensions or shared mesh topology"
+    },
+    {
+      "source_path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0018.png",
+      "source_filename": "frame_0018.png",
+      "reference_path": "references/frame-0018.png",
+      "source_sha256": "37253a70ed6d1076083c7e448591708ea12ca4b70d49edd55f04e2b273789e83",
+      "copy_sha256": "37253a70ed6d1076083c7e448591708ea12ca4b70d49edd55f04e2b273789e83",
+      "bytes": 1811193,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "image_format": "PNG",
+      "image_mode": "RGBA",
+      "preservation": {
+        "byte_identical": true,
+        "uncropped": true,
+        "resampled": false,
+        "retouched": false,
+        "generated_here": false
+      },
+      "id": "accepted-frame-0018",
+      "group": "accepted_growth_frames",
+      "frame_number": 18,
+      "stage_ordinal": 3,
+      "stage_role": "accepted inflation stage",
+      "label": "Accepted frame0018 \u00b7 accepted inflation stage",
+      "authority_role": "Accepted face/appearance evidence where visible, plus accepted ordinal growth stage",
+      "authority_basis": "Latest direct user face clarification and accepted stage order; no inferred acceptance of generated3D anatomy",
+      "observed_artist_cues": {
+        "face_visibility": "Mostly profile with eye closed or nearly closed",
+        "eyes": "Iris color and full eye opening cannot be established from this frame",
+        "cues": [
+          "Upper lash silhouette",
+          "Small rounded nose profile",
+          "Full lip profile",
+          "Tapered cheek/chin profile"
+        ],
+        "hair_and_ears": "Long red/auburn waves; brown ears with white inner tufts"
+      },
+      "source_processing_provenance": {
+        "board_version": "Existing Qwen1024 regeneration copied without alteration",
+        "final4096_status": "Existing upscale of regeneration; source/hash linked but not copied for lightweight board",
+        "versions": [
+          {
+            "kind": "qwen_intermediate_1024",
+            "source_path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0018.png",
+            "source_sha256": "37253a70ed6d1076083c7e448591708ea12ca4b70d49edd55f04e2b273789e83",
+            "matches_existing_provenance_hash": true,
+            "image_size": [
+              1024,
+              1024
+            ],
+            "transformation_kind": "generative image regeneration",
+            "copied_for_board": true
+          },
+          {
+            "kind": "final_4096",
+            "source_path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\final_4096\\frame_0018.png",
+            "source_sha256": "c31e926735155760cc4b7ec7dc9404a51e042f0ebc87fed6c1644e216e5da96d",
+            "matches_existing_provenance_hash": true,
+            "image_size": [
+              4096,
+              4096
+            ],
+            "transformation_kind": "upscale of regenerated image, not original",
+            "copied_for_board": false
+          }
+        ],
+        "original_frame": {
+          "workflow_load_image_reference": [
+            [
+              "selected_five_frames/frame_0018_00.750s.png",
+              "image"
+            ]
+          ],
+          "declared_original_size": [
+            560,
+            560
+          ],
+          "actual_original_present_in_supplied_directories": false,
+          "verification_status": "Original source pixels/hash unavailable here; only workflow/document provenance",
+          "declared_time_seconds_from_filename": [
+            0.75
+          ],
+          "declared_time_is_video_verified": false
+        }
+      },
+      "geometry_status": "Appearance/frame authority does not establish calibrated 3D facial dimensions or shared mesh topology"
+    },
+    {
+      "source_path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0026.png",
+      "source_filename": "frame_0026.png",
+      "reference_path": "references/frame-0026.png",
+      "source_sha256": "6d235656ee4490a3043006304a6b6df9e066d9898991de319bd9ee77907c7342",
+      "copy_sha256": "6d235656ee4490a3043006304a6b6df9e066d9898991de319bd9ee77907c7342",
+      "bytes": 1711965,
+      "image_size": [
+        1024,
+        1024
+      ],
+      "image_format": "PNG",
+      "image_mode": "RGBA",
+      "preservation": {
+        "byte_identical": true,
+        "uncropped": true,
+        "resampled": false,
+        "retouched": false,
+        "generated_here": false
+      },
+      "id": "accepted-frame-0026",
+      "group": "accepted_growth_frames",
+      "frame_number": 26,
+      "stage_ordinal": 4,
+      "stage_role": "correct endpoint",
+      "label": "Accepted frame0026 \u00b7 correct endpoint",
+      "authority_role": "Accepted face/appearance evidence where visible, plus accepted ordinal growth stage",
+      "authority_basis": "Latest direct user face clarification and accepted stage order; no inferred acceptance of generated3D anatomy",
+      "observed_artist_cues": {
+        "face_visibility": "Turned away; face largely hidden by hair",
+        "eyes": "Unseen facial features and iris color are unconstrained by this view",
+        "cues": [
+          "Hair and ear appearance context; no frontal facial shape measurements supported"
+        ],
+        "hair_and_ears": "Long red/auburn waves; brown ears with white inner tufts"
+      },
+      "source_processing_provenance": {
+        "board_version": "Existing Qwen1024 regeneration copied without alteration",
+        "final4096_status": "Existing upscale of regeneration; source/hash linked but not copied for lightweight board",
+        "versions": [
+          {
+            "kind": "qwen_intermediate_1024",
+            "source_path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\qwen_intermediate_1024\\frame_0026.png",
+            "source_sha256": "6d235656ee4490a3043006304a6b6df9e066d9898991de319bd9ee77907c7342",
+            "matches_existing_provenance_hash": true,
+            "image_size": [
+              1024,
+              1024
+            ],
+            "transformation_kind": "generative image regeneration",
+            "copied_for_board": true
+          },
+          {
+            "kind": "final_4096",
+            "source_path": "C:\\Users\\User\\Downloads\\Qwen-21-Regenerated-Enhanced-Five-Frames02\\final_4096\\frame_0026.png",
+            "source_sha256": "4203cb6c12ee250718b69c87d5807b4624f00a8264d1526d9f02e3786899aeda",
+            "matches_existing_provenance_hash": true,
+            "image_size": [
+              4096,
+              4096
+            ],
+            "transformation_kind": "upscale of regenerated image, not original",
+            "copied_for_board": false
+          }
+        ],
+        "original_frame": {
+          "workflow_load_image_reference": [
+            [
+              "selected_five_frames/frame_0026_01.083s.png",
+              "image"
+            ]
+          ],
+          "declared_original_size": [
+            560,
+            560
+          ],
+          "actual_original_present_in_supplied_directories": false,
+          "verification_status": "Original source pixels/hash unavailable here; only workflow/document provenance",
+          "declared_time_seconds_from_filename": [
+            1.083
+          ],
+          "declared_time_is_video_verified": false
+        }
+      },
+      "geometry_status": "Appearance/frame authority does not establish calibrated 3D facial dimensions or shared mesh topology"
+    }
+  ],
+  "supporting_3d": [
+    {
+      "kind": "Gaussian appearance field",
+      "reference_id": "closeup-blonde-illustration",
+      "label": "Blonde portrait appearance field",
+      "geometry_id": "geometry-00",
+      "raw_payload_sha256": "f99d8a061d4d83598a6c198e94528e91dc90533d83a76962ac8cdb5614ddfe0f",
+      "asset_path_relative_to_rainee": "measurements/worldgen-20261013/assets/spz-00-52af25e6be/full_res.spz",
+      "association_basis": "Root visually inspected actual Gaussian rendering against supplied reference; input-image hash/camera equivalence not established",
+      "authority_role": "Supporting appearance evidence for user-approved face family; not canonical facial geometry",
+      "limitations": [
+        "Gaussian appearance field is not a closed facial surface",
+        "No exact 3D facial dimensions inferred",
+        "No production-head replacement performed"
+      ]
+    },
+    {
+      "kind": "Gaussian appearance field",
+      "reference_id": "closeup-blue-bust",
+      "label": "Blue-costume bust appearance field",
+      "geometry_id": "geometry-05",
+      "raw_payload_sha256": "b78dacfa5461554c791a6167e4438b7484a47fe7c42bb78567c3c80f54642d1b",
+      "asset_path_relative_to_rainee": "measurements/worldgen-20261013/assets/spz-06-927bab7032/full_res.spz",
+      "association_basis": "Root visually inspected actual Gaussian rendering against supplied reference; input-image hash/camera equivalence not established",
+      "authority_role": "Supporting appearance evidence for user-approved face family; not canonical facial geometry",
+      "limitations": [
+        "Gaussian appearance field is not a closed facial surface",
+        "No exact 3D facial dimensions inferred",
+        "No production-head replacement performed"
+      ]
+    },
+    {
+      "kind": "Cropped upper-body OBJ",
+      "source_path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\worldgen-20261013\\assets\\obj-f9f63233\\base.obj",
+      "source_sha256": "299c5c92cf71000e437509bbbc50e95f9b281df8de32e4ec01e5a3ff949bd599",
+      "vertices": 249768,
+      "triangles": 500000,
+      "authority_role": "Candidate head/upper-body reconstruction for inspection only",
+      "association_basis": "Geometry inventory confirms head/ears/hair/upper torso; no exact accepted-reference camera or generator-image hash mapping",
+      "limitations": [
+        "No calibrated camera correspondence",
+        "No canonical acceptance of exact face geometry",
+        "No butt/thigh/full stature evidence",
+        "No production head replacement performed"
+      ]
+    }
+  ],
+  "sequence_policy": {
+    "accepted_frames": [
+      0,
+      10,
+      18,
+      26
+    ],
+    "endpoint": 26,
+    "stage_scale": "ordinal, no absolute time/volume inferred",
+    "excluded_frame": 49,
+    "reason": "User rejected later deflation/wrong proportions; not copied or promoted here"
+  },
+  "provenance_inputs": [
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\five-frame-20261013\\reference-sequence-manifest.json",
+      "sha256": "0183f31c1456be6593e2e2a16f5310bff82801cbe1b23f76a241612aa6a79975"
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\worldgen-20261013\\inventory.json",
+      "sha256": "ad65652e209949b3046515a12057c6870214846071e43cfc276def33a776c3e3"
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\measurements\\worldgen-20261013\\derived\\obj-f9f63233\\inventory.json",
+      "sha256": "c510667c1329b147bc71188b14b6a3ec2fd653083d022fc1297522ca0c59fef8"
+    }
+  ],
+  "preservation_policy": "All seven copied source images are byte-identical and fully uncropped; no resampling, compositing, retouching or generation occurred.",
+  "implementation_scope": "Reference authority/provenance only. Main UI, original assets, inventories and production head geometry unchanged.",
+  "additional_bust_attachment": {
+    "report": "new-bust-archive.json",
+    "status": "same_member_payloads_different_container",
+    "source_path": "C:\\Users\\User\\Downloads\\f9f63233-cc50-4a28-8c61-7c45affbdbbb (1).zip",
+    "archive_sha256": "66ac8fd7614bf5a448ea69ccc10d4b9ac3a6f9211567c22f8ecaad126ad5d0f5",
+    "member_payloads_identical_to_earlier": true,
+    "geometry_replaced": false,
+    "new_extraction_performed": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "case": "Broader rear corrective support; front pelvisZ>=.015 andY>=.750 andhead/feet fixed; originalv3 rear-mask protected points can change locally. No art/contact certification.",
+  "cases": [
+    {
+      "file": "body-2.5x-round-broad-0.35-volume-fit.bin",
+      "amplitude": 0.473720062058419,
+      "roundness": 0.35,
+      "measured_corrected_cage_ratio": 2.499999998582283,
+      "negative_sampled_body_jacobians": 0,
+      "minimum_sampled_body_jacobian": 0.257517025520518,
+      "height_drift": 0.0,
+      "protected_displacement": 0.0,
+      "extra_support_moved_points": 292,
+      "body_cook_seconds": 0.08779150003101677
+    },
+    {
+      "file": "body-2.5x-round-broad-0.65-volume-fit.bin",
+      "amplitude": 0.4623020966537297,
+      "roundness": 0.65,
+      "measured_corrected_cage_ratio": 2.4999999993688196,
+      "negative_sampled_body_jacobians": 67,
+      "minimum_sampled_body_jacobian": -0.4313706808669421,
+      "height_drift": 0.0,
+      "protected_displacement": 0.0,
+      "extra_support_moved_points": 294,
+      "body_cook_seconds": 0.12119889992754906
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "status": "provisional_local_measurement_deltas",
+  "descriptors": {
+    "rear_depth_over_width": {
+      "baseline": 0.47934870378629824,
+      "reference": 0.6098839767142745,
+      "candidate": 0.5114689383108006,
+      "reference_change_from_baseline_percent": 27.231798458387214,
+      "candidate_difference_from_reference_percent": -16.136682083972907
+    },
+    "rear_width_over_height": {
+      "baseline": 1.828560093672853,
+      "reference": 2.037716411096248,
+      "candidate": 1.8148931872842584,
+      "reference_change_from_baseline_percent": 11.438307012556681,
+      "candidate_difference_from_reference_percent": -10.934947699229413
+    },
+    "rear_pca_middle_over_major": {
+      "baseline": 0.5462363316046001,
+      "reference": 0.5703440288723153,
+      "candidate": 0.5609739066153151,
+      "reference_change_from_baseline_percent": 4.413418857895723,
+      "candidate_difference_from_reference_percent": -1.6428895162673651
+    },
+    "rear_pca_minor_over_major": {
+      "baseline": 0.44918603718234174,
+      "reference": 0.45663245780463774,
+      "candidate": 0.47268325924105475,
+      "reference_change_from_baseline_percent": 1.6577587026092688,
+      "candidate_difference_from_reference_percent": 3.515037348327099
+    },
+    "rear_to_waist_width": {
+      "baseline": 2.629894741974224,
+      "reference": 2.4171263243811905,
+      "candidate": 2.705737622590105,
+      "reference_change_from_baseline_percent": -8.090377694481843,
+      "candidate_difference_from_reference_percent": 11.940265401015072
+    },
+    "rear_to_waist_depth": {
+      "baseline": 1.9961828878365095,
+      "reference": 1.0101916653589251,
+      "candidate": 2.170115634022532,
+      "reference_change_from_baseline_percent": -49.39383202238625,
+      "candidate_difference_from_reference_percent": 114.82216775679701
+    }
+  },
+  "contraction_constraints": {
+    "rear_to_waist_width_target_lower_than_source": true,
+    "rear_to_waist_depth_target_lower_than_source": true,
+    "volume_lower_bound": 1.0,
+    "current_controls_allow_contraction": false,
+    "interpretation": "Two waist-normalized cues ask for a smaller rear relative to the selected waist, while rear depth/width asks for more projection. Target waist shape/pose and corresponding patches are provisional. This is a correspondence conflict, not a validated instruction to contract Rainee."
+  },
+  "observed_feature_ranges": {
+    "rear_depth_over_width": {
+      "min": 0.47934870378629824,
+      "max": 0.6662459705621453,
+      "target": 0.6098839767142745,
+      "target_below_all_evaluated": false,
+      "target_above_all_evaluated": false
+    },
+    "rear_width_over_height": {
+      "min": 1.518887817705069,
+      "max": 1.8462765929830658,
+      "target": 2.037716411096248,
+      "target_below_all_evaluated": false,
+      "target_above_all_evaluated": true
+    },
+    "rear_pca_middle_over_major": {
+      "min": 0.5462363316046001,
+      "max": 0.6683289300269812,
+      "target": 0.5703440288723153,
+      "target_below_all_evaluated": false,
+      "target_above_all_evaluated": false
+    },
+    "rear_pca_minor_over_major": {
+      "min": 0.44918603718234174,
+      "max": 0.5662554651057804,
+      "target": 0.45663245780463774,
+      "target_below_all_evaluated": false,
+      "target_above_all_evaluated": false
+    },
+    "rear_to_waist_width": {
+      "min": 2.629894741974224,
+      "max": 3.1057928743325616,
+      "target": 2.4171263243811905,
+      "target_below_all_evaluated": true,
+      "target_above_all_evaluated": false
+    },
+    "rear_to_waist_depth": {
+      "min": 1.9961828878365095,
+      "max": 2.9536653510865665,
+      "target": 1.0101916653589251,
+      "target_below_all_evaluated": true,
+      "target_above_all_evaluated": false
+    }
+  },
+  "objective": {
+    "baseline": 0.05980025166033354,
+    "candidate": 0.055013116133045006,
+    "direction": "smaller is better",
+    "relative_objective_reduction": 0.08005209667811342,
+    "candidate_weighted_log_rmse": 0.12997823870799555,
+    "interpretation": "Internal weighted descriptor error, not percent anatomical or visual accuracy."
+  },
+  "candidate_constraints": {
+    "finite": true,
+    "height_drift": 0.0,
+    "protected_source_points_max_displacement": 0.0,
+    "field_orientation_passed": true
+  },
+  "parameters": {
+    "volume": 1.1707255757826704,
+    "lateral": 0.9399461725937943,
+    "vertical": 0.7577143095420192,
+    "projection": 1.2017703984270913
+  },
+  "jacobian_guard": {
+    "samples": 25539,
+    "min_determinant": 0.8582560562391179,
+    "nonpositive": 0
+  },
+  "comparison_ready": false,
+  "accepted_winner": null
+}

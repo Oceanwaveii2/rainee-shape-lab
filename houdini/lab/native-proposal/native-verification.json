@@ -1,0 +1,296 @@
+{
+  "passed": true,
+  "hip": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\lab\\native-proposal\\Rainee-Implicit-Anatomy-Lab.hip",
+  "hip_sha256": "9e3f3e5a68940e33022890cb9f6da1ea5f86b1bf1fd8a6bd24f9818bb737da23",
+  "houdini_version": "22.0.368",
+  "execution": "detached hython; live app not contacted or loaded",
+  "native_analytic_SOP_template": false,
+  "static_not_physics": true,
+  "template_scope": "regional closed proposal; not accepted/image-fitted anatomy or seamless full FBX attachment",
+  "native_checks": [
+    {
+      "points": 3478,
+      "triangles": 6952,
+      "finite": true,
+      "closed": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "minimum_triangle_area": 2.5435770850844976e-12,
+      "right_hand_signed_volume_source_units_cubed": -0.10620676293368464,
+      "houdini_left_hand_signed_volume_source_units_cubed": 0.10620676293368464,
+      "volume_source_units_cubed": 0.10620676293368464,
+      "winding_convention": "Houdini left-handed; OBJ right-handed order reversed by native importer",
+      "winding_reference": "https://www.sidefx.com/docs/houdini/model/primitive_spaces.html",
+      "normal_values_present_and_finite": true,
+      "normal_unit_length_max_error": 3.8602200325144054e-08,
+      "native_primitive_vs_imported_normal_alignment_mean": 0.9670804768098606,
+      "geometry_sha256": "137a2a9d88c402c7a801c3232b767fde55ada396ee5f3a4cd35ad077cae5be66",
+      "bounds": {
+        "min": [
+          -0.37218838930130005,
+          -0.42385134100914,
+          -0.35266098380088806
+        ],
+        "max": [
+          0.37218838930130005,
+          0.4472275674343109,
+          0.18328794836997986
+        ]
+      },
+      "state": "default",
+      "frame": 1,
+      "cook_and_audit_seconds": 2.5766180000500754,
+      "errors": [],
+      "warnings": [],
+      "volume_vs_js_relative_error": 2.220446049250313e-16
+    },
+    {
+      "points": 3478,
+      "triangles": 6952,
+      "finite": true,
+      "closed": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "minimum_triangle_area": 2.5435770850844976e-12,
+      "right_hand_signed_volume_source_units_cubed": -0.10620676293368464,
+      "houdini_left_hand_signed_volume_source_units_cubed": 0.10620676293368464,
+      "volume_source_units_cubed": 0.10620676293368464,
+      "winding_convention": "Houdini left-handed; OBJ right-handed order reversed by native importer",
+      "winding_reference": "https://www.sidefx.com/docs/houdini/model/primitive_spaces.html",
+      "normal_values_present_and_finite": true,
+      "normal_unit_length_max_error": 3.8602200325144054e-08,
+      "native_primitive_vs_imported_normal_alignment_mean": 0.9670804768098606,
+      "geometry_sha256": "137a2a9d88c402c7a801c3232b767fde55ada396ee5f3a4cd35ad077cae5be66",
+      "bounds": {
+        "min": [
+          -0.37218838930130005,
+          -0.42385134100914,
+          -0.35266098380088806
+        ],
+        "max": [
+          0.37218838930130005,
+          0.4472275674343109,
+          0.18328794836997986
+        ]
+      },
+      "state": "default",
+      "frame": 12,
+      "cook_and_audit_seconds": 2.490477000013925,
+      "errors": [],
+      "warnings": [],
+      "volume_vs_js_relative_error": 2.220446049250313e-16
+    },
+    {
+      "points": 3478,
+      "triangles": 6952,
+      "finite": true,
+      "closed": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "minimum_triangle_area": 2.5435770850844976e-12,
+      "right_hand_signed_volume_source_units_cubed": -0.10620676293368464,
+      "houdini_left_hand_signed_volume_source_units_cubed": 0.10620676293368464,
+      "volume_source_units_cubed": 0.10620676293368464,
+      "winding_convention": "Houdini left-handed; OBJ right-handed order reversed by native importer",
+      "winding_reference": "https://www.sidefx.com/docs/houdini/model/primitive_spaces.html",
+      "normal_values_present_and_finite": true,
+      "normal_unit_length_max_error": 3.8602200325144054e-08,
+      "native_primitive_vs_imported_normal_alignment_mean": 0.9670804768098606,
+      "geometry_sha256": "137a2a9d88c402c7a801c3232b767fde55ada396ee5f3a4cd35ad077cae5be66",
+      "bounds": {
+        "min": [
+          -0.37218838930130005,
+          -0.42385134100914,
+          -0.35266098380088806
+        ],
+        "max": [
+          0.37218838930130005,
+          0.4472275674343109,
+          0.18328794836997986
+        ]
+      },
+      "state": "default",
+      "frame": 144,
+      "cook_and_audit_seconds": 2.516582199954428,
+      "errors": [],
+      "warnings": [],
+      "volume_vs_js_relative_error": 2.220446049250313e-16
+    },
+    {
+      "points": 3710,
+      "triangles": 7416,
+      "finite": true,
+      "closed": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "minimum_triangle_area": 5.563579801869618e-11,
+      "right_hand_signed_volume_source_units_cubed": -0.21983306152325705,
+      "houdini_left_hand_signed_volume_source_units_cubed": 0.21983306152325705,
+      "volume_source_units_cubed": 0.21983306152325705,
+      "winding_convention": "Houdini left-handed; OBJ right-handed order reversed by native importer",
+      "winding_reference": "https://www.sidefx.com/docs/houdini/model/primitive_spaces.html",
+      "normal_values_present_and_finite": true,
+      "normal_unit_length_max_error": 4.303920286830021e-08,
+      "native_primitive_vs_imported_normal_alignment_mean": 0.9763825262667076,
+      "geometry_sha256": "7bf7a58c18a9bb8a30bc7de18fceb0d8cae244550ea6e1ad3dbb1b42456e4b5b",
+      "bounds": {
+        "min": [
+          -0.465380996465683,
+          -0.42754432559013367,
+          -0.6214693188667297
+        ],
+        "max": [
+          0.46585914492607117,
+          0.5005742311477661,
+          0.1837145835161209
+        ]
+      },
+      "state": "expanded",
+      "frame": 1,
+      "cook_and_audit_seconds": 2.828977599972859,
+      "errors": [],
+      "warnings": [],
+      "volume_vs_js_relative_error": 2.220446049250313e-16
+    },
+    {
+      "points": 3710,
+      "triangles": 7416,
+      "finite": true,
+      "closed": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "minimum_triangle_area": 5.563579801869618e-11,
+      "right_hand_signed_volume_source_units_cubed": -0.21983306152325705,
+      "houdini_left_hand_signed_volume_source_units_cubed": 0.21983306152325705,
+      "volume_source_units_cubed": 0.21983306152325705,
+      "winding_convention": "Houdini left-handed; OBJ right-handed order reversed by native importer",
+      "winding_reference": "https://www.sidefx.com/docs/houdini/model/primitive_spaces.html",
+      "normal_values_present_and_finite": true,
+      "normal_unit_length_max_error": 4.303920286830021e-08,
+      "native_primitive_vs_imported_normal_alignment_mean": 0.9763825262667076,
+      "geometry_sha256": "7bf7a58c18a9bb8a30bc7de18fceb0d8cae244550ea6e1ad3dbb1b42456e4b5b",
+      "bounds": {
+        "min": [
+          -0.465380996465683,
+          -0.42754432559013367,
+          -0.6214693188667297
+        ],
+        "max": [
+          0.46585914492607117,
+          0.5005742311477661,
+          0.1837145835161209
+        ]
+      },
+      "state": "expanded",
+      "frame": 12,
+      "cook_and_audit_seconds": 2.7596000999910757,
+      "errors": [],
+      "warnings": [],
+      "volume_vs_js_relative_error": 2.220446049250313e-16
+    },
+    {
+      "points": 3710,
+      "triangles": 7416,
+      "finite": true,
+      "closed": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "minimum_triangle_area": 5.563579801869618e-11,
+      "right_hand_signed_volume_source_units_cubed": -0.21983306152325705,
+      "houdini_left_hand_signed_volume_source_units_cubed": 0.21983306152325705,
+      "volume_source_units_cubed": 0.21983306152325705,
+      "winding_convention": "Houdini left-handed; OBJ right-handed order reversed by native importer",
+      "winding_reference": "https://www.sidefx.com/docs/houdini/model/primitive_spaces.html",
+      "normal_values_present_and_finite": true,
+      "normal_unit_length_max_error": 4.303920286830021e-08,
+      "native_primitive_vs_imported_normal_alignment_mean": 0.9763825262667076,
+      "geometry_sha256": "7bf7a58c18a9bb8a30bc7de18fceb0d8cae244550ea6e1ad3dbb1b42456e4b5b",
+      "bounds": {
+        "min": [
+          -0.465380996465683,
+          -0.42754432559013367,
+          -0.6214693188667297
+        ],
+        "max": [
+          0.46585914492607117,
+          0.5005742311477661,
+          0.1837145835161209
+        ]
+      },
+      "state": "expanded",
+      "frame": 144,
+      "cook_and_audit_seconds": 2.76106940000318,
+      "errors": [],
+      "warnings": [],
+      "volume_vs_js_relative_error": 2.220446049250313e-16
+    }
+  ],
+  "static_geometry_across_frames": [
+    1,
+    12,
+    144
+  ],
+  "source_height_guide": {
+    "height_source_units": 2.3951061964035034,
+    "expected_height": 2.3951061964035034,
+    "height_error": 0.0,
+    "points": 6,
+    "primitives": 3,
+    "source_origin": [
+      0,
+      -1.220656394958496,
+      0.028106868267059326
+    ]
+  },
+  "all_sop_errors_or_warnings": [],
+  "protected_source_files_after": {
+    "C:/Users/User/Downloads/Core Body (Template Only).fbx": "15713f1edb4d44420d79f72e4bc06b8299a7ac6e8db11a2e7b05ee94a0a05e48",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\lab\\anatomy-model.mjs": "2cbaeddc046545005e8d9b0f4c9d30b542013fb1af0d794bdde4d374bb8f110b",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\body-v4-rest.bin": "ad055ae745bc884146420dfe872e279100de7a538da85be9f12fc2a590590aad",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\pelvic-repair\\implicit-repaired-triangles.bin": "2ce50eb65d270af04896c9175cbd812a4dff2d7993279622d2701d0dd598a3a4"
+  },
+  "protected_source_hashes_unchanged": true,
+  "existing_hip_hashes_unchanged": true,
+  "existing_hip_count": 13,
+  "existing_hip_hashes": {
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\Live-before-v4-20261013-152905.hip": "083e7ccafb69f21a0700c986f20b9ef941a1b08120180f9bf74974e3cd3c0e47",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\Rainee-Figurine-Projection-Trial.hip": "c095b60cb7fe9fd9d42167385d4431117e9b1d5fd2a5789450030163a6f8d486",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\Rainee-Volume-Lab-v2.hip": "6e2f5ee067f835645c9f45f71b886666d0645c7a83aec3bbccfddd518bd8448f",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\Rainee-Volume-Lab-v3.hip": "647b4fbf822cd632a1e2862d62d1d7a17a2d37bcb190d8981d001d1dcc38563b",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\Rainee-Volume-Lab-v4.hip": "55c996f2657b79e41acb37700c9f6b4f11bf7e0789263ff2cc9338a7c2009b4d",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\Rainee-Volume-Lab.hip": "1d8c820511d8ca8e355fef520fc1a0d60b78e65ae78327492a0c3e52faa4bc18",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\research\\rear-rounding\\native-study\\Rainee-Accepted-Growth-Sequence.hip": "eff5a5347409357b62c4c97f85a8c7099f29048f269265b40ed717d9a68e911e",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\research\\rear-rounding\\native-study\\Rainee-Optional-Radial-Rounding.hip": "7fb4e7e41f3a9218163ce417b99ee0570af3731cfed39a402b8e5eecb5fbbb78",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\research\\rear-rounding\\native-study\\accepted-sequence\\pre-sequence-live-snapshot-20261013.hip": "a31422cb9af925c8063e99552ec0a4163d1273c17578c05e3a2352ce35f35c96",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\pelvic-repair\\Rainee-Boolean-Repair-Study.hip": "1871ad7a064d8737bbc2d79240395d711b86070b9b805284fd78e88c7e1d045f",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\pelvic-repair\\Rainee-Final-Local-Repair.hip": "4d69740881ceb21f52dc6b284a3152d0fc9949c9ead79eaa312c4a17946b2e36",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\pelvic-repair\\Rainee-Local-VDB-Repair.hip": "b514fe5cfaf5069b7591729012e713f49f2dd89904b5c94650ea48403baa78f6",
+    "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee\\houdini\\pelvic-repair\\Rainee-Pelvic-Repair-Study.hip": "a2f03bfa70c10984e30049f9fa87114b4868128e6780c5150a740230bded64df"
+  },
+  "elapsed_seconds": 20.183761999942362,
+  "limits": [
+    "Closed regional surface only; not the whole body or seamlessly joined to FBX",
+    "Two independent static extracted mesh states; topology differs, so no direct blend-shape interpolation",
+    "No native analytic/SDF SOP implementation; no physical/contact simulation",
+    "No source image fit, tissue-volume certification, or accepted inflation-stage mapping",
+    "Recipe fields are editable provenance; changing them in Houdini does not regenerate geometry"
+  ]
+}

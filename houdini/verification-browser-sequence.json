@@ -1,0 +1,13 @@
+{
+  "schema": "rainee-browser-sequence-export-verification-v1",
+  "source_frame_26": "C:\\Users\\User\\Downloads\\Rainee-sequence-frame-0026-rear-2.50-thigh-0.00-source.obj",
+  "hold_frame_49": "C:\\Users\\User\\Downloads\\Rainee-sequence-frame-0049-rear-2.50-thigh-0.00-source.obj",
+  "byte_identical": true,
+  "sha256": "6e5df6abc39fbc3184ec54ec40100215fe1a16be20909704211576754a861dad",
+  "vertices": 113383,
+  "triangles": 252337,
+  "finite": true,
+  "all_vertices_referenced": true,
+  "stature_source_units": 2.3951061964035034,
+  "stature_error": 0.0
+}

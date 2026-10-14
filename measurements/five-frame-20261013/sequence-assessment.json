@@ -1,0 +1,86 @@
+{
+  "accepted_frame_numbers": [
+    0,
+    10,
+    18,
+    26
+  ],
+  "correct_endpoint": 26,
+  "reject_after_endpoint_including": [
+    49
+  ],
+  "stage_semantics": "Ordinal1..4; not 1x/2x/3x/4x volume labels",
+  "actual_meshes": [
+    {
+      "frame_number": 0,
+      "source_vertices": 1108576,
+      "source_triangles": 2018750
+    },
+    {
+      "frame_number": 10,
+      "source_vertices": 1190369,
+      "source_triangles": 2147612
+    },
+    {
+      "frame_number": 18,
+      "source_vertices": 509751,
+      "source_triangles": 936162
+    },
+    {
+      "frame_number": 26,
+      "source_vertices": 539487,
+      "source_triangles": 997180
+    }
+  ],
+  "dimensionless_feature_sequences": {
+    "rear_depth_over_width": [
+      0.8145571230825865,
+      0.8703449216968215,
+      0.6733229692443747,
+      0.6439939888570696
+    ],
+    "rear_width_over_height": [
+      1.0450684506008783,
+      1.2438663953570384,
+      1.6953020393583296,
+      1.3330628913759077
+    ],
+    "rear_pca_middle_over_major": [
+      0.7405271928842468,
+      0.7632903010675391,
+      0.6976785409592152,
+      0.7633738717250925
+    ],
+    "rear_pca_minor_over_major": [
+      0.668501937918384,
+      0.6461596548035222,
+      0.6007228337564902,
+      0.6829276709685219
+    ],
+    "rear_to_waist_width": [
+      2.380393052511443,
+      2.50376060933528,
+      2.8553068533361845,
+      1.7376941789543028
+    ],
+    "rear_to_waist_depth": [
+      1.3080649981696484,
+      1.6190078684762719,
+      1.610514899792551,
+      1.2665335706303071
+    ]
+  },
+  "descriptor_monotonicity_is_target_authority": false,
+  "correspondence_findings": [
+    "Four independent generated GLB meshes have identity scene transforms and no cameras, animations, or skins.",
+    "They are cropped characters with different poses/view evidence and vertex counts. Common source coordinates do not establish local pelvis axes or matching anatomy.",
+    "The provisional posterior ROI includes possible pelvis/upper-thigh/arm/garment overlap; color selection is imperfect.",
+    "Raw rear-to-waist descriptors do not follow the accepted monotonic inflation order. Their decrease at0026 must not be treated as intended deflation or used to shrink Rainee.",
+    "Default model preview viewpoint does not prove the unseen posterior surface is correct or incorrect; actual camera correspondence is unavailable.",
+    "Qwen1024 images are generative regenerations;4096 versions are upscales of those outputs. Original560\u00b2source pixels/hash are unavailable in supplied folders."
+  ],
+  "safe_integration": "Use0000\u21920010\u21920018\u21920026 as approved image-stage timeline, hold0026 endpoint, exclude0049. Keep generated mesh descriptors as separately labeled soft evidence until local ROIs/axes and camera correspondences are reviewed.",
+  "global_height_transfer": false,
+  "anatomical_volume_inferred": false,
+  "workflow_or_external_script_executed": false
+}

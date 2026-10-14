@@ -1,0 +1,20 @@
+{
+  "schema": "rainee-lean-budget-v1",
+  "limit_decimal_bytes": 100000000,
+  "working_tree_bytes_before_docs": 99552941,
+  "virtual_asset_routes": 105,
+  "stored_blobs": 86,
+  "lossless_float32_cache_and_geometry": true,
+  "original_images_uncropped": true,
+  "full_local_data_kept": true,
+  "source_project_root": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\rainee",
+  "review_root": "C:\\Users\\User\\Downloads\\Rainee-GitHub-Review-20261014",
+  "new_3d_meshes_decimated": false,
+  "working_tree_bytes_current": 99873543,
+  "decimal_megabytes": 99.873543,
+  "strict_budget_passed": true,
+  "primary_reference_images_unchanged": true,
+  "secondary_reference_jpeg_derivatives": 3,
+  "files": 429,
+  "largest_file_bytes": 5898897
+}

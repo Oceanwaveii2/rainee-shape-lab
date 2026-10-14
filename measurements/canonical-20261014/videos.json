@@ -1,0 +1,1413 @@
+{
+  "schema": "rainee-video-review-telemetry-v1",
+  "videos": [
+    {
+      "id": "V01",
+      "local_path": "C:\\Users\\User\\Downloads\\高清（4K） (5).mp4",
+      "source_filename": "高清（4K） (5).mp4",
+      "bytes": 15100851,
+      "sha256": "cc92b5f9f963e0d9dbd683a283aeb9090730676a9c3ec00353f9386b3448d970",
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640033",
+            "width": 2160,
+            "height": 2880,
+            "coded_width": 2160,
+            "coded_height": 2880,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "3:4",
+            "pix_fmt": "yuv420p",
+            "level": 51,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 98816,
+            "duration": "8.041667",
+            "bit_rate": "14949484",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "193",
+            "extradata_size": 46,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 2048,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 356328,
+            "duration": "8.080000",
+            "bit_rate": "65242",
+            "nb_frames": "350",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Users\\User\\Downloads\\高清（4K） (5).mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "8.080000",
+          "size": "15100851",
+          "bit_rate": "14951337",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41"
+          }
+        }
+      },
+      "duration_seconds": 8.08,
+      "width": 2160,
+      "height": 2880,
+      "frame_rate": "24/1",
+      "asset_association": "unassigned; filename does not establish a character or canonical stage",
+      "camera_calibration": false,
+      "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
+      "lean_review": {
+        "path": "videos/V01/review.mp4",
+        "bytes": 393213,
+        "sha256": "dcecd912f5d604a1cce26a94cb1e38c1ffc2045abcd44915ce799fe99ba509d3",
+        "transform": "full-duration, uncropped proportional resize <=720px wide, 12fps H.264, audio omitted",
+        "source_unchanged": true,
+        "duration_seconds": 8.083333
+      },
+      "sample_frames": [
+        {
+          "source_timestamp_seconds": 0.0,
+          "path": "videos/V01/frame-0.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 2.02,
+          "path": "videos/V01/frame-1.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 4.04,
+          "path": "videos/V01/frame-2.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 6.0600000000000005,
+          "path": "videos/V01/frame-3.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 7.9184,
+          "path": "videos/V01/frame-4.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        }
+      ],
+      "contact_sheet": "videos/V01/contact-sheet.jpg"
+    },
+    {
+      "id": "V02",
+      "local_path": "C:\\Users\\User\\Downloads\\高清（4K） (6).mp4",
+      "source_filename": "高清（4K） (6).mp4",
+      "bytes": 15118246,
+      "sha256": "570d0c93bf1b3abd5385d405ce7ae21a6f37cd4e04973e569f732fd89c0afa4b",
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640033",
+            "width": 2160,
+            "height": 2880,
+            "coded_width": 2160,
+            "coded_height": 2880,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "3:4",
+            "pix_fmt": "yuv420p",
+            "level": 51,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 98816,
+            "duration": "8.041667",
+            "bit_rate": "15036568",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "193",
+            "extradata_size": 46,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Users\\User\\Downloads\\高清（4K） (6).mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "8.041667",
+          "size": "15118246",
+          "bit_rate": "15039912",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41"
+          }
+        }
+      },
+      "duration_seconds": 8.041667,
+      "width": 2160,
+      "height": 2880,
+      "frame_rate": "24/1",
+      "asset_association": "unassigned; filename does not establish a character or canonical stage",
+      "camera_calibration": false,
+      "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
+      "lean_review": {
+        "path": "videos/V02/review.mp4",
+        "bytes": 379346,
+        "sha256": "2163e38d364a524f6761a52da795bb0d60d817aca6902f4f36fc2ded6e4fde70",
+        "transform": "full-duration, uncropped proportional resize <=720px wide, 12fps H.264, audio omitted",
+        "source_unchanged": true,
+        "duration_seconds": 8.083008
+      },
+      "sample_frames": [
+        {
+          "source_timestamp_seconds": 0.0,
+          "path": "videos/V02/frame-0.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 2.01041675,
+          "path": "videos/V02/frame-1.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 4.0208335,
+          "path": "videos/V02/frame-2.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 6.03125025,
+          "path": "videos/V02/frame-3.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 7.88083366,
+          "path": "videos/V02/frame-4.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        }
+      ],
+      "contact_sheet": "videos/V02/contact-sheet.jpg"
+    },
+    {
+      "id": "V03",
+      "local_path": "C:\\Users\\User\\Downloads\\高清（4K） (4).mp4",
+      "source_filename": "高清（4K） (4).mp4",
+      "bytes": 14758880,
+      "sha256": "a62be9d18ac970d9d1261333d705467e49938d22c7ddd68687916510c357faa8",
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640033",
+            "width": 2160,
+            "height": 2880,
+            "coded_width": 2160,
+            "coded_height": 2880,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "3:4",
+            "pix_fmt": "yuv420p",
+            "level": 51,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 98816,
+            "duration": "8.041667",
+            "bit_rate": "14609391",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "193",
+            "extradata_size": 46,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 2048,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 356328,
+            "duration": "8.080000",
+            "bit_rate": "65167",
+            "nb_frames": "350",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Users\\User\\Downloads\\高清（4K） (4).mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "8.080000",
+          "size": "14758880",
+          "bit_rate": "14612752",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41"
+          }
+        }
+      },
+      "duration_seconds": 8.08,
+      "width": 2160,
+      "height": 2880,
+      "frame_rate": "24/1",
+      "asset_association": "unassigned; filename does not establish a character or canonical stage",
+      "camera_calibration": false,
+      "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
+      "lean_review": {
+        "path": "videos/V03/review.mp4",
+        "bytes": 345673,
+        "sha256": "77937bb76de003df92b0ba8830960b582eb91e2ef78178e298fabc7b570ca95c",
+        "transform": "full-duration, uncropped proportional resize <=720px wide, 12fps H.264, audio omitted",
+        "source_unchanged": true,
+        "duration_seconds": 8.083333
+      },
+      "sample_frames": [
+        {
+          "source_timestamp_seconds": 0.0,
+          "path": "videos/V03/frame-0.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 2.02,
+          "path": "videos/V03/frame-1.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 4.04,
+          "path": "videos/V03/frame-2.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 6.0600000000000005,
+          "path": "videos/V03/frame-3.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 7.9184,
+          "path": "videos/V03/frame-4.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        }
+      ],
+      "contact_sheet": "videos/V03/contact-sheet.jpg"
+    },
+    {
+      "id": "V04",
+      "local_path": "C:\\Users\\User\\Downloads\\高清（1080P） (1).mp4",
+      "source_filename": "高清（1080P） (1).mp4",
+      "bytes": 3976736,
+      "sha256": "95dcd0c7aa9c5862136b74e81350a19b6e89880348c6f935304f5ac578821dcb",
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 1080,
+            "height": 1440,
+            "coded_width": 1080,
+            "coded_height": 1440,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "3:4",
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 98816,
+            "duration": "8.041667",
+            "bit_rate": "3883049",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "193",
+            "extradata_size": 47,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 2048,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 356328,
+            "duration": "8.080000",
+            "bit_rate": "65242",
+            "nb_frames": "350",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Users\\User\\Downloads\\高清（1080P） (1).mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "8.080000",
+          "size": "3976736",
+          "bit_rate": "3937362",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41"
+          }
+        }
+      },
+      "duration_seconds": 8.08,
+      "width": 1080,
+      "height": 1440,
+      "frame_rate": "24/1",
+      "asset_association": "unassigned; filename does not establish a character or canonical stage",
+      "camera_calibration": false,
+      "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
+      "lean_review": {
+        "path": "videos/V04/review.mp4",
+        "bytes": 389093,
+        "sha256": "c55edf35e336f0b45a4ebf39549deee59b17ce7935ccb4590caced9a5a7cff51",
+        "transform": "full-duration, uncropped proportional resize <=720px wide, 12fps H.264, audio omitted",
+        "source_unchanged": true,
+        "duration_seconds": 8.083333
+      },
+      "sample_frames": [
+        {
+          "source_timestamp_seconds": 0.0,
+          "path": "videos/V04/frame-0.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 2.02,
+          "path": "videos/V04/frame-1.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 4.04,
+          "path": "videos/V04/frame-2.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 6.0600000000000005,
+          "path": "videos/V04/frame-3.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 7.9184,
+          "path": "videos/V04/frame-4.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        }
+      ],
+      "contact_sheet": "videos/V04/contact-sheet.jpg"
+    },
+    {
+      "id": "V05",
+      "local_path": "C:\\Users\\User\\Downloads\\高清（1080P） (2).mp4",
+      "source_filename": "高清（1080P） (2).mp4",
+      "bytes": 4008975,
+      "sha256": "2dffc703359370700985634d0fc049624a585488f7953b33bb113a4f37207fba",
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 1080,
+            "height": 1440,
+            "coded_width": 1080,
+            "coded_height": 1440,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "3:4",
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 98816,
+            "duration": "8.041667",
+            "bit_rate": "3915458",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "193",
+            "extradata_size": 47,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 2048,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 355314,
+            "duration": "8.057007",
+            "bit_rate": "65049",
+            "nb_frames": "349",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Users\\User\\Downloads\\高清（1080P） (2).mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "8.057007",
+          "size": "4008975",
+          "bit_rate": "3980609",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41"
+          }
+        }
+      },
+      "duration_seconds": 8.057007,
+      "width": 1080,
+      "height": 1440,
+      "frame_rate": "24/1",
+      "asset_association": "unassigned; filename does not establish a character or canonical stage",
+      "camera_calibration": false,
+      "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
+      "lean_review": {
+        "path": "videos/V05/review.mp4",
+        "bytes": 360977,
+        "sha256": "10e1361ca87abef4678cee951ad1c1d42c32015e97ab39d413e826e54c807856",
+        "transform": "full-duration, uncropped proportional resize <=720px wide, 12fps H.264, audio omitted",
+        "source_unchanged": true,
+        "duration_seconds": 8.083333
+      },
+      "sample_frames": [
+        {
+          "source_timestamp_seconds": 0.0,
+          "path": "videos/V05/frame-0.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 2.01425175,
+          "path": "videos/V05/frame-1.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 4.0285035,
+          "path": "videos/V05/frame-2.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 6.042755250000001,
+          "path": "videos/V05/frame-3.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 7.89586686,
+          "path": "videos/V05/frame-4.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        }
+      ],
+      "contact_sheet": "videos/V05/contact-sheet.jpg"
+    },
+    {
+      "id": "V06",
+      "local_path": "C:\\Users\\User\\Downloads\\高清（4K） (3).mp4",
+      "source_filename": "高清（4K） (3).mp4",
+      "bytes": 15009973,
+      "sha256": "27e0932f5126c76223747e5bb237d5f7a02433ee88f0cbfcfae2a840334a6ed2",
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640033",
+            "width": 2160,
+            "height": 2880,
+            "coded_width": 2160,
+            "coded_height": 2880,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "3:4",
+            "pix_fmt": "yuv420p",
+            "level": 51,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 98816,
+            "duration": "8.041667",
+            "bit_rate": "14859461",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "193",
+            "extradata_size": 46,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 2048,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 355314,
+            "duration": "8.057007",
+            "bit_rate": "65049",
+            "nb_frames": "349",
+            "extradata_size": 2,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Users\\User\\Downloads\\高清（4K） (3).mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "8.057007",
+          "size": "15009973",
+          "bit_rate": "14903770",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41"
+          }
+        }
+      },
+      "duration_seconds": 8.057007,
+      "width": 2160,
+      "height": 2880,
+      "frame_rate": "24/1",
+      "asset_association": "unassigned; filename does not establish a character or canonical stage",
+      "camera_calibration": false,
+      "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
+      "lean_review": {
+        "path": "videos/V06/review.mp4",
+        "bytes": 342738,
+        "sha256": "47562ac9db82402c13cc88d99445d3e7de675fa02475c7e1e67bf9801c39cd2a",
+        "transform": "full-duration, uncropped proportional resize <=720px wide, 12fps H.264, audio omitted",
+        "source_unchanged": true,
+        "duration_seconds": 8.083333
+      },
+      "sample_frames": [
+        {
+          "source_timestamp_seconds": 0.0,
+          "path": "videos/V06/frame-0.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 2.01425175,
+          "path": "videos/V06/frame-1.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 4.0285035,
+          "path": "videos/V06/frame-2.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 6.042755250000001,
+          "path": "videos/V06/frame-3.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 7.89586686,
+          "path": "videos/V06/frame-4.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        }
+      ],
+      "contact_sheet": "videos/V06/contact-sheet.jpg"
+    },
+    {
+      "id": "V07",
+      "local_path": "C:\\Users\\User\\Downloads\\高清（1080P）.mp4",
+      "source_filename": "高清（1080P）.mp4",
+      "bytes": 3970572,
+      "sha256": "65cb5518afc09b0485ed4e7606743be8ab96cf8fafb693cac431fbeabfd0feb7",
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 1080,
+            "height": 1440,
+            "coded_width": 1080,
+            "coded_height": 1440,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "3:4",
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 98816,
+            "duration": "8.041667",
+            "bit_rate": "3946760",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "193",
+            "extradata_size": 47,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Users\\User\\Downloads\\高清（1080P）.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "8.041667",
+          "size": "3970572",
+          "bit_rate": "3949998",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41"
+          }
+        }
+      },
+      "duration_seconds": 8.041667,
+      "width": 1080,
+      "height": 1440,
+      "frame_rate": "24/1",
+      "asset_association": "unassigned; filename does not establish a character or canonical stage",
+      "camera_calibration": false,
+      "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
+      "lean_review": {
+        "path": "videos/V07/review.mp4",
+        "bytes": 381830,
+        "sha256": "af39265c32cf3846e4ca38c9555ebbaf1f46fc72d40f7b059d0b4e3a0b259527",
+        "transform": "full-duration, uncropped proportional resize <=720px wide, 12fps H.264, audio omitted",
+        "source_unchanged": true,
+        "duration_seconds": 8.083008
+      },
+      "sample_frames": [
+        {
+          "source_timestamp_seconds": 0.0,
+          "path": "videos/V07/frame-0.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 2.01041675,
+          "path": "videos/V07/frame-1.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 4.0208335,
+          "path": "videos/V07/frame-2.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 6.03125025,
+          "path": "videos/V07/frame-3.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 7.88083366,
+          "path": "videos/V07/frame-4.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        }
+      ],
+      "contact_sheet": "videos/V07/contact-sheet.jpg"
+    },
+    {
+      "id": "V08",
+      "local_path": "C:\\Users\\User\\Downloads\\视频节点 3 (1).mp4",
+      "source_filename": "视频节点 3 (1).mp4",
+      "bytes": 5513350,
+      "sha256": "4c55421bcf9ae991b8960ab7fd5b29c47c07cd0df8be4424a6a50aee636fee7b",
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640020",
+            "width": 834,
+            "height": 1112,
+            "coded_width": 834,
+            "coded_height": 1112,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 32,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 98816,
+            "duration": "8.041667",
+            "bit_rate": "5323711",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "193",
+            "extradata_size": 46,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/44100",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 356328,
+            "duration": "8.080000",
+            "bit_rate": "131366",
+            "nb_frames": "349",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Users\\User\\Downloads\\视频节点 3 (1).mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "8.080000",
+          "size": "5513350",
+          "bit_rate": "5458762",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41"
+          }
+        }
+      },
+      "duration_seconds": 8.08,
+      "width": 834,
+      "height": 1112,
+      "frame_rate": "24/1",
+      "asset_association": "unassigned; filename does not establish a character or canonical stage",
+      "camera_calibration": false,
+      "shape_approval": "unassigned; original post0026 drift remains rejected for the older accepted growth sequence",
+      "lean_review": {
+        "path": "videos/V08/review.mp4",
+        "bytes": 343635,
+        "sha256": "b926c354d8625f1663a849f00a3f3cb25f28efc727ae4740b72beede0e21c9ab",
+        "transform": "full-duration, uncropped proportional resize <=720px wide, 12fps H.264, audio omitted",
+        "source_unchanged": true,
+        "duration_seconds": 8.083333
+      },
+      "sample_frames": [
+        {
+          "source_timestamp_seconds": 0.0,
+          "path": "videos/V08/frame-0.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 2.02,
+          "path": "videos/V08/frame-1.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 4.04,
+          "path": "videos/V08/frame-2.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 6.0600000000000005,
+          "path": "videos/V08/frame-3.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        },
+        {
+          "source_timestamp_seconds": 7.9184,
+          "path": "videos/V08/frame-4.jpg",
+          "source_time_base": "1/12288",
+          "sampling": "five inspection samples; not a complete motion analysis"
+        }
+      ],
+      "contact_sheet": "videos/V08/contact-sheet.jpg"
+    }
+  ],
+  "all_originals_retained_at_local_paths": true,
+  "source_geometry_or_camera_inferred": false
+}

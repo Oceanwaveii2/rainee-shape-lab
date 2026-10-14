@@ -1,0 +1,31 @@
+{
+  "schema": "rainee-static-anatomy-recipe-v1",
+  "state": "default",
+  "parameters": {
+    "lobeWidth": 1,
+    "lobeHeight": 1,
+    "rearProjection": 1,
+    "upperPole": 1.08,
+    "lowerPole": 1,
+    "separation": 1,
+    "attachment": 0.012,
+    "cleft": 0.75,
+    "asymmetry": 0,
+    "pelvisWidth": 1,
+    "pelvisDepth": 1,
+    "thighFullness": 1,
+    "thighOuter": 1,
+    "thighFront": 1,
+    "kneeTaper": 0.65
+  },
+  "resolution": 24,
+  "sourceHeight": 2.3951061964035034,
+  "sourceOrigin": [
+    0,
+    -1.220656394958496,
+    0.028106868267059326
+  ],
+  "regenerate_with": "node export-proposal.mjs; edit states in that script or call the documented anatomy-model API",
+  "geometry_is_static": true,
+  "recipe_edits_inside_Houdini_do_not_reextract": true
+}

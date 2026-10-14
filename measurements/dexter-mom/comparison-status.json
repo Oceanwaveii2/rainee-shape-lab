@@ -1,0 +1,5 @@
+{
+  "status": "needs_calibration",
+  "differences": [],
+  "reason": "Both profiles need explicit landmarks, artist-reviewed body-only selection and pose review."
+}
